@@ -1,0 +1,90 @@
+{
+ "hinweis": "Kuratierte Liste, keine Vollständigkeit beansprucht. Alle Angaben recherchiert, Stand 2026. Vorschläge über das Formular am Fuß der Seite.",
+ "einleitung": "Autopsien der Schatten ist eine Fallakte, keine Fußnote — die Mythen darin sind real, das Format ist Fiktion. Wer über die Bücher hinaus weiterlesen will, findet hier die Institutionen, Nachschlagewerke und Bücher, aus denen der Ansatz von Syntaxis tatsächlich stammt.",
+ "gruppen": [
+  {
+   "id": "organisationen",
+   "name": "Organisationen und Faktencheck",
+   "eintraege": [
+    {
+     "name": "GWUP — Gesellschaft zur wissenschaftlichen Untersuchung von Parawissenschaften",
+     "kurz": "Der deutschsprachige Skeptiker-Dachverband.",
+     "text": "1987 gegründet, Sitz in Roßdorf. Ein gemeinnütziger Verein aus Wissenschaftlerinnen, Wissenschaftlern und interessierten Laien, der sich seit fast vierzig Jahren mit Esoterik, Pseudomedizin und Parawissenschaften auseinandersetzt und dazu jährlich die Fachtagung SkepKon veranstaltet.",
+     "url": "https://www.gwup.org"
+    },
+    {
+     "name": "Mimikama",
+     "kurz": "Faktencheck gegen Falschmeldungen in sozialen Netzwerken.",
+     "text": "Österreichischer, gemeinnütziger Verein, aktiv seit 2011. Prüft Gerüchte und Falschmeldungen auf Facebook, TikTok, WhatsApp und weiteren Plattformen nach einem mehrstufigen, quellenbasierten Verfahren — finanziert unabhängig von Konzernen, Parteien und Behörden.",
+     "url": "https://www.mimikama.org"
+    },
+    {
+     "name": "Psiram",
+     "kurz": "Wiki über Pseudowissenschaft, Verschwörungsmythen und alternative Medizin.",
+     "text": "2007 gegründet, bis 2012 unter dem Namen Esowatch. Ein Nachschlagewerk zu Personen, Präparaten und Ideologien aus der Grenzwissenschaft — oft die Gegenrecherche zu dem, was die jeweils eigene Website nicht erwähnt.",
+     "url": "https://www.psiram.com"
+    }
+   ]
+  },
+  {
+   "id": "podcasts",
+   "name": "Podcasts",
+   "eintraege": [
+    {
+     "name": "Hoaxilla — Der skeptische Podcast",
+     "kurz": "Seit 2012 wöchentlich Verschwörungsmythen und moderne Sagen.",
+     "text": "Alexa und Alexander Waschkau aus Hamburg nehmen sich seit über einem Jahrzehnt Themen von Bigfoot bis Chemtrails vor — mit denselben Fragen jede Folge: Woher kommt die Geschichte, wem nützt sie, was sagt die Forschung wirklich. Frequenz 404 auf dieser Seite ist diesem Format erkennbar verwandt, nur mit fiktiven Sprechern.",
+     "url": "https://www.hoaxilla.com"
+    }
+   ]
+  },
+  {
+   "id": "buecher",
+   "name": "Bücher",
+   "eintraege": [
+    {
+     "name": "Katharina Nocun, Pia Lamberty — Fake Facts",
+     "autor": "Quadriga, 2020",
+     "kurz": "Wie Verschwörungserzählungen funktionieren und wem sie nützen.",
+     "text": "Eines der meistzitierten deutschsprachigen Sachbücher zum Thema. Erklärt die psychologischen Mechanismen hinter dem Glauben an Verschwörungsmythen, ohne die Gläubigen vorzuführen — dieselbe Grundhaltung, die auch die Autopsien der Schatten für sich beanspruchen."
+    },
+    {
+     "name": "Grete de Francesco — Die Macht des Charlatans",
+     "autor": "Die Andere Bibliothek, Neuausgabe 2021 (Originalausgabe 1937)",
+     "kurz": "Warum Scharlatane seit Jahrhunderten funktionieren.",
+     "text": "Eine frühe, bis heute treffende Studie darüber, warum Kritik am eigenen Blendwerk den Scharlatan selten erreicht — und warum das Bedürfnis nach ihm älter ist als jedes einzelne Beispiel dafür."
+    },
+    {
+     "name": "Florian Aigner — Die Schwerkraft ist kein Bauchgefühl",
+     "autor": "2019",
+     "kurz": "Eine Liebeserklärung an die Wissenschaft.",
+     "text": "Der österreichische Physiker erklärt Logik, Falsifizierbarkeit und die Grenzen der eigenen Intuition an Alltagsbeispielen — nah an dem, was Band I der Landkarte der Realität als Rüstzeug des Denkens versammelt."
+    },
+    {
+     "name": "Florian Aigner — Die Wirklichkeit ist auch nicht wahr",
+     "autor": "Brandstätter Verlag, 2026",
+     "kurz": "Die Physik der Sinne, und warum Wahrnehmung keine Kopie der Welt ist.",
+     "text": "Ein Streifzug durch die Physik von Farbe, Temperatur und Klang: Was wir wahrnehmen, entsteht im Kopf — es wartet nicht draußen darauf, bloß abgelesen zu werden."
+    },
+    {
+     "name": "Johannes Fischler — New Cage. Esoterik 2.0",
+     "autor": "Molden Verlag, 2016",
+     "kurz": "Wie Esoterik die Köpfe leert und die Kassen füllt.",
+     "text": "Der Psychologe Fischler seziert die Geschäftsmodelle hinter dem modernen Wellness- und Selbstfindungsmarkt — Werbepsychologie und Vertriebsstrukturen einer Branche, die sich als Lifestyle tarnt, aber wie jede andere Industrie kalkuliert."
+    },
+    {
+     "name": "Eva S. Bernauer — Vier Frauen und ein Scharlatan",
+     "autor": "Alibri Verlag, 2014",
+     "kurz": "Ein satirischer Esothriller über vier Freundinnen und ihren Guru.",
+     "text": "Fiktiv, aber gut recherchiert: eine Satire über einen Guru im Chiemgau und die Frauen, die sich aus seiner Anhängerschaft befreien. Von der GWUP selbst besprochen und empfohlen — der seltene Fall, in dem Belletristik und Faktencheck sich einig sind."
+    },
+    {
+     "name": "Jörg Lorenz — Das Chemtrailhandbuch",
+     "autor": "JMB Verlag, 4. Auflage 2016 (Vorwort: Jörg Kachelmann)",
+     "kurz": "Was sich wirklich über unseren Köpfen abspielt.",
+     "text": "Ein Softwareentwickler mit Hobby in Fliegerei und Fotografie arbeitet sich durch Kondensstreifen, Atmosphärenphysik und die deutsche Chemtrail-Szene — inklusive ihrer Nähe zu rechter Esoterik. JMB Verlag führt das Buch im eigenen SkepShop."
+    }
+   ]
+  }
+ ]
+}

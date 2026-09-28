@@ -1,0 +1,161 @@
+{
+  "hinweis": "Einzige Quelle für die Gemeinschafts-Seite UND die Discord-Vorlage (discord/VORLAGE.md). Zum Öffnen: 'einladung' eintragen, 'live' auf true setzen, bauen. Solange 'live' false ist, taucht die Seite in keiner Navigation, Sitemap oder Suche auf und trägt noindex.",
+  "live": true,
+  "einladung": "https://discord.gg/ENqDnb7BC5",
+  "server": {
+    "name": "Syntaxis — Ein Projekt über kritisches Denken",
+    "beschreibung": "Reden über die Werke, die Fälle und die Frage, wie man Behauptungen prüft. Moderiert, mit Hausregel.",
+    "kontakt": "Syntaxis_Buch@pm.me"
+  },
+  "vorab": [
+    "Der Server läuft bei Discord, einem US-Dienst. Mit dem Klick verlässt du diese Website; ab dann gilt Discords Datenschutzerklärung.",
+    "Du brauchst ein Discord-Konto. Welche Angaben Discord dafür verlangt, einschließlich einer möglichen Altersprüfung, regelt Discord. Diese Website erfährt davon nichts.",
+    "Diese Seite lädt nichts von Discord: kein Widget, kein Skript, keine Schrift. Der Link verrät Discord nicht einmal, von welcher Seite du kommst.",
+    "Alles, was hier steht, geht auch ohne Discord — per E-Mail. Der Server ist ein Angebot, keine Voraussetzung."
+  ],
+  "regeln": [
+    {
+      "titel": "Hart gegen die Behauptung, nachgiebig gegen den, der sie glaubt.",
+      "text": "Das ist die Hausregel von Frequenz 404 und der Kern von Syntaxis: Wir untersuchen Behauptungen, nicht Menschen. Eine ehrlich gestellte Frage wird ehrlich beantwortet, auch eine, die uns naiv vorkommt. Verhöhnt wird niemand."
+    },
+    {
+      "titel": "Eine Behauptung pro Beitrag, mit Beleg.",
+      "text": "Wer etwas als Tatsache hinstellt, nennt die Quelle, und wer widerspricht, ebenso. „Hab ich mal gelesen“ ist keine. Wer zehn Behauptungen auf einmal abfeuert, bekommt eine Antwort auf die erste. Berechtigte Skepsis ist willkommen; sie bleibt es, solange sie prüft und nicht nur zweifelt."
+    },
+    {
+      "titel": "Kein Hass, keine Propaganda.",
+      "text": "Menschen herabzuwürdigen, den Holocaust oder andere Völkermorde zu leugnen oder zu verharmlosen und NS-Symbole zu zeigen wird ohne Diskussion gelöscht. Über Propaganda sprechen ist etwas anderes als sie zu verbreiten: Wer ein Zitat bringt, um es zu sezieren, stellt die Einordnung und die Fundstelle in denselben Beitrag."
+    },
+    {
+      "titel": "Über reale Personen nur, was sich belegen lässt.",
+      "text": "Keine Namen, Adressen oder Fotos von Privatpersonen, kein Weiterleiten privater Nachrichten. Über Personen des öffentlichen Lebens schreibst du nur Tatsachen mit Quelle — und den Ausgang mit, nicht nur die belastende Hälfte."
+    },
+    {
+      "titel": "Hier wird nichts verkauft und nichts geheilt.",
+      "text": "Keine Werbung, keine Affiliate-Links, keine Mittelchen, keine Kurse. Wir geben auch keine medizinische, rechtliche oder psychologische Einzelberatung. Bei akuter Not: 112 oder die Telefonseelsorge, 0800 111 0 111, kostenlos und rund um die Uhr."
+    },
+    {
+      "titel": "Spoiler gehören unter den Deckel.",
+      "text": "Die Handlung der Chroniken steht nur in Spoiler-Markierung (||so||). Frag also ruhig, aber verrate nicht, was ein anderer noch nicht gelesen hat."
+    },
+    {
+      "titel": "Das Team entscheidet, und sagt, warum.",
+      "text": "Erst ein freundlicher Hinweis, dann Löschen, dann eine Auszeit, zuletzt der Bann. Wir nennen immer die Regel. Widerspruch per E-Mail an Syntaxis_Buch@pm.me, nicht im Kanal."
+    }
+  ],
+  "gruppen": [
+    {
+      "name": "Info",
+      "kanaele": [
+        {
+          "name": "willkommen",
+          "schreiben": "nur das Team",
+          "thema": "Regeln, Impressum und der Weg, jemanden vom Team zu erreichen. Erst lesen, dann bestätigen.",
+          "beschreibung": "Die Hausordnung und alles, was du vor dem ersten Beitrag wissen musst."
+        },
+        {
+          "name": "neuigkeiten",
+          "schreiben": "nur das Team",
+          "thema": "Neue Fassungen, Sendungen und Bereiche. Kommt aus dem Änderungsverlauf der Website.",
+          "beschreibung": "Was dazukommt, an einem Ort. Ein Ankündigungskanal: Mitglieder können ihm folgen."
+        }
+      ]
+    },
+    {
+      "name": "Gespräch",
+      "kanaele": [
+        {
+          "name": "fragen-zu-den-werken",
+          "schreiben": "alle",
+          "thema": "Fragen zu Landkarte, Chroniken und Autopsien. Handlung nur unter Spoiler-Markierung.",
+          "beschreibung": "Was hast du nicht verstanden, was hat dich gestört, wo widersprichst du? Bitte mit Band und Kapitel."
+        },
+        {
+          "name": "fundstuecke",
+          "schreiben": "alle",
+          "thema": "„Das hat jemand behauptet …“ — mit Ort und Quelle. Eine Behauptung pro Beitrag.",
+          "beschreibung": "Ein Satz aus dem Familienchat, ein Video, ein Zeitungsartikel: Wir sehen uns die Behauptung an, nicht den Menschen. Gute Funde landen in der Gegenfragen-Kartei."
+        }
+      ]
+    },
+    {
+      "name": "Mitmachen",
+      "kanaele": [
+        {
+          "name": "frequenz-404",
+          "schreiben": "alle",
+          "thema": "Themenwünsche für die Sendung. Ein Satz, der eine Folge wert wäre.",
+          "beschreibung": "Schlag ein Thema vor, am besten mit dem Satz, so wie er gefallen ist, und dem Zusammenhang drumherum. Über zwanzig Folgen sind schon verworfen worden, weil das Thema nicht zu den Werken passte."
+        },
+        {
+          "name": "quellen",
+          "schreiben": "alle",
+          "thema": "Vorschläge für das Quellenverzeichnis: Organisation, Buch oder Podcast — mit Beleg.",
+          "beschreibung": "Aufgenommen wird, was sich mit einer Quelle belegen lässt."
+        },
+        {
+          "name": "korrekturen-und-feedback",
+          "schreiben": "alle",
+          "thema": "Fehler in den Werken? Werk, Stelle, was nicht stimmt, Beleg. Dazu jede Rückmeldung.",
+          "beschreibung": "Korrekturen kommen in die nächste Fassung und in die Neuigkeiten. Dafür sind die Bücher da: dass jemand nachsieht."
+        }
+      ]
+    }
+  ],
+  "rollen": [
+    {
+      "name": "Team",
+      "zweck": "Betreiber und Moderation. Darf Nachrichten löschen, Mitglieder stumm schalten und sperren."
+    },
+    {
+      "name": "Mitglied",
+      "zweck": "Wer die Regeln bestätigt hat. Darf in den offenen Kanälen schreiben."
+    }
+  ],
+  "einstellungen": [
+    "Community-Funktionen einschalten (Servereinstellungen). Discord verlangt dafür einen Regel- und einen Ankündigungskanal: willkommen und neuigkeiten.",
+    "Verifizierungsstufe „Mittel“ (Konto seit mindestens fünf Minuten). Nicht „Höchste“: Die verlangt eine Telefonnummer, und die soll niemand hier abgeben müssen.",
+    "Filter für nicht jugendfreie Medien: alle Mitglieder prüfen.",
+    "Regelbestätigung beim Beitritt einschalten (Mitgliedschafts-Screening). Die Regeln aus dem Willkommenskanal dort hinterlegen.",
+    "Standard-Benachrichtigungen: nur @Erwähnungen, damit niemand vom Kanal überflutet wird.",
+    "Rechte für @everyone: keine Einladungen erstellen, kein @everyone/@here, keine externen Emojis und Sticker, keine Direktnachrichten an Mitglieder ohne Zustimmung.",
+    "Server-Entdeckung (öffentliches Verzeichnis) auslassen. Der Server ist über die Website erreichbar, nicht über Discords Suche.",
+    "AutoMod einschalten statt Bots einzubinden: Spam- und Massenerwähnungsschutz, dazu eine eigene Wortliste für Schmähbegriffe und NS-Bezüge. Die Liste nicht öffentlich machen.",
+    "Konto absichern: Zwei-Faktor-Anmeldung für alle mit Moderationsrechten und mindestens eine zweite Person mit Adminrechten. Sonst hängt der ganze Server an einem Konto.",
+    "Einladungslink erst erstellen, wenn alles steht: Läuft nie ab, unbegrenzte Nutzungen. Diesen Link in data/gemeinschaft.json eintragen."
+  ],
+  "leitfaden": [
+    {
+      "fall": "Jemand fragt ehrlich nach einem Mythos.",
+      "vorgehen": "Beantworten. Auf die passende Autopsie oder die Gegenfragen-Kartei verweisen. Nicht belehren, nicht vorführen: Das ist die Zielgruppe."
+    },
+    {
+      "fall": "Jemand feuert zehn Behauptungen ab (Gish-Galopp).",
+      "vorgehen": "Auf Regel 2 verweisen und eine auswählen. Die anderen unbeantwortet lassen und das sagen. Wer nur die Menge will, bekommt keine Antwort."
+    },
+    {
+      "fall": "Jemand fragt immer wieder „nach“, ohne je etwas zu prüfen (Sealioning).",
+      "vorgehen": "Zweimal antworten, dann ruhig beenden: „Die Antwort steht oben. Neue Belege gern.“"
+    },
+    {
+      "fall": "Jemand bringt Propaganda-Material.",
+      "vorgehen": "Fehlt die Einordnung: löschen, Regel 3 nennen. Steht sie im selben Beitrag mit Fundstelle: bleibt. Zweifel: löschen, im Zweifel wird der Beitrag mit Einordnung neu gestellt."
+    },
+    {
+      "fall": "Offen strafbarer Inhalt (Volksverhetzung, Drohung, NS-Symbole).",
+      "vorgehen": "Löschen, sperren, bei Discord melden. Vorher Datum, Nutzer-ID und Wortlaut für sich festhalten, nirgends weiterverbreiten. Ob eine Anzeige sinnvoll ist, entscheidet das Team; bei Unsicherheit vorher Rat einholen."
+    },
+    {
+      "fall": "Jemand schildert eine Krankheit oder eine Krise.",
+      "vorgehen": "Nicht diskutieren, nicht beraten. Mitgefühl, dann die Telefonseelsorge nennen: 0800 111 0 111 oder 0800 111 0 222 oder 116 123, kostenlos, rund um die Uhr. Bei akuter Gefahr: 112."
+    },
+    {
+      "fall": "Jemand wird persönlich angegriffen.",
+      "vorgehen": "Beitrag löschen, dem Angegriffenen eine Nachricht schicken, dem Angreifer die Regel nennen. Zweites Mal: Auszeit."
+    },
+    {
+      "fall": "Jemand behauptet, das Team zensiere.",
+      "vorgehen": "Ruhig die Regel nennen. Das Team löscht Beiträge, keine Meinungen. Ein Beleg macht aus jedem Beitrag wieder einen erlaubten."
+    }
+  ]
+}

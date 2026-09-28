@@ -1,0 +1,1834 @@
+{
+ "reihe": {
+  "name": "Frequenz 404",
+  "untertitel": "Sechs Echokammern",
+  "ort": "Studio 6, Medienviertel · TL-01 · Sektor 5 · Untere Terrasse, 80 m",
+  "sendezeit": "Schicht 6 — zwischen drei und vier Uhr morgens",
+  "beschreibung": "Ein Piratensender irgendwo zwischen zwei offiziellen Frequenzen der Stadt. Drei Leute, ein Mikrofon, kein Netz darunter: Kevin bringt mit, was schön genug klingt, Tacheles zerlegt es, und Cassidy Null zählt die Leichen. Niemand hält hier einen Zehnzeiler am Stück — es wird dazwischengeredet, abgeschnitten und gegenangeredet, bis einer fertig ist.",
+  "hausregel": "Hart gegen die Behauptung, nachgiebig gegen den, der sie glaubt. Kevin ist kein Stichwortgeber, der einknickt, sondern der Grund, warum Tacheles echte Mechanik auffahren muss statt billiger Arroganz.",
+  "jingle": "Drei schiefe Töne, die nie ganz aufgelöst werden.",
+  "stimmen": [
+   {
+    "name": "Cassidy Null",
+    "rolle": "Moderation",
+    "notiz": "Zynischer Taktgeber, nicht artige Ansage. Kommentiert trocken den Schlagabtausch, zieht an der Ockham und schlägt den Gong, bevor das Studio brennt. Nimmt eigene Fehler zurück, wenn sie welche waren — auch auf Sendung."
+   },
+   {
+    "name": "Kevin",
+    "rolle": "Der Einwand",
+    "notiz": "Bringt reale Reizpunkte mit: Mohshärten, Werkzeugspuren, astronomische Anomalien. Glaubt, was schön genug klingt, und wird dafür nie vorgeführt. Sein Satz: „Das sagen Sie immer.“"
+   },
+   {
+    "name": "Dr. Tacheles",
+    "rolle": "Die Prüfung",
+    "notiz": "Methodischer Pfusch quält ihn körperlich. Kein geduldiger Gymnasiallehrer mit Erstens und Zweitens, sondern einer, der dazwischengrätscht. Cassidys Nachsatz: „Weil er es immer ist.“"
+   }
+  ],
+  "laufende_gags": [
+   "„Er hat recht, Kevin.“ — „Das sagen Sie immer.“ — „Weil er es immer ist.“",
+   "Die Werbeblöcke: NeuroKlar, GeistFuchs 3000, Sasquatch-Schreck, Ockham Filterlos, Däniken-Fix.",
+   "Der Abspann, nie zweimal gleich: „Schlaft gut, Neocortex City. Oder gar nicht.“"
+  ],
+  "verworfen": "Über zwanzig Folgen sind verworfen worden, weil das Thema nicht zu den Werken passte. Was hier läuft, hat eine Akte.",
+  "callback_regel": "Wenn ein Argument in einer früheren Sendung schon ausführlich lief, wird es nicht wortgleich wiederholt. Tacheles oder Cassidy verweisen stattdessen kurz auf die frühere Folge — ein Insider-Gag statt eines Nachdrucks. Zuerst angewendet in Sendung 009 (Puma Punku, bereits in Sendung 001 erklärt)."
+ },
+ "folgen": [
+  {
+   "id": "f404-000",
+   "nummer": "404-000",
+   "titel": "Der Null-Test",
+   "thema": "Auftakt",
+   "autopsie": null,
+   "dauer": "ca. 2:00 min",
+   "ort": "Studio 6, Medienviertel",
+   "zeit": "Schicht 6",
+   "status": "Auftakt",
+   "art": "teaser",
+   "setting": "Ein offenes Leitungsbrummen. Das dumpfe Scheppern eines umgestoßenen Aschenbechers, das heisere Pfeifen eines übersteuerten Pegels und zwei Stimmen, die sich bereits im Vorraum verkeilt haben.",
+   "signal": "Dreckiges Knacken, Frequenzdrift, eine Rückkopplung schneidet ins Ohr, dann schlägt ein Mikrofonständer hart gegen Holz.",
+   "transkript": [
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "… und wenn Sie dieses Wort noch einmal ohne Anführungszeichen in den Raum werfen, Kevin, fliegt Ihr Notizblock aus dem Fenster! „Quantenverschränkung des Geistes“! Das ist kein physikalischer Befund, das ist linguistischer Sondermüll für Leute, die in der Mittelstufe bei der Bruchrechnung geweint haben!",
+     "regie": "bereits mitten im Satz, gereizt, schneidend"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Sie haben einfach Schiss, Tacheles! Sie sitzen auf Ihrem akademischen Hochsitz und zitieren Peer-Review-Statistiken, während draußen neunzig Prozent der Menschheit Erfahrungen machen, die in Ihre sauberen Tabellen nicht reinpassen! Telepathie, Nahtoderlebnisse, Spukphänomene, Wasseradern — glauben Sie ernsthaft, acht Milliarden Menschen sind kollektiv debil, nur weil Ihr Lehrbuch an der Schlafzimmertür aufhört?",
+     "regie": "knallt eine Akte auf den Tisch"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Debil? Nein, Kevin! Evolutionär stinkfaul! Das menschliche Gehirn ist eine zehntausend Jahre alte Energiesparlampe! Es erfindet lieber einen Dämon auf der Bettkante oder ein interstellares Mutterschiff im Wüstensand, als drei Minuten lang die eigene kognitive Verzerrung auszuhalten! Sie verwechseln Ihr viszerales Bauchgefühl mit einer Messreihe!",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Und Sie verwechseln Ihre pathologische Arroganz mit Aufklärung! Was ist mit Homöopathie? Millionen Patienten schwören darauf! Was ist mit dem Placebo-Effekt? Wenn eine verdammte Zuckerpille nachweisbar den Blutdruck senkt, wer heilt dann da? Die Pharmaindustrie oder der Glaube?",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Die Avogadro-Konstante heilt da jedenfalls nicht, Sie Hohlkopf! Wenn Sie ein Molekül durch den Atlantik rühren, trinken Sie am Ende teures Leitungswasser und Einbildung! Das ist kein Mysterium, das ist Betrug mit Beipackzettel!",
+     "regie": "brüllt fast ins Mikrofon"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Ruhe im Gehege. Beide.",
+     "regie": "schlägt mit einem schweren Feuerzeug auf die Tischplatte, Metall auf Holz, Hall"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Der Kanal steht seit sechzig Sekunden offen, ihr Genies. Schicht 6 hört zu.",
+     "regie": "eine Sekunde feindselige Stille, dann das trockene Schnappen des Zippos"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Was? Wir sind schon auf Sendung?",
+     "regie": "überrumpelt"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Seit Tacheles Ihnen das Physikbuch an den Schädel werfen wollte. Willkommen auf Frequenz 404. Die Frequenz auf den sechs Echokammern, die nicht dafür bezahlt wird, euch den Kopf zu streicheln. Was ihr da gerade gehört habt, ist die Betriebstemperatur. Wir machen hier keine Kuschel-Podcasts für den Feierabend. Ab jetzt wird jede Woche seziert. Alles, wovor ihr nachts Angst habt, alles, woran ihr euch tagsüber festklammert, und jede bequeme Lüge, die ihr für gesunden Menschenverstand haltet.",
+     "regie": "ins Mikrofon, trocken, rau, ohne jede Begrüßungsfloskel"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Grenzwissenschaften, die keine Wissenschaft sind. Pseudomedizin, die an eurer Verzweiflung verdient. Antike Götter-Astronauten, Kryptozoologie, die Psychologie der Schlaflähmung und der ganz alltägliche Aberglaube, mit dem ihr euch davor drückt, die Realität so zu nehmen, wie sie ist: verdammt kalt, absolut gesetzmäßig und völlig unbeeindruckt von euren Wünschen.",
+     "regie": "immer noch außer Atem, aber präzise"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Und wir lassen die unbequemen Fragen stehen! Wir prüfen die Akten, die die Herren Professoren gern im Giftschrank vergessen! Wir reden über das, was Zeugen wirklich sehen, bevor die Reduktionisten es glattbügeln!",
+     "regie": "hinterher, bissig"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Kevin bringt den Schotter mit. Tacheles das Seziermesser. Ich halte die Stoppuhr, bevor sie sich die Gurgel umdrehen. Die erste reguläre Akte wird in Kürze geladen. Bis dahin: Zieht euch warm an, klickt euch durch die Dossiers und lernt wieder zu denken, statt nur zu glauben. Ich bin Cassidy Null. Schlaft schlecht. Wir fangen gerade erst an.",
+     "regie": ""
+    }
+   ],
+   "ausklang": "Ein harter Tritt gegen das Pult, ein Pfeifen, das Signal stirbt mit einem abrupten Knacken ab."
+  },
+  {
+   "id": "f404-001",
+   "nummer": "404-001",
+   "titel": "Der Götter-TÜV und die Goldmine der Anunnaki",
+   "thema": "Prä-Astronautik",
+   "autopsie": [
+    7
+   ],
+   "dauer": "ca. 3:30 min",
+   "ort": "Studio 6, Medienviertel",
+   "zeit": "Schicht 6, 3:47 Uhr",
+   "status": "neu",
+   "setting": "Der Aschenbecher quillt über vor Ockham-Kippen. Es riecht nach verschmortem Transistor, kaltem Filterkaffee und nasser Pappe.",
+   "signal": "Dreckiges Rauschen, das brutale Knacken einer zerschossenen Frequenz-Weiche, ein mechanischer Kippschalter rastet hart ein.",
+   "transkript": [
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Frequenz 404. Drei Uhr siebenundvierzig. Für alle, die wach liegen, weil die Matratze durchhängt oder das eigene Leben. Kevin sitzt mir gegenüber und hat seit zehn Minuten nicht geblinzelt. Kevin, schießen Sie los, bevor Ihnen die Halsschlagader platzt.",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Sumer, Tacheles! Sechstausend Jahre her! Vorher: Ziegen hüten. Nachher: Aus dem absoluten Nichts Gesetze, Sechziger-Mathematik, Medizin und astronomische Karten. Die Sumerer selbst schreiben auf Ton, woher das Zeug kommt: von den Anunnaki. Götter, die vom Himmel fielen. Rollsiegel VA 243 im Berliner Museum: unser Sonnensystem, elf Himmelskörper plus ein zwölfter Brocken auf einer 3.600-Jahre-Umlaufbahn—",
+     "regie": "knallt ein anderthalb Kilo schweres Buch auf das Pult, die Pegelanzeigen springen panisch ins Dunkelrot"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Stopp. Kevin, atmen Sie. Bevor Sie den nächsten Unsinn von Zecharia Sitchin nachbeten: Nennen Sie mir das archäologische Museumsinventar, nicht den Klappentext eines Esoterik-Bestsellers.",
+     "regie": "schneidet ihm mitten im Satz schneidend das Wort ab"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Ich habe Ihnen gerade das Siegel genannt, Tacheles! VA 243! Elf Punkte um eine Zentralsonne! Uranus, Neptun, Pluto—",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Das Ding ist das private Rollsiegel eines Schreibers namens Ilshu! Der Stern in der Mitte hat in der sumerischen Ikonographie nicht einmal die Strahlen einer Sonne, sondern ist die Glyphe für einen gewöhnlichen Fixstern. Und die Punkte drumherum sind die Plejaden oder Dekoration! Es gibt im gesamten mesopotamischen Korpus nicht eine einzige astronomische Keilschrifttafel — weder im Mul.Apin noch im Enuma Elisch —, die mehr als fünf Planeten kennt. Merkur, Venus, Mars, Jupiter, Saturn. Ende der Durchsage.",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Schön abgebügelt, Herr Doktor! Die Philologen streiten seit zweihundert Jahren über Vokabeln! Was ist mit den Steinen? Puma Punku in Bolivien! 130 Tonnen schwere Blöcke auf viertausend Metern Höhe! Innenliegende 90-Grad-Kanten, millimetergenaue Bohrlöcher, H-Blöcke, die ineinandergreifen wie vorgefertigte Industriemodule. Die offizielle Archäologie stellt sich hin und faselt von Lamasehnen und Kupfermeißeln. Kupfer an Andesit! Versuchen Sie mal, mit einem Kupferschlägel bolivianischen Andesit zu bearbeiten, Tacheles — das Einzige, was sich verformt, ist Ihr Kupfer!",
+     "regie": ""
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Er hat Sie, Tacheles. Die Kupferkeil-Story klang schon im Grundstudium wie eine Notlüge der Fakultät.",
+     "regie": "zieht an der Ockham, die Glut zischt"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Er hat gar nichts, Cassidy, außer einer YouTube-Doku im Kurzzeitgedächtnis! Kevin, die H-Blöcke von Puma Punku sind kein Andesit. Es ist roter Sandstein. Mohshärte: drei bis vier. Da ritze ich Ihnen mit einem Taschenmesser die Einkaufsliste rein! Die wenigen echten Andesit-Platten dort wurden mit Diorit-Klopfern bearbeitet — vulkanisches Gestein, das härter ist als der Andesit selbst. Jean-Pierre Protzen hat sich mit Sand, Wasser und zwei Steinen hingesetzt und die Kanten in vier Stunden exakt so nachgeschliffen. Keine Laser. Keine Aliens. Dreckige, schmerzhafte Handarbeit.",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Und die Präzision?",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Geduld, Kevin! Das Zeug, das man nicht mehr kennt, wenn man sein Leben vor Bildschirmen verbringt! Und wissen Sie, was mich an Ihrer Alien-These wirklich anwidert?",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Erleuchten Sie mich.",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Es ist der blanke, zynische Kolonialismus des gesättigten Wohlstandsbürgers! Jedes Mal, wenn Menschen ohne weiße Hautfarbe vor zweitausend Jahren etwas gebaut haben, das größer war als eine Scheune, kommt ein Typ wie Däniken im Safari-Hemd aus dem Busch gekrochen und ruft: „Das können diese Wilden unmöglich selbst gekonnt haben! Da mussten hochtechnisierte Götter mit Flugscheiben landen!“ Die Griechen durften den Parthenon von Hand bauen. Aber die Inka, die Maya und die Ägypter waren zu blöd für einen rechten Winkel? Wir stehlen unseren eigenen Vorfahren das Genie, nur um die Lücke mit Untertassen zuzukleistern!",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Das werfe ich den Ureinwohnern nicht vor, Tacheles. Aber warum erzählen dann fast alle alten Kulturen denselben Mythos? Die Dogon in Mali mit Sirius B. Die Hopi mit den Himmelslehrern. Warum träumt die halbe Menschheit auf getrennten Kontinenten denselben Traum von Lehrern aus den Sternen?",
+     "regie": "wird leiser, lässt sich aber nicht beiseite wischen"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Weil der Himmel der einzige Ort war, den der Mensch nicht betreten konnte, Kevin. Wenn du im Dreck hockst, die Ernte verdorrt und dein Kind an Ruhr stirbt — wohin siehst du? Nach oben. Zu dem, was ewig brennt und nicht friert. Und die Dogon? Untersuchen Sie die Akte: Zwei französische Anthropologen, Griaule und Dieterlen, saßen in den 1930ern monatelang bei den Dogon und haben ihnen europäische Sternkarten erklärt! Als spätere Forscher nachfragten, wusste kein einziger Älterer von Sirius B — außer denen, die Griaule vorher interviewt hatte. Das war kein kosmisches Erbe. Das war westlicher Müll, den wir dort abgeladen und hinterher als fremdes Wunder wieder ausgegraben haben!",
+     "regie": "seine Stimme verliert den Zynismus, wird dunkel und ruhig"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Und während Kevin noch überlegt, ob er das Gold seiner Zahnfüllungen vor den Sumerern verstecken muss: Kurz zu unserem Sponsor.",
+     "regie": "drückt die Kippe im Glasaschenbecher aus"
+    },
+    {
+     "sprecher": "WERBUNG",
+     "text": "Sind Ihre Monumentalbauten mal wieder windschief? Halten Ihre Nachbarn Sie für zu primitiv für Geometrie? Probieren Sie „Däniken-Fix“ — das patentierte Baustellen-Spray mit echten Traktorstrahl-Aerosolen! Verwandelt gewöhnlichen Sandstein im Handumdrehen in außerirdische Landebahnen. Funktioniert ohne Hebelgesetze, ohne Muskelkraft und garantiert ohne historische Quellenarbeit. Bestellen Sie jetzt und erhalten Sie ein sumerisches Wörterbuch gratis dazu — Vokabeln frei erfunden!",
+     "regie": "Schrilles, knisterndes 80er-Jahre-Klimpern, gefolgt von tiefem Weltraum-Brummen"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Frequenz 404. Vier Uhr null zwei. Kein Nibiru im Orbit. Keine Gen-Ingenieure im Euphrat. Wenn Sie das nächste Mal vor einer Pyramide stehen: Lassen Sie die Raumschiffe im Hangar. Staunen Sie lieber darüber, was zwei Hände, ein Seil und ein sturer Kopf bewegen können, wenn man ihnen nicht einredet, dass sie für alles einen Außerirdischen mit Flaschenzug brauchen. Die echten Akten zu Schwerkraft-Lügen und der Anatomie von Wüstenmythen stehen auf unserer Homepage. Ich bin Cassidy Null. Schlafen Sie schlecht. Die Götter haben Urlaub.",
+     "regie": ""
+    }
+   ],
+   "ausklang": "Signal bricht mit einem harschen, trockenen Knacken ab, gefolgt von der leeren Stille der Nacht.",
+   "art": "regulaer"
+  },
+  {
+   "id": "f404-002",
+   "nummer": "404-002",
+   "art": "regulaer",
+   "titel": "Die Kettensägen der Anunnaki und der heiße Baumsaft",
+   "thema": "Running Gag — Kevin ärgert Tacheles",
+   "autopsie": null,
+   "dauer": "ca. 4:00 min",
+   "ort": "Studio 6, Medienviertel",
+   "zeit": "Schicht 6, 3:12 Uhr",
+   "status": "neu",
+   "setting": "Die Neonröhre flackert leicht. Kevin sitzt kerzengerade, das Gesicht maskenhaft ernst. Tacheles sortiert genervt einen Stapel Geologie-Paper. Cassidy zündet das Zippo.",
+   "signal": "Dreckiges Rauschen, eine springende Frequenz, das dumpfe Knacken eines offenen Mikrofons.",
+   "transkript": [
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Frequenz 404. Drei Uhr zwölf. Die Stunde, in der die Vernunft Pause macht und der Wahnsinn die Frühschicht antritt. Kevin hat heute keinen dicken Hefter dabei. Nur ein einziges Foto von einem Berg. Und er starrt Tacheles an, als hätte der Doktor ihm gerade persönlich den Kontinent geklaut. Kevin? Sie haben die Leitung.",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Wir müssen über die größte Lüge der Geologie reden, Tacheles. Alles, was Sie über Gebirge wissen, ist eine vertuschte Wahrheit der Eliten. Es gibt keine Berge auf diesem Planeten.",
+     "regie": "schiebt ein Foto in die Mitte des Tisches, die Stimme todernst und ruhig"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Keine Berge. Gut, Kevin. Dann sind die Alpen vermutlich nur eine dekorative Falte im Teppich der Illuminaten. Was ist das auf dem Foto?",
+     "regie": "blättert nicht einmal auf, seufzt tief"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Der Devils Tower in Wyoming. Sie sagen, das sei ein Vulkanschlot. Magma, abgekühlt und verwittert. Sehen Sie sich die Rillen an, Tacheles! Die hexagonalen Säulen. Die Fasern! Das ist kein Steinbruch. Das ist ein Baumstumpf.",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Ein... Baumstumpf.",
+     "regie": "hält inne, schaut über den Brillenrand"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Ein gigantischer, versteinerter Baumstumpf! Die echten Bäume dieser Erde bestanden nicht aus Kohlenstoff. Sie bestanden aus Silizium! Das kleine, mickrige Grünzeug, das wir heute „Wälder“ nennen, ist nur das jämmerliche Unkraut, das auf den Trümmern der wahren Biosphäre wuchert! Vor Jahrtausenden ragten Bäume zehn, fünfzehn Kilometer hoch in die Troposphäre! Und sie wurden abgesägt!",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Abgesägt. Fünfzehn Kilometer hohe Bäume aus Glas und Quarzsand wurden abgesägt. Kevin... Darf ich Sie an die Schwerkraft erinnern? Darf ich Sie an die basale Zellbiologie erinnern? Siliziumdioxid ist Gestein! Ein Organismus dieser Höhe würde unter seinem eigenen Eigengewicht in Tausende von Splittern zerspringen! Es gibt keinen kapillaren Sog im Universum, der Wasser fünfzehn Kilometer gegen die Erdanziehungskraft pumpen könnte! Das ist hexagonaler Säulenbasalt, Kevin! Kontraktionsrisse bei der Abkühlung von Magma! Das lernt man im ersten Semester Mineralogie!",
+     "regie": "legt den Stift extrem langsam hin"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Das ist genau das, was die Geologen von der NASA Sie glauben lassen wollen, Tacheles! Magma! Wissen Sie, was Magma wirklich ist? Das ist kein flüssiger Stein aus dem Erdkern! Vulkane sind nur das verrottende, unterirdische Wurzelsystem dieser alten Giganten! Magma ist heißer Baumsaft, der vor sich hin kompostiert!",
+     "regie": "beugt sich vor, die Augen aufgerissen, die Stimme absolut fanatisch"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Heißer Baumsaft?! Sie verleugnen die Plattentektonik, den Mantel-Plume-Effekt und den gesamten vulkanischen Ring of Fire für einen intergalaktischen Bonsai-Club?! Wenn Devils Tower der Stumpf ist, Kevin: Wer hat ihn umgesägt?! Hatten die Anunnaki eine Zweitakt-Kettensäge von der Größe von Rhode Island?! Wo ist das Sägemehl?!",
+     "regie": "die Halsschlagader pulsiert sichtbar, die Stimme wird gefährlich scharf"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Das Sägemehl ist die Wüste Sahara, Tacheles!",
+     "regie": "schlägt mit der Faust auf den Tisch"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Die Sahara?! Zwanzig Millionen Quadratkilometer Quarzsand als Abfallprodukt einer kosmischen Forstarbeit?! Und wo sind die Blätter, Kevin?! Haben die Aliens im Herbst das Laub mit einem interdimensionalen Laubsauger zusammengekehrt?! Was ist mit den Ästen?!",
+     "regie": "springt fast auf, der Stuhl quietscht brutal über den Boden"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Pangäa, Tacheles! Der Urkontinent! Das war kein Kontinent! Das war nur das verdammte Herbstlaub, das auf dem Ozean getrieben ist, bevor es verrottet ist! Und der Grand Canyon? Ein alter Steinbruch, in dem sie das Wurzelwerk mit Lasern rausgefräst haben!",
+     "regie": "die Stimme bebt vor unterdrückter Energie"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Das ist ein fluviatiles Erosionsprofil des Colorado Rivers! Über Millionen von Jahren! Sie wollen mir erzählen, dass die gesamte Geomorphologie dieses Planeten nichts anderes ist als die Hinterlassenschaft einer extraterrestrischen Holzfäller-GmbH?! Wissen Sie überhaupt, wie viel kinetische Energie nötig ist, um...",
+     "regie": "brüllt jetzt beinahe ins Mikrofon, die akademische Fassade ist völlig kollabiert"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Was... was haben Sie da? Bekommen Sie keine Luft?",
+     "regie": "bricht ab. Kevin hat die Luft angehalten. Sein Gesicht ist puterrot. Ein seltsames, gepresstes Geräusch kommt aus seiner Nase. Blinzelt verwirrt, atmet schwer"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Heißer... heißer Baumsaft... oh mein Gott... die Sahara ist Sägemehl... ich kann nicht mehr!",
+     "regie": "prustet los, versucht den Mund zuzuhalten, scheitert, bricht in schallendes, hysterisches, tränenreiches Gelächter aus, legt den Kopf auf den Tisch, das Mikrofon scheppert"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Sie... Sie haben nicht ein Wort davon geglaubt.",
+     "regie": "steht vollkommen regungslos da, die Stille nach seinem Ausbruch ist bleiern"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Ihr... Ihr Gesicht, Tacheles. Die Ader hier oben. Sie wollten mich gerade mit einem Geologie-Lehrbuch erschlagen.",
+     "regie": "wischt sich Lachtränen aus den Augen, schnappt nach Luft"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Gratuliere, Kevin. Sie haben die Festung gestürmt. Ich habe fünfzig Dollar darauf gewettet, dass er bei „heißem Baumsaft“ den Tisch umwirft. Ich lag knapp daneben.",
+     "regie": "lehnt sich langsam ins Mikrofon, völlig ungerührt"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Ich werde Ihre Kaffeekasse für den Rest des Jahres konfiszieren, Kevin. Ich werde jeden einzelnen Zuckerwürfel in diesem Studio mit einem Isotop markieren, um sicherzugehen, dass Sie nie wieder Kohlenhydrate zu sich nehmen. Das war akademischer Terrorismus.",
+     "regie": "setzt sich extrem langsam wieder hin, rückt die Brille in Millimeterarbeit exakt auf die Nasenwurzel, die Stimme ist tödlich leise"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Aber geben Sie es zu, Doc. Für drei Sekunden... für drei Sekunden haben Sie überlegt, wie groß die Kettensäge gewesen sein muss!",
+     "regie": "kann sich immer noch kaum beruhigen"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Und damit zurück in die Wirklichkeit. Frequenz 404. Wenn euch da draußen das nächste Mal jemand erklärt, warum ein Berg eigentlich eine Alien-Pflanze ist: Lasst ihn reden. Und achtet darauf, ob seine Mundwinkel zucken. Manchmal will der Geschichten-Affe im Kopf kein Geheimnis. Manchmal will er einfach nur sehen, wann beim Nachbarn die Sicherung fliegt. Wer die echte Thermodynamik hinter echten Vulkanen lesen will: Die Akten auf der Homepage sind echt. Im Gegensatz zu Kevins Herbstlaub. Ich bin Cassidy Null. Räumt euer Sägemehl weg. Schlaft gut.",
+     "regie": "drückt das Zippo zu, ein metallisches Klicken"
+    }
+   ],
+   "ausklang": "Ein trockenes Klicken. Das Rauschen des Äthers kehrt zurück, bevor das Signal komplett ins Nichts abfällt."
+  },
+  {
+   "id": "f404-003",
+   "nummer": "404-003",
+   "art": "regulaer",
+   "titel": "Der Eiswall der Vereinten Nationen",
+   "thema": "Flache Erde",
+   "autopsie": [
+    1
+   ],
+   "dauer": "ca. 5:30 min",
+   "ort": "Studio 6, Medienviertel",
+   "zeit": "Schicht 6",
+   "status": "neu",
+   "setting": "Kevin fuchtelt mit einer Wasserwaage. Tacheles lässt einen massiven Aktenordner auf den Tisch fallen.",
+   "signal": "Ein lautes, trockenes Knacken. Weißes Rauschen einer analogen Frequenzsuche, ein ferner Synthesizer-Impuls.",
+   "transkript": [
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Willkommen zurück im Untergeschoss des Verstandes, Neocortex City. Hier ist Frequenz 404 aus den 6echokammern. Der Kaffee in Schicht 6 schmeckt heute nach Batteriesäure und Verzweiflung, und Kevin hat gerade eine handelsübliche Wasserwaage mit solcher Wucht auf mein Mischpult geknallt, dass ich jetzt einen Wackelkontakt auf Kanal drei habe.",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Weil sie der ultimative Beweis ist, Cassidy! Das Wasser lügt nicht! Sieh dir den Ozean an! Wasser findet immer sein Level, es formt sich nicht zu einem Ball! Und der Horizont ist schnurgerade! Sieh doch einfach aus dem Fenster, wo ist die Krümmung?!",
+     "regie": "fuchtelt hysterisch mit der Wasserwaage, die Libelle klackert gegen das Plastik"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Kevin. Wenn Sie dieses Baumarkt-Spielzeug nicht sofort von dem Mikrofonständer nehmen, werde ich es Ihnen rektal einführen, um zu prüfen, ob Ihr Verstand wenigstens dort ein korrektes Level findet.",
+     "regie": "lässt hörbar einen massiven Aktenordner auf den Tisch fallen, ein trockenes, hartes Geräusch"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Sie können die Wahrheit nicht ertragen! Die NASA belügt uns seit Jahrzehnten, alle Satellitenbilder sind CGI! Schon im Mittelalter wussten alle, dass die Erde eine Scheibe ist, bis Kolumbus kam und die Kirche ihn mundtot machen wollte!",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Ein Roman, Sie intellektuelle Abrissbirne! Das ist ein verfluchter Roman! Washington Irving hat diese angebliche Konfrontation mit der Kirche in Salamanca 1828 schlicht erfunden, um sein Kolumbus-Buch dramatischer zu machen! Die gesamte gebildete Welt wusste seit der Antike, dass wir auf einer Kugel leben! Eratosthenes hat den Erdumfang 240 vor Christus mit einem Stock und einem Schatten im Sand auf wenige Prozent genau berechnet! Der moderne Flache-Erde-Glaube ist eine viktorianische Erfindung eines Quacksalbers namens Rowbotham, jünger als die Eisenbahn!",
+     "regie": "die Stimme zittert vor unterdrückter, nackter Wut"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Eine filterlose Ockham auf den Doktor. Seine Halsschlagader pulsiert bereits im 50-Hertz-Takt.",
+     "regie": "klickt mit dem Feuerzeug, atmet hörbar tief ein"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Okay, Herr Doktor! Wenn die Kugel angeblich bewiesen ist, warum sieht dann das offizielle Emblem der Vereinten Nationen aus wie die Flache-Erde-Karte?! Der Nordpol in der Mitte, die Kontinente außen rum, und die Antarktis als ringförmiger Eiswall, der die Ozeane festhält! Ein Versehen?! Die zeigen uns die Wahrheit direkt ins Gesicht und lachen uns aus!",
+     "regie": "wirft trotzig eine laminierte Karte auf den Tisch"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Kevin. Das ist entsetzlich. Sie haben gerade aus Versehen eine brillante, berechtigte Beobachtung gemacht.",
+     "regie": "hält mitten in der Bewegung inne, starrt auf die Karte, dann auf Kevin, die Stimme wird plötzlich gefährlich leise"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Hab ich das?",
+     "regie": "blinzelt irritiert"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Ja. Die UN-Karte nutzt tatsächlich dieselbe azimutale Äquidistantprojektion wie Gleasons berühmte Flache-Erde-Karte von 1892. Sie haben völlig recht. Nur... kennen Sie den Text von Gleasons eigenem Patent für diese Karte, Kevin?",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Äh...",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Erlauben Sie mir, auszuhelfen. Gleason selbst beschreibt sein Meisterwerk amtlich als die Projektion der kugelförmigen Erde auf eine Ebene! Der Mann hat amtlich zu Protokoll gegeben, dass er einen Globus zeichnet! Weil es, wie Carl Friedrich Gauß 1827 mit dem Theorema Egregium bewiesen hat, mathematisch unmöglich ist, eine Kugel verzerrungsfrei auf einem flachen Stück Papier abzurollen! Jede flache Karte der Welt muss lügen! Sie zerrt die Südhalbkugel am Rand einfach auseinander, weshalb Ihr lächerlicher Eiswall entsteht!",
+     "regie": ""
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Wenn die Erde so flach ist, Kevin, warum fliegen wir dann von Sydney nach Santiago de Chile in gut zwölf Stunden, statt doppelt so lange, wie es auf deiner Eiswall-Karte nötig wäre?",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Aber... „Nullius in verba“! Ich glaube nur, was ich selbst testen kann! Was ist mit den Leuten in der Doku Behind the Curve? Bob Knodel hat ein teures Ringlaser-Gyroskop gekauft, um zu beweisen, dass die Erde sich nicht dreht! Er hat selbst gemessen!",
+     "regie": "krallt sich an den Rand des Tisches"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Oh, Kevin. Ich weiß. Ich habe es gesehen. Und was hat sein fünftelliges Instrument gemessen, Kevin?",
+     "regie": "schließt für eine Sekunde die Augen, die Wut weicht einem tiefen, fast schmerzhaften Mitleid"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Fünfzehn Grad pro Stunde...",
+     "regie": "schluckt schwer"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Exakt die Rotation der Erde. Und Jeran Campanella? Er stellte drei Bretter mit Löchern auf einer Höhe auf und schickte einen Laser hindurch. Was passierte, als er durch das letzte Loch sah?",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Das Licht war zu hoch. Er musste es anheben...",
+     "regie": "flüstert beinahe"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Weil das Wasser sich darunter gekrümmt hat. Sie haben die perfekten Instrumente gebaut, Kevin. Sie haben sich wie echte Wissenschaftler verhalten, und der Boden hat ihnen eine ehrliche Antwort gegeben. Aber statt die Messung zu akzeptieren, verschoben sie das Tor. Sie sagten „interessant“ und suchten sofort nach einer Ausrede. Sie verleugneten ihr eigenes Messgerät, weil die Wahrheit sie ihre Identität als „Erwachte“ gekostet hätte.",
+     "regie": ""
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Es ist eine harte Pille, vom mutigen Rebellen zurück zum gewöhnlichen Bürger auf einem unspektakulären Felsen degradiert zu werden.",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Aber auf diesem Felsen... da sind wir doch nur ein Staubkorn. Carl Sagan hat es gesagt, ein blasser blauer Punkt. Wir sind völlig bedeutungslos, ein Unfall am Rand einer von Milliarden Galaxien, die sich einen Dreck um uns scheren. Wenn es eine Kuppel gäbe... dann gäbe es ein Dach. Einen Bauherrn. Dann wäre das alles hier für uns gemacht.",
+     "regie": "die Stimme bricht ihm fast"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Das ist der Kern, nicht wahr? Die Schneekugel. Das Bedürfnis nach Bedeutsamkeit. Es ist unerträglich kalt da draußen im Vakuum, und ich verstehe, warum Sie das Dach über dem Kopf brauchen. Aber Kevin... die flache Erde liefert keinen Trost, sie schaltet Ihre epistemische Immunabwehr ab. Wer lernt, dass jede Raumfahrtbehörde, jeder Pilot und jedes Schulbuch eine konzertierte Lüge ist, für den ist der Schritt zur Verweigerung einer Impfung oder zur Leugnung des Klimawandels erschreckend klein. Es ist eine gefährliche Einstiegsdroge in ein Misstrauen, das irgendwann Menschen tötet.",
+     "regie": "lehnt sich vor, der Tonfall ist jetzt warm, beinahe väterlich, bar jeder Arroganz"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Ich will doch nur kein Schaf sein, das alles blind schluckt...",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Dann seien Sie keins. Schnappen Sie sich einen Kumpel, ein Maßband, einen Stock und die Mittagssonne. Messen Sie den Planeten selbst nach, wie Eratosthenes. Sie müssen der NASA nicht glauben. Aber Sie müssen den Mut haben, Ihrer eigenen Messung zu glauben, auch wenn sie Ihnen das Dach über dem Kopf wegreißt.",
+     "regie": ""
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Amen. Wir müssen die Wunden für heute schließen. Aber bevor wir euch in die Nacht entlassen, noch eine kurze Botschaft von denen, die an eurem Zweifel verdienen.",
+     "regie": "drückt die Zigarette im Aschenbecher aus"
+    },
+    {
+     "sprecher": "WERBUNG",
+     "text": "Haben Sie das Gefühl, die Eliten lachen über Sie? Fühlt sich der Horizont verdächtig flach an? Dann brauchen Sie den Zetetic-Master 3000! Das erste Teleskop mit integriertem Wahrheits-Filter! Wenn Sie eine Kurve sehen, schaltet das Gerät automatisch ab! Kaufen Sie jetzt, und wir legen eine DVD bei, auf der ein Mann am Strand Ihnen exakt das sagt, was Sie hören wollen. Zetetic-Master 3000 – Weil die Realität einfach zu kompliziert ist.",
+     "regie": "das Band leiert kurz, ein fröhlicher, übersteuerter Jingle setzt ein"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Ich bin Cassidy Null. Dr. Tacheles weint gleich heimlich über das Universum, und Kevin misst den Schreibtisch aus. Schlaft schlecht, Neocortex City. Aber vergesst nicht, die Augen offen zu halten.",
+     "regie": ""
+    }
+   ],
+   "ausklang": "Ein lautes, metallisches Klicken. Das Signal erstickt im Vakuum der Frequenz."
+  },
+  {
+   "id": "f404-004",
+   "nummer": "404-004",
+   "art": "regulaer",
+   "titel": "Der Schatten auf dem Mare Tranquillitatis",
+   "thema": "Mondlandung",
+   "autopsie": [
+    2
+   ],
+   "dauer": "ca. 6:00 min",
+   "ort": "Studio 6, Medienviertel",
+   "zeit": "Schicht 6",
+   "status": "neu",
+   "setting": "Kevin knallt vergoldetes Mylar auf die Konsole. Tacheles reißt die Studiotür auf.",
+   "signal": "Ein ohrenbetäubendes, trockenes Knacken. Weißes Rauschen brandet auf wie eine Welle aus Schmirgelpapier.",
+   "transkript": [
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Kevin! Wenn du dieses verfluchte Stück Blech noch einmal auf meinen Überblendregler knallst, schwöre ich dir, trinke ich die Brühe aus dem Kaffeesatzbehälter und beiße dir die Halsschlagader durch. Was soll das sein? Ein Aschenbecher für Elefanten?",
+     "regie": "hustet trocken, schlägt mit der Handkante gegen das Mikrofongehäuse"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Das ist vergoldetes Mylar, Cassidy! Reines, hauchdünnes Aluminium-Mylar! Dasselbe Zeug, aus dem die Landefähre zusammengeklebt war! Schau es dir an! Das ist Zeltfolie! Und hier — Foto Nummer AS11-40-5903! Wo sind die Sterne, Cassidy?! Wir sind im tiefsten Weltraum, null Atmosphäre, stockdunkel — und da ist kein einziger verdammter Stern am Himmel! Nicht einer!",
+     "regie": "atmet hysterisch, Papier raschelt in mörderischem Tempo, ein harter Schlag auf den Tisch"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Weil die Sonne scheint, Sie kognitiver Totalschaden!",
+     "regie": "reißt die Studiotür auf, ein Geräusch wie berstendes Holz, die Stimme überschlägt sich fast vor akademischer Raserei"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Auf dem Mond gibt es keinen Tag, Tacheles! Da ist der Himmel immer schwarz!",
+     "regie": "kreischt"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Der Himmel ist schwarz, aber der Boden ist taghell, Sie optischer Analphabet! Sunny-16-Regel der Fotochemie! Ektachrome-Film, sechzig ASA, Blende elf, eine zweihundertfünfzigstel Sekunde Belichtungszeit! Die sonnenbeschienene Mondoberfläche strahlt mit zehntausend Candela pro Quadratmeter! Ein Stern sechster Größenklasse liefert zehn hoch minus vier! Das ist ein Kontrastverhältnis von einhundert Millionen zu eins! Wenn Sie die Blende aufreißen, um die Sterne zu sehen, brennt Ihnen das reflektierte Licht des Regoliths ein Loch durch den Film und die Rückwand der Kamera!",
+     "regie": "knallt eine schwere Schieblehre und zwei Hasselblad-Objektive auf das Pult, Metall splittert auf Zink"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Eins zu null für die Blende. Kevin, nimm die Zeltfolie vom Pult.",
+     "regie": "Feuerzeug schnalzt, Tabakrauch zischt leise"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Schön! Geschenkt! Aber erklären Sie mir das hier, Herr Professor! Die Flagge! Schauen Sie hin! Armstrong rammt das Ding in den Dreck, lässt los — und der Stoff flattert im Wind! Im Vakuum gibt es keinen Wind! Es gibt keine Luft! Da stand ein Ventilator am Set! Geben Sie es doch zu!",
+     "regie": "rennt keuchend um den Tisch, reißt ein weiteres Foto hervor, wedelt wild damit vor Tacheles' Nase"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Wenn da Luft gewesen wäre, Kevin... dann hätte die Flagge exakt zwei Sekunden gezuckt und wäre wie ein nasser Lappen heruntergehangen!",
+     "regie": "atmet stoßweise, die Stimme sackt in ein gefährliches, schneidendes Grollen ab"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Was?!",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Trägheit ohne aerodynamische Dämpfung! Das Tuch hing an einer horizontalen Teleskopstange! Als Armstrong den Mast in den Regolith gedreht hat, hat er kinetische Energie in das Gestänge induziert! Auf der Erde schlägt die Luftmolekül-Mauer gegen den Stoff und bremst die Welle sofort aus! Im Vakuum gibt es keine Luftreibung! Die Schwingung läuft ungehindert durch das Gewebe hin und her, wie ein Pendel im Nichts! Das Ding flattert nicht im Wind — es schwingt nach, weil absolut nichts da ist, was es stoppen könnte! Das ist der direkte, physikalische Fingerabdruck des Vakuums!",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Und... und der Krater? Wo ist der Einschlagkrater unter dem Abstiegstriebwerk? Zehntausend Pfund Schub, aber darunter liegt der Sand glatt wie ein Kinderpopo!",
+     "regie": "weicht einen Schritt zurück, die Hände zittern, stößt gegen ein Regal"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Prandtl-Meyer-Expansion! Das Triebwerk war beim Aufsetzen auf zehn Prozent gedrosselt — viertausendsiebenhundert Newton! Im Vakuum staut sich kein Gas unter der Düse! Der Strahl expandiert im Moment des Austritts in einem hyperbelweiten Winkel in den Raum! Der Bodendruck betrug weniger als ein Pfund pro Quadratzoll! Ein Zehntel dessen, was Ihr eigener Turnschuh auf diesen Linoleumboden drückt! Er hat den Staub radial weggeblasen, Sie Dünnbrettbohrer! Es gibt keinen Krater, weil die Physik keinen erlaubt!",
+     "regie": "reißt sich die Brille vom Kopf, die Ader an seiner Schläfe pocht sichtbar"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Aber sie haben doch sonst immer gelogen!",
+     "regie": "schlägt plötzlich mit beiden Fäusten auf den Tisch, die Tassen springen, die Stimme bricht vor Verzweiflung"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Sie haben über Vietnam gelogen! Tonkin war gelogen! Die Pentagon-Papiere! Watergate! Und während Armstrong auf dieser Kapsel saß, haben dieselben Behörden in Tuskegee schwarzen Männern das Penicillin vorenthalten, um zuzusehen, wie sie an Syphilis verrecken! Sie haben Menschenversuche mit LSD gemacht! Warum... warum soll ausgerechnet das hier die eine Sache gewesen sein, bei der sie die Wahrheit gesagt haben?! Es war der Kalte Krieg! Sie mussten gewinnen! Es war doch tausendmal billiger, eine Kulisse in Nevada aufzustellen, als zuzugeben, dass man die Frist nicht halten kann!",
+     "regie": "atmet schwer, fast tonlos"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "...Kevin.",
+     "regie": "lässt die Arme sinken, seine Züge entspannen sich, die Wut weicht einer tiefen, fast erschrockenen Stille"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Was? Wollen Sie mich wieder anschreien?",
+     "regie": "starrt zu Boden"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Nein. Sie haben gerade... ohne es zu wollen, das ehrlichste Argument formuliert, das dieser Fall besitzt. Bill Kaysing hat sein Buch 1976 geschrieben. Nicht aus Dummheit. Sondern aus genau diesem Schmerz. Es war die seelische Bankrotterklärung einer ganzen Generation, die begriffen hatte, dass ihre Regierung fähig war, über Leichen zu gehen. Ihr Misstrauen ist kein Defekt, Kevin. Es ist der gesunde Ekel des Bürgers vor der staatlichen Lüge.",
+     "regie": "die Stimme ist vollkommen ruhig, warm, ohne einen Funken Spott"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Wirklich?",
+     "regie": "sieht zögernd auf"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Ja. Aber Sie machen denselben Fehler wie Kaysing: Sie nehmen ein berechtigtes Misstrauen und richten es auf den falschen Zeugen. Wenn Apollo eine Kulisse gewesen wäre... wer hätte den Schwindel vor der gesamten Weltöffentlichkeit in Stücke gerissen? Die NASA? Nein. Die Sowjetunion.",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Die Sowjets?",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Moskau hatte die größten Richtantennen der Hemisphäre auf der Krim. Sie hörten jedes Kilohertz ab. Sie maßen die Dopplerverschiebung der Trägerfrequenz. Ein Signal aus einem Studio in Nevada kommt aus Nevada; ein Signal vom Mond hat eine Laufzeit von eins Komma drei Sekunden und eine eindeutige Parallaxe. Am 21. Juli 1969 stürzte ihre eigene unbemannte Sonde Luna 15 auf dem Mond ab — zeitgleich abgefangen vom britischen Lovell-Teleskop in Jodrell Bank, während Armstrong auf der Leiter stand. Die Sowjets hätten den größten Propagandasieg der Menschheitsgeschichte errungen, wenn sie den Betrug hätten beweisen können. Ein einziges TASS-Telegramm hätte die USA vernichtet. Sie schwiegen. Sie gratulierten zähneknirschend. Weil ihre eigenen Radarschirme die Kapsel im Mondorbit anzeigten.",
+     "regie": ""
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Wer der US-Regierung misstraut, Kevin, muss der Sowjetunion glauben, die keinen Grund hatte, ihren Erzfeind zu schonen. Und bevor Kevin jetzt seine Identitätskrise in den Äther weint: Werbung. Schicht 6 muss finanziert werden.",
+     "regie": "tippt die Asche ab"
+    },
+    {
+     "sprecher": "WERBUNG",
+     "text": "Zweifeln Sie an der Schwerkraft? Sind Ihnen historische Großtaten einfach zu anstrengend? Greifen Sie zu OCKHAM FILTERLOS! Die Zigarette für den konsequenten Zyniker. Verkürzt die Lebenserwartung drastisch, erspart Ihnen aber das Nachrechnen von 400.000 Einzelschicksalen! Jetzt im Doppelpack: Mit gratis Zitrone zum An-den-Simulator-Hängen! Ockham — Weil eine bequeme Lüge besser brennt als die Wahrheit.",
+     "regie": "das Signal leiert ab, gefolgt von einem grellen, künstlich fröhlichen Werbe-Jingle"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Wir sind wieder drauf. Kevin sitzt noch da, starrt auf das Mylar-Blech.",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Und Apollo 1? Was ist mit Gus Grissom? Warum musste er sterben?",
+     "regie": "sehr leise"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Grissom starb nicht für ein Filmset, Kevin. Er, Ed White und Roger Chaffee verbrannten am 27. Januar 1967 in reinem Sauerstoff auf Rampe 34, weil das System unter Zeitdruck geschlampt hatte. Weil Kabel schlecht isoliert waren und die Luke nach innen aufging. Grissom hängte diese verdammte Zitrone an den Trainings-Simulator, um die Ingenieure anzubrüllen, dass sie sauberer arbeiten müssen! Ihn posthum zum feigen Mitwisser oder ermordeten Whistleblower einer Hollywood-Show zu machen, ist keine Skepsis. Es ist Grabschändung. Es stiehlt diesen Männern die Tatsache, dass ihr realer Tod die Kapsel erst sicher gemacht hat für die, die nach ihnen flogen.",
+     "regie": "sein Blick wird dunkel, die Stimme schwer vor Gravität"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Auf dem Mond liegen fünf Spiegel-Arrays, Kevin. Quarzglas-Eckwürfel. Drei von den Apollo-Crews, zwei von den sowjetischen Lunochod-Rovern. Die Sternwarte im französischen Grasse schießt heute Nacht einen Laserpuls dorthin und bekommt nach 2,5 Sekunden ein einzelnes Photon zurück. Auf einen Millimeter genau. Das ist keine Meinung. Das ist ein Rückstrahler auf einem Felsen im Vakuum.",
+     "regie": "legt die Hand flach auf den Tisch"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "...zwei Komma fünf Sekunden.",
+     "regie": "schweigt lange, man hört nur sein langsames Ausatmen"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Zwei Komma fünf sechs sechs Sekunden. Hin und zurück. Die Wahrheit braucht kein Studio, Kevin. Sie liegt da oben im Staub. Sie rostet nicht, weil es keinen Sauerstoff gibt. Sie wartet einfach, bis wir wieder hinfliegen.",
+     "regie": "leise, fast tröstend"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Pack das Mylar ein, Kevin. Wir machen die Schotten dicht. Ich bin Cassidy Null. Dr. Tacheles schraubt seine Objektive fest, und ihr da draußen lasst die Finger von den alten Tapes. Schlaft schlecht, Neocortex City — aber schlaft im Licht der Spiegel da oben.",
+     "regie": ""
+    }
+   ],
+   "ausklang": "Ein brutales, metallisches Klacken trennt die Leitung. Der Äther versinkt augenblicklich in vollkommener, tonloser Stille."
+  },
+  {
+   "id": "f404-005",
+   "nummer": "404-005",
+   "art": "regulaer",
+   "titel": "Die Atmosphärische Infektion",
+   "thema": "Chemtrails",
+   "autopsie": [
+    3
+   ],
+   "dauer": "ca. 6:30 min",
+   "ort": "Studio 6, Medienviertel",
+   "zeit": "Schicht 6",
+   "status": "neu",
+   "setting": "Sechs Kupferrohre schlagen auf das Zinkblech. Kaffee kocht wütend über.",
+   "signal": "Ein ohrenbetäubendes, trockenes Krachen. Übersteuertes Pfeifen einer Rückkopplung.",
+   "transkript": [
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Verflucht noch eins, Kevin! Du hast gerade den Vorverstärker von Kanal zwei pulverisiert! Was zum Teufel hast du da auf mein Pult gewuchtet?! Sieht aus wie die Fehlgeburt einer Kirchenorgel!",
+     "regie": "schlägt mit der flachen Hand auf die Konsole, die Limiter-LEDs blitzen dunkelrot"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Fass das nicht an, Cassidy! Das ist ein Himmel-Harmonisierer Modell C! Sechs geerdete Kupferrohre, handvergossener Orgonit-Kern mit Quarzkristallen! Dreihundertfünfzig Euro auf eBay, Direktversand aus dem Allgäu! Ich habe ihn aufs Flachdach von Schicht 6 gerichtet — der Äther brennt heute Nacht!",
+     "regie": "keucht, völlig außer Atem, Plastikfolie knistert hektisch"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "WENN HIER NOCH EINMAL IRGENDEIN ESOTERISCHER HOHLKOPF GIEßHARZ IN DIESES STUDIO SCHLEPPT, KEVIN, DANN RAMME ICH DIR DIESE KUPFERROHRE DURCH DIE EUSTACHISCHE RÖHRE, BIS DEIN TROMMELFELL IM FEINSTAUB RESONIERT!",
+     "regie": "stößt die Studiotür so brachial auf, dass die Klinke ein Loch in den Akustikschaum reißt, die Stimme ist ein einziger roher, heiserer Nervenzusammenbruch"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Guten Abend, Neocortex City. Drei Uhr fünfzehn auf Frequenz 404, 6echokammern. Tacheles steht kurz vor dem Schlaganfall, sein Kittel ist vollgesaugt mit Kaffee, und Kevin hat einen metallischen Fetisch auf dem Tisch liegen. Kevin, sprich ins Mikrofon, nicht in deine verfluchte Röhre.",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Schauen Sie doch endlich aus dem Fenster, Herr Doktor! Da oben läuft ein Krieg! Gestern Nachmittag, Flug LH441 nach Boston! Ein schnurgerades Gitter über der ganzen Stadt! Das war kein Kondensstreifen! Normale Streifen lösen sich nach zehn Sekunden auf, das weiß jedes Kind! Aber der hier ist geblieben! Vier Stunden lang! Er ist breiter geworden, milchig, die ganze Sonne war weg! Und hier — Regenwasser von meiner eigenen Fensterbank! Achtzig Mikrogramm Aluminium pro Liter! Das Labor hat es mir schwarz auf weiß ausgedruckt! Sie sprühen uns zu wie Ungeziefer!",
+     "regie": "schlägt mit der Faust auf das Pult, ein Einmachglas scheppert"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Geben Sie mir das Glas. Geben Sie es mir, bevor ich Ihnen den Schädel damit spalte. Achtzig Mikrogramm. Hören Sie mir jetzt mit Ihren zwei verbliebenen Synapsen ganz genau zu, Sie geochemische Nullnummer: Aluminium ist das dritthäufigste Element der gesamten Erdkruste! Acht Prozent von jedem Stück Fels, Ton und Dreck unter Ihren Turnschuhen bestehen aus reinem Aluminium!",
+     "regie": "atmet so tief und rasselnd ein, dass das Studiomikrofon wackelt, reißt Kevin das Glas aus der Hand und knallt es neben das Papier"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Das kommt aber aus dem Regen, nicht aus dem Boden!",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Weil Wind existiert, Kevin! Weil die Sahara jedes Jahr hunderte Millionen Tonnen Mineralstaub über den Atlantik und nach Mitteleuropa bläst! Wenn es regnet, wäscht die Troposphäre diesen ganz gewöhnlichen, irdischen Staub aus der Atmosphäre aus! Jede Pfütze in ganz Bayern hat nach einem Föhnsturm hundert Mikrogramm Aluminium pro Liter! Ohne Vergleichswert, ohne Blindprobe, ohne Nullmessung ist Ihr lächerlicher Labortest nichts als ein teurer Kassenbon für Ihre eigene Apophenie!",
+     "regie": "brüllt fast"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Zwei zu null für das Periodensystem. Und wie erklärt die Fakultät das Gittermuster am Himmel, Tacheles? Hat der DWD heimlich kariertes Papier bestellt?",
+     "regie": "Zippo-Klick, eine Wolke filterloser Ockham-Rauch driftet durch das Neonlicht"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Herbert Appleman! 1953, Bulletin of the American Meteorological Society! Das Kriterium ist älter als Ihre verfluchten Großeltern! Wenn heißer, wassergesättigter Abgasdampf bei minus fünfzig Grad auf kalte Umgebungsluft trifft, kondensiert er an den Rußpartikeln zu Eis! Und ob dieser Streifen verdunstet oder stundenlang stehen bleibt, hängt ausschließlich an einer einzigen physikalischen Variablen: der relativen Feuchte über Eis, RHi! Liegt RHi unter hundert Prozent, sublimiert das Eis in Sekunden! Liegt sie über hundert Prozent — bei eisübersättigter Luft vor einer Warmfront —, wachsen die Kristalle! Sie nehmen Feuchtigkeit aus der Umgebungsluft auf, werden breiter und bilden ganz normale flugzeuginduzierte Zirruswolken: Cirrus aviaticus!",
+     "regie": "wirft das laminierte Blatt vor Kevin hin"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Aber warum verschwand die Maschine direkt daneben dann nach zehn Sekunden?! Gleicher Himmel, gleiche Minute!",
+     "regie": "schreit dazwischen"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Weil die Troposphäre kein Schwimmbecken ist, sondern in Schichten liegt! Dreihundert Meter Höhenunterschied reichen völlig aus! Flugfläche 340 ist knochentrocken, Flugfläche 370 ist eisübersättigt! Die eine Maschine zeichnet eine Wolke, die andere löst sich auf! Und die Gitter? Das sind schlicht die Kreuzungspunkte der internationalen Luftstraßen, Sie Flugsicherungs-Legastheniker! Ost-West-Transatlantikverkehr schneidet Nord-Süd-Verkehr! Schauen Sie auf Flightradar24, statt Schrott im Internet zu bestellen!",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "...Schön. Tolle Physik, Herr Doktor. Wirklich brillant. Aber wie erklären Sie dann Operation Popeye?",
+     "regie": "wird plötzlich totenstill, seine Augen verengen sich, gefährlich ruhig, schneidend"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "1967 bis 1972 über dem Ho-Chi-Minh-Pfad. Die 54. Wetteraufklärungsstaffel der US Air Force. Silberjodid und Bleijodid in die Monsunwolken gepumpt, um die Nachschubwege im Schlamm zu ertränken! Make mud, not war! 2.600 geheime Einsätze! Und Operation LAC 1957 — Zink-Cadmium-Sulfid über bewohnten Städten in Minnesota und Ohio abgeworfen, um die Ausbreitung von biologischen Kampfstoffen an der eigenen Bevölkerung zu testen! Das war kein Wetterbericht, Tacheles! Das waren Senatsanhörungen 1974! Die Akten sind deklassifiziert! Sie haben es getan!",
+     "regie": "seine Stimme wird gefährlich ruhig, schneidend"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "...Kevin?",
+     "regie": "lässt die Hand quälend langsam sinken, seine Miene entgleist, ein trockenes, ungläubiges Schlucken"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Na sieh mal einer an. Der Praktikant hat Primärquellen gelesen.",
+     "regie": "lehnt sich vor"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Woher... woher zur Hölle kennen Sie den Abschlussbericht des Pell-Untersuchungsausschusses von 1974?",
+     "regie": "starrt Kevin an, als hätte dieser sich gerade in reines Gold verwandelt"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Ich habe nachgesehen. Bevor ich den Cloudbuster gekauft habe.",
+     "regie": "verschränkt trotzig die Arme"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Das ist... das ist der erste historisch valide Satz, den Sie in zwei Jahren in diesem Sender ausgesprochen haben. Sie haben vollkommen recht. Die Operationen Popeye und LAC waren real. Es waren völkerrechtswidrige, militärische Geheimoperationen. Aber Kevin... begreifen Sie denn nicht, was Ihr eigenes Argument mit Ihnen anstellt?",
+     "regie": "schlägt die Hände vor das Gesicht, ein langes, verzweifeltes Ächzen"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Es beweist, dass sie sprühen!",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Es beweist das exakte Gegenteil! Popeye war winzig — eine Handvoll Flugzeuge über einem abgelegenen Dschungelkorridor! Und wie lange blieb es geheim? Vier Jahre! Bis Jack Anderson und Seymour Hersh die Dokumente auf die Titelseite der New York Times knallten und die Generäle vor dem Senat antanzen mussten! Jedes echte Programm hinterlässt Frachtpapiere, Budgets, Whistleblower und Akten! Um heute die Atmosphäre global zu manipulieren, bräuchte man hunderte Millionen Tonnen Aerosol im Jahr! Das sind drei bis sieben Tonnen Zuladung auf jedem einzelnen Linienflug weltweit! Zehntausende zivile Mechaniker, Tankwarte, Bodencrews in zweihundert Ländern müssten seit dreißig Jahren lückenlos dichthalten! Menschen, die abends nach Hause fahren und dieselbe Luft einatmen wie ihre Kinder! Echte Geheimnisse fliegen auf, Kevin! Sie haben gerade den Beweis geliefert, dass eine solche Operation unmöglich verborgen bleiben kann!",
+     "regie": ""
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Und während der Doktor versucht, die Trümmer seines Blutdrucks zusammenzukehren, schalten wir kurz zu denen, die an Kevins Paranoia die goldene Nase verdienen.",
+     "regie": "tippt die Asche ihrer Zigarette in den Deckel des Thermobechers"
+    },
+    {
+     "sprecher": "WERBUNG",
+     "text": "Fühlen Sie das toxische Brennen im Hals? Verändert sich der Himmel über Ihrem Schrebergarten? Retten Sie Ihre mitochondriale Matrix mit dem ORIGINAL ZEOLITH-DETOX-ULTRA! Aus feinstem, handvermahlenem Klinoptilolith-Vulkanasphalt! Bindet Aluminium, Barium und böse Schwingungen direkt im Dünndarm! Nur 49,99 Euro pro 100 Gramm — denn wer sein Kind liebt, fragt nicht nach dem Kilopreis von Schotter! Jetzt bestellen und ein energetisiertes Kupfer-Armband gratis sichern! Zeolith — Weil die Angst vor der Luft das beste Geschäftsmodell der Welt ist.",
+     "regie": "das Signal leiert ab, ein schriller, übersteuerter Synthesizer-Jingle schneidet durch den Äther"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Wir sind wieder drauf. Kevin sitzt da, den Kopf gesenkt. Die Kupferrohre spiegeln das kalte Neonlicht.",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Wissen Sie... warum ich den Müll auf dem Dach montiert habe, Doktor?",
+     "regie": "seine Stimme ist plötzlich vollkommen brüchig, kein Schimpfen mehr, nur noch nackte, dumpfe Erschöpfung"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Meine Nichte ist sieben. Letzten Sonntag im Park. Ein herrlicher Tag, eigentlich. Sie sitzt im Gras, schaut nach oben, sieht diese weißen Gitterlinien — und fängt plötzlich an zu weinen. Sie hat sich das T-Shirt über Mund und Nase gezogen und geschrien, dass sie nach Hause will, weil das Gift vom Himmel fällt. Ihre Mutter hat ihr wochenlang Telegram-Videos gezeigt. Ein siebenjähriges Kind, Tacheles. Sie traut sich nicht mehr, auf einer Wiese zu atmen. Ich dachte... wenn ich dieses verfluchte Rohr aufstelle... vielleicht kann ich ihr wenigstens das Gefühl geben, dass jemand aufpasst.",
+     "regie": "wischt sich hastig über die Augen"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Kevin... sehen Sie mich an.",
+     "regie": "jedes Gramm Aggression ist aus seiner Stimme gewichen, sie ist tief, ruhig und von einer fast schmerzhaften Sanftheit"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "",
+     "regie": "hebt zögernd den Kopf"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Ihre Wache ist nicht falsch. Der Instinkt, ein Kind vor dem Unsichtbaren zu beschützen, ist das Beste, was ein Mensch in sich tragen kann. Aber diese verdammte Erzählung beschützt Ihre Nichte nicht. Sie nimmt ihr die Luft zum Atmen. Sie vergiftet nicht ihre Lunge, sie vergiftet ihr Vertrauen in die Welt. Sie stiehlt ihr den Himmel.",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Aber die Kondensstreifen wärmen den Planeten doch wirklich, oder? Sie verändern doch das Klima?",
+     "regie": "schluckt schwer"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Ja. Cirrus aviaticus erzeugt einen messbaren Treibhauseffekt. Die Atmosphärenforscher am DLR untersuchen das seit Jahren mit aller Härte. Wir fliegen zu viel. Wir belasten die Troposphäre mit Stickoxiden und Ruß. Das ist ein reales, dramatisches, ungelöstes Problem. Und wissen Sie, was der Unterschied ist? Gegen ein reales Problem kann man politisch kämpfen. Man kann Routen verlegen, man kann Flüge vermeiden, man kann forschen. Aber gegen ein eingebildetes Gift am Himmel kann man gar nichts tun — außer sich zu fürchten und Kindern die Kindheit zu stehlen. Packen Sie die Kupferrohre ein, Kevin. Bringen Sie den Müll zum Wertstoffhof.",
+     "regie": ""
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Und hol deine Nichte am Wochenende vom Spielplatz ab. Leg dich mit ihr ins Gras. Zeig ihr, wie die Streifen von ganz allein zerfasern, weil da oben nichts ist als Eis und Wind.",
+     "regie": "atmet leise aus"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Meinen Sie... das reicht?",
+     "regie": "nickt ganz langsam"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Das reicht für den Anfang, mein Junge. Es ist die einzige Wahrheit, die sie braucht.",
+     "regie": ""
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Wir machen die Schotten dicht. Ich bin Cassidy Null. Dr. Tacheles spendiert den nächsten echten Filterkaffee, und Kevin atmet jetzt erst mal tief durch. Schlaft schlecht, Neocortex City — aber öffnet verdammt noch mal die Fenster. Die Luft gehört euch.",
+     "regie": ""
+    }
+   ],
+   "ausklang": "Ein hartes, mechanisches Klicken trennt die Leitung. Der Äther versinkt in friedlicher, vollkommener Stille."
+  },
+  {
+   "id": "f404-006",
+   "nummer": "404-006",
+   "art": "regulaer",
+   "titel": "Das Exxon-Paradoxon und die thermodynamische Quittung",
+   "thema": "Klimawandel",
+   "autopsie": [
+    4
+   ],
+   "dauer": "ca. 6:30 min",
+   "ort": "Studio 6, Medienviertel",
+   "zeit": "Schicht 6",
+   "status": "neu",
+   "setting": "Ein Heizlüfter wird auf den Studiotisch geknallt. Vier Grad draußen, kochende Idiotie drinnen.",
+   "signal": "Ein ohrenbetäubendes Pfeifen. Schweres, schleifendes Rauschen eines übersteuerten Mischpults.",
+   "transkript": [
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Schicht 6, Medienviertel, drei Uhr morgens. Das Thermometer an der Außenwand meldet vier Grad, aber hier drinnen kocht die Idiotie auf Stufe drei. Kevin, wenn du diesen stinkenden Heizlüfter nicht augenblicklich von meinem Klinkenfeld wegnimmst, löte ich dir das Netzkabel direkt an die Zunge.",
+     "regie": "zieht das Mikrofon mit einem quietschenden Ruck zu sich, hustet trocken"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Es zieht wie Hechtsuppe, Cassidy! Wo ist sie denn, die Erderwärmung?! Ich friere mir hier die Knochen ab! Gestern kam der Brief von den Stadtwerken: Gaspreis verdoppelt, Heizung austauschen, Sanierungszwang! Und wofür?! Für eine Hysterie! Schau dir das hier an — einunddreißigtausend Wissenschaftler! Einunddreißigtausend Unterschriften gegen den Konsens! Die Oregon-Petition!",
+     "regie": "schreit fast, Zähneklappern, ein zentimeterdicker Papierstapel knallt auf das Zinkblech"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "GERI HALLIWELL, KEVIN!",
+     "regie": "reißt die Studiotür auf, ein Geräusch wie berstender Putz, die Stimme ein einziger schmirgelnder Tobsuchtsanfall"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Was?! Wer?!",
+     "regie": "zuckt panisch zusammen"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Geri Halliwell von den Spice Girls! Ginger Spice hat Ihre verfluchte Petition unterschrieben! Zusammen mit Charles Darwin, Perry Mason und Michael J. Fox!",
+     "regie": "stürmt an den Tisch, reißt das oberste Blatt vom Stapel und zerknüllt es mit bloßen Händen"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Das sind... das sind legitime Unterzeichner—",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Das ist eine Müllhalde für Leichtgläubige! Neuntausend von denen haben irgendeinen Doktortitel in Zahnmedizin, Tierzucht oder altägyptischer Philologie! Null Komma fünf Prozent der Unterzeichner haben jemals eine einzige Zeile Klimatologie publiziert! Arthur Robinson hat das Ding 1998 in einem Schriftbild verschickt, das die Proceedings of the National Academy of Sciences exakt imitiert hat! Eine dreiste typografische Fälschung, von der sich die Akademie binnen vierundzwanzig Stunden öffentlich distanzieren musste! Und Sie wedeln im Jahr 2026 noch mit diesem altmodischen Papiermüll herum?!",
+     "regie": ""
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Eins zu null für Ginger Spice. Kevin, dreh den Heizlüfter runter, der Trafo riecht nach geschmolzenem Bakelit.",
+     "regie": "Zippo-Klick, eine dicke Wolke filterloser Ockham-Rauch driftet durch das grüne Pultlicht"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Schön! Geschenkt! Aber erklären Sie mir die Physik, Herr Schlaumeier! Kohlendioxid macht null Komma null vier Prozent der Atmosphäre aus! Null Komma null vier! Wie soll ein Hauch von Spurengas bitteschön einen ganzen Planeten aufheizen?! Das ist thermodynamisch lächerlich! Das ist wie ein Tropfen Tinte im Pazifik!",
+     "regie": "schlägt mit der Faust auf den Tisch, die Tassen springen"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Nehmen Sie zwei Milligramm Fentanyl, Kevin.",
+     "regie": "atmet so zittrig und flach ein, dass man das Gewebe seiner Lunge rasseln hört, greift nach einer Packung Schmerztabletten, schluckt zwei trocken herunter"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Sind Sie verrückt?!",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Warum denn nicht? Zwei Milligramm sind null Komma null null null zwei Prozent Ihres Körpergewichts! Reines Spurenelement! Es kommt auf die spezifische Wirkung an, Sie intellektuelle Tiefkühltruhe! Stickstoff und Sauerstoff sind zweiatomige Moleküle! Völlig symmetrisch, kein permanentes Dipolmoment, völlig blind für Infrarotstrahlung! Für Wärmestrahlung ist die Luft schlicht Glas! Aber CO₂ ist ein Triatom! Es schwingt! Die fünfzehn-Mikrometer-Biegeschwingung! Sie bricht die Symmetrie und erzeugt ein oszillierendes elektrisches Dipolmoment exakt im Zentrum des terrestrischen Abstrahlungsfensters!",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Biege-was?",
+     "regie": "blinzelt nervös"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "John Tyndall, 1859! Eine Zelle, ein Thermopil, reine Labormessung vor der Erfindung des Automobils! Arrhenius hat es 1896 mit Papier und Bleistift auf fünf Grad Erwärmung pro Verdopplung ausgerechnet! Delta-F ist fünf Komma drei fünf mal dem natürlichen Logarithmus des Konzentrationsquotienten! Das ist ein Energieüberschuss von knapp drei Watt auf jedem einzelnen Quadratmeter dieses Planeten, Tag und Nacht!",
+     "regie": "knallt eine leere Glasröhre auf den Tisch, dass das Glas singt"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "...Schön. Tolle Quantenmechanik, Herr Doktor. Wirklich brillant. Aber wenn das alles schon im 19. Jahrhundert so glasklar war... warum hat dann ExxonMobil 1982 intern genau diese Kurve gezeichnet — und nach außen dreißig Jahre lang Zweifel bezahlt?",
+     "regie": "starrt auf die Glasröhre, weicht aber nicht zurück"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Was hast du da gerade gesagt, Kevin?",
+     "regie": "stutzt, nimmt die Zigarette aus dem Mund"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Exxon-Forschungsbericht von 1982. Intern als 'Vertraulich' gestempelt. James Black hat das Management schon 1977 gewarnt. Supran und Oreskes haben die internen Modelle 2023 in Science ausgewertet: dreiundachtzig Prozent Treffsicherheit bei der globalen Temperaturentwicklung! Exxons eigene Physiker haben die heutige Hitze auf null Komma zwei Grad genau vorhergesagt! Und im April 1998 schreibt das American Petroleum Institute das Victory-Memo: 'Ein Sieg ist erreicht, wenn der Durchschnittsbürger die Unsicherheiten verinnerlicht hat'! Die haben nicht gezweifelt, Tacheles! Die wussten es! Und während die Ölmultis Milliarden an Donors Trust überwiesen haben, um Scheindebatten zu füttern, soll mein Onkel jetzt seine Meisterwerkstatt dichtmachen, weil er die Heizungsumstellung nicht zahlen kann?! Warum zahlt der Handwerker die Zeche für ein Verbrechen, das im Vorstandsbüro beschlossen wurde?!",
+     "regie": "zieht ein verknittertes, kopiertes Dokument aus seiner Jackentasche, die Stimme verliert das Hysterische und wird schneidend ruhig, wirft das Papier vor Tacheles hin"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "...Kevin.",
+     "regie": "starrt reglos auf das Dokument, seine Hände ruhen auf der Kante des Tisches, kein Geschrei, die Stimme bricht fast leise weg"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Wollen Sie mir jetzt wieder erzählen, dass ich dumm bin?",
+     "regie": "sieht ihn finster an"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Nein. Ganz und gar nicht. Sie haben gerade... ohne einen einzigen methodischen Fehler... die industrielle Agnotologie auf den Punkt gebracht. Das Tabak-Playbook von Brown & Williamson 1969: Doubt is our product. Frederick Seitz und Fred Singer, dieselben Männer, die das Passivrauchen und das Ozonloch verharmlost haben, auf der Gehaltsliste der Klimaleugnung. Sie haben recht, Kevin. Es war kein wissenschaftlicher Irrtum. Es war eine strategisch finanzierte Verzögerung um drei Jahrzehnte.",
+     "regie": "schüttelt langsam, fast erschüttert den Kopf"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Eine Verzögerung, deren Rechnungen jetzt in den Briefkästen der Unterstadt aufschlagen.",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Und genau da liegt Ihre Tragödie, mein Junge. Sie verwechseln die berechtigte Wut auf eine unsoziale Politik mit der physikalischen Realität. Sie hassen die Rechnung, die man Ihnen vor die Füße wirft — und deshalb erklären Sie das Thermometer zum Feind. Sie leugnen die Physik, um der Zumutung zu entkommen. Aber das Thermometer ist keine Steuer. Die Infrarotabsorption verhandelt nicht mit Ihrem Heizungsgesetz.",
+     "regie": "sieht Kevin direkt an, der Blick ist vollkommen weich, ohne jede Kälte"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Ich will nur nicht... dass am Ende alles zusammenbricht, Tacheles. Mein Onkel hat vierzig Jahre an Motoren geschraubt. Er versteht die Welt nicht mehr. Und wenn ich ihm sage, dass das alles wahr ist... fühlt es sich an, als würde ich ihm sagen, dass sein ganzes Leben falsch war.",
+     "regie": "weicht dem Blick aus, starrt auf seine knöcheltiefen Unterlagen"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Das Leben Ihres Onkels war nicht falsch, Kevin. Er hat diese Welt am Laufen gehalten. Er hat die Infrastruktur bedient, die man ihm hingestellt hat. Niemand verlangt von ihm, sein Lebenswerk zu verdammen. Die Schuld tragen diejenigen, die in den Chefetagen die Wahrheit in Panzerschränken weggeschlossen haben, um noch zwanzig Jahre länger Rohöl zu pumpen. Machen Sie Ihren Onkel nicht zum Täter. Er war nur derjenige, dem man den Zweifel gratis ins Wohnzimmer geliefert hat, damit er brav weiter tankt.",
+     "regie": "legt langsam eine Hand auf den zitternden Arm des Praktikanten"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Zeit für die kommerzielle Sedierung der Massen. Schicht 6 muss die Stromrechnung für Tacheles' Oszilloskop bezahlen.",
+     "regie": "drückt die Ockham in einer leeren Kaffeetasse aus, das Zischen klingt wie ein Miniatur-Kollaps"
+    },
+    {
+     "sprecher": "WERBUNG",
+     "text": "Droht Ihnen der Verlust Ihres Verbrennungsmotors? Fühlen Sie sich von physikalischen Konstanten persönlich bevormundet? Kaufen Sie den „CLIMA-RELAX-CHIP“! Einfach auf den Sicherungskasten kleben! Neutralisiert 99,8 Prozent aller Klimamodelle und senkt gefühlt die Raumtemperatur um drei Grad! Wissenschaftlich vollständig ungeprüft, aber garantiert von keinem echten Forscher empfohlen! Clima-Relax — Weil Abwarten die billigste Form der Thermodynamik ist.",
+     "regie": "ein leierndes, blechernes Synthesizer-Jingle blendet über das Signal"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Frequenz 404. Wir sind wieder da. Kevin sitzt da und starrt auf das Exxon-Memo.",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Und das Meer, Doktor? Stimmt das mit den Bojen?",
+     "regie": "sehr leise"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Vieritausend autonome Argo-Floats. Sie tauchen bis in zweitausend Meter Tiefe. Über neunzig Prozent der gesamten überschüssigen Energie des Planeten landet im Wasser. Vierhundert Trilliarden Joule. Es dehnt sich aus, Kevin. Vier Millimeter Anstieg pro Jahr. Das ist keine Meinung. Das ist ein Pegel.",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Und was machen wir jetzt?",
+     "regie": "atmet tief aus"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Wir hören auf, die Augen zuzukneifen. Wir trennen die Physik von der Politik. Wir erkennen die Erwärmung an — und streiten verdammt noch mal darum, wer den Umbau bezahlt, statt so zu tun, als gäbe es kein Feuer. Packen Sie die Spice Girls ein, Kevin. Und lassen Sie den Heizlüfter aus.",
+     "regie": ""
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Wir drehen den Saft ab. Ich bin Cassidy Null. Dr. Tacheles trinkt jetzt kalten Kaffee ohne Zucker, und Kevin ruft seinen Onkel an. Schlaft schlecht, Neocortex City — aber vergesst nicht: Das Thermometer lügt nicht.",
+     "regie": "schlägt den Hauptschalter um"
+    }
+   ],
+   "ausklang": "Ein hartes, metallisches Klacken. Das Signal erstickt abrupt im tiefen Rauschen des Vakuums."
+  },
+  {
+   "id": "f404-007",
+   "nummer": "404-007",
+   "art": "regulaer",
+   "titel": "Der Schlund von Agartha und das innere Feuer",
+   "thema": "Hohlerde",
+   "autopsie": [
+    5
+   ],
+   "dauer": "ca. 7:00 min",
+   "ort": "Studio 6, Medienviertel",
+   "zeit": "Schicht 6",
+   "status": "neu",
+   "setting": "Ein Klappspaten landet auf der Konsole. Eine übersteuerte Kassette mit dumpfen Schreien läuft im Hintergrund.",
+   "signal": "Ein ohrenbetäubendes, trockenes metallisches Bersten. Kreischendes Quietschen von verbogenem Blech.",
+   "transkript": [
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "AUS! Mach diese Geisterbahn-Kassette aus, Kevin, oder ich schütte dir die kochende Brühe aus dem Kaffeefilter direkt in die Ohrmuschel! Was zur Hölle hast du da gerade auf mein Pult geworfen?! Ein verdammter Spaten?!",
+     "regie": "stößt einen erstickten Fluch aus, schlägt mit der Handkante gegen den Limiter"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Ein Pionier-Klappspaten der Bundeswehr, Cassidy! Schau ihn dir an! Kalt gewalzter Stahl! Wir graben an der falschen Stelle! Die Kola-Bohrung von 1989, SG-3! Zwölf Kilometer tief! Und dann haben die sowjetischen Ingenieure ein hitzebeständiges Mikrofon hinabgelassen und die Schreie von Millionen Verdammten auf Tonband aufgenommen! Hör doch hin! Das ist kein Gasrauschen, das sind Stimmen aus dem Abgrund!",
+     "regie": "völlig hysterisch, hechelt wie ein Hund nach drei Meilen Steigung, schlägt mit der flachen Hand auf die Tischplatte"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "BARON BLOOD, KEVIN!",
+     "regie": "reißt die Studiotür auf, dass die Scharniere kreischen, die Stimme überschlägt sich vor schneidendem, akademischem Zorn"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Was?! Wer?!",
+     "regie": "schreckt panisch zurück, reißt ein Glas um"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Baron Blood! Ein drittklassiger italienischer Horrorfilm von Mario Bava aus dem Jahr 1972! Irgendein evangelikaler Spinner in Finnland hat die Tonspur dieses Schinkens mit einer Bandschleife verwurstet und behauptet, die Russen hätten die Hölle angebohrt! Zwölf Kilometer tief, Sie geologische Kriechspur! Zwölf von sechstausenddreihundert Kilometern bis zum Mittelpunkt! Das ist ein Nadelstich auf der Schale eines Hühnereis! Wissen Sie, was die SG-3 gestoppt hat? Nicht der Leibhaftige! Bei hundertachtzig Grad Celsius wurde das Gestein schlicht plastisch wie weiche Butter und hat den Bohrkopf gefressen!",
+     "regie": "stürmt an das Mikrofon, knallt eine schwere Kiste Haferflocken und einen Packen vergilbte Seismogramm-Streifen auf den Tisch"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Eins zu null für die Kinematografie der Siebziger. Kevin, nimm die Schaufel vom Audiokabel, du erzeugst einen Brummkreis auf sechzig Hertz.",
+     "regie": "Feuerzeug schnalzt dreimal, das trockene Knistern einer filterlosen Ockham"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Sie tun es schon wieder! Sie reduzieren alles auf banale Hitze! Aber was ist mit Admiral Richard E. Byrd?! Operation Highjump, 1947! Dreizehn Kriegsschiffe in der Antarktis! Er ist über den Südpol geflogen und hat in seinem geheimen Tagebuch aufgeschrieben, dass hinter dem Eis ein grünes, warmes Tal liegt — mit lebenden Mammuts und den Meistern von Agartha! Ein hochdekorierter Offizier der US-Marine lügt doch nicht in seinem eigenen Tagebuch!",
+     "regie": "zittert vor Erregung, kramt fieberhaft in einer alten Plastiktüte"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Byrd ist 1957 krepiert, Kevin! Und dieses angebliche ‚geheime Tagebuch‘ tauchte erst 1959 zum ersten Mal auf — in einem Schundbuch von Raymond Bernard! Vollgestopft mit linguistischen Anachronismen, die kein Marineoffizier der Vierziger je in die Hand genommen hätte! In Byrds echten, im Universitätsarchiv von Ohio liegenden Logbüchern steht exakt ein einziger Satz über den Südpol: ‚Nichts als Eis, weiß und leer, bis zum Horizont‘! Sie plündern die Leiche eines Polarforschers und hängen ihm ein esoterisches Kasperletheater um den Hals!",
+     "regie": "atmet so zittrig und flach ein, dass die Brille auf seiner Nase vibriert, reißt eine Schublade auf, kramt ein vergilbtes Papier hervor und knallt es Kevin vor die Stirn"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Und wozu das Ganze? Damit drinnen jemand wohnen kann? Auf der Innenseite einer Kugel?",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Ja! Genau da! Ein Innenmeer, eine eigene Sonne in der Mitte! Edmond Halley hat es 1692 berechnet! Der Entdecker des Kometen! Drei konzentrische Schalen im Erdinneren! Wenn ein Jahrhundertgenie wie Halley sagt, dass die Erde innen hohl ist, um die Polarlichter und das Magnetfeld zu erklären, dann ist das keine Spinnerei, Herr Doktor!",
+     "regie": "reißt eine illustrierte Jules-Verne-Ausgabe hoch"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Halley! 1692! Halley wusste nichts von Seismologie, nichts vom äußeren Erdkern und nichts von der Magnetohydrodynamik! Aber wissen Sie, was Halley kannte? Seinen Freund Isaac Newton! Und Newtons Schalentheorem von 1687, Kevin! Rechnen Sie es doch nach, verflucht noch mal!",
+     "regie": "stößt ein trockenes, bösartiges Lachen aus"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Was für ein Theorem?",
+     "regie": "blinzelt eingeschüchtert"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Die Gravitation innerhalb einer gleichförmigen Kugelschale ist an jedem einzelnen Punkt im Inneren exakt NULL! Die Anziehungskräfte der Wände heben sich mathematisch vollständig auf! Wenn da drinnen ein Ozean wäre, würde das Wasser nicht an der Decke kleben — es würde als riesiger, kochender Ball in die schwerelose Mitte driften! Es gibt auf einer Innenfläche kein Unten! Jeder Ihrer verdammten Agartha-Meister würde hilflos im Vakuum strampeln! Und die Erde wiegt fast sechs Trillionen Tonnen! Mittlere Dichte: fünf Komma fünf Gramm pro Kubikzentimeter! Normaler Granit an der Oberfläche hat zwei Komma sieben! Wenn der Planet innen hohl wäre, hätte er die Dichte einer Seifenblase und würde auf einem Eimer Wasser schwimmen wie ein morscher Tischtennisball!",
+     "regie": "schlägt mit dem Zeigefinger eine Kerbe in den Studiotisch"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "...und trotzdem steht auf jedem Glas Bovril der Name von Bulwer-Lyttons Hohlwelt-Roman.",
+     "regie": "wird plötzlich leise, seine Stimme sackt ab, greift unter den Tisch und holt ein kleines braunes Glas hervor"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Was steht da?",
+     "regie": "stutzt"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Bovril. Bovinus für Rind, und Vril für die Lebenskraft der Überzivilisation aus Bulwer-Lyttons Roman The Coming Race von 1871. Die unterirdische Superrasse im Erdinneren. Die Menschheit streicht sich seit hundertvierzig Jahren eine Hohlwelt-Legende aufs Frühstücksbrot, Tacheles. Und wissen Sie warum?",
+     "regie": "dreht das kleine Rindfleischextrakt-Glas im Scheinwerferlicht"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Weil da draußen nichts mehr übrig ist. Kein einziger weißer Fleck auf der Karte. Jeder Berg hat eine Höhenlinie, jedes Tal ein Satellitenfoto, jeder Ozeanboden ein Sonarprofil. Google Earth hat die Welt zugemauert. Alles ist vermessen, alles ist berechnet, alles ist eingezäunt. Wir leben in einem planetaren Aktenordner! Ist es denn so verwerflich, sich zu wünschen, dass unter diesem ganzen Beton noch eine Tür existiert? Dass die Erde noch nicht zu Ende ist?",
+     "regie": "starrt auf das Glas, seine Stimme klingt seltsam brüchig, fast melancholisch"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "...Die Entzauberungs-Angst.",
+     "regie": "schiebt die Schmerzmittel beiseite, setzt sich langsam auf die Kante des Tisches, jede Aggression ist aus seinem Gesicht gewischt, seine Züge sind weich geworden, fast traurig"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Was?",
+     "regie": "sieht zögernd auf"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Das ist keine Dummheit, Kevin. Es ist die Furcht vor einem Gefängnis ohne Fenster. Die Angst, dass der Mensch zu spät geboren wurde, um noch ein echtes Wunder zu entdecken. Aber Kevin... Sie suchen die Tür an der falschen Stelle. Schauen Sie sich das hier an.",
+     "regie": "zieht einen der vergilbten Seismogramm-Streifen aus der mitgebrachten Haferflocken-Schachtel und glättet ihn behutsam auf dem Zinkblech"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Was ist das? Eine Kardiographie?",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Das Neuseeland-Beben von 1929. Kopenhagen, 1936. Eine Frau namens Inge Lehmann. Sie hatte kein Forschungsschiff, keine Expedition und keine Milliardenbudgets. Sie saß mit einem Bleistift an einem Gartentisch und sortierte Pappkarten in leere Haferflocken-Kartons. Und sie sah etwas auf diesen Papierstreifen, das nach der damaligen Physik unmöglich war: P-Wellen mitten in der Schattenzone. Wellen, die der flüssige Kern hätte verschlucken müssen. Sie hat die Zahlen nicht weggeworfen. Sie hat gerechnet. Fünf Seiten, publiziert unter dem Titel P'.",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Und was hat sie gefunden?",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Den inneren Kern. Eine Kugel aus reinem, festem Eisen, größer als der Zwergplanet Pluto, glühend heiß wie die Oberfläche der Sonne — und trotzdem starr, weil der Druck von Millionen Atmosphären die Atome in ein unzerstörbares Gitter zwingt! Umgeben von einem zweitausend Kilometer dicken Ozean aus flüssigem Metall, der in Spiralen rotiert und das Magnetfeld aufbaut, das uns vor der tödlichen kosmischen Strahlung schützt! Inge Lehmann ist fünftausend Kilometer tief gereist, Kevin — mit einem Bleistift und ein paar Erschütterungen aus Neuseeland! Das ist kein Pilzwald. Das ist die schiere, gewaltige Anatomie eines lebendigen Planeten!",
+     "regie": ""
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Und das Beste daran: Man muss nicht einmal an Geister glauben, um dort unten Leben zu finden.",
+     "regie": "tippt die Asche ab"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Da unten lebt was?!",
+     "regie": "reißt die Augen auf"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Halicephalobus mephisto. Benannt nach dem Dämon der Unterwelt. Dreitausendsechshundert Meter tief im Spaltenwasser einer südafrikanischen Goldmine haben Biologen einen Fadenwurm aus dem massiven Fels gezogen! Ein vielzelliges Tier, das im Stockdunkeln bei fast vierzig Grad Gesteinsbakterien frisst! Siebzig Prozent aller Mikroorganismen dieses Planeten leben tief im Gestein — eine unterirdische Tiefenbiomasse, hundertmal schwerer als die gesamte Menschheit zusammen! Zellen, die ihren Stoffwechsel so langsam drosseln, dass sie sich nur einmal in zehntausend Jahren teilen! Die Erde ist nicht leer, mein Junge. Sie ist voller Wunder — sie sind nur nicht für unsere Bequemlichkeit gebaut worden.",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Das heißt... Jules Verne lag falsch, aber der Planet hatte die ganze Zeit eine noch verrücktere Geschichte auf Lager?",
+     "regie": "sieht auf den Klappspaten, seine Stimme zittert leicht"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Die Realität nimmt Ihnen das Staunen nicht weg, Kevin. Sie verlangt nur den Mut, die erfundenen Türen zuzumachen, damit man die echten überhaupt erst sehen kann.",
+     "regie": "nickt ernst, legt die Hand auf Kevins Schulter"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Und während der Praktikant lernt, wie man Seismogramme liest, gönnen wir den Sponsoren ihren Auftritt, bevor Schicht 6 den Saft abdreht.",
+     "regie": ""
+    },
+    {
+     "sprecher": "WERBUNG",
+     "text": "Fühlen Sie sich von der Erdkruste erdrückt? Ist Ihnen der Planet einfach zu voll? Kaufen Sie die ORIGINALE AGARTHA-WÜNSCHELRUTE! Aus handgebogenem Messingdraht, garantiert resonanzfähig auf unterirdische Hohlräume und Mammut-Aura! Findet geheime Polöffnungen selbst im dichtesten Stadtverkehr! Für nur 199 Euro — inklusive einer Dose Bovril zur mentalen Einstimmung! Agartha-Tools: Weil ein Loch im Boden billiger ist als ein Geologiestudium!",
+     "regie": "ein kratzender, schräger Jahrmarkts-Jingle scheppert durch die Leitung"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Frequenz 404, wir sind am Ende der Schicht. Kevin packt den Spaten wieder in den Kofferraum, Dr. Tacheles wischt die Haferflocken von der Konsole, und der Kaffee ist endgültig alle. Hört auf, nach Löchern am Nordpol zu suchen. Die Erde ist voll, sie ist dicht, und sie dreht sich trotzdem. Ich bin Cassidy Null. Schlaft schlecht, Neocortex City — aber schlaft im Schutz des Geodynamos da unten.",
+     "regie": ""
+    }
+   ],
+   "ausklang": "Ein brutales, metallisches Klacken trennt die Verbindung. Der Äther versinkt in vollkommener, tonloser Stille."
+  },
+  {
+   "id": "f404-008",
+   "nummer": "404-008",
+   "art": "regulaer",
+   "titel": "Der gespiegelte Kosmos und die Hebamme vom Mars",
+   "thema": "Astrologie",
+   "autopsie": [
+    6
+   ],
+   "dauer": "ca. 7:00 min",
+   "ort": "Studio 6, Medienviertel",
+   "zeit": "Schicht 6, 3:02 Uhr",
+   "status": "neu",
+   "setting": "Ein schweres Netzbrummen liegt auf der Leitung. Tacheles sitzt seit zwei Stunden stumm am Tisch und starrt Kevin an.",
+   "signal": "Ein schweres, tiefes Netzbrummen. Kein Krachen, sondern eine fast unheimliche, eisige Stille.",
+   "transkript": [
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Drei Uhr null zwei in Neocortex City. Frequenz 404, Tiefparterre im Temporallappen. Und draußen auf dem Flur brennt nicht einmal das Notlicht. Normalerweise trete ich jetzt den Pegelregler ins Blech, weil Dr. Tacheles mit Anlauf die Tür eintritt und Kevin mit einem Lehrbuch erdrosseln will. Aber heute... sitzt der Herr Professor schon seit zwei Stunden stumm am Tisch. Er hat nicht geschrien. Er hat keinen Kaffee verschüttet. Er starrt Kevin einfach nur an wie ein Pathologe ein ungewöhnlich faszinierendes Geschwür. Das macht mich nervöser als jede seiner Kernschmelzen.",
+     "regie": "tippt die Asche ihrer Ockham ab"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Herr Doktor… warum schauen Sie mich so an? Ich habe die Pegel kalibriert! Ich habe keinen Schrott auf das Pult gelegt!",
+     "regie": "sitzt kerzengerade auf seinem Klappstuhl, atmet flach, schluckt hörbar"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Guten Morgen, Kevin. Ganz ruhig. Atmen Sie in die Flanke. Ich habe Ihnen etwas mitgebracht. Ein Geschenk.",
+     "regie": "die Stimme ist erschreckend leise, samtig, von einer perfiden, kriechenden Höflichkeit"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Ein… Brief?",
+     "regie": "blinzelt misstrauisch"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Eine Charakteranalyse, mein Junge. Ein psychologisches Profil, basierend auf Ihrer exakten Geburtsminute am städtischen Klinikum. Ich habe Ihre Daten durch einen hochkomplexen Algorithmus gejagt. Lesen Sie es laut vor.",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Äh… okay. „Sie haben ein starkes Bedürfnis danach, von anderen Menschen gemocht und bewundert zu werden. Dennoch neigen Sie dazu, sich selbst gegenüber ausgesprochen kritisch zu sein. Sie verfügen über beträchtliche ungenutzte Fähigkeiten, die Sie bisher nicht zu Ihrem Vorteil entfaltet haben. Während Sie nach außen hin diszipliniert und kontrolliert wirken, neigen Sie innerlich zu Unsicherheit und Zweifeln. Manchmal hegen Sie ernsthafte Zweifel daran, ob Sie die richtige Entscheidung getroffen haben. Sie bevorzugen ein gewisses Maß an Abwechslung und Veränderung und sind unzufrieden, wenn Sie von Verboten und Einschränkungen eingeengt werden. Zudem sind Sie stolz darauf, unabhängig zu denken, und akzeptieren die Behauptungen anderer nicht ohne stichhaltige Beweise. Sie haben jedoch festgestellt, dass es unklug ist, sich anderen gegenüber allzu offenherzig zu zeigen…“",
+     "regie": "nimmt das Papier zögernd, räuspert sich"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Tacheles… das… das bin eins zu eins ICH! Das mit der Selbstkritik! Das mit der inneren Unsicherheit! Woher… woher wissen Sie das?! Sie haben mein Geburtshoroskop berechnet, nicht wahr?! Sie geben es endlich zu! Die Sterne lügen nicht!",
+     "regie": "hält inne, seine Augen werden feucht, seine Stimme beginnt unkontrolliert zu zittern"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Bertram R. Forer, 1948, Department of Psychology, University of California, Los Angeles.",
+     "regie": "lächelt nicht, nimmt ganz langsam seine Brille ab und beugt sich über das Mikrofon"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Bitte was?",
+     "regie": "erstarrt"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Forer hat diesen exakten Text 1948 neununddreißig seiner Studenten vorgelegt. Jeder einzelne dachte, es sei seine individuelle Persönlichkeitsanalyse. Auf einer Skala von null bis fünf bewerteten die Studenten die Treffsicherheit im Durchschnitt mit 4,26. Forer hatte den Text nicht berechnet. Er hatte ihn an einem Bahnhofskiosk aus verschiedenen Zeitschriften-Horoskopen zusammengeklebt. Wort für Wort.",
+     "regie": ""
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Bumm. Mitten zwischen die Hörner.",
+     "regie": "stößt trocken Rauch aus"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Subjektive Validierung, Kevin! Der Barnum-Effekt! Der Text weiß absolut gar nichts über Sie! Es ist eine universelle, vage Schablone, konstruiert aus wohlwollenden Trivialitäten! Sie haben die Arbeit gemacht! Ihr eigenes Gehirn hat in Bruchteilen einer Sekunde Ihre eigene Biografie durchforstet, die passenden Schnipsel in die leere Form gestopft und das Ganze als kosmisches Wunder verbucht! Sie sind nicht vom Himmel erkannt worden! Sie haben sich selbst in einer Pfütze gespiegelt und gedacht, es sei das Antlitz Gottes!",
+     "regie": "wird plötzlich schneidend scharf, die Stimme gewinnt ihre gewohnte Granithärte zurück"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Das ist billig, Herr Doktor! Das war ein Psychologie-Test aus den Vierzigern! Aber was ist mit meiner App?! Co-Star! Die arbeiten mit echten Ephemeriden des Jet Propulsion Laboratory der NASA! Auf die Bogensekunde genaue Planetenbahnen! Wenn die NASA die Daten liefert, ist das Wissenschaft!",
+     "regie": "knüllt das Papier panisch zusammen, reißt sein Smartphone heraus"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Das ist die Prokrustesschlächterei des einundzwanzigsten Jahrhunderts! Exakte Himmelskoordinaten als typografische Verkleidung für sprachgenerierte Glückskeks-Prosa! Co-Star weiß auf den Millimeter, wo der Saturn steht, und klebt dann eine KI-generierte Floskel darüber: ‚Heute ist kein Tag für Kompromisse‘! Was hat die Bahngeschwindigkeit einer gefrorenen Methankugel mit Ihrem morgendlichen Zögern vor dem Kleiderschrank zu tun?!",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Gravitation, Tacheles! Quantenverschränkung! Die Masse der Planeten krümmt die Raumzeit! Das muss doch eine Auswirkung auf die Synapsen eines Neugeborenen haben!",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Dann rechnen wir es doch aus, Sie physikalischer Blindgänger! Newtonsches Gravitationsgesetz: Kraft ist Masse mal Masse geteilt durch den Abstand im Quadrat!",
+     "regie": "schlägt mit der flachen Hand auf den Tisch, das Zinkblech scheppert"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Sehen Sie! Masse! Der Mars wiegt Trillionen Tonnen!",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Bei seiner absolut erdnächsten Opposition steht der Mars fünfundfünfzig Millionen Kilometer weit weg! Rechnen Sie die Beschleunigung auf einen Säugling aus: zehn hoch minus acht Meter pro Sekunde im Quadrat! Und jetzt nehmen Sie die Hebamme, Kevin! Siebzig Kilogramm Lebendgewicht, dreißig Zentimeter vom Kopf des Kindes entfernt! Die Schwerkraft der Hebamme zieht im Moment der Entbindung viermal stärker an Ihrem Schädel als der verdammte rote Planet!",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Aber der Mars ist ein Planet!",
+     "regie": "weicht zurück"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Und die Hebamme ist aus Fleisch und Knochen! Aber es kommt noch schlimmer für Ihre kosmische Ausrede: Homogene Gravitation erzeugt im freien Fall überhaupt keine biologische Wirkung! Was einen Körper verformt, sind Gezeitenkräfte — der Gradient, der mit dem Abstand zur DRITTEN Potenz abfällt! Über die fünfzig Zentimeter eines Neugeborenen übertrifft die Gezeitenkraft der Hebamme den Mars um das Einhundertmilliardifache! Das Krankenhausbett zieht stärker! Der Spülkasten der Klinikklobrille zieht stärker! Wenn der Himmel Sie prägt, Kevin, dann müsste in Ihrer Geburtsurkunde nicht ‚Aszendent Skorpion‘ stehen, sondern ‚Aszendent Schwester Ingeborg, dreiundachtzig Kilo, Beistelltisch links‘!",
+     "regie": ""
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Autsch. Da hat die Hebamme gerade den Kriegsgott pulverisiert. Kevin, trink deinen Kamillentee, deine Lippen sind ganz blau.",
+     "regie": "grinst schief, zieht das Mikrofon heran"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Aber Shawn Carlson, Herr Doktor! 1985! Nature!",
+     "regie": "schlägt verzweifelt die Hände vors Gesicht"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Was soll mit Carlson sein?",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Hat er nicht bewiesen, dass Astrologen… warte…",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Carlson hat das sauberste Doppelblind-Experiment der Geschichte gegen Ihre Zunft gefahren! Achtundzwanzig hochdekorierte Spitzenastrologen, vorab von ihren eigenen Verbänden als Koryphäen ausgewählt! Sie haben das Versuchsdesign selbst mitgestaltet und vorab schriftlich unterschrieben, dass der Test absolut fair ist! Sie bekamen echte Geburtshoroskope und mussten sie standardisierten psychologischen Profilen zuordnen! Sie wetteten auf mindestens fünfzig Prozent Trefferquote! Wissen Sie, was herauskam?",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "",
+     "regie": "schweigt verlegen"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Dreiunddreißig Prozent! Bei drei Optionen! Exakt die mathematische Wahrscheinlichkeit eines dressierten Schimpansen, der mit verbundenen Augen Pfeile auf eine Wand wirft! Und 2003 haben Dean und Kelly über zweitausend Zeit-Zwillinge ausgewertet! Kinder, die in London in denselben Minuten geboren wurden! Über hundert Parameter — Intelligenz, Herzleiden, Scheidungsraten, Berufserfolg! Null Korrelation! Nichts! Die Sterne haben zwei Menschen unter demselben Himmel exakt null Gemeinsamkeiten mitgegeben!",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "UND WARUM WOLLTE SIE MICH DANN NICHT, TACHELES?!",
+     "regie": "brüllt plötzlich los, Tränen der Wut in den Augen"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Warum hat Laura mich vor drei Wochen vor die Tür gesetzt? Drei Jahre waren wir zusammen! Und dann kommt sie mit diesem verdammten Buch an! ‚Kevin, du bist Jungfrau, ich bin Wassermann, die Elemente Erde und Luft ersticken sich gegenseitig. Es steht in den Sternen, dass wir scheitern.‘ Sie hat ihre Koffer gepackt! Wegen einer Tabelle! Wegen eines Scheiß-Horoskops!",
+     "regie": "atmet stoßweise, schluchzt fast lautlos"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Ich wollte doch nur verstehen… ob an dem Dreck was dran ist. Weil… weil es unerträglicher ist zu wissen, dass sie mich einfach so verlassen hat. Weil sie mich nicht mehr liebt. Wenn es die Sterne waren… dann war wenigstens keiner schuld. Dann war es das Schicksal.",
+     "regie": "starrt auf seine zitternden Hände"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "...Die Entlastung.",
+     "regie": "die Grausamkeit ist restlos aus seiner Stimme gewichen, schiebt die Seismogramme behutsam zur Seite"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Was?",
+     "regie": "sieht nicht auf"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Es ist die vierte emotionale Falle, Kevin. Die feige Flucht vor der Verantwortung. R. H. Naylor hat das 1930 im Sunday Express für die Masse erfunden, als er Prinzessin Margarets Geburt ausschlachtete und den Himmel in zwölf handliche Dreißig-Grad-Kuchenstücke zersägte. Ein Kosmos als Beziehungsalibi. Jackson Lu hat 2020 am MIT bewiesen, dass Menschen in China wegen einer simplen Fehlübersetzung des Wortes ‚Jungfrau‘ bei Bewerbungen und Partnerschaften systematisch diskriminiert werden! Reine Willkür! Laura hat Ihnen nicht das Horoskop vor die Füße geworfen, weil die Sterne gegen Sie standen. Sie hat das Horoskop als Schild benutzt, weil sie zu feige war, Ihnen ins Gesicht zu sagen, dass es vorbei ist. Sie hat ein uraltes babylonisches Orakel missbraucht, um sich die Schmerzen einer ehrlichen Trennung zu ersparen.",
+     "regie": "sehr leise, sehr warm"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Autsch. Aber wahr. Der Himmel hat mit Lauras Kofferpacken nichts zu tun, Kleiner.",
+     "regie": "schiebt Kevin ein Taschentuch über die Konsole"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Schauen Sie mich an, Kevin.",
+     "regie": "legt seine Hand flach auf den Tisch, direkt neben Kevins Faust"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "",
+     "regie": "hebt mühsam den Kopf"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Sie wollen eine Verbindung zum Kosmos? Sie wollen wissen, ob das Universum Sie meint?",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Gibt es die denn?",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Sie ist unendlich viel gewaltiger als jeder Tierkreis! Margaret Burbidge, William Fowler, Fred Hoyle — 1957! B2FH-Theorie der stellaren Nukleosynthese! Nach dem Urknall gab es nur Wasserstoff und Helium! Kein Kohlenstoff, kein Sauerstoff, kein Eisen! Jeder einzelne Kohlenstoffatomkern in Ihrer DNA, das Kalzium in Ihren Knochen, das Eisen in Ihrem pochenden Herzen wurde im Fusionsfeuer sterbender Riesensterne erbrütet! Vor Milliarden Jahren zerriss es Supernovae, um diese Elemente durch die Galaxis zu schleudern! Sie sind nicht von den Sternen beeinflusst, Kevin! Sie sind die Sterne! Wir sind Sternenstaub, der auf zwei Beinen wandelt, um den Himmel zu begreifen!",
+     "regie": "sein Blick leuchtet hinter den Gläsern"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Das Universum hat dir kein Horoskop geschrieben, Kevin. Es hat dich gebaut.",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "...und die Hebamme war wirklich stärker als der Mars?",
+     "regie": "atmet tief ein, wischt sich über die Wangen, starrt auf das Forer-Papier"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Um zehn Potenzen, mein Junge. Um zehn Potenzen.",
+     "regie": "lächelt zum ersten Mal an diesem Abend, ein müdes, ehrliches Gelehrtenlächeln"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Bevor Kevin jetzt die Hebamme anruft, um sich zu bedanken: Ein kurzes Wort von denen, die aus euren Trennungen ein Milliardengeschäft stricken.",
+     "regie": "zieht das Mikrofon heran, drückt die Zigarette aus"
+    },
+    {
+     "sprecher": "WERBUNG",
+     "text": "Fühlt sich Ihr Partner plötzlich distanziert an? Suchen Sie nach einem Grund, der garantiert nicht an Ihnen liegt? Laden Sie ASTRO-EXCUSE herunter! Die App mit patentierter Rückwirkungs-Garantie! War Merkur schuld? War es der Aszendent? Wir finden für jedes Beziehungsaus die passende Planetenkonstellation — vollautomatisch, NASA-kalibriert und für nur 14,99 Euro im Monatsabo! Astro-Excuse: Weil die Sterne niemals widersprechen!",
+     "regie": "ein zuckersüßes, glockiges Harfen-Jingle schneidet durch den Äther"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Wir sind wieder da. Frequenz 404, Schichtende. Tacheles schraubt seinen Füllfederhalter zu, und Kevin hat das Horoskop zerrissen. Schaut in den Himmel, Neocortex City — aber sucht dort oben nicht nach eurem Schicksal. Sucht nach eurer Herkunft. Ich bin Cassidy Null. Dr. Tacheles spendiert den nächsten echten Filterkaffee, und ihr da draußen lasst die Finger von den Schablonen. Schlaft schlecht, aber schlaft als freie Menschen.",
+     "regie": ""
+    }
+   ],
+   "ausklang": "Ein brutales, metallisches Klacken trennt die Verbindung. Der Äther versinkt in vollkommener, erhabener Stille."
+  },
+  {
+   "id": "f404-009",
+   "nummer": "404-009",
+   "art": "regulaer",
+   "titel": "Die Raumfahrer der Pharaonen und der Klopfstein der Erkenntnis",
+   "thema": "Prä-Astronautik",
+   "autopsie": [
+    7
+   ],
+   "dauer": "ca. 7:30 min",
+   "ort": "Studio 6, Medienviertel",
+   "zeit": "Schicht 6, 3:17 Uhr",
+   "status": "neu",
+   "setting": "Kevin kippt zwei Kilo roten Bausand auf das Mischpult. Ein überhitztes Tablet klackt hysterisch.",
+   "signal": "Ein scheppperndes, analoges Feedback-Heulen. Ein schwerer Gegenstand knallt mit dumpfem Wummern auf die Konsole.",
+   "transkript": [
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Drei Uhr siebzehn im Kellergeschoss der Zivilisation. Frequenz 404, Neocortex City. Der Kaffeesatz schmeckt heute nach verrostetem Armierungseisen, und Kevin hat gerade zwei Kilo roten Bausand auf mein Mischpult gekippt. Kevin, wenn du den Quarzstaub nicht in den nächsten drei Sekunden mit der Zunge von meinen Fadern leckst, montiere ich deinen Bürostuhl an die Sendeantenne.",
+     "regie": "hustet trocken, schlägt mit der Handkante gegen den Limiter"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Schau dir das an, Cassidy! Schau es dir einfach an! Das Relief von Abydos! Im Tempel von Sethos I.! Ein Kampfhubschrauber mit Rotorblatt! Ein Fracht-U-Boot! Ein verdammter Gleiter mit Heckflosse! Und hier — die Krypta von Dendera! Eine drei Meter lange Crookes’sche Röhre mit Glühfaden und Isolatorensockel! Die hatten vor viertausend Jahren elektrischen Strom, Cassidy! Smartphones in Hieroglyphen! Und die Landebahnen von Nazca — kilometerlange Schotterpisten, schnurgerade in die Pampa geschabt, die man nur aus dem Cockpit eines UFOs erkennen kann!",
+     "regie": "völlig euphorisch, ignoriert sie komplett, das Display seines Tablets klackt hysterisch"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Ein Palimpsest, Kevin.",
+     "regie": "sitzt reglos im Halbdunkel, die Ellenbogen auf das Zinkblech gestützt, die Stimme schneidet durch den Raum wie eine frische Rasierklinge"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Was für ein Ding?",
+     "regie": "zuckt kurz zusammen"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Ein Palimpsest, Sie archäologische Einwegflasche! Sethos der Erste ließ seinen Thronnamen in den Architrav von Abydos meißeln. Sein Nachfolger Ramses der Zweite ließ den alten Gips abkratzen, überspachteln und seinen eigenen Namen darübermeißeln! Nach dreitausend Jahren bröckelt der Kalkputz ab, die beiden Hieroglyphenschichten überlagern sich — Bogen über Hand, Arm über Bogen —, und Ihr von Science-Fiction-Groschenheften weichgekochtes Gehirn baut aus zwei vertrockneten Titeln eines Pharaos einen Apache-Kampfhubschrauber! Pareidolie im Endstadium!",
+     "regie": "schlägt langsam und bedrohlich die Hände auf den Tisch, der Quarzsand stiebt auf"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Eins zu null für den Stuckateur. Kevin, nimm das Tablet weg, bevor der Doktor es mit dem Hammer fragmentiert.",
+     "regie": "Zippo-Klick, eine dicke blaue Rauchwolke filterloser Ockham schiebt sich durch das grüne Pultlicht"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Schön! Geschenkt! Aber erklären Sie mir Puma Punku, Herr Professor! Die H-Blöcke aus Rhyolith und Andesit, Winkel von exakt neunzig Grad, Kupfer hat Mohshärte drei, Granit hat Härte sieben, das ist physikalisch unmö—",
+     "regie": "schlägt stur mit der Faust auf das Pult, holt bereits Luft für die nächste Zahl"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Puma Punku hatten wir schon, Kevin.",
+     "regie": "hebt eine Hand, ohne aufzublicken, schneidet ihm knapp das Wort ab"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Was?",
+     "regie": "hält mitten im Satz inne"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Sendung eins. Die Anunnaki-Folge. Derselbe Kupfermeißel, dieselbe Mohshärte drei gegen sieben, derselbe nasse Quarzsand, der Ihr Problem löst. Ich habe es Ihnen bereits einmal vorgerechnet, und die Physik hat sich seither nicht geändert. Suchen Sie sich einen neuen Trick, oder wir senden diese Folge als Wiederholung und ich gehe schlafen.",
+     "regie": ""
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Sogar unsere Hörer merken sich Steinbrüche besser als du, Kevin.",
+     "regie": "grinst, bläst Rauch zur Decke"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Schön! Dann eben die Königskammer!",
+     "regie": "leicht pikiert, blättert hastig weiter"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Und die siebzig Tonnen schweren Deckenbalken der Königskammer?! Wie hebt man achtzig Tonnen massiven Rosengranit aus Assuan vierzig Meter in die Höhe, ohne Kran, ohne Flaschenzug?!",
+     "regie": "wird lauter"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Das Grab von Djehutihotep in El-Berscheh, 1900 vor Christus! Ein Relief, das eine sechzig Tonnen schwere Alabaster-Kolossalstatue auf einem Holzschlitten zeigt, gezogen von einhundertzweiundsiebzig Männern an vier Seilen! Und vorne auf den Kufen steht ein Arbeiter und gießt Wasser auf den Wüstensand! Die Esoteriker dachten hundert Jahre lang, das sei ein Libationsopfer für die Götter! Bis Daniel Bonn und ein Physikerteam der Universität Amsterdam 2014 nachgemessen haben: Genau fünf Prozent Wasserfeuchte im Sand erzeugen Kapillarbrücken zwischen den Körnern, verhindern, dass sich Sandwülste vor den Kufen aufwerfen, und halbieren die Gleitreibung von null Komma sechs auf null Komma vier! Sie brauchten keine Antigravitation, Kevin! Sie brauchten einen Eimer Wasser, eine Erdrampe und die einfachste aller Maschinen: die schiefe Ebene!",
+     "regie": "knallt ein vergilbtes Blatt Papier auf das Zink"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Die Physik ist eine Spielverderberin. Und die Nazca-Linien, Kevin? Hat E.T. da den Rückwärtsgang eingelegt?",
+     "regie": "schüttelt leise den Kopf"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Die sind hunderte Meter lang! Ein gigantischer Kondor, eine Spinne, die man nur aus einem Flugzeug erkennen kann! Niemand am Boden kann eine hundertdreißig Meter breite Figur proportional fehlerfrei in den Wüstenkies kratzen, ohne von oben gesteuert zu werden!",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Joe Nickell, August 1982, ein Kleeblattfeld in Kentucky! Nickell hat mit fünf Schülern, ein paar Holzpflöcken, einer Schnur und einem simplen T-Messbalken den 130-Meter-Nazca-Kondor in exakter Proportionalität an einem einzigen Nachmittag auf den Boden gezeichnet — ohne einmal abzuheben! Rastervergrößerung, sechste Schulklasse! Und Maria Reiche hat ein halbes Jahrhundert in der peruanischen Pampa gelebt und nachgewiesen, dass die Linien Bodenzeremonialwege waren, die man schlicht mit den Füßen abging! Kein Raumschiff der Galaxis braucht eine Startbahn aus plattgetrampeltem Wüstengeröll!",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Aber warum steht dann nirgendwo, wie sie es gemacht haben?! Warum gibt es keine Baupläne für Cheops?! Wenn das alles so banal war, warum hat dann kein einziger Ägypter aufgeschrieben, wie die Pyramide gebaut wurde?!",
+     "regie": "schlägt plötzlich mit beiden Händen gegen seinen Kopf, keucht auf"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "WEIL SIE ES AUFGESCHRIEBEN HABEN, SIE IGNORANT!",
+     "regie": "stößt einen triumphalen, fast furchterregenden Schrei aus, reißt eine flache Ledermappe auf und knallt eine Fotokopie antiker Papyrusfragmente mitten in den Sandhaufen auf dem Tisch"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Pierre Tallet! 2013! Höhlensystem am Wadi al-Jarf am Roten Meer! Das Tagebuch des Merer! Der älteste beschriebene Papyrus der Menschheitsgeschichte! Merer war kein Priester, kein König und kein Alien — er war ein Inspektor mittleren Ranges im siebenundzwanzigsten Regierungsjahr des Pharaos Cheops! Ein verdammter Bauleiter! Er führt ein tägliches Logbuch in gestochener Hieratik: Abfahrt mit vierzig Arbeitern von den Tura-Kalksteinbrüchen, Beladung der Schiffe mit Verkleidungssteinen, Fahrt nilabwärts durch eigens gegrabene Kanalsysteme bis zur Baustelle ‚Achet Cheops‘ — ‚Horizont des Cheops‘! Er notiert die Rationen, die Schichten, die Treffen mit dem Wesir Ankhhaf! Und Mark Lehner hat direkt neben den Pyramiden in Heit el-Ghurab die Stadt dieser Arbeiter ausgegraben! Großbäckereien für tausende Brote täglich, Rinderknochen von Tieren bester Mast, Schlafsäle und Gräber, an denen die Bautrupps ihre Spitznamen in roten Ocker schmierten: ‚Die Freunde des Cheops‘! ‚Die Trunkenbolde des Mykerinos‘! Sie haben nicht geschwiegen, Kevin! Sie haben ihren Alltag dokumentiert! Sie müssen nur aufhören, Schweizer Hotelbetrügern hinterherzurennen, und anfangen, Primärquellen zu lesen!",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "...Hotelbetrüger?",
+     "regie": "wird schlagartig leise, sein Gesicht verliert jede Farbe"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Erich von Däniken! 1970 verurteilt zu dreieinhalb Jahren Zuchthaus wegen Betrugs, Veruntreuung und Urkundenfälschung, mit denen er seine ersten Reisen finanzierte! Und ja, Kevin, der Vollständigkeit halber, weil ich hier niemandem eine einseitige Akte unterschiebe: Das Urteil wurde 1983 vom Kantonsgericht Graubünden wieder aufgehoben, von Däniken damit nachträglich rehabilitiert. Das ändert nichts an der Mohshärte von Kupfer, aber Fakten bleiben Fakten, auch die unbequemen für meine eigene Pointe! Sein Freizeitpark, der Mystery Park in Interlaken, eröffnet 2003, musste drei Jahre später wegen finanzieller Probleme wieder schließen! Däniken hat keinen einzigen Spaten in die Hand genommen — er hat die Reiseschriftsteller des neunzehnten Jahrhunderts geplündert!",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Aber… warum darf es denn nicht einmal… warum darf es denn nicht einfach wahr sein?",
+     "regie": "starrt auf den Sand auf dem Pult, seine Stimme bricht vollkommen in sich zusammen"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Ist es denn so verwerflich, daran zu glauben? Wir sind so allein auf diesem Drecksplaneten, Tacheles. Seit zweihundert Jahren zerstören wir alles. Wir betonieren die Erde zu, wir vergiften das Meer. Ist der Gedanke denn so furchtbar, dass da draußen irgendjemand war, der uns am Anfang an die Hand genommen hat? Dass wir nicht einfach nur eine Horde nackter Affen im Schlamm waren, die sich gegenseitig mit Steinen die Schädel eingeschlagen haben? Warum müssen Sie mir diesen einen Gedanken wegnehmen: dass wir kosmische Eltern hatten?",
+     "regie": "seine Augen schimmern nass im Scheinwerferlicht"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Weil dieser Gedanke ein Gift ist, Kevin. Ein schleichendes, koloniales Gift.",
+     "regie": "richtet sich langsam auf, die Aggression fällt von ihm ab wie nasser Kalk, die Stimme wird tief, dunkel und von einer schmerzhaften, fast feierlichen Gravität"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Ein Gift?",
+     "regie": "sieht zögernd auf"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Haben Sie sich jemals gefragt, welchen Bauwerken Ihre geliebte Doku-Serie die menschliche Leistung abspricht? Haben Sie jemals eine Folge gesehen, in der jemand fragt, ob Außerirdische das römische Kolosseum gebaut haben?",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Nein… das waren die Römer.",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Hat jemals ein Erich von Däniken behauptet, der Parthenon in Athen sei von Außerirdischen errichtet worden? Haben Aliens die Kathedrale von Chartres gebaut? Den Kölner Dom?",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Nein… natürlich nicht.",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Nein. Den weißen Europäern trauen Sie das Kolosseum und die gotischen Gewölbe ohne mit der Wimper zu zucken zu. Aber sobald ein Monument in Ägypten steht, im Hochland von Peru, im Urwald von Guatemala oder auf einer Insel in Polynesien — da soll es plötzlich unmöglich gewesen sein! Da müssen Raumschiffe her! Das ist die direkte, rassistische Fortsetzung des Hyperdiffusionismus von Grafton Elliot Smith aus dem Jahr 1915! Die imperiale Weigerung zu glauben, dass braune, afrikanische, indigene Menschen vor fünftausend Jahren die Mathematik, die Statik und die gesellschaftliche Organisation besaßen, ein Weltwunder in die Wüste zu stellen! Ian Smith hat in Rhodesien bis in die Siebzigerjahre per Gesetz verbieten lassen, dass Historiker den wahren Erbauern von Great Zimbabwe — den afrikanischen Shona — ihr eigenes Steinmonument zuschrieben! Man dichtete es Phöniziern an, König Salomo, jedem — nur nicht den Schwarzen! Und Sie machen heute genau dasselbe, nur dass Sie die Phönizier durch graue Männchen vom Mars ersetzen! Sie stehlen diesen Kulturen das Einzige, was ihnen nach Jahrhunderten der Kolonialisierung geblieben ist: ihren eigenen Triumph! Ihr eigenes Vermächtnis!",
+     "regie": "tritt ganz nah an Kevins Mikrofon heran"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Ich… ich wollte niemanden bestehlen, Tacheles. Wirklich nicht.",
+     "regie": "schluckt schwer, seine Hände zittern auf den Knien"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Ich weiß, mein Junge. Sie wollten ein Wunder. Aber begreifen Sie denn nicht, dass die Wahrheit das unendlich viel größere Wunder ist? Niemand kam von den Sternen herab. Niemand hat uns die Hand geführt. Wir hatten keine kosmischen Eltern, die uns die Hausaufgaben gemacht haben. Wir waren allein. Eine verletzliche, fehlerhafte, sterbliche Spezies, die aus der afrikanischen Savanne stolperte — und die es aus eigener Kraft, mit Kupfer, Seilen, nackten Muskeln und unerschütterlicher Geduld schaffte, Berge aus Stein so präzise aufzuschichten, dass sie Jahrtausende überdauern! Das ist keine Schande, Kevin. Das ist die Würde des Menschen.",
+     "regie": "legt die Hand sanft auf den feinen Quarzsand zwischen den Reglern"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Du bist kein Findelkind, Kleiner. Du bist der Erbe. Und bevor Kevin jetzt anfängt, vor Rührung eine Pyramide aus Kaffeetassen zu bauen: Werbung. Schicht 6 finanziert sich nicht durch Levitation.",
+     "regie": "tippt die Asche ab, schaut Kevin direkt in die Augen"
+    },
+    {
+     "sprecher": "WERBUNG",
+     "text": "Haben Sie Probleme beim Aufbau von schwedischen Regalsystemen? Verzweifeln Sie an der Sechskantschraube? Bestellen Sie den ORIGINAL PALENQUE-LEVITATOR! Basiert auf authentischer Maya-Raketentechnik von König Pakals Auspuffrohr! Hebt Waschmaschinen, Zementblöcke und das eigene Ego mühelos in die dritte Dimension! Für nur 399 Euro — inklusive einer Flasche original Assuan-Dolerit-Wasser zur energetischen Entkalkung! Palenque-Tools: Weil schwere Arbeit einfach unmenschlich ist!",
+     "regie": "das Signal leiert ab, ein schrilles, blechernes Synthesizer-Jingle mit ägyptischen Flötenmotiven schneidet durch den Äther"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Wir sind wieder drauf. Frequenz 404. Kevin wischt den Sand von der Konsole, und Dr. Tacheles packt den Papyrus Merer wieder ein. Hört auf, die Vergangenheit an fremde Galaxien zu verschenken. Der Stein gehört den Menschen, die daran gestorben sind. Ich bin Cassidy Null. Dr. Tacheles zahlt den nächsten Filterkaffee, und ihr da draußen lasst die Finger von den Göttern. Schlaft schlecht, Neocortex City — aber schlaft im Respekt vor den Händen, die vor euch da waren.",
+     "regie": ""
+    }
+   ],
+   "ausklang": "Ein brutales, metallisches Klacken trennt die Leitung. Der Äther versinkt in vollkommener, tonloser Stille."
+  },
+  {
+   "id": "f404-050",
+   "nummer": "404-050",
+   "art": "sonderfolge",
+   "titel": "Die Architektur des Wahnsinns",
+   "thema": "Sonderfolge — die Kaskade",
+   "autopsie": [
+    7,
+    5,
+    2,
+    1,
+    3,
+    9
+   ],
+   "dauer": "ca. 6:00 min",
+   "ort": "Studio 6, Medienviertel",
+   "zeit": "Schicht 6, Sondersendung",
+   "status": "neu",
+   "setting": "Ein satter, bedrohlicher Verstärker summt. Ein nasses Streichholz zischt, eine Zigarette glüht auf. Dr. Tacheles hat das Studio gekapert, eine Tafel hereingeschoben, drei Kannen schwarzen Kaffee getrunken und Kevin auf dem Gästestuhl festgeschnallt.",
+   "signal": "Das satte, bedrohliche Summen eines überlasteten Röhrenverstärkers.",
+   "transkript": [
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Frequenz 404. Sondermeldung aus Schicht 6. Normalerweise sitze ich hier am Mischpult und sortiere den Wahnsinn, der da draußen durch die Leitung tropft. Aber heute Nacht hat Dr. Tacheles das Studio gekapert. Er hat eine Tafel hereingeschoben, drei Kannen schwarzen Kaffee getrunken und Kevin auf dem Gästestuhl festgeschnallt. Doktor, das rote Licht brennt. Zeigen Sie uns Ihren Monstrum-Bausatz.",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Guten Abend, Neocortex City. Wir sprechen heute über Statik. Die Architektur des Wahnsinns. Wenn Sie da draußen in der Altstadt einen einzelnen Mythos pflegen — meinetwegen den Bigfoot oder fliegende Untertassen —, dann ist das wie ein morscher Holzbalken. Er trägt nichts, aber wenn er in der Ecke liegt, tut er niemandem weh. Das Problem unserer Zeit ist jedoch die kognitive Gier. Der Verschwörungstheoretiker von heute will nicht ein Geheimnis. Er will alle. Er will die Große Vereinheitlichte Theorie des Bullshits. Kevin, Sie behaupten immer, am Ende hänge alles zusammen, richtig?",
+     "regie": "klingt gefährlich ruhig, das Kreidestück klackert rhythmisch gegen die Tafel"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Na ja... es gibt Querverbindungen. Die Muster wiederholen sich. Wer einmal lügt, der fälscht auch die Mondlandung!",
+     "regie": "vorsichtig, ahnt die Falle"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Hervorragend! Dann lassen Sie uns heute Nacht dieses intellektuelle Kartenhaus bis zur Dachrinne aufbauen. Wir nehmen alle Ihre Querverbindungen, Kevin, und ignorieren Ockhams Rasiermesser nicht nur, wir schmelzen es ein. Folgen wir Ihrer Logik konsequent bis zum bitteren, paradoxen Ende. Wir beginnen mit der Prä-Astronautik. Außerirdische Lehrmeister landen auf der Erde. Aber sie kommen nicht allein. Sie bringen ihre eigenen genetischen Haustiere mit: Kryptozoologische Monster. Den Bigfoot. Wie wir aus der Biologie wissen, verhungert ein 300-Kilo-Primat im Nadelwald gnadenlos, weil die Kalorienbilanz nicht aufgeht. Wohin also mit dem Vieh? Es flüchtet in den Untergrund! In die Hohlerde!",
+     "regie": "zeichnet mit harter Kreide auf die Tafel"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Agartha! Die unterirdische Welt! Die Eingänge sind an den Polen!",
+     "regie": "nickt eifrig"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Korrekt! Sie ziehen über den Südpol, direkt nach Neuschwabenland. Und wen treffen die interstellaren Affen dort unten im ewigen Eis? Die Elite der Nazis! Die haben sich 1945 nämlich nicht ergeben, sondern sind mit ihren streng geheimen Haunebu-Nurflüglern dorthin abgetaucht. Alien-Haustiere und Wehrmachts-Ufos verbünden sich im Erdmantel für die Rückeroberung der Oberfläche. Aber Moment! Die Hohlerde allein reicht nicht als Versteck. Die Nazi-Flugscheiben brauchen eine Relaisstation. Also fliegen sie wohin, Kevin?",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Auf die Rückseite des Mondes! Iron Sky!",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Exakt! Sie sitzen auf dem Mond. Und genau deshalb musste die NASA 1969 die Mondlandung im Studio von Stanley Kubrick fälschen! Weil Neil Armstrong sonst live im Fernsehen über SS-Offiziere und intergalaktische Bigfoots gestolpert wäre! Amerikaner und Sowjets haben den Kalten Krieg nur inszeniert, um die Ressourcen für die Geheimhaltung zu bündeln.",
+     "regie": "die Kreide quietscht brutal auf der Tafel"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Bis hierhin ein ganz normaler Dienstagabend auf YouTube. Mach den Knoten fester, Tacheles.",
+     "regie": "pustet Rauch ins Mikrofon"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Jetzt kommt die Statik ins Rutschen, Cassidy! Denn als die Außerirdischen vom Mond auf die Erde hinabblickten, haben sie die schockierende, ultimative Wahrheit erkannt: Die Erde ist gar keine Kugel! Sie ist FLACH!",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Warten Sie... wenn die Erde flach ist... wie kann sie dann hohl sein? Wie höhlt man einen Pfannkuchen aus, Tacheles?!",
+     "regie": "stutzt, blinzelt irritiert"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Fragen Sie nicht mich, Kevin! Fragen Sie die Echokammern, die diese Theorien gleichzeitig im selben Forum posten! Die Geometrie hat hier längst Hausverbot! Aber wir machen weiter: Die Aliens erkennen die flache Erde. Um das zu vertuschen, bauen sie heimlich eine gigantische Glaskuppel darüber — das Firmament! Und weil es kein echtes Universum gibt, schrauben sie intergalaktische LED-Lampen an die Decke, die wir heute fälschlicherweise Sonne, Mond und Sterne nennen!",
+     "regie": "brüllt fast vor wissenschaftlichem Furor"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Aber... die Flugzeuge! Was ist mit den Chemtrails?!",
+     "regie": "krallt sich an die Schreibtischkante"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Danke für das Stichwort! Um die Menschheit unter der Kuppel in Trance zu halten, versprühen die gefälschten Linienflugzeuge Chemtrails. Diese Kondensstreifen sind vollgepumpt mit Nanochips, die uns gefügig machen sollen, damit wir als Sklaven enden.",
+     "regie": ""
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Um... um Gold für Nibiru abzubauen!",
+     "regie": "atmet schwer, der Schweiß steht ihm auf der Stirn"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Falsch, Kevin. Sklaven wofür? Für Gold? Das Universum ist voller Asteroiden aus massivem Edelmetall, dafür braucht man keine haarlose Primaten-Spezies auf einer flachen, hohlen Scheibe. Nein, Kevin. Die ganze gigantische Konstruktion — die Kuppel, die LED-Sterne, die Chemtrails, die Fake-Mondlandung, die Nazi-Ufos — dient einem einzigen, furchtbaren Zweck. Einem biologischen Supercomputer.",
+     "regie": "wird plötzlich totenstill, legt die Kreide ab, die Stimme fällt in ein eisiges, absolut ernstes Register"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Von... von den Reptiloiden?",
+     "regie": "zittert leicht"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Von weißen Mäusen.",
+     "regie": ""
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Mäuse, Kevin. Der Homo sapiens ist nur das Kontrollexperiment. Die weißen Mäuse lenken das gesamte multidimensionale Labor, um die ultimative Frage nach dem Leben, dem Universum und dem ganzen Rest zu berechnen. Das hat uns ein britischer Aufklärer namens Douglas Adams schon 1979 in „Per Anhalter durch die Galaxis“ schonungslos offengelegt! Wir sind nur die Matrix für Nagetiere! Und das Schlimmste daran: Nächsten Donnerstagmittag wird die gesamte flache Hohlerde ohnehin von Vogonen gesprengt, weil sie einer intergalaktischen Umgehungsstraße im Weg liegt. Und die Baupläne lagen die ganze Zeit im Kellerwerk von Alpha Centauri aus!",
+     "regie": "nach einer Stille, in der nur die Neonröhre summt"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Das... das ist... Mäuse? Eine Umgehungsstraße? Aber... die Chemtrails...",
+     "regie": "starrt Tacheles an, der Mund steht offen, sucht nach Worten, sein Weltbild hat einen fatalen Blue-Screen"
+    },
+    {
+     "sprecher": "DR. TACHELES",
+     "text": "Sehen Sie, was passiert, Kevin? Wenn Sie Ockhams Rasiermesser wegwerfen, bluten Sie irgendwann aus! Sie können jede Lüge mit der nächsten Lüge stützen, aber am Ende kollabiert die Masse. Wenn die Erde flach ist, kann sie nicht hohl sein. Wenn alles von übermächtigen Aliens gesteuert wird, brauchen sie keine Chemtrails aus irdischen Billigfliegern. Wer jeden einzelnen Verschwörungsmythos gleichzeitig glaubt, um sich wichtig zu fühlen, endet nicht als Eingeweihter. Er endet in einem intellektuellen Müllschlucker, in dem weiße Mäuse die Welt regieren und alles exakt gleich viel Sinn ergibt wie ein Nazi-Ufo auf dem Mond.",
+     "regie": "lehnt sich über das Pult, jedes Wort ein Skalpellschnitt"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Er hat Sie an die Wand genagelt, Kevin. Er hat Ihr Haus aus Lügen so hoch gebaut, bis es unter seinem eigenen Gewicht zerbrochen ist.",
+     "regie": "lacht leise, ein dunkles, ehrliches Geräusch"
+    },
+    {
+     "sprecher": "KEVIN",
+     "text": "Ich... ich brauche ein Glas Wasser. Ohne Fluorid.",
+     "regie": "sinkt im Stuhl zusammen, völlig erschöpft"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Aus dem Wasserhahn, Kevin. Da, wo die Realität rauskommt. Und damit schließen wir die Sondervorlesung für heute Nacht. Wenn ihr da draußen das nächste Mal versucht, die Freimaurer mit den Echsenmenschen und der flachen Erde zu verknüpfen: Denkt an den Pfannkuchen, den man nicht aushöhlen kann. Widersprüche sind keine höhere Form von Wahrheit. Sie sind einfach nur Fehler in der Matrix eurer eigenen Angst.",
+     "regie": ""
+    },
+    {
+     "sprecher": "WERBUNG",
+     "text": "Wuchert Ihr Weltbild wieder in alle Himmelsrichtungen? Schneiden Sie den metaphysischen Ballast ab — mit OCKHAMS SAFETY RAZOR! Das patentierte Rasiermesser stutzt jede überflüssige Annahme präzise auf die nackte, unkomplizierte Realität zurück. Ein Zug, und der Drache in der Garage ist restlos wegrasiert! Keine Ausflüchte, kein Drama. Nur die reinste Rasur der Welt.",
+     "regie": "ein kratziges, hochfrequentes Tonband rauscht auf"
+    },
+    {
+     "sprecher": "CASSIDY NULL",
+     "text": "Geht ins Bett. Denkt an die Mäuse. Und vergesst nicht, rechtzeitig das Handtuch einzupacken. Ich bin Cassidy Null. Frequenz 404. Ende der Übertragung.",
+     "regie": ""
+    }
+   ],
+   "ausklang": "Ein satter, mechanischer Klick. Die Frequenz bricht ab und das ruhige, dunkle Pulsieren von Neocortex City übernimmt die Nacht."
+  }
+ ],
+ "aus_den_baenden": [
+  {
+   "band": "II",
+   "titel": "Die Hohlerde",
+   "notiz": "Kevin will die kleine Sonne im Bauch der Welt, Tacheles bringt Scherwellen und die Waage. Am Ende gibt Cassidy zu, dass die Sehnsucht nach einer Tür im Boden nichts Dummes ist."
+  },
+  {
+   "band": "III",
+   "titel": "Der Blutmond",
+   "notiz": "Kevin rechnet Vollmond und Kernschatten als Batterien in Reihe. Tacheles: „Das nennt man nicht Schicksal. Das nennt man Mittwoch.“"
+  },
+  {
+   "band": "III",
+   "titel": "Schicht 6 — die Richtigstellung",
+   "notiz": "Cassidy nimmt eine eigene Folge zurück, weil danach jemand mit einem Gewehr auf dem Balkon saß. Sie lässt die Folge online und hängt die Korrektur davor. Die stärkste Sendung der Reihe."
+  },
+  {
+   "band": "IV",
+   "titel": "Vier Audio-Intercepts",
+   "notiz": "Die sechs Stimmen aus einem Kehlkopf, die klingelnden Telefone, die Bögen — und zum Schluss eine Sendung, in der niemand einen Aufmacher vorbereitet hat."
+  }
+ ]
+}

@@ -1,0 +1,716 @@
+{
+ "gesamt": 105,
+ "fertig": 10,
+ "sektionen": [
+  {
+   "id": "A",
+   "name": "Der Kosmos voller Lügen",
+   "faelle": [
+    {
+     "nr": 1,
+     "titel": "Die flache Erde",
+     "unter": "Das Großprojekt der Selbstverblendung",
+     "notiz": ""
+    },
+    {
+     "nr": 2,
+     "titel": "Die Mondlandungs-Lüge",
+     "unter": "Wie ein Triumph zur Verschwörung wurde",
+     "notiz": ""
+    },
+    {
+     "nr": 3,
+     "titel": "Chemtrails",
+     "unter": "Der Krieg über unseren Köpfen",
+     "notiz": ""
+    },
+    {
+     "nr": 4,
+     "titel": "Klimawandel",
+     "unter": "Desinformation und die thermodynamische Realität",
+     "notiz": "„Der Frosch im Kochtopf“ ist eine Metapher, kein Befund — echte Frösche springen heraus."
+    },
+    {
+     "nr": 5,
+     "titel": "Die Hohl-Erde",
+     "unter": "Das Leben im Inneren",
+     "notiz": ""
+    },
+    {
+     "nr": 6,
+     "titel": "Astrologie",
+     "unter": "Der kosmische Spiegel, der jedem schmeichelt",
+     "notiz": ""
+    },
+    {
+     "nr": 7,
+     "titel": "Prä-Astronautik",
+     "unter": "Als die Götter Astronauten waren",
+     "notiz": ""
+    },
+    {
+     "nr": 8,
+     "titel": "Roswell und die stillen Götter",
+     "unter": "Der Zwischenfall, der nie endet",
+     "notiz": ""
+    },
+    {
+     "nr": 9,
+     "titel": "Die Planet-Nibiru-Panik",
+     "unter": "Der Planet, der immer kommt und nie ankommt",
+     "notiz": ""
+    },
+    {
+     "nr": 10,
+     "titel": "Die Simulation",
+     "unter": "Leben wir in einer Matrix?",
+     "notiz": ""
+    }
+   ],
+   "unter": "Behauptungen über das Universum, die Erde und unseren Platz darin",
+   "status": "abgeschlossen"
+  },
+  {
+   "id": "B",
+   "name": "Die Fabrik des Körpers",
+   "faelle": [
+    {
+     "nr": 11,
+     "titel": "Homöopathie",
+     "unter": "Die Magie der Leere",
+     "notiz": ""
+    },
+    {
+     "nr": 12,
+     "titel": "Magnetfeldtherapie",
+     "unter": "Die unsichtbare Heilkraft",
+     "notiz": ""
+    },
+    {
+     "nr": 13,
+     "titel": "Die Detox-Industrie",
+     "unter": "Das Schlacken-Märchen",
+     "notiz": ""
+    },
+    {
+     "nr": 14,
+     "titel": "Die Anti-Impf-Bewegung",
+     "unter": "Der Krieg gegen einen unsichtbaren Sieg",
+     "notiz": ""
+    },
+    {
+     "nr": 15,
+     "titel": "Germanische Neue Medizin",
+     "unter": "Der Krebs als Freund",
+     "notiz": ""
+    },
+    {
+     "nr": 16,
+     "titel": "Die Wunderheilung Krebs",
+     "unter": "Von Aprikosenkerne bis Bikarbonat",
+     "notiz": ""
+    },
+    {
+     "nr": 17,
+     "titel": "Heilende Schwingungen",
+     "unter": "Frequenzmedizin und Bioenergetik",
+     "notiz": ""
+    },
+    {
+     "nr": 18,
+     "titel": "Die Opioid-Krise als Verschwörung",
+     "unter": "Wenn echtes Versagen zum Mythos wird",
+     "notiz": ""
+    },
+    {
+     "nr": 19,
+     "titel": "Sonnenlicht als Allheilmittel (Earthing, Sungazing, etc.)",
+     "unter": "",
+     "notiz": ""
+    },
+    {
+     "nr": 20,
+     "titel": "Wunderpilze und heilige Pflanzen",
+     "unter": "Zwischen Wahrheit und Hokuspokus",
+     "notiz": ""
+    },
+    {
+     "nr": 21,
+     "titel": "MMS / Miracle Mineral Solution",
+     "unter": "Chlordioxid: Industriebleiche als Heilmittel",
+     "notiz": "Level 3–4; direkte Vergiftungsgefahr"
+    },
+    {
+     "nr": 22,
+     "titel": "Schüsslersalze",
+     "unter": "Die elegante Schwester der Homöopathie",
+     "notiz": ""
+    }
+   ],
+   "unter": "Pseudomedizin, falsche Heilversprechen und Gesundheitsmythen",
+   "status": "geplant"
+  },
+  {
+   "id": "C",
+   "name": "Die unsichtbaren Mächte",
+   "faelle": [
+    {
+     "nr": 23,
+     "titel": "5G als Biowaffe",
+     "unter": "Die Antenne der Angst",
+     "notiz": ""
+    },
+    {
+     "nr": 24,
+     "titel": "Freie Energie",
+     "unter": "Warum Nikola Tesla angeblich alles wusste",
+     "notiz": ""
+    },
+    {
+     "nr": 25,
+     "titel": "Quantenheilung",
+     "unter": "Das mächtigste Missverständnis der Physik",
+     "notiz": ""
+    },
+    {
+     "nr": 26,
+     "titel": "Das Gesetz der Anziehung",
+     "unter": "Die kosmische Bestellung beim Universum",
+     "notiz": ""
+    },
+    {
+     "nr": 27,
+     "titel": "Elektrosmog-Angst",
+     "unter": "Wenn die Steckdose zum Feind wird",
+     "notiz": ""
+    },
+    {
+     "nr": 28,
+     "titel": "Kristallheilung",
+     "unter": "Die Magie des schönen Steins",
+     "notiz": ""
+    },
+    {
+     "nr": 29,
+     "titel": "Das böse Auge und Energieblockaden",
+     "unter": "",
+     "notiz": ""
+    },
+    {
+     "nr": 30,
+     "titel": "Das Gedächtnis des Wassers",
+     "unter": "Informiertes Wasser und Masaru Emoto",
+     "notiz": ""
+    },
+    {
+     "nr": 31,
+     "titel": "Erdstrahlen und Wasseradern",
+     "unter": "Das Pendel als Detektor",
+     "notiz": ""
+    },
+    {
+     "nr": 32,
+     "titel": "Mondphasen und ihr Einfluss auf den Menschen",
+     "unter": "",
+     "notiz": ""
+    }
+   ],
+   "unter": "Energie, Felder, Strahlung und das, was uns angeblich kontrolliert",
+   "status": "geplant"
+  },
+  {
+   "id": "D",
+   "name": "Die Verschwörungsmaschine",
+   "faelle": [
+    {
+     "nr": 33,
+     "titel": "Die Illuminaten",
+     "unter": "Die unsterbliche Geheimgesellschaft",
+     "notiz": ""
+    },
+    {
+     "nr": 34,
+     "titel": "Die Rothschild-Legende",
+     "unter": "Das älteste Feindbild der Moderne",
+     "notiz": ""
+    },
+    {
+     "nr": 35,
+     "titel": "Die Neue Weltordnung",
+     "unter": "Der Blueprint der Paranoia",
+     "notiz": ""
+    },
+    {
+     "nr": 36,
+     "titel": "QAnon",
+     "unter": "Die Schnitzeljagd in den Abgrund",
+     "notiz": ""
+    },
+    {
+     "nr": 37,
+     "titel": "Der Great Reset",
+     "unter": "Schwab, Soros und der Plan der Eliten",
+     "notiz": ""
+    },
+    {
+     "nr": 38,
+     "titel": "Die Reptilien-Verschwörung",
+     "unter": "David Icke und die Echsenmenschen",
+     "notiz": ""
+    },
+    {
+     "nr": 39,
+     "titel": "Freimaurer",
+     "unter": "Was die Geheimgesellschaft wirklich ist",
+     "notiz": ""
+    },
+    {
+     "nr": 40,
+     "titel": "Die Bilderberg-Gruppe",
+     "unter": "Verschwörung oder Dinner-Club?",
+     "notiz": ""
+    },
+    {
+     "nr": 41,
+     "titel": "Die Medien-Matrix",
+     "unter": "Wie der Mainstream angeblich lügt",
+     "notiz": ""
+    },
+    {
+     "nr": 42,
+     "titel": "Der „Deep State\"",
+     "unter": "Der Staat im Staat",
+     "notiz": ""
+    },
+    {
+     "nr": 43,
+     "titel": "Der Große Austausch / Replacement Theory",
+     "unter": "Die rechtsextreme Bevölkerungsverschwörung",
+     "notiz": "Level 4–5; Verbindung zu Terroranschlägen in xxx, xxx, xxx"
+    }
+   ],
+   "unter": "Organisierte Paranoia: Von Geheimgesellschaften bis Weltregierung",
+   "status": "geplant"
+  },
+  {
+   "id": "E",
+   "name": "Geschichte wird umgeschrieben",
+   "faelle": [
+    {
+     "nr": 44,
+     "titel": "Die Tartaria-Verschwörung",
+     "unter": "Das vergessene Weltreich",
+     "notiz": ""
+    },
+    {
+     "nr": 45,
+     "titel": "Die Pyramiden-Mythen",
+     "unter": "Außerirdische oder Ingenieure?",
+     "notiz": ""
+    },
+    {
+     "nr": 46,
+     "titel": "Freimaurerei und die Amerikanische Revolution",
+     "unter": "Mythos und Wahrheit",
+     "notiz": ""
+    },
+    {
+     "nr": 47,
+     "titel": "Die Arier-Mythologie",
+     "unter": "Die Pseudowissenschaft des Rassismus",
+     "notiz": ""
+    },
+    {
+     "nr": 48,
+     "titel": "Die Templer-Verschwörung",
+     "unter": "Ritter, Schätze und Schauermärchen",
+     "notiz": ""
+    },
+    {
+     "nr": 49,
+     "titel": "Die Katharer-Romantik",
+     "unter": "Das reine Volk als Projektionsfläche",
+     "notiz": ""
+    },
+    {
+     "nr": 50,
+     "titel": "Die Protokolle der Weisen von Zion",
+     "unter": "Das gefährlichste Fälschungsdokument der Geschichte",
+     "notiz": ""
+    },
+    {
+     "nr": 51,
+     "titel": "9/11",
+     "unter": "Der Turm aus Lügen",
+     "notiz": ""
+    },
+    {
+     "nr": 52,
+     "titel": "Der „Bevölkerungsreduzierungs\"-Plan",
+     "unter": "Georgia Guidestones und Agenda 21",
+     "notiz": ""
+    },
+    {
+     "nr": 53,
+     "titel": "AIDS als Biowaffe",
+     "unter": "Wie eine Tragödie zur Verschwörung wurde",
+     "notiz": ""
+    },
+    {
+     "nr": 54,
+     "titel": "Holocaust-Leugnung",
+     "unter": "Das gefährlichste Geschichtsmärchen der Moderne",
+     "notiz": "Level 5; Geschichtsrevisionismus + aktiver Antisemitismus + direkte Gewaltermöglichung; Kandidat für Meister-Autopsie in Sektion J"
+    }
+   ],
+   "unter": "Revisionismus, Mythen und die Umdeutung der Vergangenheit",
+   "status": "geplant"
+  },
+  {
+   "id": "F",
+   "name": "Das Volk der Schatten",
+   "faelle": [
+    {
+     "nr": 55,
+     "titel": "xxx",
+     "unter": "Die Kirche der Kontrolle",
+     "notiz": ""
+    },
+    {
+     "nr": 56,
+     "titel": "xxx",
+     "unter": "Die Selbsthilfe-Sekte mit Brandzeichen",
+     "notiz": ""
+    },
+    {
+     "nr": 57,
+     "titel": "Die xxx-Sekte",
+     "unter": "Massenselbstmord im Namen des Lichts",
+     "notiz": ""
+    },
+    {
+     "nr": 58,
+     "titel": "Multi-Level-Marketing",
+     "unter": "Der Traum vom CEO im eigenen Wohnzimmer",
+     "notiz": ""
+    },
+    {
+     "nr": 59,
+     "titel": "Die Human Design-Bewegung",
+     "unter": "Pseudowissenschaft als Identität",
+     "notiz": ""
+    },
+    {
+     "nr": 60,
+     "titel": "Positive Thinking Extremismus",
+     "unter": "Wenn Optimismus toxisch wird",
+     "notiz": ""
+    },
+    {
+     "nr": 61,
+     "titel": "LGAT-Seminare (Landmark, etc.)",
+     "unter": "Hochdrucktransformation",
+     "notiz": ""
+    },
+    {
+     "nr": 62,
+     "titel": "Der Alphamasculinity-Kult",
+     "unter": "xxx und Konsorten",
+     "notiz": ""
+    },
+    {
+     "nr": 63,
+     "titel": "Die Rote-Pille-Gemeinschaft",
+     "unter": "Incel-Ideologie als Weltanschauung",
+     "notiz": ""
+    },
+    {
+     "nr": 64,
+     "titel": "Die Doomsday-Prepper-Bewegung",
+     "unter": "Wenn Vorsicht zur Paranoia wird",
+     "notiz": ""
+    },
+    {
+     "nr": 65,
+     "titel": "Die Wellness-Industrie als Mythos-Maschine",
+     "unter": "Goop, Dr. Oz und der Milliardenmarkt der schönen Lügen",
+     "notiz": "Level 2–3; eleganteste Brücke zwischen harmlosen Wellnessprodukten und gefährlicher Pseudomedizin"
+    }
+   ],
+   "unter": "Soziale Irrationalität: Sekten, Kulte, MLM und manipulative Systeme",
+   "status": "geplant"
+  },
+  {
+   "id": "G",
+   "name": "Die unsichtbare Hand des Marktes",
+   "faelle": [
+    {
+     "nr": 66,
+     "titel": "Der Bitcoin-Messianismus",
+     "unter": "Kryptowährung als Religion",
+     "notiz": ""
+    },
+    {
+     "nr": 67,
+     "titel": "Tulpenmanie und ihre modernen Kinder",
+     "unter": "Die Anatomie einer Spekulationsblase",
+     "notiz": ""
+    },
+    {
+     "nr": 68,
+     "titel": "Finanzastrologie",
+     "unter": "Wenn die Sterne die Märkte lenken",
+     "notiz": ""
+    },
+    {
+     "nr": 69,
+     "titel": "Diamanten sind für immer",
+     "unter": "Die größte Marketing-Lüge des 20. Jahrhunderts",
+     "notiz": ""
+    },
+    {
+     "nr": 70,
+     "titel": "Gold als einzige wahre Währung",
+     "unter": "Der Goldstandard-Mythos",
+     "notiz": ""
+    },
+    {
+     "nr": 71,
+     "titel": "Das Pharma-Feindbild",
+     "unter": "Wann Kritik aufhört, Kritik zu sein",
+     "notiz": ""
+    },
+    {
+     "nr": 72,
+     "titel": "Das Bevölkerungswachstum als Apokalypse",
+     "unter": "Malthus hat immer Unrecht",
+     "notiz": ""
+    },
+    {
+     "nr": 73,
+     "titel": "KI-Apokalypse vs. KI-Utopie",
+     "unter": "Die zwei irrationalen Extreme",
+     "notiz": ""
+    },
+    {
+     "nr": 74,
+     "titel": "Gambler's Fallacy und Lottostrategien",
+     "unter": "Der Mythos der Berechenbarkeit",
+     "notiz": ""
+    },
+    {
+     "nr": 75,
+     "titel": "Die Statistik-Lüge",
+     "unter": "Wie Zahlen zu Waffen werden",
+     "notiz": ""
+    }
+   ],
+   "unter": "Wirtschaftlicher Aberglaube, Finanzkulte und Spekulationsblasen",
+   "status": "geplant"
+  },
+  {
+   "id": "H",
+   "name": "Die großen Glaubenssysteme",
+   "faelle": [
+    {
+     "nr": 76,
+     "titel": "Kabbala als Lifestyle",
+     "unter": "Madonna und das rote Armband",
+     "notiz": ""
+    },
+    {
+     "nr": 77,
+     "titel": "Der Islam und die Verschwörungserzählungen",
+     "unter": "Innen- und Außenperspektive",
+     "notiz": ""
+    },
+    {
+     "nr": 78,
+     "titel": "Kreationismus",
+     "unter": "Die Erde ist 6000 Jahre alt",
+     "notiz": ""
+    },
+    {
+     "nr": 79,
+     "titel": "New Age",
+     "unter": "Die spirituelle Supermarkt-Kultur",
+     "notiz": ""
+    },
+    {
+     "nr": 80,
+     "titel": "Channeling und Medien",
+     "unter": "Die Stimmen aus dem Jenseits",
+     "notiz": ""
+    },
+    {
+     "nr": 81,
+     "titel": "Reinkarnation als Therapie",
+     "unter": "Wenn vergangene Leben die Gegenwart erklären",
+     "notiz": ""
+    },
+    {
+     "nr": 82,
+     "titel": "Geisterjäger",
+     "unter": "Was steckt hinter paranormalen Erfahrungen?",
+     "notiz": ""
+    },
+    {
+     "nr": 83,
+     "titel": "Engel und Schutzgeister",
+     "unter": "Der Trost und die Falle",
+     "notiz": ""
+    },
+    {
+     "nr": 84,
+     "titel": "Das Jenseits-Tourismus-Phänomen",
+     "unter": "NDEs, Nahtoderfahrungen und was sie bedeuten",
+     "notiz": ""
+    },
+    {
+     "nr": 85,
+     "titel": "Mythologien als Wahrheit",
+     "unter": "Wenn Geschichten zu Dokumenten werden",
+     "notiz": ""
+    }
+   ],
+   "unter": "Religiöse und spirituelle Überzeugungen unter der Lupe",
+   "status": "geplant"
+  },
+  {
+   "id": "I",
+   "name": "Die digitale Dunkelkammer",
+   "faelle": [
+    {
+     "nr": 86,
+     "titel": "KI wird uns alle töten",
+     "unter": "Der Terminator als Denkfehler",
+     "notiz": ""
+    },
+    {
+     "nr": 87,
+     "titel": "Deepfakes und die Lügner-Dividende",
+     "unter": "Sehen ist nicht mehr Glauben",
+     "notiz": ""
+    },
+    {
+     "nr": 88,
+     "titel": "Twitter-Wahrheit",
+     "unter": "Wie soziale Medien Realität konstruieren",
+     "notiz": ""
+    },
+    {
+     "nr": 89,
+     "titel": "Das Algorithmus-Orakel",
+     "unter": "Wenn die Maschine entscheidet, was wahr ist",
+     "notiz": ""
+    },
+    {
+     "nr": 90,
+     "titel": "Die QR-Code-Paranoia",
+     "unter": "Digitale Kontrolle durch den Impfpass",
+     "notiz": ""
+    },
+    {
+     "nr": 91,
+     "titel": "Handystrahlung und Krebs",
+     "unter": "Was die Wissenschaft wirklich sagt",
+     "notiz": ""
+    },
+    {
+     "nr": 92,
+     "titel": "Videospiele als Gewalt-Fabrik",
+     "unter": "Der ewige Sündenbock",
+     "notiz": ""
+    },
+    {
+     "nr": 93,
+     "titel": "mRNA als Gen-Manipulation",
+     "unter": "Der Impfstoff-Mythos im Faktencheck",
+     "notiz": ""
+    },
+    {
+     "nr": 94,
+     "titel": "Datenschutz-Apokalypse",
+     "unter": "Wann Paranoia sinnvoll ist (und wann nicht)",
+     "notiz": ""
+    },
+    {
+     "nr": 95,
+     "titel": "Social-Media-Sucht als Verschwörung vs. bewusstes Design",
+     "unter": "",
+     "notiz": ""
+    }
+   ],
+   "unter": "Desinformation, KI-Risiken, digitale Manipulation und Zukunftsmythen",
+   "status": "geplant"
+  },
+  {
+   "id": "J",
+   "name": "Die Großfälle",
+   "faelle": [
+    {
+     "nr": 96,
+     "titel": "Die Arier-Ideologie und Braune Esoterik",
+     "unter": "Wie Spiritualität zur Waffe wurde (Lfg. VIII)",
+     "notiz": ""
+    },
+    {
+     "nr": 97,
+     "titel": "Die Anatomie eines Heiligen Krieges",
+     "unter": "Kreuzzüge als universelles Manipulations-Modell (Lfg. VII)",
+     "notiz": ""
+    },
+    {
+     "nr": 98,
+     "titel": "Die Anti-Psychiatrie-Bewegung",
+     "unter": "Wenn berechtigte Kritik zum gefährlichen Mythos wird",
+     "notiz": ""
+    },
+    {
+     "nr": 99,
+     "titel": "Die Biowaffen-Paranoia",
+     "unter": "Von Fort Detrick bis Wuhan",
+     "notiz": ""
+    },
+    {
+     "nr": 100,
+     "titel": "Der Souveränitätsbürger-Komplex",
+     "unter": "Die Selbstentrechtung als Freiheitsakt",
+     "notiz": ""
+    },
+    {
+     "nr": 101,
+     "titel": "Populismus als Glaubenssystem",
+     "unter": "Wie politische Bewegungen Kulte werden",
+     "notiz": ""
+    },
+    {
+     "nr": 102,
+     "titel": "Der Öko-Extremismus",
+     "unter": "Wenn berechtigter Umweltschutz in Irrationalität kippt",
+     "notiz": ""
+    },
+    {
+     "nr": 103,
+     "titel": "Der Transhumanismus als Heilslehre",
+     "unter": "Wenn das Silicon Valley eine Religion gründet",
+     "notiz": ""
+    },
+    {
+     "nr": 104,
+     "titel": "Die moralische Panik",
+     "unter": "Von Satanic Panic bis Cancel Culture",
+     "notiz": ""
+    },
+    {
+     "nr": 105,
+     "titel": "SYNTHESE: Die Anatomie des menschlichen Bedürfnisses nach Bedeutung",
+     "unter": "Die Mutterzelle aller Mythen",
+     "notiz": ""
+    }
+   ],
+   "unter": "Themenübergreifende Tiefenanalysen: Wo sich Mythen zu Systemen verdichten",
+   "status": "geplant"
+  }
+ ]
+}

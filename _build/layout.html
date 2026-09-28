@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITEL}}</title>
+<meta name="description" content="{{BESCHREIBUNG}}">
+<meta name="author" content="Gerald Glaser">
+<meta name="theme-color" content="#0C1519">
+{{ROBOTS}}
+<link rel="canonical" href="{{URL}}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Syntaxis - Ein Projekt &uuml;ber kritisches Denken">
+<meta property="og:url" content="{{URL}}">
+<meta property="og:title" content="{{TITEL}}">
+<meta property="og:description" content="{{BESCHREIBUNG}}">
+<meta property="og:image" content="{{OGBILD}}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.ico" sizes="any">
+<link rel="icon" href="assets/img/favicon-32x32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="assets/img/favicon-16x16.png" type="image/png" sizes="16x16">
+<link rel="icon" href="assets/img/marke.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Syntaxis — Neuigkeiten" href="feed.xml">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/syntaxis.css">
+</head>
+<body data-reihe="{{REIHE}}" data-seite="{{SLUG}}" data-gemeinschaft="{{GEMEINSCHAFT_LIVE}}">
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+<nav class="hoehenmesser" aria-label="Höhenmesser — Navigation nach Ebene">
+  <span class="hm-kopf">HÖHE ü. BASIS</span>
+  <div class="hm-skala" id="hmSkala"><span class="hm-achse"></span></div>
+  <span class="hm-fuss">m</span>
+</nav>
+
+<header class="masthead" id="kopf">
+  <div class="wrap masthead-in">
+    <a class="logo" href="index.html" aria-label="Syntaxis, zur Startseite">
+      <span class="wortmarke">Syntaxis</span>
+      <span class="zusatz">kritisches Denken</span>
+    </a>
+    <nav class="hauptnav" id="hauptnav" aria-label="Hauptnavigation">
+{{NAVIGATION}}
+    </nav>
+    <button class="suchknopf" id="suchAuf" aria-label="Suche öffnen">Suchen <kbd>/</kbd></button>
+    <button class="menuknopf" id="menuAuf" aria-expanded="false" aria-controls="hauptnav">Menü</button>
+  </div>
+  <span class="fortschritt" id="fortschritt" aria-hidden="true"></span>
+</header>
+
+<div class="reihenzeiger" id="reihenzeiger" aria-hidden="true">
+  <div class="wrap in">
+    <span class="pkt"></span>
+    <span class="nm">—</span>
+    <span class="kz">REIHE</span>
+  </div>
+</div>
+
+<main id="inhalt">
+{{INHALT}}
+</main>
+
+<footer class="fuss">
+  <div class="wrap">
+    <p class="fuss-satz">Alle Werke sind kostenlos und stehen unter Creative Commons 4.0 International. Kommerzielle Nutzung ist ausgeschlossen. Fragen und Anregungen gern an <a href="mailto:Syntaxis_Buch@pm.me">Syntaxis_Buch@pm.me</a>.</p>
+    <nav class="fuss-links" aria-label="Rechtliches und Kontakt">
+      <a href="lizenz.html">Lizenz und Nutzung</a>
+      <a href="impressum.html">Impressum</a>
+      <a href="impressum.html#haftung">Haftungsausschluss</a>
+      <a href="impressum.html#datenschutz">Datenschutz</a>
+      <a href="feed.xml">RSS</a>
+      <a href="https://github.com/Syntaxisbuch/Syntaxisbuch.github.io">GitHub</a>
+    </nav>
+    <p class="schluss"><span>© 2026 Gerald Glaser</span><span>Neurale Assistenz: Claude (Anthropic) und Gemini (Google)</span></p>
+  </div>
+</footer>
+
+<div class="suchfenster" id="suchfenster" role="dialog" aria-modal="true" aria-label="Suche">
+  <div class="schleier" data-schliessen></div>
+  <div class="kasten">
+    <input type="search" id="suchEingabe" placeholder="Werk, Sektor, Signatur oder Behauptung — z. B. LR-I-1.2.3, Amygdala, flache Erde" autocomplete="off" spellcheck="false">
+    <ul class="treffer" id="suchTreffer"></ul>
+    <div class="hilfe">↑ ↓ blättern · ↵ öffnen · Esc schließen</div>
+  </div>
+</div>
+
+<script src="assets/js/core.js"></script>
+{{SKRIPTE}}
+</body>
+</html>

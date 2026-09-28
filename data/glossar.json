@@ -1,0 +1,207 @@
+{
+ "hinweis": "Begriffe, die in den Werken und auf dieser Seite vorkommen und nirgends sonst dasselbe bedeuten.",
+ "gruppen": [
+  {
+   "id": "werk",
+   "name": "Das Werk",
+   "eintraege": [
+    {
+     "begriff": "Syntaxis",
+     "kurz": "Das Gesamtprojekt, nicht ein Buch.",
+     "text": "Vier Reihen mit unterschiedlichen Zugängen zum selben Problem: wie man eine Behauptung prüft. Neocortex City ist eine Welt darin, nicht das Ganze."
+    },
+    {
+     "begriff": "Signatur",
+     "kurz": "Die Adresse einer Stelle im Werk.",
+     "text": "Kennungen wie LR-I-1.2.3 oder AU-A-04, mit denen die Reihen aufeinander zeigen. LR = Landkarte, NC = Chroniken, AU = Autopsien, LD = Licht der Realität. Die Suche auf dieser Seite nimmt sie direkt entgegen — Schrägstrich drücken und eintippen.",
+     "beispiel": "LR-I-1.2.3 — Ockhams Rasiermesser"
+    },
+    {
+     "begriff": "Asservat",
+     "kurz": "Ein Beweisstück im Anhang der Chroniken.",
+     "text": "Hinten in jedem Band liegt die Asservatenkammer: Zu jeder Randnotiz des Archivars Janus liegt dort ein Beweisstück — echt, rekonstruiert, erfunden oder Analyse, jeweils gekennzeichnet (im Buch als Real, Rekonstruktion, Fiktiv oder Analytisch). Von dort führt jeder Beleg ins Quellenverzeichnis des Bandes."
+    },
+    {
+     "begriff": "Marginalie",
+     "kurz": "Janus' Randnotiz im Fließtext.",
+     "text": "Ein Zeichen am Rand, das sagt: Zu dieser Stelle liegt ein Beweisstück in der Asservatenkammer. Der Verweis führt dorthin — und von dort ins Quellenverzeichnis. Wer es ignoriert, verliert nichts an der Handlung."
+    },
+    {
+     "begriff": "Die drei Ebenen",
+     "kurz": "Geschichte, Beweise, Welt.",
+     "text": "Die Chroniken lassen sich auf drei Tiefen lesen, umschaltbar mitten im Kapitel: nur die Erzählung, die Erzählung samt Beweisapparat, oder zusätzlich die Welt mit Atlas und Sektoren."
+    },
+    {
+     "begriff": "Sektion",
+     "kurz": "Ein Block von Autopsien.",
+     "text": "Die 105 geplanten Fallakten sind in zehn Sektionen A bis J geordnet, vom Kosmos bis zu den Meister-Autopsien. Sektion A ist abgeschlossen."
+    }
+   ]
+  },
+  {
+   "id": "stadt",
+   "name": "Die Stadt",
+   "eintraege": [
+    {
+     "begriff": "Neocortex City",
+     "kurz": "Eine terrassierte Hügelfestung, gebaut wie ein Gehirn.",
+     "text": "Sechs Ebenen, jede eine Hirnregion, verbunden durch Aufzug, Fahrzeug und Sky Bridge. Devise: Mens omnium domus una."
+    },
+    {
+     "begriff": "Terrasse",
+     "kurz": "Eine Ebene der Stadt.",
+     "text": "Oben Vernunft und Planung, unten Trieb und Grundfunktion. Von der Obersten Terrasse bei 500 Metern bis zur Sub-Untersten bei minus 60. Diese Website ist nach denselben Höhen sortiert.",
+     "beispiel": "Untere Terrasse, 80 m — limbisches System"
+    },
+    {
+     "begriff": "Tower of Reason",
+     "kurz": "Die senkrechte Achse der Stadt.",
+     "text": "Kein Gebäude einer Terrasse, sondern die Wirbelsäule: Erdgeschoss auf Plaza-Höhe, Penthouse bei 520 Metern, neunzig Etagen. Wo er eine Ebene durchstößt, liegt deren lokaler Nullpunkt."
+    },
+    {
+     "begriff": "Richtungsgesetz",
+     "kurz": "Abwärts Trieb, aufwärts Kontrolle.",
+     "text": "Wer im Aufzug tiefer fährt, verliert mit jeder Etage ein Stück Aufsicht. Wer hinauffährt, bekommt es zurück. Das gilt für die ganze Fahrt, nicht nur für ein Stück."
+    },
+    {
+     "begriff": "Körperliche Kosten",
+     "kurz": "Was ein Ort vom Körper verlangt.",
+     "text": "Jeder Sektor kostet etwas: ein Kratzen im Hals in der Registratur, ein Druck hinter den Augen im Verwaltungsflügel, ein Zucken in den Fingerspitzen in der Bereitschaftshalle. Nie Stimmung, immer die Funktion des Ortes am eigenen Leib."
+    },
+    {
+     "begriff": "Sky Bridge",
+     "kurz": "Eine Querung zwischen zwei Punkten der Stadt.",
+     "text": "Acht Querungen, jede benannt nach einer realen Struktur des Gehirns — Corpus callosum, Fasciculus uncinatus, Fornix, Gyrus fusiformis, Nucleus reticularis thalami und Colliculus inferior; zwei weitere sind im Kanon noch unbenannt."
+    },
+    {
+     "begriff": "Außenstelle",
+     "kurz": "Dieselbe Funktion, anderes Klima.",
+     "text": "Mnemosynes Gedächtnisarchiv liegt in der Wüste, im Nadelwald und als Registratur der Fürbitten unter Kerzenrauch. Dreimal dieselbe Aufgabe, dreimal ein anderer Geruch."
+    },
+    {
+     "begriff": "Verblassen",
+     "kurz": "Was gelöst ist, verliert Substanz.",
+     "text": "Gelöste Fälle verschwinden nicht, sie werden dünner. Das Werwolf-Territorium am Parietalen Grenzland schrumpft seit Band III, und der frei gewordene Rand trägt jetzt die Bereitschaftshalle."
+    },
+    {
+     "begriff": "Ankunftsgesetz",
+     "kurz": "Wer von außen kommt, braucht eine eigene Brücke.",
+     "text": "Reguläre Stadtadressen erreicht man auf regulärem Weg. Orte, die aus dem Realraum hineinkomponiert wurden, bekommen eine eigene Querung — daher die Fornix-, Fusiformis-, Reticularis- und Colliculus-Brücke."
+    },
+    {
+     "begriff": "Schicht 6",
+     "kurz": "Die Stunde zwischen drei und vier.",
+     "text": "Die sechste Schicht der Stadt. Wenn die Aufsicht dünn wird und der Sender auf Frequenz 404 aufgeht."
+    }
+   ]
+  },
+  {
+   "id": "verfahren",
+   "name": "Das Verfahren",
+   "eintraege": [
+    {
+     "begriff": "Autopsie",
+     "kurz": "Ein Mythos, seziert nach festem Protokoll.",
+     "text": "Neunzehn Punkte in fester Reihenfolge, von der Seuchenmeldung bis zur sokratischen Schlussfrage. Der Gegenstand liegt in seiner stärksten Fassung auf dem Tisch, nie in seiner dümmsten."
+    },
+    {
+     "begriff": "Seuchenmeldung",
+     "kurz": "Der Steckbrief am Anfang jeder Akte.",
+     "text": "Alias, Kategorie, Ursprung, Verbreitung, Plattformen, Gefährdungsstufe, Kernbehauptung — und ein Markt-Snapshot: Wer verdient hier woran?"
+    },
+    {
+     "begriff": "Frühwarnsystem",
+     "kurz": "Fünf Sätze, die den Mythos verraten.",
+     "text": "Was man hört, bevor man das Thema erkannt hat, samt der ruhigen Gegenfrage, die darauf passt."
+    },
+    {
+     "begriff": "Toleranz-Zone",
+     "kurz": "Wo berechtigte Skepsis endet.",
+     "text": "Die Linie zwischen der Frage, die jeder stellen darf, und der Behauptung. Sie muss sichtbar sein, sonst trifft die Kritik den Falschen."
+    },
+    {
+     "begriff": "Die Gegenprobe",
+     "kurz": "Derselbe Maßstab, angelegt an die eigene Seite.",
+     "text": "Punkt 8 jeder Autopsie. Wer hier nicht ehrlich ist, hat nichts seziert, sondern nur gewonnen."
+    },
+    {
+     "begriff": "Exit-Protokoll",
+     "kurz": "Was das Eingeständnis kostet.",
+     "text": "Teil des Dialog-Leitfadens: Was ein Mensch sozial verliert, wenn er zugibt, sich geirrt zu haben — und wer diesen Preis künstlich erhöht hat."
+    },
+    {
+     "begriff": "Gefährdungsstufe",
+     "kurz": "Level 1 bis 5.",
+     "text": "Von harmlos bis tödlich. Nicht wie falsch eine Behauptung ist, sondern was sie anrichtet. Die flache Erde steht auf 2, die Klimawandel-Leugnung auf 5."
+    },
+    {
+     "begriff": "Red Flag",
+     "kurz": "Eines von dreizehn Warnzeichen.",
+     "text": "Kein Urteil über Menschen, sondern über die Bauweise einer Behauptung. Ein einzelnes Zeichen bedeutet wenig — aussagekräftig ist das Muster.",
+     "beispiel": "LR-I-1.5"
+    },
+    {
+     "begriff": "Detector-Kit",
+     "kurz": "Neun Fragen für dreißig Sekunden.",
+     "text": "Der tragbare Teil des Systems, gedacht zum Auswendiglernen: Mechanismus, Falsifikation, Konzentration, Mitwisser, Geldfluss, Reproduktion, Konsistenz, Gemeinschaft, Selbstprüfung."
+    },
+    {
+     "begriff": "Rüstzeug",
+     "kurz": "Die Denkwerkzeuge aus Band I der Landkarte.",
+     "text": "Falsifizierbarkeit, Ockham, Beweislast, Hanlon, Hierarchie der Evidenz und rund dreißig weitere. Auf dieser Seite als Kartenkasten."
+    },
+    {
+     "begriff": "Dojo",
+     "kurz": "Der Übungsteil der Landkarte.",
+     "text": "Band VI. Werkstücke, Sparringsrunden und Katas für Familie, Arztbesuch und Kindererziehung. Es wird geübt, nicht zugestimmt."
+    },
+    {
+     "begriff": "Prebunking",
+     "kurz": "Impfen statt widerlegen.",
+     "text": "Jemandem das Muster zeigen, bevor er dem Mythos begegnet. Wirkt zuverlässiger als jede nachträgliche Richtigstellung."
+    }
+   ]
+  },
+  {
+   "id": "stimmen",
+   "name": "Die Stimmen",
+   "eintraege": [
+    {
+     "begriff": "Valerian Trace",
+     "kurz": "Der Hausmeister der Realität.",
+     "text": "Ermittelt seit Band I für einen Klienten, den niemand vorladen kann. Durch die Reihe zieht sich ein zweiter Fall, den er nicht angenommen hat."
+    },
+    {
+     "begriff": "Dr. Ratio",
+     "kurz": "Der Mann der Zahlen.",
+     "text": "Physiker, Schmiede des Hephaistos. Der Akteur mit den meisten öffentlich zurückgenommenen Sätzen. Er nennt das nicht Demut, sondern Vorbereitung."
+    },
+    {
+     "begriff": "Janus",
+     "kurz": "Der Archivar der Detektei.",
+     "text": "Verfasser des Manifests, Hüter der Asservate, Urheber der Marginalien. Kommentiert jeden Fall, betritt keinen."
+    },
+    {
+     "begriff": "Mnemosyne",
+     "kurz": "Der Archivar der Stadt.",
+     "text": "Trocken, papieren, in drei Klimazonen zugleich. Katalogisiert alles, deutet nichts."
+    },
+    {
+     "begriff": "Das Kollektive Unbewusste",
+     "kurz": "Der Klient.",
+     "text": "Seine direkteste Selbstauskunft: dass es Hunger sei und keine Moral."
+    },
+    {
+     "begriff": "Frequenz 404",
+     "kurz": "Der Piratensender aus dem Medienviertel.",
+     "text": "Cassidy Null moderiert, Kevin bringt den Einwand, Dr. Tacheles die Prüfung. Hausregel: hart gegen die Behauptung, nachgiebig gegen den, der sie glaubt."
+    },
+    {
+     "begriff": "Die Ockham",
+     "kurz": "Cassidys Zigarettenmarke.",
+     "text": "Filterlos. Der Laufgag, der die Sendung zusammenhält."
+    }
+   ]
+  }
+ ]
+}

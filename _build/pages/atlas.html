@@ -1,0 +1,134 @@
+<section class="hero zweispaltig">
+  <div class="wrap">
+    <div>
+      <span class="kennung">180 m · Mittlere-Untere Terrasse · Hippocampus</span>
+      <h1 style="margin-top:.5rem">Kartographischer<br>Atlas</h1>
+      <p class="unter">Eine terrassierte Hügelfestung, gebaut wie ein menschliches Gehirn: sechs Ebenen, verbunden durch Aufzug, Fahrzeug und Sky Bridge, durchzogen vom Tower of Reason als vertikaler Wirbelsäule. Jeder Ort hat eine reale neuroanatomische Entsprechung, eine Koordinate — und, wo der Kanon ihn schon festlegt, einen körperlichen Preis.</p>
+    </div>
+    <div class="eckwerte">
+      <div><span class="w">{{N_SEKTOREN}}</span><span class="b">SEKTOREN</span></div>
+      <div><span class="w">{{N_EBENEN}}</span><span class="b">EBENEN</span></div>
+      <div><span class="w">{{SPANNWEITE}}</span><span class="b">METER SPANNWEITE</span></div>
+      <div><span class="w">90</span><span class="b">TURM-ETAGEN</span></div>
+      <div><span class="w">{{N_BRUECKEN}}</span><span class="b">SKY BRIDGES</span></div>
+      <div><span class="w">{{N_VERKEHR}}</span><span class="b">VERKEHRSMITTEL</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="stratum" style="padding-top:0">
+  <div class="wrap">
+    <div class="stratum-kopf">
+      <h2>Die Stadt im Schnitt</h2>
+      <span class="hoehe">Ebene wählen, dann Sektor anklicken — wo es Bilder gibt, hängen sie im <a href="bildband.html">Bildarchiv</a></span>
+    </div>
+
+    <div class="filterreihe" id="terrassenFilter" role="group" aria-label="Terrasse wählen"></div>
+
+    <div class="atlas-buehne">
+      <div class="atlas-karte">
+        <svg id="atlasKarte" viewBox="0 0 700 500" role="application" aria-label="Grundriss der gewählten Terrasse"></svg>
+      </div>
+      <aside class="atlas-info" id="atlasInfo" aria-live="polite">
+        <p class="leise" style="margin:0">Wähle links einen Sektor.</p>
+      </aside>
+    </div>
+
+    <p class="kennung" style="margin-top:1rem">X und Y in Kilometern, jeweils relativ zum lokalen Nullpunkt der Terrasse · Z in Metern über dem Stadt-Basisdatum · Quelle: Koordinatensystem, konsolidierte Fassung {{STADT_VERSION}}</p>
+  </div>
+</section>
+
+<section class="stratum">
+  <div class="wrap">
+    <div class="stratum-kopf">
+      <h2>Wegzeiten</h2>
+      <span class="hoehe">gerechnet mit den Geschwindigkeiten aus dem Kanon</span>
+    </div>
+
+    <div class="werkzeug">
+      <header>
+        <h3>Wegbeschreibung</h3>
+        <div class="betrieb" id="betriebSchalter" role="group" aria-label="Betriebsart der Schaltstelle">
+          <button type="button" data-betrieb="tag" aria-pressed="true">Tagbetrieb</button>
+          <button type="button" data-betrieb="nacht" aria-pressed="false">Nachtbetrieb</button>
+        </div>
+      </header>
+      <div class="rechner">
+        <div>
+          <label for="vonSektor">Von</label>
+          <select id="vonSektor"></select>
+        </div>
+        <div>
+          <label for="nachSektor">Nach</label>
+          <select id="nachSektor"></select>
+        </div>
+        <div class="ergebnis" id="rechnerErgebnis"></div>
+      </div>
+    </div>
+
+    <div class="hinweisbox">
+      <p><strong>Warum hier keine Minuten stehen.</strong> Die Stadt folgt der Funktion des Gehirns, und dort wird nicht gepuffert. Wer nicht durchkommt, wird nicht später zugestellt, sondern abgeschwächt oder verworfen. Also wartet in Neocortex City niemand auf den Aufzug: Die Schächte laufen alle zugleich, so wie der Balken zwischen den Hemisphären keine einzelne Leitung ist, sondern eine Wand aus Leitungen. Und der Turm hält nicht auf jeder Etage — myelinisierte Bahnen springen von Knoten zu Knoten, genau deshalb sind sie schnell.</p>
+      <p>Teuer ist nicht die Fahrt, sondern der Umstieg. Jede Übergabe im synaptischen Spalt kostet, die Strecke dazwischen kostet fast nichts. Deshalb zählt diese Beschreibung Umstiege und nennt die Dauer als Band statt als Zahl — und rechnet stattdessen zusammen, womit der Körper unterwegs bezahlt hat.</p>
+      <p><strong>Tag und Nacht.</strong> Die Schaltstelle arbeitet in zwei Betriebsarten: wach gibt sie einzeln und getreu weiter, nachts feuert sie in Salven. Dasselbe Signal, anderer Rhythmus. Nachts geht es schneller und es kommt mehr an — aber gröber. Das ist der Grund, warum Träume zugleich intensiver und unschärfer sind, und es ist kein Bild, sondern der dokumentierte Mechanismus.</p>
+      <p class="leise">Die waagerechten Koordinaten hängen pro Terrasse an einem eigenen lokalen Nullpunkt, und dieser Nullpunkt ist überall der Punkt, an dem die Turmachse durch die Ebene stößt. Wege zwischen zwei Terrassen laufen deshalb über den Turm.</p>
+    </div>
+  </div>
+</section>
+
+<section class="stratum">
+  <div class="wrap">
+    <div style="display:grid;gap:2.5rem" class="atlas-unten">
+      <div>
+        <h3>Der Tower of Reason</h3>
+        <p class="leise">Kein Gebäude der Obersten Terrasse, sondern die durchgehende senkrechte Achse: Erdgeschoss auf Plaza-Höhe, Penthouse bei 520 Metern. Deshalb gilt das Richtungsgesetz des Aufzugs — abwärts Trieb, aufwärts Kontrolle — für die ganze Fahrt und nicht nur für ein Stück davon.</p>
+        <table class="daten" id="turmTabelle">
+          <thead><tr><th>Etage</th><th>Funktion</th><th>Höhe</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div>
+        <h3 id="bruecken">Sky Bridges</h3>
+        <p class="leise">{{N_BRUECKEN}} Querungen, vier davon erst in Band IV hinzugekommen. Jede folgt einer realen Struktur des Gehirns — die Brücke ist im Wortsinn die Verbindung, die die Anatomie an dieser Stelle vorsieht. Zwei sind im Kanon noch ohne eigenen Namen; die Bezeichnungen hier sind Arbeitstitel.</p>
+        <table class="daten" id="brueckenTabelle">
+          <thead><tr><th>Brücke</th><th>Verbindet</th><th>Reale Entsprechung</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="stratum" id="ohne-koordinate">
+  <div class="wrap schmal">
+    <h2>Orte ohne Koordinate</h2>
+    <p class="leise">Sie kommen im Kanon vor, sind aber in keiner Szene so genau beschrieben, dass sich ein Punkt auf der Karte rechtfertigen ließe. Wer sie verortet, muss erst eine Szene schreiben.</p>
+    <ul class="ohne-liste" id="ohneKoordinate"></ul>
+  </div>
+</section>
+
+<section class="stratum">
+  <div class="wrap schmal">
+    <h2>Wie die Stadt gebaut ist</h2>
+    <dl class="def">
+      <dt>Terrassenprinzip</dt>
+      <dd>Jede Ebene entspricht einer Hirnregion und ihrer Funktion. Oben Vernunft und Planung, unten Trieb und Grundfunktion. Wer im Aufzug abwärts fährt, fährt nicht nur tiefer, sondern älter.</dd>
+      <dt>Außenstellen</dt>
+      <dd>Dieselbe Funktion kann mehrere Adressen haben, mit unterschiedlichem Klima. Mnemosynes Gedächtnisarchiv liegt in der Wüste, im Nadelwald und als Registratur der Fürbitten unter Kerzenrauch — dreimal dieselbe Aufgabe, dreimal ein anderer Geruch.</dd>
+      <dt>Körperliche Kosten</dt>
+      <dd>Jeder Ort verlangt etwas vom Körper, der ihn betritt: ein Kratzen im Hals, ein Druck hinter den Augen, ein Zucken in den Fingerspitzen. Der Preis ist nie Stimmung, sondern die reale Funktion des Ortes, am eigenen Leib.</dd>
+      <dt>Ankunftsgesetz</dt>
+      <dd>Reguläre Stadtadressen erreicht man auf regulärem Weg. Wo ein Ort aus dem Realraum in die Stadt hineinkomponiert wurde, braucht es eine eigene Brücke — deshalb gibt es die Fornix-, die Fusiformis-, die Reticularis- und die Colliculus-Brücke.</dd>
+      <dt>Verblassen</dt>
+      <dd>Gelöste Fälle verschwinden nicht, sie verlieren an Substanz. Das Werwolf-Territorium am Parietalen Grenzland schrumpft seit dem Ende von Band III — und der frei gewordene Rand trägt jetzt die Bereitschaftshalle aus Band IV.</dd>
+    </dl>
+
+    <div class="knopfreihe">
+      <a class="knopf" href="chroniken.html">Die Fälle in dieser Stadt</a>
+      <a class="knopf still" href="downloads.html">Bücher herunterladen</a>
+    </div>
+  </div>
+</section>
+
+<style>
+@media (min-width: 900px) { .atlas-unten { grid-template-columns: 1fr 1fr; gap: 3rem; } }
+</style>

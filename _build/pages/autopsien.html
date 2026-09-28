@@ -1,0 +1,121 @@
+<section class="hero" data-cover>
+  <span class="hero-bild" style="background-image:url(assets/img/autopsien/serie-autopsien-der-schatten.webp)" aria-hidden="true"></span>
+  <div class="wrap">
+    <span class="kennung">−60 m · Sub-Unterste Ebene · der Seziersaal</span>
+    <h1 style="margin-top:.5rem">Autopsien<br>der Schatten</h1>
+    <p class="unter">Jeder Mythos einzeln auf dem Tisch, nach immer demselben Protokoll, in seiner stärksten Fassung. Die Idee bekommt keinen Rabatt, der Mensch keinen Spott.</p>
+    <div class="knopfreihe">
+      <a class="knopf voll" href="#faelle">Zu den {{N_AUTOPSIEN}} Fällen</a>
+      <a class="knopf still" href="#sammelband">Sammelband Sektion A</a>
+    </div>
+  </div>
+</section>
+
+<section class="stratum" id="sammelband" data-sprung="Sammelband" style="padding-top:1rem">
+  <div class="wrap">
+    {{AU_SAMMELBAND}}
+  </div>
+</section>
+
+<section class="stratum" id="faelle" data-sprung="Fälle">
+  <div class="wrap">
+    <div class="stratum-kopf">
+      <h2>Sektion A — Der Kosmos voller Lügen</h2>
+      <span class="hoehe">{{N_AUTOPSIEN}} Fälle, abgeschlossen</span>
+    </div>
+    <div class="filterleiste" id="stufenfilter" role="group" aria-label="Nach Gefährdung filtern" hidden>
+      <span class="leise">Gefährdung:</span>
+      <button type="button" aria-pressed="true" data-l="alle">Alle</button>
+      <button type="button" aria-pressed="false" data-l="1">Harmlos</button>
+      <button type="button" aria-pressed="false" data-l="2">Bedenklich</button>
+      <button type="button" aria-pressed="false" data-l="3-5">Ernst bis tödlich</button>
+    </div>
+    {{AU_FAELLE}}
+    <p class="leise" style="margin-top:1.25rem">Jede Akte steht für sich. Du kannst mit jedem Fall anfangen; die Brücken zwischen den Fällen sind nur ein Bonus.</p>
+
+    <details class="aufklapp">
+      <summary>Die Gefährdungsskala erklärt</summary>
+      <div class="werkzeug" style="margin-top:1rem">{{AU_SKALA}}</div>
+    </details>
+  </div>
+</section>
+
+<section class="stratum" id="aufbau" data-sprung="Aufbau einer Akte">
+  <div class="wrap">
+    <div class="stratum-kopf">
+      <h2>So ist jede Akte gebaut</h2>
+      <span class="hoehe">19 Punkte, immer dieselbe Reihenfolge</span>
+    </div>
+    <p class="gross schmal">Erst verstehen, was den Mythos attraktiv macht. Dann prüfen. Dann fragen, wie man mit jemandem redet, der ihn glaubt.</p>
+
+    <details class="aufklapp">
+      <summary>Die wichtigsten Stationen</summary>
+      <div class="raster drei" style="margin-top:1rem">
+        <div class="zelle"><span class="kennung">Seuchenmeldung</span><h4>Der Steckbrief</h4><p>Ursprung, Verbreitung, Gefährdung, Kernbehauptung und die Frage, wer daran verdient.</p></div>
+        <div class="zelle"><span class="kennung">Frühwarnsystem</span><h4>Fünf Sätze</h4><p>Woran du den Mythos erkennst, bevor das Thema fällt, und welche ruhige Gegenfrage passt.</p></div>
+        <div class="zelle"><span class="kennung">Punkt 1</span><h4>Die Verführung</h4><p>Welches echte Bedürfnis bedient der Mythos? Ohne diese Antwort ist der Fall nicht verstanden.</p></div>
+        <div class="zelle"><span class="kennung">Punkt 3b</span><h4>Die Toleranz-Zone</h4><p>Wo berechtigte Skepsis endet und die Behauptung beginnt.</p></div>
+        <div class="zelle"><span class="kennung">Punkt 8</span><h4>Die Gegenprobe</h4><p>Derselbe Maßstab, angelegt an die eigene Position.</p></div>
+        <div class="zelle"><span class="kennung">Punkt 10</span><h4>Der Dialog-Leitfaden</h4><p>Was man jemandem sagt, der das glaubt, und was ihn der Ausstieg sozial kostet.</p></div>
+      </div>
+      <div class="knopfreihe"><a class="knopf" href="werkzeuge.html#protokoll">Das Protokoll als Arbeitsbogen</a></div>
+    </details>
+
+    <details class="aufklapp">
+      <summary>Drei Lesewege: akut, gründlich oder fürs Gespräch</summary>
+      <div class="raster drei" style="margin-top:1rem">
+        <div class="zelle" style="border-top:2px solid var(--au)"><h4>Ich bin gerade konfrontiert</h4><p>Seuchenmeldung, Frühwarnsystem, Dialog-Leitfaden. In fünf Minuten handlungsfähig.</p></div>
+        <div class="zelle" style="border-top:2px solid var(--lr)"><h4>Ich will es durchdringen</h4><p>Die ganze Akte von Punkt 1 bis 19, mit Gegenprobe und Bibliothek.</p></div>
+        <div class="zelle" style="border-top:2px solid var(--nc)"><h4>Ich will helfen</h4><p>Psychologische Anatomie, Dialog-Leitfaden, Exit-Protokoll. Wirksamkeit statt Rechthaben.</p></div>
+      </div>
+    </details>
+
+    <details class="aufklapp">
+      <summary>Warum die Reihe mit der flachen Erde beginnt</summary>
+      <p class="schmal" style="margin-top:1rem">Nicht mit dem gefährlichsten Fall, sondern mit dem saubersten: an der flachen Erde stirbt fast niemand. Dort lernt man das Skalpell führen, ohne dass die Hand zittert. Jede Akte hat einen eigenen Ton, satirisch bei der Scheibe, ehrfürchtig bei der Mondlandung, kalt beim Klima, und genau eine Stelle, an der er sich härtet: dort, wo aus einer verständlichen Frage die Verachtung jeder prüfenden Instanz wird.</p>
+      <blockquote class="zitat">Der Flacherdler ist nie dumm. Er ist neugierig, misstrauisch aus guten Gründen und schlecht beraten.
+      <cite>Autopsie #01, Ton-Modus</cite></blockquote>
+    </details>
+  </div>
+</section>
+
+<section class="stratum" id="landkarte" data-sprung="Was noch kommt">
+  <div class="wrap">
+    <div class="stratum-kopf">
+      <h2>Was noch kommt</h2>
+      <span class="hoehe">105 geplante Fälle in zehn Sektionen</span>
+    </div>
+    <p class="schmal">Die Gefährdung steigt von Sektion zu Sektion. Titel und Reihenfolge sind Arbeitsstand; was zuerst fertig ist, erscheint zuerst.</p>
+    {{AU_PLAN}}
+  </div>
+</section>
+
+<section class="stratum">
+  <div class="wrap schmal">
+    <h2>Bearbeiten erlaubt</h2>
+    <p>Die Autopsien stehen unter <a href="lizenz.html">CC BY-NC 4.0</a>. Du darfst sie kürzen, übersetzen und in eigenes Material einbauen, wenn du Autor und Werk nennst, Änderungen kenntlich machst und nichts damit verdienst. Dafür gibt es jede Akte auch als ODT.</p>
+    <div class="knopfreihe">
+      <a class="knopf" href="downloads.html#dl-au">Alle Autopsien-Dateien</a>
+      <a class="knopf still" href="gegenfragen.html">Gegenfragen-Kartei</a>
+    </div>
+  </div>
+</section>
+
+<script>
+/* Filter nach Gefährdungsstufe — ohne JavaScript bleibt einfach alles sichtbar */
+(() => {
+  const leiste = document.getElementById("stufenfilter");
+  const karten = [...document.querySelectorAll(".fallkarte")];
+  if (!leiste || !karten.length) return;
+  leiste.hidden = false;
+  leiste.addEventListener("click", ev => {
+    const b = ev.target.closest("button"); if (!b) return;
+    leiste.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    const w = b.dataset.l;
+    karten.forEach(k => {
+      const l = +k.dataset.l;
+      k.hidden = !(w === "alle" || (w === "3-5" ? l >= 3 : l === +w));
+    });
+  });
+})();
+</script>

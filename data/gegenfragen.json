@@ -1,0 +1,922 @@
+[
+ {
+  "id": "AU-01-QR01",
+  "au": 1,
+  "quelle": "DIE FLACHE ERDE",
+  "behauptung": "Wo ist die Krümmung? Ich stehe am Meer und sehe eine gerade Linie!",
+  "falle": "Naiver Empirismus: Die geometrische Erdkrümmung beträgt auf fünf Kilometer Distanz knapp zwei Meter Abweichung vom Horizontniveau — unterhalb jeder menschlichen Auflösungsgrenze auf Meereshöhe. Dass der Horizont überhaupt existiert und nicht unendlich weit reicht, ist selbst der Beweis.",
+  "gegenfrage": "Warum verschwindet ein großes Containerschiff am Horizont immer von unten nach oben — und taucht von unten wieder auf, wenn du ein Fernglas nimmst?"
+ },
+ {
+  "id": "AU-01-QR02",
+  "au": 1,
+  "quelle": "DIE FLACHE ERDE",
+  "behauptung": "Wasser sucht immer seinen Level — da kann es keine Krümmung geben!",
+  "falle": "Wortbedeutungs-Vertauschung: ‚Level' im technischen Sinne bedeutet senkrecht zur Schwerkraft, nicht geometrisch flach über hundert Kilometer. Ozeane krümmen sich mit der Erde mit — weswegen Kanalbauten des 19.",
+  "gegenfrage": "Warum mussten Ingenieure beim Bau langer gerader Eisenbahnstrecken und Kanalviadukte im 19. Jahrhundert die Erdkrümmung in ihre Scheitelpunkt-Berechnungen einrechnen — wenn das Wasser tatsächlich flach verläuft?"
+ },
+ {
+  "id": "AU-01-QR03",
+  "au": 1,
+  "quelle": "DIE FLACHE ERDE",
+  "behauptung": "Wenn die Erde sich dreht, warum spüren wir nichts davon?",
+  "falle": "Gleichförmige Bewegung ist per Newton'scher Definition nicht spürbar. Tausend Kilometer pro Stunde Äquatorialgeschwindigkeit erzeugen kein Körpergefühl — wohl aber messbare, reproduzierbare Effekte, die unabhängig von jeder Satellitentechnik nachweisbar sind.",
+  "gegenfrage": "Warum drehen sich Tiefdruckgebiete auf der Nordhalbkugel stets gegen den Uhrzeigersinn und auf der Südhalbkugel stets im Uhrzeigersinn — falls keine Erddrehung existiert?"
+ },
+ {
+  "id": "AU-01-QR04",
+  "au": 1,
+  "quelle": "DIE FLACHE ERDE",
+  "behauptung": "Alle NASA-Fotos sind CGI — die haben das selbst zugegeben!",
+  "falle": "Selektives Zitat: ‚Komposit-Aufnahme' (mehrere Einzelbilder zu einem Bild montiert) wurde als ‚computergeneriert = erfunden' umgedeutet. Über dreißig unabhängige nationale Raumfahrtagenturen weltweit publizieren Erdaufnahmen aus dem Orbit.",
+  "gegenfrage": "Welche dieser Agenturen — ESA, JAXA, ISRO, Roscosmos, CNSA — ist in die Verschwörung eingeweiht, und wer hat ihnen das CGI-Skript zugeschickt?"
+ },
+ {
+  "id": "AU-01-QR05",
+  "au": 1,
+  "quelle": "DIE FLACHE ERDE",
+  "behauptung": "Bob Knodel hat bewiesen, dass die Erde flach ist — kein Drift!",
+  "falle": "Faktenverdrehung: Knodelks Ringlaser-Gyroskop maß bei seinem eigenen Experiment exakt fünfzehn Grad Drift pro Stunde — die Erdrotation, nicht die Kuppel. Das Experiment lief im Dokumentarfilm Behind the Curve und widerlegte seinen Erbauer live vor der Kamera.",
+  "gegenfrage": "Was hat Knodel nach diesem Ergebnis getan? (Er erklärte: ‚We don't want to cause any problems.' Und begann, einen Fehler im Gerät zu suchen.)"
+ },
+ {
+  "id": "AU-01-QR06",
+  "au": 1,
+  "quelle": "DIE FLACHE ERDE",
+  "behauptung": "Die Antarktis wird militärisch gesperrt — niemand kommt einfach hin!",
+  "falle": "Falsche Tatsachenbehauptung: Mehr als vierzig Länder unterhalten aktive Forschungsstationen auf dem Kontinent; jährlich überwintern dort mehrere hundert Wissenschaftlerinnen und Wissenschaftler. Touristische Expeditionsschiffe zur antarktischen Halbinsel sind buchbar.",
+  "gegenfrage": "Wenn die Absperrung so lückenlos ist, wie haben dann Argentinien, Chile, Australien und Norwegen gleichzeitig und unabhängig voneinander kartografiert, was — auf einer flachen Erde — der Rand der Welt wäre?"
+ },
+ {
+  "id": "AU-01-QR07",
+  "au": 1,
+  "quelle": "DIE FLACHE ERDE",
+  "behauptung": "Eratosthenes hätte sein Ergebnis auch mit einer flachen Erde und einer lokalen Sonne erklären können!",
+  "falle": "Geometrie-Fehler: Für eine lokale Sonne über einer flachen Scheibe ergibt der gemessene Schattenwinkel von 7,2 Grad zwischen Alexandria und Syene eine Sonnenhöhe von rund achttausend Kilometern. Diese Höhe ist dann von jedem Punkt der Scheibe verschieden messbar — und stimmt mit keiner einzigen gleichzeitigen Beobachtung aus einem dritten Standort überein.",
+  "gegenfrage": "Wenn die Sonne achttausend Kilometer hoch über einer flachen Erde steht — warum ist sie dann gleichzeitig von Australien, Japan und Großbritannien aus sichtbar, aber in jeweils völlig unterschiedlichen Teilen des Himmels?"
+ },
+ {
+  "id": "AU-01-QR08",
+  "au": 1,
+  "quelle": "DIE FLACHE ERDE",
+  "behauptung": "GPS ist ein Trick — das US-Militär kontrolliert das ganze System.",
+  "falle": "Falsche Monopol-Annahme: Neben dem amerikanischen GPS existieren das russische GLONASS, das europäische Galileo, das chinesische BeiDou und das indische NavIC — fünf vollständig unabhängige Navigationssysteme, alle auf Grundlage eines kugelförmigen Erdmodells berechnet, alle mit zentimetergenauer Präzision.",
+  "gegenfrage": "Warum landen Flugzeuge, die ausschließlich mit GLONASS oder Galileo navigieren, trotzdem am richtigen Flughafen zur richtigen Zeit?"
+ },
+ {
+  "id": "AU-01-QR09",
+  "au": 1,
+  "quelle": "DIE FLACHE ERDE",
+  "behauptung": "Das Bedford-Level-Experiment hat bewiesen, dass das Wasser flach ist!",
+  "falle": "Selektive Versionsauswahl: Rowbotham führte 1838 ein methodisch unkontrolliertes Experiment durch, das atmosphärische Refraktion ignorierte. Als Alfred Russel Wallace dasselbe Experiment 1870 mit korrekter Refraktionskorrektur wiederholte, maß er exakt die erwartete Erdkrümmung — und gewann die Wette.",
+  "gegenfrage": "Warum akzeptieren Flacherd-Anhänger Rowbothams unkontrolliertes Experiment von 1838, aber nicht Wallaces kontrolliertes von 1870?"
+ },
+ {
+  "id": "AU-01-QR10",
+  "au": 1,
+  "quelle": "DIE FLACHE ERDE",
+  "behauptung": "Seit Jahrtausenden wussten die Menschen, dass die Erde flach ist — das ist das natürliche Wissen!",
+  "falle": "Historische Umkehrung: Die meisten gebildeten Gesellschaften seit der griechischen Antike gingen von einer Kugelform aus. Die Vorstellung einer mittelalterlichen ‚Flacherde-Überzeugung' ist eine Legende, die Washington Irving 1828 in einer fiktionalisierten Kolumbus-Biografie erfunden hat — um einen dramatischeren Konflikt zu erzeugen.",
+  "gegenfrage": "Welche antike Quelle — ägyptisch, griechisch, arabisch, indisch, chinesisch — beschreibt die Erde buchstäblich als flache Scheibe statt als Kugel?"
+ },
+ {
+  "id": "AU-02-QR01",
+  "au": 2,
+  "quelle": "DIE MONDLANDUNGS-LÜGE",
+  "behauptung": "Die Flagge weht im Wind — im Vakuum gibt es keinen Wind, also war es im Studio!",
+  "falle": "Physik-Umkehrung: In einer Atmosphäre hätte Luftreibung die Flaggenbewegung sofort gedämpft und gestoppt. Im Vakuum des Mondes gibt es kein Medium, das Schwingungsenergie absorbiert — die Querstange schwingt deshalb weiter.",
+  "gegenfrage": "Wenn NASA-Techniker eine Mondlandung im Studio inszenieren wollten — warum montierten sie ausgerechnet eine horizontale Querstange, die die Fahne ausgestreckt hält und zum Schwingen bringt, statt einfach eine normale Fahne zu verwenden, die still hängt?"
+ },
+ {
+  "id": "AU-02-QR02",
+  "au": 2,
+  "quelle": "DIE MONDLANDUNGS-LÜGE",
+  "behauptung": "Auf keinem Apollo-Foto sind Sterne zu sehen — das beweist, dass es im Studio aufgenommen wurde!",
+  "falle": "Fotografische Belichtungslogik: Astronauten in weißen Raumanzügen auf hellem Regolith unter direkter Sonneneinstrahlung sind etwa dreizehn Größenordnungen heller als Hintergrundsterne. Bei der korrekten Kameraeinstellung für Tageslicht wäre eine Langzeitbelichtung für Sterne nötig gewesen, die alle anderen Bildelemente hoffnungslos überstrahlt hätte.",
+  "gegenfrage": "Fotografiere an einem sonnigen Mittag auf hellem Asphalt und prüfe: Wie viele Sterne sind auf dem Foto? Was müsstest du an Blende und Belichtungszeit ändern, damit Sterne sichtbar werden — und was würde dabei gleichzeitig mit dem sonnenbeschienenen Vordergrund passieren?"
+ },
+ {
+  "id": "AU-02-QR03",
+  "au": 2,
+  "quelle": "DIE MONDLANDUNGS-LÜGE",
+  "behauptung": "Mit der Rechentechnik von 1969 war das technisch unmöglich — ein heutiges Smartphone ist tausendmal leistungsfähiger als der Apollo-Bordcomputer!",
+  "falle": "Proportionality Bias: Ein Navigationssystem, das nach vorberechneten Bahnen arbeitet, benötigt keine Allzweck-Rechenleistung, sondern Präzision bei wenigen, scharf definierten Aufgaben. Der Apollo Guidance Computer war dafür ausgelegt und ausreichend.",
+  "gegenfrage": "Welche technische Grenze hätte die Mondlandung spezifisch unmöglich gemacht — und warum haben mehr als fünfzig Jahre Raketenbau, mit erheblich modernerer Technik, die Schubrekorde des Saturn V bis heute nicht gebrochen?"
+ },
+ {
+  "id": "AU-02-QR04",
+  "au": 2,
+  "quelle": "DIE MONDLANDUNGS-LÜGE",
+  "behauptung": "Stanley Kubrick hat in einem Interview gestanden, die Mondlandung inszeniert zu haben!",
+  "falle": "Gefälschtes Primärdokument: Das viral verbreitete Video entstand im Jahr 2015, sechzehn Jahre nach Kubricks Tod, und zeigt einen Schauspieler in der Rolle des Regisseurs. Es ist kein dokumentiertes Interview, sondern eine inszenierte Produktion.",
+  "gegenfrage": "Ein Video von 2015 zeigt einen Mann, der vorgibt, Kubrick zu sein, der 1999 gestorben ist. Kubricks Tochter nennt es eine Erfindung. Welche Quelle aus Kubricks Lebzeiten — ein Brief, ein Drehbuch, ein zeitgenössischer Zeuge — belegt, dass er je an der Inszenierung einer Mondlandung beteiligt war?"
+ },
+ {
+  "id": "AU-02-QR05",
+  "au": 2,
+  "quelle": "DIE MONDLANDUNGS-LÜGE",
+  "behauptung": "Kein Mensch kann den Van-Allen-Strahlungsgürtel überleben — die Astronauten wären alle gestorben!",
+  "falle": "Falsches Maximalprinzip: Die Apollo-Trajektorie traversierte bewusst die schwächsten Regionen der Gürtel. Die gesamte Strahlungsdosis der Apollo-11-Astronauten betrug zwischen 0,18 und 1,14 Rad — vergleichbar mit einigen medizinischen Bildgebungsuntersuchungen und weit unter der Schwelle, ab der akute Strahlenkrankheit einsetzt (rund 200 Rad).",
+  "gegenfrage": "Welche Strahlungsdosis gilt konkret als klinisch gefährliche Schwelle — und wie lange dauerte die Passage durch die stärksten Van-Allen-Regionen auf dem gewählten Apollo-Kurs tatsächlich? (Antwort: rund dreißig Minuten durch den äußeren Gürtel, mit der Aluminium-Abschirmung der Kapsel.)"
+ },
+ {
+  "id": "AU-02-QR06",
+  "au": 2,
+  "quelle": "DIE MONDLANDUNGS-LÜGE",
+  "behauptung": "Die Schatten auf den Apollo-Fotos verlaufen nicht parallel — das beweist mehrere Kunstlichtquellen im Studio!",
+  "falle": "Falsches Flachgelände-Modell: Parallele Schatten entstehen nur auf absolutem Flachgelände unter einer einzigen Lichtquelle. Die Mondoberfläche ist hochgradig uneben — Steine, Krater, Flanken.",
+  "gegenfrage": "Lege fünf verschieden geformte Steine auf unebenen Gartenboden und fotografiere sie bei schräger Sonneneinstrahlung. Wie viele verschiedene Schattenrichtungen entstehen — und was würde eine perfekt parallele Schattenstruktur auf der unebenen Mondoberfläche über die Beleuchtung eigentlich sagen?"
+ },
+ {
+  "id": "AU-02-QR07",
+  "au": 2,
+  "quelle": "DIE MONDLANDUNGS-LÜGE",
+  "behauptung": "Wenn wir 1969 auf dem Mond waren — warum können wir heute nicht mehr dorthin?",
+  "falle": "Budgetfrage statt Physikfrage: Die NASA führte zwischen 1969 und 1972 sechs erfolgreiche Mondlandungen durch. Die Einstellung danach war die Folge von Budgetkürzungen und politischer Prioritätsverschiebung, nicht eines technischen Scheiterns.",
+  "gegenfrage": "Die Concorde, das schnellste Passagierflugzeug aller Zeiten, wurde 2003 außer Dienst gestellt. Widerlegt das, dass Flugzeuge die Schallmauer je durchbrochen haben?"
+ },
+ {
+  "id": "AU-02-QR08",
+  "au": 2,
+  "quelle": "DIE MONDLANDUNGS-LÜGE",
+  "behauptung": "Bill Kaysing war ein NASA-Insider — er wusste, was wirklich passiert ist!",
+  "falle": "Kompetenz-Aufblähung: Kaysing war technischer Redakteur, kein Ingenieur, beim NASA-Auftragnehmer Rocketdyne — und er verließ das Unternehmen 1963, sechs Jahre vor Apollo 11, bevor das entscheidende Apolloprogramm überhaupt konstruiert war. Sein Buch erschien 1976, im Selbstverlag, ohne jede fachliche Begutachtung, sieben Jahre nach der Landung.",
+  "gegenfrage": "Ein Redakteur verließ 1963 einen Betrieb. Sechs Jahre später absolviert dieselbe Organisation die größte technische Leistung der Menschheitsgeschichte. Wie viel Insiderwissen über die Konstruktion der Mondfähre besitzt jemand, der sechs Jahre vor ihrer Fertigstellung das Gebäude verlassen hatte?"
+ },
+ {
+  "id": "AU-02-QR09",
+  "au": 2,
+  "quelle": "DIE MONDLANDUNGS-LÜGE",
+  "behauptung": "Die Sowjets wussten doch auch, ob es echt war — und sie haben geschwiegen, also muss etwas faul sein!",
+  "falle": "Zeitliche Umkehrung: Die Sowjetunion schwieg nicht — sie bestätigte die Apollo-Landung offiziell 1969, auf dem Höhepunkt des Kalten Krieges, weil ihre eigenen Verfolgungsanlagen und Jodrell Bank in England die Telemetrie live empfangen hatten. Ihre Niederlage war real und öffentlich.",
+  "gegenfrage": "Was hätte ein belegter NASA-Schwindel für die sowjetische Propagandamaschine bedeutet — und welchen Grund hätte Moskau gehabt, diese Waffe nicht einzusetzen, obwohl das Land genau in diesem Monat Luna 15 auf dem Mond abstürzen ließ und Jodrell Bank beide Missionen live verfolgte?"
+ },
+ {
+  "id": "AU-02-QR10",
+  "au": 2,
+  "quelle": "DIE MONDLANDUNGS-LÜGE",
+  "behauptung": "Ich behaupte ja nichts — ich stelle nur Fragen. Darf man das nicht mehr?",
+  "falle": "JAQing (Just Asking Questions): Die Technik tarnt fertige Schlussfolgerungen als neutrale Neugier. „Ich frage nur, ob das damals technisch möglich war\" transportiert die Antwort — es war unmöglich — implizit mit, ohne sie je zu formulieren, und lädt die gesamte Beweislast zur Widerlegung beim anderen ab (→ Punkt 5, die Beweisführung: der faire Prozess).",
+  "gegenfrage": "Welche Antwort würde dich überzeugen? Wenn keine mögliche Antwort prinzipiell überzeugend sein kann — ist die Frage dann wirklich eine Frage, oder ist sie eine Behauptung, die sich als Frage verkleidet hat?"
+ },
+ {
+  "id": "AU-02-QR11",
+  "au": 2,
+  "quelle": "DIE MONDLANDUNGS-LÜGE",
+  "behauptung": "Die Retroreflektoren könnten auch von unbemannten Sonden dort platziert worden sein!",
+  "falle": "Unvollständige Alternative: Genau das hat die Sowjetunion getan — die Lunochod-Rover von 1970 und 1973 platzierten zwei eigene Retroreflektoren auf dem Mond, unabhängig, von Jodrell Bank bestätigt, ohne amerikanische Beteiligung. Wenn unbemannte Sonden Retroreflektoren dorthin bringen können, ist das kein Gegenargument gegen die Apollo-Retroreflektoren — es ist der Beweis, dass Fahrzeuge dorthin gelangen.",
+  "gegenfrage": "Die sowjetischen Lunochod-Rover platzierten ihre Retroreflektoren auf dem Mond. Sind diese ebenfalls gefälscht — oder zeigen sie, dass Fahrzeuge tatsächlich dorthin gelangten? Und wenn beides stimmt: Was unterscheidet prinzipiell eine unbemannte von einer bemannten Mission?"
+ },
+ {
+  "id": "AU-03-QR01",
+  "au": 3,
+  "quelle": "CHEMTRAILS",
+  "behauptung": "Solche Streifen, die stundenlang stehen bleiben, gab es früher nicht — das ist neu.",
+  "falle": "Verwechslung von Sichtbarkeit mit Substanz. Ob ein Kondensstreifen in Sekunden zerfällt oder zu einem milchigen Schleier auseinanderläuft, entscheidet allein die Luftschicht in acht bis zwölf Kilometern Höhe: Ist sie trocken, sublimiert das Eis sofort; ist sie kalt und mit Wasserdampf übersättigt, wächst der Streifen weiter und kann Stunden bestehen.",
+  "gegenfrage": "Wenn der Unterschied an der Feuchte der Luft dort oben läge — wo könntest du nachsehen, wie feucht diese Schicht heute über dir ist, bevor du entscheidest, dass es an dem liegt, was im Streifen steckt?"
+ },
+ {
+  "id": "AU-03-QR02",
+  "au": 3,
+  "quelle": "CHEMTRAILS",
+  "behauptung": "In meiner Bodenprobe ist viel zu viel Aluminium. Das fällt vom Himmel.",
+  "falle": "Eine Zahl ohne Maßstab. Aluminium ist das häufigste Metall der Erdkruste und macht rund acht Prozent ihrer Masse aus — es steckt in fast jedem Tonmineral, in fast jeder Handvoll Erde.",
+  "gegenfrage": "Was enthielt dieselbe Erde an Aluminium, bevor die Streifen am Himmel standen — und wer hat die Probe genommen, nach wessen Anleitung?"
+ },
+ {
+  "id": "AU-03-QR03",
+  "au": 3,
+  "quelle": "CHEMTRAILS",
+  "behauptung": "Schau dir diese Gittermuster an — kreuz und quer, das ist doch kein Zufall.",
+  "falle": "Apophenie: Das Gehirn ist darauf gebaut, in jedem Rauschen Muster zu sehen, weil ein verpasster Tiger teurer war als ein eingebildeter (→ Punkt 7, die psychologische Anatomie). Dicht beflogene Regionen sind von festen Luftkorridoren durchzogen; Maschinen folgen ihnen aus verschiedenen Richtungen, und Höhenwind schiebt die Streifen quer.",
+  "gegenfrage": "Wenn du eine Karte der Flugrouten über deinem Ort neben das Foto legst — passt das Gitter zu den Korridoren, oder hätte jemand absichtlich gegen die Routen fliegen müssen, um es zu zeichnen?"
+ },
+ {
+  "id": "AU-03-QR04",
+  "au": 3,
+  "quelle": "CHEMTRAILS",
+  "behauptung": "Das Militär hat doch zugegeben, Wetter zu machen — Operation Popeye!",
+  "falle": "Verwechslung von Machbarkeit und Vollzug. Operation Popeye war real: Zwischen 1967 und 1972 impfte das US-Militär über dem Ho-Chi-Minh-Pfad Wolken mit Silberiodid, um den Monsun zu verlängern.",
+  "gegenfrage": "Wenn ein kleines Militärprogramm über einem Kriegsgebiet aufflog — wie bliebe ein tausendfach größeres, über jedem Land, durch zivile Fluglinien, jahrzehntelang dicht?"
+ },
+ {
+  "id": "AU-03-QR05",
+  "au": 3,
+  "quelle": "CHEMTRAILS",
+  "behauptung": "Die Air Force hat es selbst geschrieben: Owning the Weather in 2025.",
+  "falle": "Ein fehlgelesenes Primärdokument. Die Studie von 1996 ist ein akademischer Zukunftsaufsatz von Offiziersanwärtern — ein ausdrücklich als Spekulation gekennzeichnetes „Was wäre, wenn\", unklassifiziert und öffentlich zugänglich.",
+  "gegenfrage": "Welcher Geheimplan wird als unklassifizierte Studie ins Netz gestellt — und warum sollte man ein Vorhaben verschweigen wollen und es zugleich selbst veröffentlichen?"
+ },
+ {
+  "id": "AU-03-QR06",
+  "au": 3,
+  "quelle": "CHEMTRAILS",
+  "behauptung": "Harvard sprüht doch längst — SCoPEx ist der Beweis.",
+  "falle": "Verwechslung transparenter Forschung mit Geheimprogramm. SCoPEx war offen geplant: ein einzelner Ballon, 100 Gramm bis 2 Kilogramm Kalziumkarbonat, ein unabhängiges Aufsichtsgremium, jahrelange öffentliche Debatte.",
+  "gegenfrage": "Wenn dies das geheime Sprühen wäre — woher kennst du die Substanz, die Menge und den Startplatz, und warum wurde es ausgerechnet durch öffentlichen Druck gestoppt?"
+ },
+ {
+  "id": "AU-03-QR07",
+  "au": 3,
+  "quelle": "CHEMTRAILS",
+  "behauptung": "Es gibt Patente für Wettermodifikation — also wird es gemacht.",
+  "falle": "Patent ist nicht Praxis. Ein Patent — etwa das oft zitierte Welsbach-Patent der 1990er — schützt eine Idee, es belegt keine Anwendung.",
+  "gegenfrage": "Wie viele patentierte Erfindungen kennst du, die nie ein Mensch tatsächlich gebaut hat — und was unterscheidet ein angemeldetes Verfahren von einem ausgeführten?"
+ },
+ {
+  "id": "AU-03-QR08",
+  "au": 3,
+  "quelle": "CHEMTRAILS",
+  "behauptung": "Auf den Fotos sieht man die Tanks im Flugzeug — die Sprühanlagen!",
+  "falle": "Ein aus dem Zusammenhang gerissenes Bild. Die fraglichen Fotos zeigen Wasser-Ballasttanks in Erprobungsmaschinen — Behälter, mit denen Hersteller bei der Zulassung Gewicht und Schwerpunkt simulieren, indem sie Wasser kontrolliert umpumpen.",
+  "gegenfrage": "Warum stehen diese Tanks in nackten Testflugzeugen und nicht in der Maschine, mit der du in den Urlaub fliegst — und wie viel Material müsste eine einzelne Linienmaschine täglich versprühen, um einen ganzen Himmel zu bedecken?"
+ },
+ {
+  "id": "AU-03-QR09",
+  "au": 3,
+  "quelle": "CHEMTRAILS",
+  "behauptung": "Seit die Streifen da sind, hustet die ganze Familie — das ist das Gift.",
+  "falle": "Korrelation als Kausalität, verstärkt durch den Bestätigungsfehler. Atemwegsinfekte folgen den Jahreszeiten, nicht den Streifen; wer aber gelernt hat, im Himmel die Ursache zu suchen, verknüpft jeden Husten mit dem nächsten weißen Strich und übersieht alle Tage, an denen beides nicht zusammenfiel.",
+  "gegenfrage": "Hast du auch in den Jahren gehustet, bevor du von Chemtrails wusstest — und woran würdest du merken, dass es diesmal nicht einfach die Jahreszeit ist?"
+ },
+ {
+  "id": "AU-03-QR10",
+  "au": 3,
+  "quelle": "CHEMTRAILS",
+  "behauptung": "Wenn es harmlos wäre, warum schweigen dann alle Behörden und Piloten?",
+  "falle": "Das Mitwisser-Problem. Ein globales Sprühprogramm bräuchte Zehntausende bis Hunderttausende Eingeweihte — Piloten, Mechaniker, Tanklogistiker, Fluglotsen, Meteorologen, in jedem Land, bei ständigem Personalwechsel.",
+  "gegenfrage": "Wie schaffen es zehntausende ganz gewöhnliche Mechaniker und Piloten weltweit, jeden Abend zu ihren eigenen Kindern heimzukehren — und über das tägliche Vergiften genau dieser Kinder ein Leben lang zu schweigen?"
+ },
+ {
+  "id": "AU-03-QR11",
+  "au": 3,
+  "quelle": "CHEMTRAILS",
+  "behauptung": "Ich behaupte ja nichts — ich frage nur, ob das wirklich nur Wasser ist.",
+  "falle": "JAQing — Just Asking Questions (→ Autopsie #02). Die Frage transportiert die Antwort bereits mit und lädt die ganze Beweislast beim anderen ab, ohne sich selbst auf etwas Prüfbares festzulegen.",
+  "gegenfrage": "Welche Antwort würde dich überzeugen, dass es Wasser ist? Wenn keine denkbare Antwort das könnte — ist es dann noch eine Frage, oder eine Behauptung, die sich als Frage verkleidet?"
+ },
+ {
+  "id": "AU-03-QR12",
+  "au": 3,
+  "quelle": "CHEMTRAILS",
+  "behauptung": "Du schaust einfach weg. Ich schütze wenigstens meine Familie.",
+  "falle": "Der Lösungsreflex der Schutzfunktion — die Protective Vigilance (→ Punkt 3b, die Toleranz-Zone). Die Wachsamkeit selbst fühlt sich wie Liebe an: Sie verwandelt Ohnmacht in eine Aufgabe und den Beobachter in den einen, der seine Kinder rettet.",
+  "gegenfrage": "Wenn der Himmel über deinen Kindern morgen messbar harmlos wäre — bliebe dann eine Art, sie zu beschützen, die wahr ist und dir trotzdem dieselbe Aufgabe gibt?"
+ },
+ {
+  "id": "AU-04-QR01",
+  "au": 4,
+  "quelle": "KLIMAWANDEL",
+  "behauptung": "Es gibt keinen Konsens — die Wissenschaftler sind sich doch selbst uneinig.",
+  "falle": "Hergestellte falsche Ausgewogenheit. Die gefühlte Uneinigkeit ist kein Befund, sondern ein Produkt: Das API-Strategiepapier von 1998 nannte als ausdrückliches Ziel, in der Öffentlichkeit den Eindruck von Unsicherheit zu erzeugen.",
+  "gegenfrage": "Woher hast du den Eindruck, dass sie uneinig sind — aus den Fachveröffentlichungen selbst, oder aus den Kanälen, deren erklärtes Ziel es war, dir genau diesen Eindruck zu geben?"
+ },
+ {
+  "id": "AU-04-QR02",
+  "au": 4,
+  "quelle": "KLIMAWANDEL",
+  "behauptung": "31.000 Wissenschaftler haben gegen den Klimakonsens unterschrieben — die Oregon-Petition.",
+  "falle": "Eine Zahl ohne Prüfung. Die Liste wurde nie verifiziert; sie enthält nachweislich Spaß- und Falschnamen wie Charles Darwin und Mitglieder der Spice Girls, und nur ein Promilleanteil der Unterzeichner forschte je zur Klimatologie.",
+  "gegenfrage": "Wie viele dieser einunddreißigtausend haben je eine begutachtete Arbeit zum Klima veröffentlicht — und wer hat die Namen geprüft, bevor sie gezählt wurden?"
+ },
+ {
+  "id": "AU-04-QR03",
+  "au": 4,
+  "quelle": "KLIMAWANDEL",
+  "behauptung": "Climategate hat doch bewiesen, dass die Daten gefälscht sind.",
+  "falle": "Ein Mythos über einen Mythos. Aus den 2009 gestohlenen E-Mails wurden einzelne Fachbegriffe — ein statistischer „Trick\", das „Verbergen\" eines Proxy-Problems bei Baumringen — aus dem Zusammenhang gerissen.",
+  "gegenfrage": "Welche der unabhängigen Untersuchungen, die folgten, hast du gelesen — und an welcher einzelnen E-Mail hängt eigentlich das Thermometer auf dem Vulkan?"
+ },
+ {
+  "id": "AU-04-QR04",
+  "au": 4,
+  "quelle": "KLIMAWANDEL",
+  "behauptung": "Die Satellitendaten zeigen gar keine Erwärmung, manche sogar eine Abkühlung.",
+  "falle": "Ein bekannter, behobener Messfehler, der weiterzitiert wird. Die frühen UAH-Satellitenreihen zeigten scheinbar eine Abkühlung, weil die langsame Bahnabsenkung der Satelliten und die Tagesdrift nicht korrekt herausgerechnet waren.",
+  "gegenfrage": "Beziehst du dich auf die ursprüngliche Auswertung oder auf die korrigierte — und was geschah mit der ‚Abkühlung', als der Drift der Satellitenbahn herausgerechnet wurde?"
+ },
+ {
+  "id": "AU-04-QR05",
+  "au": 4,
+  "quelle": "KLIMAWANDEL",
+  "behauptung": "Das Klima hat sich immer geändert — das ist ein natürlicher Zyklus.",
+  "falle": "Ein wahrer Satz mit einem falschen Schluss. Ja, das Klima schwankte stets — und genau deshalb kennt die Forschung die natürlichen Antriebe und ihre Tempi sehr genau.",
+  "gegenfrage": "Wenn es ein natürlicher Zyklus ist — welcher genau, und warum trägt das zusätzliche CO₂ in der Luft die isotopische Signatur von verbranntem Öl und Kohle statt die eines Vulkans oder der Ozeane?"
+ },
+ {
+  "id": "AU-04-QR06",
+  "au": 4,
+  "quelle": "KLIMAWANDEL",
+  "behauptung": "CO₂ ist nur ein Spurengas und obendrein Pflanzennahrung — wie soll das die Erde aufheizen?",
+  "falle": "Eine Größenordnung ohne Mechanismus. Die Wärmewirkung eines Gases hängt nicht von seinem Anteil ab, sondern davon, ob es Infrarotstrahlung absorbiert — und dass CO₂ das tut, ist seit Tyndall (1859) und Arrhenius (1896) im Labor gemessen, nicht modelliert.",
+  "gegenfrage": "Welches physikalische Gesetz müsste falsch sein, damit ein nachweislich infrarotaktives Gas die Wärmeabstrahlung nicht bremst — und wo wurde dieses Gesetz je widerlegt?"
+ },
+ {
+  "id": "AU-04-QR07",
+  "au": 4,
+  "quelle": "KLIMAWANDEL",
+  "behauptung": "Früher war es auch wärmer — denk an die mittelalterliche Warmzeit, Grönland war grün.",
+  "falle": "Regionales als globales Maß. Die mittelalterliche Wärme war ausgeprägt, aber regional und zeitlich versetzt — sie traf nicht alle Erdteile zugleich.",
+  "gegenfrage": "War es überall zugleich wärmer, oder an einzelnen Orten zu verschiedenen Zeiten — und woran erkennt man den Unterschied zwischen einer regionalen Schwankung und einer globalen Verschiebung?"
+ },
+ {
+  "id": "AU-04-QR08",
+  "au": 4,
+  "quelle": "KLIMAWANDEL",
+  "behauptung": "Die Klimaforscher wollen doch nur an Forschungsgelder — folge dem Geld.",
+  "falle": "Eine richtige Frage, an die falsche Adresse gestellt. Folge dem Geld — aber wirklich: Der dokumentierte Strom führt nicht zu den Messstationen, sondern zu den Zweifelsfabriken.",
+  "gegenfrage": "Lass uns dem Geld folgen — auf welcher Seite ist die Summe größer: bei den Universitäten, oder bei der Industrie, deren Geschäftsmodell vom Status quo abhängt?"
+ },
+ {
+  "id": "AU-04-QR09",
+  "au": 4,
+  "quelle": "KLIMAWANDEL",
+  "behauptung": "Selbst die Klimamodelle haben sich ständig geirrt — man kann das doch gar nicht vorhersagen.",
+  "falle": "Verwechslung von Wetter und Klima, widerlegt durch die Gegenseite selbst. Die internen Modelle von ExxonMobil sagten zwischen 1977 und 2003 die spätere Erwärmung mit hoher Treffsicherheit voraus — die eigenen Wissenschaftler des Konzerns, der die Leugnung finanzierte, lagen richtig.",
+  "gegenfrage": "Wenn man das Klima nicht vorhersagen kann — wie kommt es, dass die firmeneigenen Prognosen eines Ölkonzerns aus den Siebzigern die heutige Temperatur so genau trafen?"
+ },
+ {
+  "id": "AU-04-QR10",
+  "au": 4,
+  "quelle": "KLIMAWANDEL",
+  "behauptung": "Al Gore fliegt im Privatjet — diese Heuchler glauben doch selbst nicht dran.",
+  "falle": "Ad hominem statt Sache. Die Lebensweise eines Boten sagt nichts über die Messung aus.",
+  "gegenfrage": "Angenommen, jeder Mahner wäre ein Heuchler — würde dadurch auch nur ein einziges Messgerät einen anderen Wert anzeigen?"
+ },
+ {
+  "id": "AU-04-QR11",
+  "au": 4,
+  "quelle": "KLIMAWANDEL",
+  "behauptung": "Wenn es wirklich so schlimm wäre, würden die Mächtigen ja längst handeln.",
+  "falle": "Ein Schluss vom Wunsch aufs Faktum, der die Akteure verwechselt. Die Mächtigen mit dem meisten zu verlieren haben gehandelt — sie haben in den Zweifel investiert, nicht in die Lösung.",
+  "gegenfrage": "Was, wenn die Mächtigen längst gehandelt haben — nur nicht gegen das Problem, sondern gegen dein Wissen davon? Wem nützt deine Beruhigung?"
+ },
+ {
+  "id": "AU-04-QR12",
+  "au": 4,
+  "quelle": "KLIMAWANDEL",
+  "behauptung": "Ich leugne ja nichts — ich stelle nur kritische Fragen zum Konsens.",
+  "falle": "JAQing — Just Asking Questions (→ Autopsie #02). Die Frage trägt ihre Antwort bereits in sich und lädt die Beweislast vollständig beim anderen ab, ohne sich selbst auf etwas Prüfbares festzulegen.",
+  "gegenfrage": "Welcher Befund würde deine Frage beantworten? Wenn dir keiner einfällt, der dich umstimmen könnte — war es dann je eine Frage, oder eine Behauptung im Gewand einer Frage?"
+ },
+ {
+  "id": "AU-05-QR01",
+  "au": 5,
+  "quelle": "DIE HOHL-ERDE",
+  "behauptung": "Niemand war je dort unten — wie kann die Wissenschaft also wissen, was im Kern steckt?",
+  "falle": "Verwechslung von sehen und messen. Dass kein Mensch je tiefer als gut 12 Kilometer in die Kruste vorgedrungen ist, heißt nicht, dass das Innere ungelesen bleibt.",
+  "gegenfrage": "Müssen wir eine Lunge aufschneiden, um sie zu durchschauen — oder genügt es zu lesen, wie die Strahlung sie durchquert?"
+ },
+ {
+  "id": "AU-05-QR02",
+  "au": 5,
+  "quelle": "DIE HOHL-ERDE",
+  "behauptung": "Selbst große Köpfe wie Halley und Euler glaubten an eine hohle Erde.",
+  "falle": "Autoritätsentführung — und ein Mythos über den Mythos. Halley schlug 1692 ein Schalenmodell vor, um echte Rätsel (wandernde Magnetpole, Polarlichter) zu erklären — mit den Daten seiner Zeit, lange vor der Seismologie.",
+  "gegenfrage": "Glaubte Halley es, weil er die Erdbebenwellen lesen konnte — die es erst 250 Jahre später zu lesen gab — oder weil er sie noch nicht kannte?"
+ },
+ {
+  "id": "AU-05-QR03",
+  "au": 5,
+  "quelle": "DIE HOHL-ERDE",
+  "behauptung": "Admiral Byrd flog 1947 ins Erdinnere und beschrieb es in seinem geheimen Tagebuch.",
+  "falle": "Nachträgliche Mythenproduktion. Operation Highjump war eine reale Militärexpedition in die Antarktis; das „geheime Tagebuch\" mit der Agartha-Schilderung ist eine spätere Fälschung aus der Okkultszene, die einer echten Person heroischen Glanz anheftet.",
+  "gegenfrage": "Wenn das Tagebuch echt ist — warum taucht es erst Jahrzehnte nach Byrds Tod auf, und in welchem Marine-Archiv liegt das Original?"
+ },
+ {
+  "id": "AU-05-QR04",
+  "au": 5,
+  "quelle": "DIE HOHL-ERDE",
+  "behauptung": "Die Kola-Bohrung stieß auf einen Hohlraum — man hörte die Schreie der Verdammten.",
+  "falle": "Der „Well to Hell\"-Hoax. Die angebliche Tonaufnahme aus der tiefsten Bohrung der Welt stammt nicht aus dem Gestein, sondern aus dem Soundtrack eines Horrorfilms, verbreitet Ende der 1980er über eine religiöse Fernsehsendung.",
+  "gegenfrage": "Bevor wir der Aufnahme glauben — woher stammt die Tondatei wirklich, und in welchem Film lief sie zuerst?"
+ },
+ {
+  "id": "AU-05-QR05",
+  "au": 5,
+  "quelle": "DIE HOHL-ERDE",
+  "behauptung": "An den Polen gibt es Öffnungen — man sieht das schwarze Loch auf den Satellitenbildern.",
+  "falle": "Ein Bildartefakt, gelesen als Geografie. Der dunkle Fleck am Pol mancher Globalaufnahmen ist die Lücke, über die ein polnah umlaufender Satellit nie direkt hinwegfliegt — eine fehlende Kachel, kein Eingang.",
+  "gegenfrage": "Ist das ein Loch — oder die eine Stelle, die der Satellit nie überfliegt, sodass das Bild dort schlicht nichts zu zeigen hat?"
+ },
+ {
+  "id": "AU-05-QR06",
+  "au": 5,
+  "quelle": "DIE HOHL-ERDE",
+  "behauptung": "Die Schwerkraft hielte uns an der Innenwand fest, wie in Vernes Welt.",
+  "falle": "Verstoß gegen Newtons Schalentheorem. Im Inneren einer kugelförmigen Schale heben sich die Gravitationskräfte exakt auf — dort herrscht Schwerelosigkeit, keine bequeme Innenoberfläche.",
+  "gegenfrage": "Welche Kraft drückt uns an die Innenwand, wenn Newtons Schalentheorem für das Innere einer Schale exakt null ergibt — und wo wurde dieses Theorem je widerlegt?"
+ },
+ {
+  "id": "AU-05-QR07",
+  "au": 5,
+  "quelle": "DIE HOHL-ERDE",
+  "behauptung": "Die Erde könnte hohl sein, und wir würden es gar nicht merken.",
+  "falle": "Ignoriert die mittlere Dichte. Die Erde wiegt im Schnitt rund 5,5 Gramm pro Kubikzentimeter — mehr als doppelt so viel wie ihr Oberflächengestein.",
+  "gegenfrage": "Warum wiegt die Erde mehr als doppelt so viel, wie ihr eigenes Gestein erlaubt — wenn nicht wegen eines schweren, vollen Kerns?"
+ },
+ {
+  "id": "AU-05-QR08",
+  "au": 5,
+  "quelle": "DIE HOHL-ERDE",
+  "behauptung": "Erdbebenwellen beweisen nichts — die laufen genauso gut durch einen Hohlraum.",
+  "falle": "Übersieht die Schattenzone der Scherwellen. S-Wellen durchqueren keine Flüssigkeit; deshalb erreichen sie die der Quelle gegenüberliegende Erdseite nie.",
+  "gegenfrage": "Warum kommt eine Scherwelle nie auf der anderen Seite der Erde an — wenn nicht, weil sie einen flüssigen Kern nicht durchqueren kann?"
+ },
+ {
+  "id": "AU-05-QR09",
+  "au": 5,
+  "quelle": "DIE HOHL-ERDE",
+  "behauptung": "Geophysik ist doch nur ein Modell — reine Spekulation, niemand hat den Kern gesehen.",
+  "falle": "Falsche Gleichsetzung von Modell und Vermutung. Ein bloßer Wunsch sagt nichts voraus; dieses Modell sagt auf die Sekunde genau, wann und wo eine Erdbebenwelle an einer Station am anderen Ende der Welt eintrifft — und trifft zu.",
+  "gegenfrage": "Wenn es reine Spekulation ist — wie nennt das Modell die Ankunftszeit einer Welle auf der Gegenseite des Planeten vorher, und warum stimmt sie?"
+ },
+ {
+  "id": "AU-05-QR10",
+  "au": 5,
+  "quelle": "DIE HOHL-ERDE",
+  "behauptung": "Die verheimlichen uns ein ganzes Loch in der Erde.",
+  "falle": "Die Grimes-Schwelle (→ Autopsie #01, Punkt 10d). Seismologische Rohdaten werden weltweit an unzähligen Universitäten in Echtzeit ausgewertet — von Menschen ohne gemeinsames Interesse, viele davon Studierende im ersten Semester.",
+  "gegenfrage": "Wie viele tausend Studenten, die jede Nacht offene Erdbebendaten lesen, müssten gleichzeitig schweigen — und wie lange hielte dieses Schweigen, bevor einer redet?"
+ },
+ {
+  "id": "AU-05-QR11",
+  "au": 5,
+  "quelle": "DIE HOHL-ERDE",
+  "behauptung": "Geophysik nimmt dem Planeten alles Geheimnis — das ist so trocken.",
+  "falle": "Die Entzauberungs-Angst, als ästhetisches Urteil getarnt. „Langweilig\" ist kein Befund über die Erde, sondern über das eigene Gefühl.",
+  "gegenfrage": "Ist ein glühendes Eisenherz, das langsamer dreht als der Mantel über ihm, wirklich ärmer an Geheimnis als ein Pilzwald aus einem Buch — oder nur weniger deins?"
+ },
+ {
+  "id": "AU-05-QR12",
+  "au": 5,
+  "quelle": "DIE HOHL-ERDE",
+  "behauptung": "Agartha ist die innere Welt, in die sich die Eingeweihten zurückgezogen haben.",
+  "falle": "Hier kippt der harmlose Eskapismus in Weltanschauung. Die esoterische Überhöhung der Hohlwelt ist die Tür, durch die Nazi-Okkultismus, Neuschwabenland-Legenden und antisemitische Lenkermächte-Erzählungen eintreten (→ Punkt 5, die Beweisführung).",
+  "gegenfrage": "Was ändert sich an Agartha, wenn man fragt: Wer hat es zuerst behauptet, und welche Politik trug die Behauptung huckepack?"
+ },
+ {
+  "id": "AU-06-QR01",
+  "au": 6,
+  "quelle": "ASTROLOGIE",
+  "behauptung": "Das beschreibt mich so genau — das kann kein Zufall sein.",
+  "falle": "Subjektive Validierung, der Barnum-Effekt. Das Gehirn liest die vage Aussage nicht ab, es füllt sie — sucht in der eigenen Biografie das eine passende Erlebnis und schreibt die Treffsicherheit dem Text gut, der nur eine leere Form war.",
+  "gegenfrage": "Würde derselbe Satz auch deine Nachbarin treffen — und wenn ja, was hat dann eigentlich dich beschrieben?"
+ },
+ {
+  "id": "AU-06-QR02",
+  "au": 6,
+  "quelle": "ASTROLOGIE",
+  "behauptung": "Ich kann nicht anders, ich bin nun mal Widder.",
+  "falle": "Das Etikett wird vom Spiegel zum Alibi. Aus einer Beschreibung, wie man sei, wird die Erlaubnis, so zu bleiben, und die Eigenverantwortung wandert leise an die Konstellation ab (→ Punkt 7b, die emotionale Anatomie).",
+  "gegenfrage": "Beschreibt das Zeichen, wie du bist — oder gibt es dir die Erlaubnis, dich nicht zu ändern?"
+ },
+ {
+  "id": "AU-06-QR03",
+  "au": 6,
+  "quelle": "ASTROLOGIE",
+  "behauptung": "Mein Horoskop hat genau vorhergesagt, dass diese Woche schwer wird.",
+  "falle": "Der Jeane-Dixon-Effekt: Das Gedächtnis feiert die wenigen Treffer und vergisst die vielen Nieten geräuschlos, bis aus reinem Zufall ein Muster zu sprechen scheint (→ Punkt 7a, die kognitive Anatomie).",
+  "gegenfrage": "Wie viele der letzten dreißig Tagesprognosen weißt du noch — die, die zutrafen, oder die, die danebenlagen?"
+ },
+ {
+  "id": "AU-06-QR04",
+  "au": 6,
+  "quelle": "ASTROLOGIE",
+  "behauptung": "Sie wusste in der Sitzung Dinge über mich, die sie unmöglich wissen konnte.",
+  "falle": "Cold Reading. Der verneinte Fehlschlag verschwindet — jede deiner Reaktionen, ein Nicken, ein Zögern, ein klares Nein, wird im selben Atemzug zum Treffer umgedeutet, und am Ende erinnerst du nur den Strom der Bestätigungen (→ Punkt 7c, die Manipulations-Anatomie).",
+  "gegenfrage": "Hat sie etwas gesagt, das du nicht zuvor selbst bestätigt hast — oder hast du die Treffer geliefert und sie nur eingesammelt?"
+ },
+ {
+  "id": "AU-06-QR05",
+  "au": 6,
+  "quelle": "ASTROLOGIE",
+  "behauptung": ",Du bist eher zurückhaltend, aber unter den Richtigen blühst du auf' — das stimmt zu hundert Prozent.",
+  "falle": "Der Rainbow Ruse. Ein Satz fasst ein Merkmal und seinen Gegensatz zugleich und deckt damit das ganze Spektrum ab; er kann gar nicht danebenliegen, weil er beide Seiten der Münze gleichzeitig zeigt (→ Punkt 7c, die Manipulations-Anatomie).",
+  "gegenfrage": "Kennst du einen einzigen Menschen, auf den dieser Satz nicht zutrifft?"
+ },
+ {
+  "id": "AU-06-QR06",
+  "au": 6,
+  "quelle": "ASTROLOGIE",
+  "behauptung": "Die Wissenschaft kann Astrologie gar nicht messen — sie ist kein Naturgesetz, sondern ein symbolisches System.",
+  "falle": "Der strategische Rückzug aus der Prüfbarkeit. Als die Himmelsmechanik berechenbar wurde, floh die Astrologie von der Physik in die Symbolik — doch ein System, das keine prüfbare Vorhersage mehr wagt, entzieht sich nicht nur der Widerlegung, es sagt damit über die Welt auch nichts mehr aus (→ Punkt 5, die Beweisführung · → Punkt 9, der historische Spiegel).",
+  "gegenfrage": "Wenn nichts daran je falsch sein könnte — was genau behauptet es dann noch über die Welt?"
+ },
+ {
+  "id": "AU-06-QR07",
+  "au": 6,
+  "quelle": "ASTROLOGIE",
+  "behauptung": "Die Sterne zwingen nicht, sie neigen nur.",
+  "falle": "Die Immunisierungs-Metapher. Sobald die behauptete Kausalität verschwunden ist, zieht sich die Aussage auf eine „Neigung\" zurück, die sich bei keiner Prüfung je zeigen muss — eine Behauptung, gebaut, um nie scheitern zu können (→ Punkt 5, die Beweisführung).",
+  "gegenfrage": "Wenn die Neigung sich auch dann nicht zeigt, wenn man genau hinsieht — woran würdest du merken, dass es sie gar nicht gibt?"
+ },
+ {
+  "id": "AU-06-QR08",
+  "au": 6,
+  "quelle": "ASTROLOGIE",
+  "behauptung": "Der Mond hebt ganze Ozeane — warum sollte er nicht auch einen Menschen prägen?",
+  "falle": "Verwechslung von Gezeitenkraft und Charakter. Gravitation nimmt mit dem Quadrat des Abstands ab; im Moment der Geburt zieht die Hebamme am Bett stärker am Kind als der Planet Mars (→ Punkt 6, die naturwissenschaftliche Autopsie).",
+  "gegenfrage": "Wenn Gravitation der Kanal wäre — warum wirkt dann der Mensch, der dich auffängt, stärker als jeder Planet?"
+ },
+ {
+  "id": "AU-06-QR09",
+  "au": 6,
+  "quelle": "ASTROLOGIE",
+  "behauptung": "Co-Star trifft mich jeden Morgen so genau — die App kennt mich besser als ich mich selbst.",
+  "falle": "Die handwerkerlose Barnum-Maschine: ein einziger generischer Text, algorithmisch für Millionen ausgespielt, optimiert nicht auf Wahrheit, sondern auf das Gefühl des Getroffenseins (→ Punkt 2b, das Verwandtschafts-Netz).",
+  "gegenfrage": "Schreibt die App über dich — oder so offen, dass du dich selbst hineinschreibst, ohne es zu bemerken?"
+ },
+ {
+  "id": "AU-06-QR10",
+  "au": 6,
+  "quelle": "ASTROLOGIE",
+  "behauptung": "Wir passen einfach nicht zusammen, er ist Skorpion und ich Wassermann.",
+  "falle": "Hier kippt der harmlose Spiegel in eine kostspielige Entscheidung: Ein Etikett beendet eine intakte Beziehung, und der Mensch verschwindet hinter dem Zeichen, das man ihm aufgeklebt hat (→ Punkt 3b, die Toleranz-Zone).",
+  "gegenfrage": "Trennst du dich von einem Menschen — oder von einem Etikett, das du über diesen Menschen gelegt hast?"
+ },
+ {
+  "id": "AU-06-QR11",
+  "au": 6,
+  "quelle": "ASTROLOGIE",
+  "behauptung": "Mein Astrologe hat geraten, den Eingriff zu verschieben, bis Merkur nicht mehr rückläufig ist.",
+  "falle": "Die rote Zone, an der die Wärme dieses Kapitels endet. Hier verdrängt das Horoskop eine reale medizinische oder finanzielle Entscheidung, und der Schaden ist nicht mehr seelisch, sondern leiblich (→ Punkt 3b, die Toleranz-Zone).",
+  "gegenfrage": "Wenn der Rat sich als falsch erweist — wer trägt die Folgen am eigenen Leib, der Planet oder du?"
+ },
+ {
+  "id": "AU-06-QR12",
+  "au": 6,
+  "quelle": "ASTROLOGIE",
+  "behauptung": "Astronomen sagen, durch die verschobene Erdachse gäbe es eigentlich dreizehn Sternzeichen — dann stimmt mein Zeichen ja gar nicht.",
+  "falle": "Die Präzession verrät, dass das System dem echten Himmel nie gefolgt ist: Der Tierkreis der Horoskope hat sich über zwei Jahrtausende von den tatsächlichen Sternbildern fortbewegt — und keine einzige Vorhersage hat sich deshalb je geändert (→ Punkt 6, die naturwissenschaftliche Autopsie).",
+  "gegenfrage": "Wenn dein Zeichen am echten Himmel längst ein anderes ist und sich an deinem Horoskop nichts ändert — woran war es dann je gebunden?"
+ },
+ {
+  "id": "AU-07-QR01",
+  "au": 7,
+  "quelle": "PRÄ-ASTRONAUTIK",
+  "behauptung": "Diese Steine sind zu schwer und zu präzise — mit Kupferwerkzeug und Seil war das unmöglich.",
+  "falle": "Der Inkredulitäts-Reflex, gekoppelt an den Proportionalitätsfehler. Aus „ich kann es mir nicht vorstellen\" wird klammheimlich „also war es unmöglich\" — das Versagen der eigenen Einbildungskraft, verkleidet als Tatsache über fremde Hände (→ Punkt 7a, die kognitive Anatomie).",
+  "gegenfrage": "Sagt dein ‚das kann ich mir nicht vorstellen‘ etwas über die Pyramide — oder über die Grenze deiner Vorstellungskraft?"
+ },
+ {
+  "id": "AU-07-QR02",
+  "au": 7,
+  "quelle": "PRÄ-ASTRONAUTIK",
+  "behauptung": "Auf drei Kontinenten ohne jeden Kontakt entstanden Pyramiden — das kann kein Zufall sein, da war ein gemeinsamer Lehrmeister.",
+  "falle": "Der Hyperdiffusionismus, der ältere, irdische Vorgänger der Alien-Idee: die Annahme, große Leistungen könnten nur einmal entstehen und müssten verbreitet werden. Die Radiokarbon-Datierung hat ihn widerlegt — die Bauten entstanden asynchron und unabhängig (→ Punkt 9, der historische Spiegel).",
+  "gegenfrage": "Wäre die stabilste Form, Steine zu stapeln, ohne dass sie einstürzen, ein Beweis für Besucher — oder nur für eine Schwerkraft, die überall gleich wirkt?"
+ },
+ {
+  "id": "AU-07-QR03",
+  "au": 7,
+  "quelle": "PRÄ-ASTRONAUTIK",
+  "behauptung": "Die Nazca-Linien erkennt man nur aus der Luft — für wen wurden sie also gemacht, wenn nicht für etwas dort oben?",
+  "falle": "Ein Mythos über den Mythos. Die Linien sind von den umliegenden Hügeln gut zu sehen, und Joe Nickell baute 1982 mit einer Handvoll Helfern und ohne Vermessungsgerät einen originalgroßen Kondor vom Boden aus nach (→ Punkt 4, die zehn gewichtigsten Fälle).",
+  "gegenfrage": "Wenn man sie von den Bergen ringsum sieht und ein Skeptiker sie an einem Wochenende vom Boden aus nachzog — wer genau braucht hier ein Raumschiff?"
+ },
+ {
+  "id": "AU-07-QR04",
+  "au": 7,
+  "quelle": "PRÄ-ASTRONAUTIK",
+  "behauptung": "Auf dem Sarkophagdeckel von Palenque sitzt ein Astronaut an den Steuerknüppeln seiner Rakete.",
+  "falle": "Pareidolie — der visuelle Sonderfall der Apophenie. Das Auge presst eine fremde Bildsprache in eine vertraute Form; ein Maya-Herrscher am Weltenbaum wird zum Piloten, sobald man ihn mit den Augen des Raketenzeitalters liest (→ Punkt 7a, die kognitive Anatomie).",
+  "gegenfrage": "Siehst du einen Piloten in der Kapsel — oder einen toten König am kosmischen Baum, gelesen durch eine Brille, die es 1952 noch gar nicht gab?"
+ },
+ {
+  "id": "AU-07-QR05",
+  "au": 7,
+  "quelle": "PRÄ-ASTRONAUTIK",
+  "behauptung": "Das menschliche Chromosom 2 ist aus zwei Affenchromosomen zusammengesetzt — ein klarer Fingerabdruck der Genmanipulation.",
+  "falle": "Der Beweis, gegen sich selbst gewendet. Die Fusionsnaht trägt ein rudimentäres, stillgelegtes Centromer und Telomer-Sequenzen mitten im Chromosom — exakt die Signatur einer natürlichen Verschmelzung, nicht eines Eingriffs (→ Punkt 6, die naturwissenschaftliche Autopsie).",
+  "gegenfrage": "Wenn die Naht genau die Narben trägt, die eine natürliche Fusion hinterlässt — wer hat den Beweis hier eigentlich umgedreht?"
+ },
+ {
+  "id": "AU-07-QR06",
+  "au": 7,
+  "quelle": "PRÄ-ASTRONAUTIK",
+  "behauptung": "Die Mainstream-Archäologie unterdrückt jeden Fund, der ihr Weltbild sprengen würde.",
+  "falle": "Die selbstversiegelnde Verschwörung — gegen die Grimes-Mathematik gehalten. Hunderttausende Mitwisser, ein sich jährlich erneuerndes Feld ehrgeiziger, unterbezahlter Absolventen, für die ein Fund kein Geheimnis, sondern der sichere Nobelpreis wäre (→ Punkt 10d, das Prebunking-Prinzip · → Autopsie #01, Punkt 10d).",
+  "gegenfrage": "Würden zehntausende ehrgeizige Archäologen den Fund ihres Lebens vertuschen — oder ihn auf jedes Titelblatt der Welt bringen?"
+ },
+ {
+  "id": "AU-07-QR07",
+  "au": 7,
+  "quelle": "PRÄ-ASTRONAUTIK",
+  "behauptung": "Erst erklärt ihr die Pyramide, gut — aber dann zeige ich euch Puma Punku, und dann die Bagdad-Batterie, und dann …",
+  "falle": "Der Gish-Galopp samt wandernder Lücke. Dutzende Rätsel im Minutentakt überfordern jede sachliche Antwort; sobald eines erklärt ist, wird es geräuschlos durch das nächste ersetzt, und die Lücke darf nie schließen (→ Punkt 7c, die Manipulations-Anatomie).",
+  "gegenfrage": "Wenn jede beantwortete Frage sofort durch ein neues Rätsel ersetzt wird — suchst du eine Antwort oder eine Lücke, die offen bleiben muss?"
+ },
+ {
+  "id": "AU-07-QR08",
+  "au": 7,
+  "quelle": "PRÄ-ASTRONAUTIK",
+  "behauptung": "Die Wissenschaft hat doch selbst keine vollständige Erklärung, wie sie die Blöcke bewegten.",
+  "falle": "Das argumentum ad ignorantiam — „Alien of the gaps\". Eine Wissenslücke wird zum positiven Beweis umgemünzt: Was wir noch nicht im Detail wissen, soll plötzlich belegen, was wir nie gesehen haben (→ Punkt 5, die Beweisführung).",
+  "gegenfrage": "Ist ‚wir kennen die genaue Technik noch nicht‘ dasselbe wie ‚also waren es Außerirdische‘ — oder ist das zweite einfach drangehängt?"
+ },
+ {
+  "id": "AU-07-QR09",
+  "au": 7,
+  "quelle": "PRÄ-ASTRONAUTIK",
+  "behauptung": "Däniken hat das vor über fünfzig Jahren geschrieben, und es verkauft sich bis heute millionenfach — irgendwas muss dran sein.",
+  "falle": "Verkaufszahlen als Wahrheitsmaß. Fünfundsiebzig Millionen Bücher messen ein Bedürfnis, keinen Befund; der Mann, der sie schrieb, saß wegen Betrugs in Haft, als er den zweiten Band verfasste (→ Punkt 4, die zehn gewichtigsten Fälle).",
+  "gegenfrage": "Misst sich der Wahrheitsgehalt an verkauften Büchern — oder an dem einen Artefakt, das die Theorie belegen würde und in sechzig Jahren nie auftauchte?"
+ },
+ {
+  "id": "AU-07-QR10",
+  "au": 7,
+  "quelle": "PRÄ-ASTRONAUTIK",
+  "behauptung": "Wie sollten so primitive Völker ohne Rad und Eisen je etwas derart Gewaltiges errichten?",
+  "falle": "Hier wohnt der harte Kern dieser Autopsie: die leise Herablassung, die denselben Menschen ihre Wunder abspricht, denen man andernorts jede Genialität zugesteht (→ Punkt 3, der kulturelle Fußabdruck).",
+  "gegenfrage": "Warum traust du es den Römern beim Kolosseum mühelos zu — und denselben menschlichen Händen bei der Pyramide nicht?"
+ },
+ {
+  "id": "AU-07-QR11",
+  "au": 7,
+  "quelle": "PRÄ-ASTRONAUTIK",
+  "behauptung": "Die Schnittkanten von Puma Punku sind maschinell präzise, fast wie mit dem Laser geschnitten.",
+  "falle": "Eine Fähigkeit wird zur Technologie umgedichtet. Die Präzision stammt von Diorit-Schlägeln, Schleifsand, Schnüren und Generationen geübter Hände — die Steinbrüche, Werkzeuge und unfertigen Übungsstücke liegen allesamt vor (→ Punkt 4, die zehn gewichtigsten Fälle).",
+  "gegenfrage": "Hat man je eine Schnittkante aus nicht-irdischer Legierung gefunden — oder den Steinbruch, das Werkzeug und die halbfertigen Stücke der Menschen, die es lernten?"
+ },
+ {
+  "id": "AU-07-QR12",
+  "au": 7,
+  "quelle": "PRÄ-ASTRONAUTIK",
+  "behauptung": "Die alten Texte selbst sprechen doch von feurigen Wagen und Göttern, die vom Himmel herabkamen.",
+  "falle": "Das wörtliche Lesen des Symbolischen. Ein religiöses Bild wird zur technischen Reportage erklärt — als hätte die Sprache des Heiligen je gemeint, was die Sprache des Ingenieurs meint (→ Punkt 7a, die kognitive Anatomie).",
+  "gegenfrage": "Liest du ein religiöses Sinnbild als Bauanleitung — würdest du dann auch den ‚Thron Gottes‘ für ein Möbelstück halten?"
+ },
+ {
+  "id": "AU-08-QR01",
+  "au": 8,
+  "quelle": "ROSWELL UND DIE STILLEN GÖTTER",
+  "behauptung": "Das Militär meldete erst eine ‚flying disc‘ und nahm es binnen Stunden zurück — das beweist die Vertuschung.",
+  "falle": "Narrativ-Überkompensation: Aus einem einzigen, schnell korrigierten Widerspruch wird eine absichtsvolle Lügenarchitektur gebaut. Eine überhitzte Presse und ein Militär, das einen streng geheimen Ballon nicht erklären durfte, genügen vollständig (→ Punkt 5, die Beweisführung).",
+  "gegenfrage": "Ist eine in Eile zurückgezogene Erstmeldung ein Beweis für Außerirdische — oder für einen Pressereferenten, der etwas vermeldete, das eine geheime Behörde Stunden später kassieren musste?"
+ },
+ {
+  "id": "AU-08-QR02",
+  "au": 8,
+  "quelle": "ROSWELL UND DIE STILLEN GÖTTER",
+  "behauptung": "Major Marcel selbst — der Geheimdienstoffizier am Fundort — sagte, das Material sei nicht von dieser Welt.",
+  "falle": "Erinnerungskonsolidierung über Jahrzehnte. Marcel deutete seine Erinnerung 1978 um, einunddreißig Jahre nach dem Tag; am Fundort 1947 fiel das Wort „außerirdisch\" bei keinem Zeugen (→ Punkt 7a, die kognitive Anatomie).",
+  "gegenfrage": "Sagte er das 1947 mit dem Trümmer in der Hand — oder einunddreißig Jahre später, als aus der Erinnerung längst eine Erzählung geworden war?"
+ },
+ {
+  "id": "AU-08-QR03",
+  "au": 8,
+  "quelle": "ROSWELL UND DIE STILLEN GÖTTER",
+  "behauptung": "Es gibt Zeugen, die die kleinen Körper gesehen haben.",
+  "falle": "Ein Mythos über den Mythos. Die „Alien bodies\" sind spätere Erinnerungen, gestützt auf anthropomorphe Testpuppen aus Höhenprogrammen, die erst in den Fünfzigern abgeworfen wurden — Jahre nach dem Vorfall (→ Punkt 6, die naturwissenschaftliche Autopsie).",
+  "gegenfrage": "Gibt es ein einziges zeitnahes medizinisches Dokument von 1947 über nichtmenschliche Leichen — oder nur Erinnerungen aus den Achtzigern und Puppen, die es 1947 noch gar nicht gab?"
+ },
+ {
+  "id": "AU-08-QR04",
+  "au": 8,
+  "quelle": "ROSWELL UND DIE STILLEN GÖTTER",
+  "behauptung": "Das MJ-12-Dokument beweist die geheime Bergung auf höchster Regierungsebene.",
+  "falle": "Eine Fälschung, gegen sich selbst gehalten. Schrifttype, Papier und Format passen nicht zu 1947, und die National Archives führen keinerlei Verwaltungsspur (→ Punkt 9, der historische Spiegel).",
+  "gegenfrage": "Wenn Schrift, Papier und Format aus einer späteren Zeit stammen und keine Aktenspur existiert — beweist das Papier die Vertuschung oder nur, dass jemand sie erfand?"
+ },
+ {
+  "id": "AU-08-QR05",
+  "au": 8,
+  "quelle": "ROSWELL UND DIE STILLEN GÖTTER",
+  "behauptung": "So viele Menschen können sich doch nicht alle irren — und niemand hat je ausgepackt.",
+  "falle": "Die selbstversiegelnde Verschwörung, gegen die Grimes-Mathematik gehalten. Je mehr Mitwisser, desto kürzer hält ein Geheimnis; ein einziger von ihnen gewänne mit der Wahrheit Weltruhm statt lebenslangem Schweigen (→ Punkt 10d, das Prebunking-Prinzip · → Autopsie #01, Punkt 10d).",
+  "gegenfrage": "Wie viele müssten seit 1947 perfekt schweigen, obwohl ein Einziger mit der echten Untertasse Geld, Ruhm und einen Platz in der Geschichte gewänne?"
+ },
+ {
+  "id": "AU-08-QR06",
+  "au": 8,
+  "quelle": "ROSWELL UND DIE STILLEN GÖTTER",
+  "behauptung": "Project Mogul ist doch nur die bequeme Tarngeschichte, die sich die Air Force später ausdachte.",
+  "falle": "Die Beweislast, verkehrt herum. Die irdische Erklärung hat freigegebene Akten, Materiallisten und Startprotokolle; die außerirdische hat eine Untertasse, die nie jemand vorlegen konnte (→ Punkt 5, die Beweisführung).",
+  "gegenfrage": "Welche der beiden Geschichten kommt mit entklassifizierten Akten und Startprotokollen — und welche mit einem Wrack, das in achtzig Jahren nie auftauchte?"
+ },
+ {
+  "id": "AU-08-QR07",
+  "au": 8,
+  "quelle": "ROSWELL UND DIE STILLEN GÖTTER",
+  "behauptung": "Warum war das Militär so geheim, wenn es nur ein Wetterballon war?",
+  "falle": "Echte Geheimhaltung wird mit Vertuschung verwechselt. Mogul überwachte sowjetische Atomtests; eine ehrliche Erklärung hätte dem Gegner die eigene Aufklärungsfähigkeit verraten (→ Punkt 9, der historische Spiegel).",
+  "gegenfrage": "Hätte ein Geheimdienst 1947 lieber gesagt ‚wir hören die sowjetischen Atombomben ab‘ — oder einen banalen Ballon erfunden, der dem Gegner nichts verrät?"
+ },
+ {
+  "id": "AU-08-QR08",
+  "au": 8,
+  "quelle": "ROSWELL UND DIE STILLEN GÖTTER",
+  "behauptung": "Roswell war einzigartig — so etwas gab es nie wieder.",
+  "falle": "Der fehlende Kontext. Roswell fiel mitten in die „Flying Disc Craze\" von 1947, ausgelöst durch Kenneth Arnolds Sichtung dreizehn Tage zuvor; es war der Höhepunkt einer nationalen Welle, nicht ihr isolierter Ursprung (→ Punkt 2, die Genealogie).",
+  "gegenfrage": "War Roswell der Beginn von etwas — oder der Gipfel einer Panikwelle, die zwei Wochen vorher mit dem Wort ‚fliegende Untertasse‘ begann?"
+ },
+ {
+  "id": "AU-08-QR09",
+  "au": 8,
+  "quelle": "ROSWELL UND DIE STILLEN GÖTTER",
+  "behauptung": "Die allererste Schlagzeile sagte ‚flying disc‘ — die ist ehrlicher als die spätere, glattere Version.",
+  "falle": "Die Bevorzugung des ersten, hastigsten Worts vor dem geprüften. Die Erstmeldung war eine verwirrte Feldvermutung unter maximaler medialer Überhitzung, kein Befund (→ Punkt 5, die Beweisführung).",
+  "gegenfrage": "Vertraust du der übereilten Vermutung eines einzelnen Offiziers mehr als der freigegebenen Akte — nur weil die Vermutung aufregender klang?"
+ },
+ {
+  "id": "AU-08-QR10",
+  "au": 8,
+  "quelle": "ROSWELL UND DIE STILLEN GÖTTER",
+  "behauptung": "Wenn alles erklärt ist, warum reden bis heute Millionen darüber?",
+  "falle": "Reichweite als Wahrheitsmaß. Die Zahl der Podcasts und Dokus misst ein Bedürfnis, keinen Befund; jede neue Medienwelle reaktiviert denselben Fall als Klickmotor (→ Punkt 7c, die Manipulations-Anatomie).",
+  "gegenfrage": "Misst die Menge der Dokumentationen den Wahrheitsgehalt — oder nur, wie zuverlässig sich ein Geheimnis verkaufen lässt?"
+ },
+ {
+  "id": "AU-08-QR11",
+  "au": 8,
+  "quelle": "ROSWELL UND DIE STILLEN GÖTTER",
+  "behauptung": "Aber wenn Außerirdische überhaupt existieren, könnte Roswell echt gewesen sein.",
+  "falle": "Die offene Frage nach Leben im Kosmos wird mit diesem einen widerlegten Absturz verschmolzen. Das eine ist Forschung, das andere ist Folie im Sand (→ Punkt 10b, das Pusten-Prinzip).",
+  "gegenfrage": "Würde eine Zivilisation, die die Sterne überquert, ausgerechnet über einer Schafsweide zerschellen — und nichts hinterlassen als Klebeband und Balsaholz?"
+ },
+ {
+  "id": "AU-08-QR12",
+  "au": 8,
+  "quelle": "ROSWELL UND DIE STILLEN GÖTTER",
+  "behauptung": "Die Regierung hat doch inzwischen selbst zugegeben, dass sie UFOs untersucht.",
+  "falle": "Die Gegenwart wird rückwirkend zum Beweis umgedeutet. Dass der Himmel noch nicht identifizierte, meist irdische Objekte enthält, belegt keine Untertasse von 1947 (→ Punkt 11, der Blick über den Tellerrand).",
+  "gegenfrage": "Beweist ‚das Militär untersucht unbekannte Objekte‘ ein Wrack von 1947 — oder nur, dass ‚unidentifiziert‘ nicht ‚außerirdisch‘ heißt?"
+ },
+ {
+  "id": "AU-09-QR01",
+  "au": 9,
+  "quelle": "DIE PLANET-NIBIRU-PANIK",
+  "behauptung": "Der Planet Nibiru kommt 2003. Warte nur, bis Mai.",
+  "falle": "Countdown-Logik: Eine datierte Vorhersage, die vor ihrer Prüfung bewahrt wird, indem das Datum verschoben statt die Behauptung zurückgezogen wird. Jedes Versprechen, das eintrifft, zählt; jedes, das ausbleibt, wird zu einem bloßen Aufschub (→ Punkt 5, die Beweisführung).",
+  "gegenfrage": "Wenn ein Datum verstreicht und nichts geschieht — ist das ein Beweis, dass die Vorhersage falsch war, oder dass die Berechnung knapp daneben lag?"
+ },
+ {
+  "id": "AU-09-QR02",
+  "au": 9,
+  "quelle": "DIE PLANET-NIBIRU-PANIK",
+  "behauptung": "Naja, 2003 war knapp daneben. Die Berechnung war falsch. Das echte Datum ist Dezember 2012.",
+  "falle": "Wiederholung des Musters: Statt die Vorhersage zurückzuziehen, wird nur das Datum ersetzt. Der Mythos selbst — dass da ein nahender Planet kommt — wird nie aufgegeben (→ Punkt 7a, die kognitive Anatomie).",
+  "gegenfrage": "Wie viele Male kann ein Datum scheitern, ehe die Behauptung selbst scheitert — oder ist eine Behauptung, die bei jedem Fehlschlag sich selbst erneuert, gar keine Vorhersage?"
+ },
+ {
+  "id": "AU-09-QR03",
+  "au": 9,
+  "quelle": "DIE PLANET-NIBIRU-PANIK",
+  "behauptung": "Dezember 2012 — dieses Mal stimmt die Berechnung. Mayas, Offenbarung, alles passt.",
+  "falle": "Schließung des Horizonts durch numerologische Autorität. Ein Datum wird umso unwiderlegbarer, je mehr verschiedene Herleitungen es zu stützen scheinen — obwohl jede prüfbar falsch ist (→ Punkt 5, die Beweisführung).",
+  "gegenfrage": "Wenn eine Berechnung auf Bibeltexten, Mayakalendern und astronomischen Missverständnissen beruht — stimmt die Berechnung oder die Quellen?"
+ },
+ {
+  "id": "AU-09-QR04",
+  "au": 9,
+  "quelle": "DIE PLANET-NIBIRU-PANIK",
+  "behauptung": "Die NASA weiß davon, sagt es aber nicht. Zu große Panik.",
+  "falle": "Vertuschungs-Logik unter Countdown-Bedingung: Der Plan, die Gefahr zu verschweigen, ist der beste Beweis ihrer Größe — und kein Schweigen wird je als Entlastung gelesen, weil Schweigen nur beweist, wie gut man den Plan verbirgt (→ Punkt 3, die Toleranz-Zone).",
+  "gegenfrage": "Wenn eine Raumfahrtagentur einen nahen Planeten geheim hielt — wie überstrahlt sie dann täglich ohne Absicht die Nachrichten von zehntausend Hobbytelesskopen?"
+ },
+ {
+  "id": "AU-09-QR05",
+  "au": 9,
+  "quelle": "DIE PLANET-NIBIRU-PANIK",
+  "behauptung": "Schau dir die Videos an. Menschen sehen ihn kurz vor Sonnenaufgang.",
+  "falle": "Pareidolie unter Countdown-Bedingung: Ein verwackeltes Licht, ein vergrößerter Screenshot, eine Stelle am Himmel wird zu dem Planeten gemacht, weil man weiß, dass er dort sein muss. Die Wahrnehmung trägt das Datum in das Bild (→ Punkt 6, die naturwissenschaftliche Autopsie).",
+  "gegenfrage": "Wenn dieser Planet groß genug ist, um Erdbeben zu verursachen — warum sehe ich ihn nur auf verwackelten Handy-Videos und nicht mit bloßem Auge?"
+ },
+ {
+  "id": "AU-09-QR06",
+  "au": 9,
+  "quelle": "DIE PLANET-NIBIRU-PANIK",
+  "behauptung": "2012 war nur der Beginn. Die wirkliche Katastrophe kommt jetzt — 2017, 23. September.",
+  "falle": "Die Umkalibrierung ohne Falsifikation. Statt das Versprechen zurückzuziehen, wird es zur Meta-Ebene hochgefahren: Das Nicht-Ereignis von 2012 wird zum „Zeichen\", zum „Beginn\", und der nächste Termin nimmt seinen Platz ein (→ Punkt 10d, das Prebunking-Prinzip).",
+  "gegenfrage": "Wenn das letzte Datum der ‚Anfang' war — wie viele Anfänge kann etwas haben, bevor es wirkich anfängt?"
+ },
+ {
+  "id": "AU-09-QR07",
+  "au": 9,
+  "quelle": "DIE PLANET-NIBIRU-PANIK",
+  "behauptung": "23. September 2017 kommt das erste Zeichen. Die Hauptkatastrophe folgt dann später.",
+  "falle": "Verschiebung der Beweislast: Das „erste Zeichen\" ist alles, was am 23. September zu sehen ist — ein Meteor, eine Nachricht, ein Internet-Bild — und wird danach für die Prophezeiung eingespannt (→ Punkt 7c, die Manipulations-Anatomie).",
+  "gegenfrage": "Ist ein ‚Zeichen' etwas, das die Vorhersage macht prüfbar — oder macht die Vorhersage jeden flüchtigen Eindruck zu dem ‚Zeichen', das sie brauchte?"
+ },
+ {
+  "id": "AU-09-QR08",
+  "au": 9,
+  "quelle": "DIE PLANET-NIBIRU-PANIK",
+  "behauptung": "Es kam nicht am 23.9., aber im Oktober wird es passieren. Ich bin mir sicher.",
+  "falle": "Die fortgesetzte Erneuerung: Jeder geplätzte Termin wird nicht als Scheitern verbucht, sondern als Grund für den nächsten Termin (→ Punkt 10d, das Prebunking-Prinzip). Das Datum wird zur Struktur statt zum Prüfstein.",
+  "gegenfrage": "Wenn diese Vorhersage schon fünf Mal verschoben wurde — wie viele Verschiebungen erlaubt eine echte Vorhersage?"
+ },
+ {
+  "id": "AU-09-QR09",
+  "au": 9,
+  "quelle": "DIE PLANET-NIBIRU-PANIK",
+  "behauptung": "Die Mainstream-Medien verschweigen es. Schau dir nur die alternativen Kanäle an.",
+  "falle": "Quellenschau unter Countdown-Bedingung: Die beste Quelle ist die, die die Vorhersage stützt; der Rest ist „Verstuschung\" (→ Punkt 5, die Beweisführung). Der Zirkel schließt sich.",
+  "gegenfrage": "Wenn nur Kanäle, die das Datum verkaufen, es berichten — berichten sie Fakten oder Geschäftsmodelle?"
+ },
+ {
+  "id": "AU-09-QR10",
+  "au": 9,
+  "quelle": "DIE PLANET-NIBIRU-PANIK",
+  "behauptung": "Aber Wissen ist Macht. Wer es weiß, hat Vorsprung. Das ist doch wertvoll.",
+  "falle": "Die emotionale Wahrheit: Der Wert liegt nicht in der Richtigkeit, sondern in dem Gefühl, rechtzeitig bescheid zu wissen (→ Punkt 7b, die emotionale Anatomie). Das ist ehrenwert, nur an das falsche Objekt geheftet.",
+  "gegenfrage": "Wenn die Information wirklich wertvoll ist, warum brauchst du ein geheimes Datum — statt des offenen Himmels, der jede Gefahr, die er kennt, mit Termin nennt?"
+ },
+ {
+  "id": "AU-09-QR11",
+  "au": 9,
+  "quelle": "DIE PLANET-NIBIRU-PANIK",
+  "behauptung": "Ich warte nicht auf Angst. Ich will Vorbereitung. Vorsorge ist gut.",
+  "falle": "Das Bedürfnis ist echt; die Form ist falsch geheftet. Echte Vorsorge vor kosmischen Gefahren existiert und ist datiert, öffentlich, überprüfbar — nicht versteckt in datierten Kanälen (→ Punkt 11, der Blick über den Tellerrand).",
+  "gegenfrage": "Wenn du wirklich vorsorgen willst — vertraust du einer Vorhersage, die zehnmal verschoben wurde, oder einer Wache, die ihre Termine nennt und hält?"
+ },
+ {
+  "id": "AU-09-QR12",
+  "au": 9,
+  "quelle": "DIE PLANET-NIBIRU-PANIK",
+  "behauptung": "Aber irgendwann muss doch eine solche Prophezeiung mal stimmen.",
+  "falle": "Der Gambler's Fallacy im Gewande der Ausdauer. Jedes nächste Datum wird als „diese Mal aber sicher\" gelesen, weil es nicht sein kann, dass sich Vorhersagen ewig erneuern — bis sie sich eben doch tun (→ Punkt 10d, das Prebunking-Prinzip).",
+  "gegenfrage": "Misst du eine Vorhersage daran, ob sie irgendwann zufällig eintrifft — oder daran, ob sie jemals ein Datum hatte, an dem sie hätte scheitern dürfen?"
+ },
+ {
+  "id": "AU-10-QR01",
+  "au": 10,
+  "quelle": "DIE SIMULATION",
+  "behauptung": "Bostrom hat bewiesen, dass wir wahrscheinlich in einer Simulation leben.",
+  "falle": "Verwechslung von Gedankenexperiment und Befund: Aus drei gleichrangigen Ästen wird stillschweigend der dritte herausgegriffen und als Schlussfolgerung verkauft (→ Punkt 4, die zehn gewichtigsten Fälle; → Punkt 5, die Beweisführung).",
+  "gegenfrage": "Welcher von Bostroms drei Ästen soll wahr sein — und was berechtigt dich, gerade den dritten zu wählen statt der beiden anderen?"
+ },
+ {
+  "id": "AU-10-QR02",
+  "au": 10,
+  "quelle": "DIE SIMULATION",
+  "behauptung": "Ich hatte gerade ein Déjà-vu / einen Mandela-Effekt — ein Glitch in der Matrix.",
+  "falle": "Anekdote als Beweis: Ein gewöhnlicher Wahrnehmungs- oder Gedächtnisfehler wird zur persönlichen Offenbarung umgedeutet (→ Punkt 6, die naturwissenschaftliche Autopsie; → Punkt 7, die psychologische Anatomie).",
+  "gegenfrage": "Wäre dasselbe Erlebnis durch einen ganz normalen Gedächtnisfehler erklärt — und wenn ja, warum die größere, fremdere Erklärung wählen?"
+ },
+ {
+  "id": "AU-10-QR03",
+  "au": 10,
+  "quelle": "DIE SIMULATION",
+  "behauptung": "Die Welt besteht im Kern aus Information — also ist sie programmiert.",
+  "falle": "Ontologie-Hybridisierung: Vom strukturellen „digital\" zum auktorialen „gemacht\" wird unbemerkt übergesprungen (→ Punkt 5, die Beweisführung; → Punkt 9, der historische Spiegel).",
+  "gegenfrage": "Folgt aus ‚die Welt besteht aus X' wirklich ‚jemand hat sie aus X gebaut'? Ist ein Universum aus Atomen ein Universum mit einem Atombauer?"
+ },
+ {
+  "id": "AU-10-QR04",
+  "au": 10,
+  "quelle": "DIE SIMULATION",
+  "behauptung": "Man kann nicht beweisen, dass wir nicht simuliert sind.",
+  "falle": "Beweislast-Umkehr und Unfalsifizierbarkeit, als Stärke verkleidet: Was nichts ausschließt, behauptet nichts (→ Punkt 5, die Beweisführung).",
+  "gegenfrage": "Was müsste man beobachten, damit die These falsch wäre? Wenn die Antwort ‚nichts' lautet — ist sie dann noch eine Aussage über die Welt?"
+ },
+ {
+  "id": "AU-10-QR05",
+  "au": 10,
+  "quelle": "DIE SIMULATION",
+  "behauptung": "Wenn ohnehin alles nur Simulation ist, ist nichts davon wirklich wichtig.",
+  "falle": "Der Kipp-Punkt vom Zweifel zum Fatalismus — die eigentliche Gefahr dieses Mythos (→ Punkt 3b, die Toleranz-Zone; → Punkt 7, die psychologische Anatomie).",
+  "gegenfrage": "Ändert die Frage, woraus der Schmerz gemacht ist, irgendetwas daran, dass er weh tut — und dass der andere ihn fühlt?"
+ },
+ {
+  "id": "AU-10-QR06",
+  "au": 10,
+  "quelle": "DIE SIMULATION",
+  "behauptung": "Die Lichtgeschwindigkeit, die Quantensprünge — das sind die Rechengrenzen der Simulation.",
+  "falle": "Der Allzweck-Vorhang: eine Erklärung, die jede Eigenheit nachträglich deutet und nichts vorhersagt (→ Punkt 6, die naturwissenschaftliche Autopsie; → Punkt 10d, das Prebunking-Prinzip).",
+  "gegenfrage": "Sagt diese Erklärung irgendetwas vorher, das man prüfen könnte — oder erklärt sie, nachdem alles geschehen ist, einfach alles?"
+ },
+ {
+  "id": "AU-10-QR07",
+  "au": 10,
+  "quelle": "DIE SIMULATION",
+  "behauptung": "Eine fortgeschrittene Zivilisation würde ganz sicher Ahnen-Simulationen laufen lassen.",
+  "falle": "Unbelegte Annahme über die Motive von Wesen, die man sich nicht vorstellen kann — der schwächste Ast, als Selbstverständlichkeit getarnt (→ Punkt 4, die zehn gewichtigsten Fälle; → Punkt 5, die Beweisführung).",
+  "gegenfrage": "Woher willst du wissen, was eine Zivilisation will, deren Denken dir vollständig unzugänglich ist?"
+ },
+ {
+  "id": "AU-10-QR08",
+  "au": 10,
+  "quelle": "DIE SIMULATION",
+  "behauptung": "Wir sind Code, und Code kann fühlen — das erklärt das Bewusstsein.",
+  "falle": "Eine offene Forschungsfrage wird als geschlossen ausgegeben: Ob Berechnung ein Innenleben haben kann, ist gerade unentschieden (→ Punkt 7, die psychologische Anatomie; → Punkt 11, der Blick über den Tellerrand).",
+  "gegenfrage": "Ist überhaupt entschieden, dass Berechnung sich nach etwas anfühlen kann — oder leihst du dir eine ungelöste Frage als fertige Antwort?"
+ },
+ {
+  "id": "AU-10-QR09",
+  "au": 10,
+  "quelle": "DIE SIMULATION",
+  "behauptung": "Ich habe die rote Pille genommen. Ich bin erwacht; die anderen schlafen noch.",
+  "falle": "Das geschlossene Geheimnis als Identität: Der Reiz liegt im Gefühl, mehr zu sehen als die Schlafenden, nicht in einem Beleg (→ Punkt 7, die psychologische Anatomie; → Punkt 10c, das Exit-Protokoll).",
+  "gegenfrage": "Würdest du das auch glauben, wenn es dir nicht das Gefühl gäbe, eingeweiht zu sein — wenn niemand sonst ‚schliefe'?"
+ },
+ {
+  "id": "AU-10-QR10",
+  "au": 10,
+  "quelle": "DIE SIMULATION",
+  "behauptung": "Descartes' Dämon zeigt doch, dass wir am Ende gar nichts wissen können.",
+  "falle": "Der Zweifel als Endpunkt statt als Werkzeug: Descartes nutzte den Dämon, um ihn zu überwinden — ‚ich denke, also bin ich' (→ Punkt 9, der historische Spiegel; → Punkt 5, die Beweisführung).",
+  "gegenfrage": "Descartes ließ den Dämon wieder los, sobald er ihm gedient hatte — warum hältst du ihn fest, statt ihn zu benutzen?"
+ }
+]

@@ -1,0 +1,29 @@
+<section class="hero">
+  <div class="wrap">
+    <span class="kennung">180 m · Mittlere-Untere Terrasse · Hippocampus · Gedächtnis und Ablage</span>
+    <h1 style="margin-top:.5rem">Das Bild&shy;archiv</h1>
+    <p class="unter">Mnemosyne katalogisiert alles und deutet nichts. Eine Akte aus dem Schrank ziehen, die Aufnahmen an die Wand heften, die Fäden spannen. Klick auf ein Bild holt es heran — und führt von dort zu seinem Sektor im <a href="atlas.html">Atlas</a>, zum Band oder zur Autopsie, zu der es gehört.</p>
+    <p class="unter leise">Nicht zu verwechseln mit der <a href="glossar.html#gl-asservat">Asservatenkammer</a> — die liegt bei Janus, hinten in den Chroniken, und enthält Belege statt Bilder.</p>
+    <p class="unter leise">Alle Aufnahmen hier sind KI-generierte Visualisierungen, keine Fotografien — bei den beiden Bildern mit realem Vorbild (Route 375, Klamath National Forest) steht das zusätzlich einzeln in der Bildunterschrift.</p>
+  </div>
+</section>
+
+<section class="stratum" style="padding-top:0">
+  <div class="wrap">
+    <div class="schrank" id="schrank" role="tablist" aria-label="Aktenschrank"></div>
+    <div class="pinnwand-rahmen">
+      <header class="akten-kopf" id="aktenKopf"></header>
+      <div class="pinnwand" id="pinnwand" aria-live="polite"></div>
+    </div>
+    <p class="kennung" style="margin-top:1rem">Akten und Positionen stehen in <span class="kennung">data/bildband.json</span> · Fäden verbinden Bild-Kennungen</p>
+  </div>
+</section>
+
+<div class="leuchtkasten" id="leuchtkasten" role="dialog" aria-modal="true" aria-label="Bildansicht">
+  <button class="zu" id="lkZu" aria-label="Schließen">×</button>
+  <figure>
+    <img id="lkBild" alt="">
+    <figcaption><strong id="lkTitel"></strong><span id="lkText"></span></figcaption>
+    <div class="knopfreihe" id="lkLinks"></div>
+  </figure>
+</div>

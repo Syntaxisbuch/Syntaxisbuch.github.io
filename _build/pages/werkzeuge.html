@@ -1,0 +1,109 @@
+<section class="hero">
+  <div class="wrap">
+    <span class="kennung">0 m · Unterste Terrasse · Hirnstamm · Grundfunktionen</span>
+    <h1 style="margin-top:.5rem">Das Rüstzeug</h1>
+    <p class="unter">Vier Werkzeuge, die ohne die Bücher funktionieren: eine Prüfliste mit Befund, neun Fragen zum Auswendiglernen, das vollständige Sezier-Protokoll als Arbeitsbogen und ein Kartenkasten mit 32 Denkwerkzeugen.</p>
+    <p class="unter leise" style="margin-top:.8rem">Was du hier eingibst, bleibt in deinem Browser. Es wird nichts übertragen und nichts gespeichert, außer du speicherst selbst.</p>
+  </div>
+</section>
+
+<section class="stratum" id="redflags" data-sprung="Red Flags" style="padding-top:0">
+  <div class="wrap">
+    <div class="stratum-kopf">
+      <h2>Red-Flag-Prüfung</h2>
+      <span class="hoehe">LR-I-1.5 · dreizehn Warnzeichen</span>
+    </div>
+
+    <p class="gross schmal">Denk an eine konkrete Behauptung — die aus dem Familienchat, aus dem Video, aus dem Gespräch von gestern. Geh die dreizehn Fragen durch und hake an, was zutrifft. Es geht nicht um ein Urteil über einen Menschen, sondern um die Bauweise einer Aussage.</p>
+
+    <div class="werkzeug">
+      <header>
+        <h3>Prüfliste</h3>
+        <button class="filter" type="button" id="rfReset">Zurücksetzen</button>
+      </header>
+      <div class="flaggen" id="rfListe"></div>
+      <div class="befund" id="rfBefund" aria-live="polite"></div>
+    </div>
+
+    <div class="hinweisbox">
+      <p>Ein einzelnes Zeichen bedeutet wenig. Auch seriöse Debatten enthalten Zuspitzung, Empörung und schlechte Belege. Aussagekräftig ist erst das Muster: wenn die Zeichen ineinandergreifen und die Behauptung dadurch unangreifbar wird.</p>
+    </div>
+  </div>
+</section>
+
+<section class="stratum" id="kit" data-sprung="Detector-Kit">
+  <div class="wrap">
+    <div class="stratum-kopf">
+      <h2>Das Detector-Kit</h2>
+      <span class="hoehe">neun Fragen · dreißig Sekunden · ohne Buch</span>
+    </div>
+    <p class="gross schmal">Der tragbare Teil des ganzen Systems. Neun Fragen, die man auswendig können sollte, weil sie genau dann gebraucht werden, wenn kein Buch in der Nähe ist. Nicht jede passt auf jeden Fall — aber es hat noch keine Behauptung gegeben, auf die keine einzige davon passte.</p>
+
+    <div class="kit">
+      <div><h4>Mechanismus</h4><p>Wie genau soll das funktionieren — molekular, physikalisch, biologisch? Wer keinen Mechanismus nennen kann, hat keine Erklärung, sondern eine Behauptung.</p></div>
+      <div><h4>Falsifikation</h4><p>Was müsste passieren, damit du nicht mehr überzeugt bist? Kommt darauf keine Antwort, wird nicht über Fakten gestritten.</p></div>
+      <div><h4>Konzentration</h4><p>Wie viel von der wirksamen Substanz ist überhaupt noch drin? Verdünnung ist eine Rechenaufgabe, kein Glaubenssatz.</p></div>
+      <div><h4>Mitwisser</h4><p>Wie viele Menschen müssten gleichzeitig schweigen, und wie lange schon? Große Geheimnisse haben eine Halbwertszeit.</p></div>
+      <div><h4>Geldfluss</h4><p>Wer verdient — an der Behauptung oder an ihrer Widerlegung? Beide Antworten sind aufschlussreich, aber nur eine wird meistens gestellt.</p></div>
+      <div><h4>Reproduktion</h4><p>Haben unabhängige Gruppen dasselbe nachgemessen? Ein Ergebnis, das nur an einem Ort entsteht, ist noch kein Ergebnis.</p></div>
+      <div><h4>Konsistenz</h4><p>Wenn das stimmt — was müsste dann noch alles stimmen? Meist fällt beim dritten Punkt etwas um, das seit hundert Jahren steht.</p></div>
+      <div><h4>Gemeinschaft</h4><p>Schließt diese Überzeugung dich in eine Gruppe ein, die dich von Zweifeln isoliert? Die Zugehörigkeit ist oft der eigentliche Wirkstoff.</p></div>
+      <div><h4>Selbstprüfung</h4><p>Würdest du das glauben, wenn es dir keinen Trost gäbe? Die unangenehmste der neun Fragen, und die einzige, die sich an dich richtet.</p></div>
+    </div>
+
+    <div class="hinweisbox">
+      <p>Das Kit steht in den <a href="autopsien.html">Autopsien der Schatten</a> am Anfang und am Ende — dort ausführlich erläutert und als herausnehmbares Merkblatt gedacht. Die Fassung hier ist die Kurzform zum Mitnehmen.</p>
+    </div>
+  </div>
+</section>
+
+<section class="stratum" id="protokoll" data-sprung="Protokoll">
+  <div class="wrap">
+    <div class="stratum-kopf">
+      <h2>Das Autopsie-Protokoll</h2>
+      <span class="hoehe">neunzehn Schnitte, in dieser Reihenfolge</span>
+    </div>
+
+    <p class="gross schmal">Dasselbe Verfahren, nach dem jede der zehn Autopsien gearbeitet ist. Die Reihenfolge ist nicht beliebig: Wer bei der Beweisführung anfängt, hat den Menschen schon verloren, bevor er ihn erreicht hat.</p>
+
+    <div class="werkzeug">
+      <header>
+        <h3>Arbeitsbogen</h3>
+        <div style="display:flex;gap:.4rem;flex-wrap:wrap">
+          <button class="filter" type="button" id="pkKopieren">Als Text kopieren</button>
+          <button class="filter" type="button" id="pkLeeren">Leeren</button>
+        </div>
+      </header>
+      <div>
+        <label for="pkGegenstand" class="kennung" style="display:block;margin-bottom:.4rem">GEGENSTAND DER AUTOPSIE</label>
+        <input class="suchfeld" type="text" id="pkGegenstand" placeholder="Welche Behauptung liegt auf dem Tisch?">
+      </div>
+      <div class="protokoll" id="pkListe" style="margin-top:1.5rem"></div>
+    </div>
+  </div>
+</section>
+
+<section class="stratum" id="kartei" data-sprung="Denkwerkzeuge">
+  <div class="wrap">
+    <div class="stratum-kopf">
+      <h2>Kartenkasten</h2>
+      <span class="hoehe">die Werkzeuge aus der Landkarte, einzeln</span>
+    </div>
+
+    <p class="gross schmal">Jede Karte trägt ihre Signatur — damit findest du im Buch die vollständige Ausführung. Kern in einem Satz, Anwendung für den Alltag.</p>
+
+    <div class="filterreihe" id="kkFilter" role="group" aria-label="Nach Gruppe filtern"></div>
+    <div class="kartei" id="kkListe"></div>
+  </div>
+</section>
+
+<section class="stratum">
+  <div class="wrap schmal">
+    <h2>Weiter im Buch</h2>
+    <p>Alle drei Werkzeuge sind Auszüge. Die vollständigen Ausführungen — mit Beispielen, Sparringsrunden und den Fällen, an denen sie sich bewährt haben — stehen in der <a href="landkarte.html">Landkarte der Realität</a> und in den <a href="autopsien.html">Autopsien der Schatten</a>. Beide dürfen bearbeitet und in eigenes Unterrichtsmaterial übernommen werden, solange die Weitergabe wieder unter derselben Lizenz erfolgt.</p>
+    <div class="knopfreihe">
+      <a class="knopf" href="downloads.html">Beide Werke herunterladen</a>
+      <a class="knopf still" href="lizenz.html">Bedingungen nachlesen</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,53 @@
+{
+ "hinweis": "Chronologischer Änderungsverlauf. Neueste zuerst. Speist die Neuigkeiten-Seite und den RSS-Feed.",
+ "eintraege": [
+  {
+   "datum": "2026-09-29",
+   "titel": "Aufgeräumt: eine Navigation, kürzere Seiten, Sammelband angekündigt",
+   "text": "Alles Wichtige steht jetzt oben in einer Leiste: Werke, Mehrwert, Projekt und Downloads. Lange Seiten sind kürzer, Details lassen sich aufklappen. Die Autopsien erscheinen als Fallkarten mit Filter, die Downloads nach Reihen sortiert. Neu angekündigt: der Sammelband Sektion A mit allen zehn Autopsien in einem Buch.",
+   "link": "autopsien.html#sammelband"
+  },
+  {
+   "datum": "2026-09-28",
+   "titel": "Atlas nach Koordinatensystem v12, verknüpft mit dem Bildarchiv",
+   "text": "Der Atlas folgt jetzt dem Koordinatensystem v12: neu sind die Schmiede der Elemente aus Band I, die Kanzlei Vogl, die Gasse ohne Namen, das Café am Zirkelhaus und Hydesville 1848; der Apotheken-Distrikt am Cingulum steht an seinem richtigen Platz, und die Karte zeigt acht Sky Bridges. Bilder und Karte sind verbunden: jedes Bild führt zu seinem Sektor, jeder Sektor zeigt seine Bilder. Auch der Einstiegs-Assistent „Wo soll ich anfangen?“ ist auf dem neuen Stand. Neue Seite: „Gemeinschaft“ um dem neuen Discord-Server beitreten zu können.",
+   "link": "atlas.html"
+  },
+  {
+   "datum": "2026-09-28",
+   "titel": "Band I in Fassung 0.9.2: neu geprüft und belegt",
+   "text": "„Der Schatten über Dreamland“ ist gegen weitere Primärquellen geprüft. Neu sind das Schlusskapitel „Die Sezierung“, ein getaggtes PDF und ein EPUB mit Angaben zur Barrierefreiheit.",
+   "link": "chroniken.html"
+  },
+  {
+   "datum": "2026-09-24",
+   "titel": "Etappe 75: zwei Bücher, neue Cover, Lizenz auf CC BY-NC",
+   "text": "Die Landkarte der Realität erscheint jetzt als Buch 1 (Die Reise, acht Bände) und Buch 2 (Die Werkstatt, ein Nachschlagewerk) — mit neuen Covern. Landkarte und Autopsien stehen ab sofort unter CC BY-NC 4.0 statt CC BY-NC-SA.",
+   "link": "landkarte.html"
+  },
+  {
+   "datum": "2026-09-20",
+   "titel": "Quellenverzeichnis eröffnet",
+   "text": "Die realen Institutionen, Podcasts und Bücher hinter dem Ansatz von Syntaxis, kuratiert und mit Beleg.",
+   "link": "quellen.html"
+  },
+  {
+   "datum": "2026-09-20",
+   "titel": "Frequenz 404 sendet",
+   "text": "Der Piratensender aus dem Medienviertel: Cassidy Null, Kevin und Dr. Tacheles, mit Auftaktfolge und erster Fallakte.",
+   "link": "frequenz-404.html"
+  },
+  {
+   "datum": "2026-09-20",
+   "titel": "Das Bildarchiv ist eröffnet",
+   "text": "Mnemosynes Sammlung: Stadtansichten und Fallszenen aus Neocortex City, nach Akten sortiert.",
+   "link": "bildband.html"
+  },
+  {
+   "datum": "2026-09-20",
+   "titel": "Glossar veröffentlicht",
+   "text": "35 Begriffe aus den Werken und der Stadt an einem Ort — von der Signatur bis zur Toleranz-Zone.",
+   "link": "glossar.html"
+  }
+ ]
+}

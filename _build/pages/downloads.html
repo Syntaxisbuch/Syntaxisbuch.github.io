@@ -1,0 +1,84 @@
+<section class="hero">
+  <div class="wrap">
+    <span class="kennung">280 m · Mittlere Terrasse · die Ausgabestelle</span>
+    <h1 style="margin-top:.5rem">Downloads</h1>
+    <p class="unter">Alle Werke, kostenlos, ohne Anmeldung. Reihe wählen, Format wählen, fertig.</p>
+  </div>
+</section>
+
+<section class="stratum" style="padding-top:0">
+  <div class="wrap">
+    <div class="formatwahl" id="formatwahl" role="group" aria-label="Formate anzeigen" hidden>
+      <span class="leise">Format:</span>
+      <button type="button" aria-pressed="true" data-f="alle">Alle</button>
+      <button type="button" aria-pressed="false" data-f="pdf">PDF</button>
+      <button type="button" aria-pressed="false" data-f="epub">EPUB</button>
+      <button type="button" aria-pressed="false" data-f="odt">ODT</button>
+    </div>
+    <div class="downloadbereich" id="downloadbereich">
+      {{DOWNLOADS}}
+    </div>
+
+    <div class="faq">
+      <details class="aufklapp">
+        <summary>Welches Format ist das richtige?</summary>
+        <p><strong>PDF</strong> für Bildschirm und Druck, mit dem vorgesehenen Layout. Das ist die empfohlene Fassung. <strong>EPUB</strong> für E-Reader und Telefon; bei Landkarte und Autopsien noch eine Testversion. <strong>ODT</strong> zum Bearbeiten in LibreOffice oder Word, nur dort, wo Bearbeiten erlaubt ist.</p>
+      </details>
+      <details class="aufklapp">
+        <summary>Darf ich die Dateien weitergeben oder bearbeiten?</summary>
+        <p>Weitergeben ja, überall: in die Klassencloud, an Freunde, ausgedruckt. Nur verkaufen darfst du sie nicht. Landkarte und Autopsien darfst du zusätzlich bearbeiten (CC BY-NC 4.0), wenn du Autor und Werk nennst und Änderungen kenntlich machst. Die Chroniken sind als Erzählung nicht zur Bearbeitung freigegeben, deshalb gibt es dort kein ODT. <a href="lizenz.html">Lizenz im Detail</a></p>
+      </details>
+      <details class="aufklapp">
+        <summary>Wie kommt das EPUB auf meinen E-Reader?</summary>
+        <p>Kobo und Tolino: per USB in den Ordner kopieren. Kindle: über „An Kindle senden“ oder per Kabel. iPhone und iPad: Datei in Apple Books öffnen. Android: etwa Lithium, Moon+ Reader oder Google Play Bücher.</p>
+      </details>
+      <details class="aufklapp">
+        <summary>Eine Datei ist grau oder etwas stimmt nicht</summary>
+        <p>Graue Knöpfe bedeuten: Die Datei ist angekündigt, liegt aber noch nicht bereit. Führt ein Link ins Leere, ist eine Datei beschädigt oder fällt dir ein Fehler im Text auf, schreib bitte. Korrekturen fließen in die nächste Fassung ein.</p>
+        <div class="knopfreihe">
+          <a class="knopf" href="mailto:Syntaxis_Buch@pm.me?subject=Syntaxis%20%E2%80%94%20Hinweis">Hinweis senden</a>
+        </div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<script>
+/* Reiter je Reihe und Formatwahl. Ohne JavaScript stehen alle Reihen und Formate offen untereinander. */
+(() => {
+  const bereich = document.getElementById("downloadbereich");
+  const reiter = [...bereich.querySelectorAll('[role="tab"]')];
+  const bloecke = [...bereich.querySelectorAll('[role="tabpanel"]')];
+  if (!reiter.length) return;
+  bereich.classList.add("mit-reitern");
+
+  function waehle(id, fokus) {
+    reiter.forEach(t => {
+      const an = t.dataset.reihe === id;
+      t.setAttribute("aria-selected", String(an));
+      t.tabIndex = an ? 0 : -1;
+      if (an && fokus) t.focus();
+    });
+    bloecke.forEach(b => { b.hidden = b.id !== "dl-" + id; });
+  }
+  reiter.forEach((t, i) => {
+    t.addEventListener("click", () => { waehle(t.dataset.reihe); history.replaceState(null, "", "#dl-" + t.dataset.reihe); });
+    t.addEventListener("keydown", ev => {
+      const d = ev.key === "ArrowRight" ? 1 : ev.key === "ArrowLeft" ? -1 : 0;
+      if (!d) return;
+      ev.preventDefault();
+      waehle(reiter[(i + d + reiter.length) % reiter.length].dataset.reihe, true);
+    });
+  });
+  const aus = (location.hash.match(/^#dl-(\w+)/) || [])[1];
+  waehle(reiter.some(t => t.dataset.reihe === aus) ? aus : reiter[0].dataset.reihe);
+
+  const wahl = document.getElementById("formatwahl");
+  wahl.hidden = false;
+  wahl.addEventListener("click", ev => {
+    const b = ev.target.closest("button"); if (!b) return;
+    wahl.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    bereich.dataset.format = b.dataset.f;
+  });
+})();
+</script>
