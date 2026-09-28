@@ -1,0 +1,15 @@
+{
+  "name": "Syntaxis — Ein Projekt über kritisches Denken",
+  "short_name": "Syntaxis",
+  "description": "Vier Reihen über das Prüfen von Behauptungen. Kostenlos, unter Creative-Commons-Lizenz.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#0C1519",
+  "theme_color": "#0C1519",
+  "lang": "de",
+  "icons": [
+    { "src": "assets/img/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/img/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

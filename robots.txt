@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://syntaxisbuch.github.io/sitemap.xml

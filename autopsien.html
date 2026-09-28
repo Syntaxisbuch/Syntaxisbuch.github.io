@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Autopsien der Schatten — Syntaxis</title>
+<meta name="description" content="Mythen, seziert nach einem festen Protokoll. Zehn Fallakten sind fertig, 105 in zehn Sektionen sind geplant.">
+<meta name="author" content="Gerald Glaser">
+<meta name="theme-color" content="#0C1519">
+
+<link rel="canonical" href="https://syntaxisbuch.github.io/autopsien.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Syntaxis - Ein Projekt &uuml;ber kritisches Denken">
+<meta property="og:url" content="https://syntaxisbuch.github.io/autopsien.html">
+<meta property="og:title" content="Autopsien der Schatten — Syntaxis">
+<meta property="og:description" content="Mythen, seziert nach einem festen Protokoll. Zehn Fallakten sind fertig, 105 in zehn Sektionen sind geplant.">
+<meta property="og:image" content="https://syntaxisbuch.github.io/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.ico" sizes="any">
+<link rel="icon" href="assets/img/favicon-32x32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="assets/img/favicon-16x16.png" type="image/png" sizes="16x16">
+<link rel="icon" href="assets/img/marke.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Syntaxis — Neuigkeiten" href="feed.xml">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/syntaxis.css">
+</head>
+<body data-reihe="au" data-seite="autopsien" data-gemeinschaft="1">
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+<nav class="hoehenmesser" aria-label="Höhenmesser — Navigation nach Ebene">
+  <span class="hm-kopf">HÖHE ü. BASIS</span>
+  <div class="hm-skala" id="hmSkala"><span class="hm-achse"></span></div>
+  <span class="hm-fuss">m</span>
+</nav>
+
+<header class="masthead" id="kopf">
+  <div class="wrap masthead-in">
+    <a class="logo" href="index.html" aria-label="Syntaxis, zur Startseite">
+      <span class="wortmarke">Syntaxis</span>
+      <span class="zusatz">kritisches Denken</span>
+    </a>
+    <nav class="hauptnav" id="hauptnav" aria-label="Hauptnavigation">
+      <div class="navgruppe" data-slugs="landkarte chroniken autopsien licht frequenz-404">
+        <button type="button" class="navknopf" aria-expanded="false" aria-controls="navpanel-0">Werke</button>
+        <ul class="navpanel" id="navpanel-0"><li><a href="landkarte.html" data-s="landkarte"><span class="pkt" data-c="lr"></span><span><b>Die Landkarte der Realität</b><small>Das Hauptwerk: wie man Behauptungen prüft</small></span></a></li><li><a href="chroniken.html" data-s="chroniken"><span class="pkt" data-c="nc"></span><span><b>Chroniken von Neocortex City</b><small>Noir-Krimis in einer Stadt wie ein Gehirn</small></span></a></li><li><a href="autopsien.html" data-s="autopsien"><span class="pkt" data-c="au"></span><span><b>Autopsien der Schatten</b><small>Mythen, seziert nach festem Protokoll</small></span></a></li><li><a href="licht.html" data-s="licht"><span class="pkt" data-c="ld"></span><span><b>Licht der Realität</b><small>Populärwissenschaft, in Vorbereitung</small></span></a></li><li><a href="frequenz-404.html" data-s="frequenz-404"><span class="pkt" data-c="nc"></span><span><b>Frequenz 404</b><small>Der Piratensender aus den Chroniken</small></span></a></li></ul>
+      </div>
+      <div class="navgruppe" data-slugs="werkzeuge gegenfragen atlas bildband glossar quellen">
+        <button type="button" class="navknopf" aria-expanded="false" aria-controls="navpanel-1">Mehrwert</button>
+        <ul class="navpanel" id="navpanel-1"><li><a href="werkzeuge.html" data-s="werkzeuge"><span class="pkt"></span><span><b>Das Rüstzeug</b><small>Red Flags, Protokoll, Denkwerkzeuge</small></span></a></li><li><a href="gegenfragen.html" data-s="gegenfragen"><span class="pkt"></span><span><b>Gegenfragen-Kartei</b><small>Verbreitete Sätze und was man fragen kann</small></span></a></li><li><a href="atlas.html" data-s="atlas"><span class="pkt"></span><span><b>Atlas von Neocortex City</b><small>Die Stadt als begehbare Karte</small></span></a></li><li><a href="bildband.html" data-s="bildband"><span class="pkt"></span><span><b>Bildarchiv</b><small>Ansichten und Schauplätze</small></span></a></li><li><a href="glossar.html" data-s="glossar"><span class="pkt"></span><span><b>Glossar</b><small>Begriffe und Signaturen</small></span></a></li><li><a href="quellen.html" data-s="quellen"><span class="pkt"></span><span><b>Quellenverzeichnis</b><small>Reale Institutionen und Bücher</small></span></a></li></ul>
+      </div>
+      <div class="navgruppe" data-slugs="neuigkeiten gemeinschaft lizenz impressum">
+        <button type="button" class="navknopf" aria-expanded="false" aria-controls="navpanel-2">Projekt</button>
+        <ul class="navpanel" id="navpanel-2"><li><a href="neuigkeiten.html" data-s="neuigkeiten"><span class="pkt"></span><span><b>Neuigkeiten</b><small>Was zuletzt dazukam, mit RSS</small></span></a></li><li><a href="gemeinschaft.html" data-s="gemeinschaft"><span class="pkt"></span><span><b>Gemeinschaft</b><small>Der Discord-Server mit Hausordnung</small></span></a></li><li><a href="lizenz.html" data-s="lizenz"><span class="pkt"></span><span><b>Lizenz und Nutzung</b><small>Was erlaubt ist und was nicht</small></span></a></li><li><a href="impressum.html" data-s="impressum"><span class="pkt"></span><span><b>Impressum und Kontakt</b><small>Herausgeber, KI-Einsatz, Haftung</small></span></a></li></ul>
+      </div>
+      <a class="navlink hervor" href="downloads.html" data-s="downloads">Downloads</a>
+    </nav>
+    <button class="suchknopf" id="suchAuf" aria-label="Suche öffnen">Suchen <kbd>/</kbd></button>
+    <button class="menuknopf" id="menuAuf" aria-expanded="false" aria-controls="hauptnav">Menü</button>
+  </div>
+  <span class="fortschritt" id="fortschritt" aria-hidden="true"></span>
+</header>
+
+<div class="reihenzeiger" id="reihenzeiger" aria-hidden="true">
+  <div class="wrap in">
+    <span class="pkt"></span>
+    <span class="nm">—</span>
+    <span class="kz">REIHE</span>
+  </div>
+</div>
+
+<main id="inhalt">
+<section class="hero" data-cover>
+  <span class="hero-bild" style="background-image:url(assets/img/autopsien/serie-autopsien-der-schatten.webp)" aria-hidden="true"></span>
+  <div class="wrap">
+    <span class="kennung">−60 m · Sub-Unterste Ebene · der Seziersaal</span>
+    <h1 style="margin-top:.5rem">Autopsien<br>der Schatten</h1>
+    <p class="unter">Jeder Mythos einzeln auf dem Tisch, nach immer demselben Protokoll, in seiner stärksten Fassung. Die Idee bekommt keinen Rabatt, der Mensch keinen Spott.</p>
+    <div class="knopfreihe">
+      <a class="knopf voll" href="#faelle">Zu den 10 Fällen</a>
+      <a class="knopf still" href="#sammelband">Sammelband Sektion A</a>
+    </div>
+  </div>
+</section>
+
+<section class="stratum" id="sammelband" data-sprung="Sammelband" style="padding-top:1rem">
+  <div class="wrap">
+    <div class="sammelband">
+        <img src="assets/img/autopsien/serie-autopsien-der-schatten-klein.webp" alt="" loading="lazy" decoding="async">
+        <div>
+          <p class="kennung">Sektion A komplett</p>
+          <h3>Sammelband Sektion A — Der Kosmos voller Lügen</h3>
+          <p>Alle zehn Autopsien der Sektion A in einem Buch. Wer die ganze Sektion lesen will, lädt nur eine Datei.</p>
+          <div class="dl"><a href="downloads/autopsien-sektion-a-kosmos-voller-luegen.pdf" data-f="pdf" aria-disabled="true" aria-label="Sammelband Sektion A — Der Kosmos voller Lügen, PDF" download><span class="f">PDF</span><span class="z">empfohlen</span></a><a href="downloads/autopsien-sektion-a-kosmos-voller-luegen.epub" data-f="epub" aria-disabled="true" aria-label="Sammelband Sektion A — Der Kosmos voller Lügen, EPUB" download><span class="f">EPUB</span><span class="z">Testversion</span></a><a href="downloads/autopsien-sektion-a-kosmos-voller-luegen.odt" data-f="odt" aria-disabled="true" aria-label="Sammelband Sektion A — Der Kosmos voller Lügen, ODT" download><span class="f">ODT</span><span class="z">zum Bearbeiten</span></a></div><p class="dateihinweis">Grau hinterlegte Formate sind noch nicht abgelegt.</p>
+        </div>
+      </div>
+  </div>
+</section>
+
+<section class="stratum" id="faelle" data-sprung="Fälle">
+  <div class="wrap">
+    <div class="stratum-kopf">
+      <h2>Sektion A — Der Kosmos voller Lügen</h2>
+      <span class="hoehe">10 Fälle, abgeschlossen</span>
+    </div>
+    <div class="filterleiste" id="stufenfilter" role="group" aria-label="Nach Gefährdung filtern" hidden>
+      <span class="leise">Gefährdung:</span>
+      <button type="button" aria-pressed="true" data-l="alle">Alle</button>
+      <button type="button" aria-pressed="false" data-l="1">Harmlos</button>
+      <button type="button" aria-pressed="false" data-l="2">Bedenklich</button>
+      <button type="button" aria-pressed="false" data-l="3-5">Ernst bis tödlich</button>
+    </div>
+    <div class="fallraster" id="fallraster"><article class="fallkarte" id="au-1" data-l="2">
+        <a class="fk-cover" href="assets/img/autopsien/au-01-flache-erde.webp" target="_blank" rel="noopener" aria-label="Cover vergrößern: Die flache Erde"><img src="assets/img/autopsien/au-01-flache-erde-klein.webp" alt="" loading="lazy" decoding="async"><span class="ki-hinweis">KI-generiert</span></a>
+        <div class="fk-text">
+          <p class="fk-kopf"><span class="nr">AU-A-01</span>
+            <span class="stufe" data-l="2" title="Nahezu kein direkter Schaden, aber die Abwehr gegen gefährlichere Mythen wird abgeschaltet."><span class="balken"><i class="an"></i><i class="an"></i><i class=""></i><i class=""></i><i class=""></i></span> Bedenklich</span></p>
+          <h3>Die flache Erde</h3>
+          <p class="unter">Das Großprojekt der Selbstverblendung</p>
+          <details class="mehr">
+            <summary>Worum es geht und herunterladen</summary>
+            <p class="kern">Traue nur deinen eigenen Augen — der Satz, der wie Unabhängigkeit klingt und ihr Gegenteil ist.</p>
+            <dl class="fk-daten"><dt>Ursprung</dt><dd>England, 1865</dd><dt>Ton der Akte</dt><dd>Satirisch-ironisch</dd><dt>Gefährdung</dt><dd>Stufe 2: Nahezu kein direkter Schaden, aber die Abwehr gegen gefährlichere Mythen wird abgeschaltet.</dd></dl>
+            <div class="dl"><a href="downloads/autopsien-01-flache-erde.pdf" data-f="pdf" aria-disabled="true" aria-label="Die flache Erde, PDF" download><span class="f">PDF</span><span class="z">empfohlen</span></a><a href="downloads/autopsien-01-flache-erde.epub" data-f="epub" aria-disabled="true" aria-label="Die flache Erde, EPUB" download><span class="f">EPUB</span><span class="z">Testversion</span></a><a href="downloads/autopsien-01-flache-erde.odt" data-f="odt" aria-disabled="true" aria-label="Die flache Erde, ODT" download><span class="f">ODT</span><span class="z">zum Bearbeiten</span></a></div><p class="dateihinweis">Grau hinterlegte Formate sind noch nicht abgelegt.</p>
+          </details>
+        </div>
+      </article><article class="fallkarte" id="au-2" data-l="2">
+        <a class="fk-cover" href="assets/img/autopsien/au-02-mondlandung.webp" target="_blank" rel="noopener" aria-label="Cover vergrößern: Die Mondlandungs-Lüge"><img src="assets/img/autopsien/au-02-mondlandung-klein.webp" alt="" loading="lazy" decoding="async"><span class="ki-hinweis">KI-generiert</span></a>
+        <div class="fk-text">
+          <p class="fk-kopf"><span class="nr">AU-A-02</span>
+            <span class="stufe" data-l="2" title="Nahezu kein direkter Schaden, aber die Abwehr gegen gefährlichere Mythen wird abgeschaltet."><span class="balken"><i class="an"></i><i class="an"></i><i class=""></i><i class=""></i><i class=""></i></span> Bedenklich</span></p>
+          <h3>Die Mondlandungs-Lüge</h3>
+          <p class="unter">Wie ein Triumph zur Verschwörung wurde</p>
+          <details class="mehr">
+            <summary>Worum es geht und herunterladen</summary>
+            <p class="kern">Wer das Werk von vierhunderttausend Menschen eine Filmproduktion nennt, widerlegt keine Theorie.</p>
+            <dl class="fk-daten"><dt>Ursprung</dt><dd>USA, 1976</dd><dt>Ton der Akte</dt><dd>Sachlich-ehrfürchtig</dd><dt>Gefährdung</dt><dd>Stufe 2: Nahezu kein direkter Schaden, aber die Abwehr gegen gefährlichere Mythen wird abgeschaltet.</dd></dl>
+            <div class="dl"><a href="downloads/autopsien-02-mondlandung.pdf" data-f="pdf" aria-disabled="true" aria-label="Die Mondlandungs-Lüge, PDF" download><span class="f">PDF</span><span class="z">empfohlen</span></a><a href="downloads/autopsien-02-mondlandung.epub" data-f="epub" aria-disabled="true" aria-label="Die Mondlandungs-Lüge, EPUB" download><span class="f">EPUB</span><span class="z">Testversion</span></a><a href="downloads/autopsien-02-mondlandung.odt" data-f="odt" aria-disabled="true" aria-label="Die Mondlandungs-Lüge, ODT" download><span class="f">ODT</span><span class="z">zum Bearbeiten</span></a></div><p class="dateihinweis">Grau hinterlegte Formate sind noch nicht abgelegt.</p>
+          </details>
+        </div>
+      </article><article class="fallkarte" id="au-3" data-l="3">
+        <a class="fk-cover" href="assets/img/autopsien/au-03-chemtrails.webp" target="_blank" rel="noopener" aria-label="Cover vergrößern: Chemtrails"><img src="assets/img/autopsien/au-03-chemtrails-klein.webp" alt="" loading="lazy" decoding="async"><span class="ki-hinweis">KI-generiert</span></a>
+        <div class="fk-text">
+          <p class="fk-kopf"><span class="nr">AU-A-03</span>
+            <span class="stufe" data-l="3" title="Gesundheitliche und soziale Folgen, dokumentierte Bedrohungen, Einfallstor zur Radikalisierung."><span class="balken"><i class="an"></i><i class="an"></i><i class="an"></i><i class=""></i><i class=""></i></span> Ernst</span></p>
+          <h3>Chemtrails</h3>
+          <p class="unter">Der Krieg über unseren Köpfen</p>
+          <details class="mehr">
+            <summary>Worum es geht und herunterladen</summary>
+            <p class="kern">Eine echte Angst um die unsichtbare Umwelt, die sich am Himmel ein Bild sucht.</p>
+            <dl class="fk-daten"><dt>Ursprung</dt><dd>USA, 1996–1999</dd><dt>Ton der Akte</dt><dd>Beruhigend-erdend</dd><dt>Gefährdung</dt><dd>Stufe 3: Gesundheitliche und soziale Folgen, dokumentierte Bedrohungen, Einfallstor zur Radikalisierung.</dd></dl>
+            <div class="dl"><a href="downloads/autopsien-03-chemtrails.pdf" data-f="pdf" aria-disabled="true" aria-label="Chemtrails, PDF" download><span class="f">PDF</span><span class="z">empfohlen</span></a><a href="downloads/autopsien-03-chemtrails.epub" data-f="epub" aria-disabled="true" aria-label="Chemtrails, EPUB" download><span class="f">EPUB</span><span class="z">Testversion</span></a><a href="downloads/autopsien-03-chemtrails.odt" data-f="odt" aria-disabled="true" aria-label="Chemtrails, ODT" download><span class="f">ODT</span><span class="z">zum Bearbeiten</span></a></div><p class="dateihinweis">Grau hinterlegte Formate sind noch nicht abgelegt.</p>
+          </details>
+        </div>
+      </article><article class="fallkarte" id="au-4" data-l="5">
+        <a class="fk-cover" href="assets/img/autopsien/au-04-klimawandel.webp" target="_blank" rel="noopener" aria-label="Cover vergrößern: Klimawandel"><img src="assets/img/autopsien/au-04-klimawandel-klein.webp" alt="" loading="lazy" decoding="async"><span class="ki-hinweis">KI-generiert</span></a>
+        <div class="fk-text">
+          <p class="fk-kopf"><span class="nr">AU-A-04</span>
+            <span class="stufe" data-l="5" title="Menschen sterben — an unterlassener Behandlung, an Verzögerung, an Gewalt."><span class="balken"><i class="an"></i><i class="an"></i><i class="an"></i><i class="an"></i><i class="an"></i></span> Tödlich</span></p>
+          <h3>Klimawandel</h3>
+          <p class="unter">Desinformation und die thermodynamische Realität</p>
+          <details class="mehr">
+            <summary>Worum es geht und herunterladen</summary>
+            <p class="kern">Der Zweifel war ein Produkt, hergestellt und verkauft. Die Kurve war nie in Zweifel.</p>
+            <dl class="fk-daten"><dt>Ursprung</dt><dd>USA, ab 1989</dd><dt>Ton der Akte</dt><dd>Kalt und belegt</dd><dt>Gefährdung</dt><dd>Stufe 5: Menschen sterben — an unterlassener Behandlung, an Verzögerung, an Gewalt.</dd></dl>
+            <div class="dl"><a href="downloads/autopsien-04-klimawandel.pdf" data-f="pdf" aria-disabled="true" aria-label="Klimawandel, PDF" download><span class="f">PDF</span><span class="z">empfohlen</span></a><a href="downloads/autopsien-04-klimawandel.epub" data-f="epub" aria-disabled="true" aria-label="Klimawandel, EPUB" download><span class="f">EPUB</span><span class="z">Testversion</span></a><a href="downloads/autopsien-04-klimawandel.odt" data-f="odt" aria-disabled="true" aria-label="Klimawandel, ODT" download><span class="f">ODT</span><span class="z">zum Bearbeiten</span></a></div><p class="dateihinweis">Grau hinterlegte Formate sind noch nicht abgelegt.</p>
+          </details>
+        </div>
+      </article><article class="fallkarte" id="au-5" data-l="1">
+        <a class="fk-cover" href="assets/img/autopsien/au-05-hohl-erde.webp" target="_blank" rel="noopener" aria-label="Cover vergrößern: Die Hohl-Erde"><img src="assets/img/autopsien/au-05-hohl-erde-klein.webp" alt="" loading="lazy" decoding="async"><span class="ki-hinweis">KI-generiert</span></a>
+        <div class="fk-text">
+          <p class="fk-kopf"><span class="nr">AU-A-05</span>
+            <span class="stufe" data-l="1" title="Kein körperlicher Schaden. Der Irrtum kostet Zeit und Selbstbild."><span class="balken"><i class="an"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span> Harmlos</span></p>
+          <h3>Die Hohl-Erde</h3>
+          <p class="unter">Das Leben im Inneren</p>
+          <details class="mehr">
+            <summary>Worum es geht und herunterladen</summary>
+            <p class="kern">Wo die Leugnung das vermessene Außen verweigert, erfindet dieser Mythos ein unvermessenes Innen.</p>
+            <dl class="fk-daten"><dt>Ursprung</dt><dd>England, 1692</dd><dt>Ton der Akte</dt><dd>Warm-neugierig</dd><dt>Gefährdung</dt><dd>Stufe 1: Kein körperlicher Schaden. Der Irrtum kostet Zeit und Selbstbild.</dd></dl>
+            <div class="dl"><a href="downloads/autopsien-05-hohl-erde.pdf" data-f="pdf" aria-disabled="true" aria-label="Die Hohl-Erde, PDF" download><span class="f">PDF</span><span class="z">empfohlen</span></a><a href="downloads/autopsien-05-hohl-erde.epub" data-f="epub" aria-disabled="true" aria-label="Die Hohl-Erde, EPUB" download><span class="f">EPUB</span><span class="z">Testversion</span></a><a href="downloads/autopsien-05-hohl-erde.odt" data-f="odt" aria-disabled="true" aria-label="Die Hohl-Erde, ODT" download><span class="f">ODT</span><span class="z">zum Bearbeiten</span></a></div><p class="dateihinweis">Grau hinterlegte Formate sind noch nicht abgelegt.</p>
+          </details>
+        </div>
+      </article><article class="fallkarte" id="au-6" data-l="1">
+        <a class="fk-cover" href="assets/img/autopsien/au-06-astrologie.webp" target="_blank" rel="noopener" aria-label="Cover vergrößern: Astrologie"><img src="assets/img/autopsien/au-06-astrologie-klein.webp" alt="" loading="lazy" decoding="async"><span class="ki-hinweis">KI-generiert</span></a>
+        <div class="fk-text">
+          <p class="fk-kopf"><span class="nr">AU-A-06</span>
+            <span class="stufe" data-l="1" title="Kein körperlicher Schaden. Der Irrtum kostet Zeit und Selbstbild."><span class="balken"><i class="an"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span> Harmlos</span></p>
+          <h3>Astrologie</h3>
+          <p class="unter">Der kosmische Spiegel, der jedem schmeichelt</p>
+          <details class="mehr">
+            <summary>Worum es geht und herunterladen</summary>
+            <p class="kern">Der Barnum-Effekt in Reinform: eine Aussage, die auf jeden passt, gelesen als eine über einen selbst.</p>
+            <dl class="fk-daten"><dt>Ursprung</dt><dd>Mesopotamien, Antike</dd><dt>Ton der Akte</dt><dd>Freundlich-präzise</dd><dt>Gefährdung</dt><dd>Stufe 1: Kein körperlicher Schaden. Der Irrtum kostet Zeit und Selbstbild.</dd></dl>
+            <div class="dl"><a href="downloads/autopsien-06-astrologie.pdf" data-f="pdf" aria-disabled="true" aria-label="Astrologie, PDF" download><span class="f">PDF</span><span class="z">empfohlen</span></a><a href="downloads/autopsien-06-astrologie.epub" data-f="epub" aria-disabled="true" aria-label="Astrologie, EPUB" download><span class="f">EPUB</span><span class="z">Testversion</span></a><a href="downloads/autopsien-06-astrologie.odt" data-f="odt" aria-disabled="true" aria-label="Astrologie, ODT" download><span class="f">ODT</span><span class="z">zum Bearbeiten</span></a></div><p class="dateihinweis">Grau hinterlegte Formate sind noch nicht abgelegt.</p>
+          </details>
+        </div>
+      </article><article class="fallkarte" id="au-7" data-l="2">
+        <a class="fk-cover" href="assets/img/autopsien/au-07-prae-astronautik.webp" target="_blank" rel="noopener" aria-label="Cover vergrößern: Prä-Astronautik"><img src="assets/img/autopsien/au-07-prae-astronautik-klein.webp" alt="" loading="lazy" decoding="async"><span class="ki-hinweis">KI-generiert</span></a>
+        <div class="fk-text">
+          <p class="fk-kopf"><span class="nr">AU-A-07</span>
+            <span class="stufe" data-l="2" title="Nahezu kein direkter Schaden, aber die Abwehr gegen gefährlichere Mythen wird abgeschaltet."><span class="balken"><i class="an"></i><i class="an"></i><i class=""></i><i class=""></i><i class=""></i></span> Bedenklich</span></p>
+          <h3>Prä-Astronautik</h3>
+          <p class="unter">Als die Götter Astronauten waren</p>
+          <details class="mehr">
+            <summary>Worum es geht und herunterladen</summary>
+            <p class="kern">Der Mythos nimmt außereuropäischen Kulturen ihre eigene Ingenieursleistung weg und schenkt sie dem All.</p>
+            <dl class="fk-daten"><dt>Ursprung</dt><dd>Schweiz, 1968</dd><dt>Ton der Akte</dt><dd>Historisch-nüchtern</dd><dt>Gefährdung</dt><dd>Stufe 2: Nahezu kein direkter Schaden, aber die Abwehr gegen gefährlichere Mythen wird abgeschaltet.</dd></dl>
+            <div class="dl"><a href="downloads/autopsien-07-prae-astronautik.pdf" data-f="pdf" aria-disabled="true" aria-label="Prä-Astronautik, PDF" download><span class="f">PDF</span><span class="z">empfohlen</span></a><a href="downloads/autopsien-07-prae-astronautik.epub" data-f="epub" aria-disabled="true" aria-label="Prä-Astronautik, EPUB" download><span class="f">EPUB</span><span class="z">Testversion</span></a><a href="downloads/autopsien-07-prae-astronautik.odt" data-f="odt" aria-disabled="true" aria-label="Prä-Astronautik, ODT" download><span class="f">ODT</span><span class="z">zum Bearbeiten</span></a></div><p class="dateihinweis">Grau hinterlegte Formate sind noch nicht abgelegt.</p>
+          </details>
+        </div>
+      </article><article class="fallkarte" id="au-8" data-l="2">
+        <a class="fk-cover" href="assets/img/autopsien/au-08-roswell.webp" target="_blank" rel="noopener" aria-label="Cover vergrößern: Roswell und die stillen Götter"><img src="assets/img/autopsien/au-08-roswell-klein.webp" alt="" loading="lazy" decoding="async"><span class="ki-hinweis">KI-generiert</span></a>
+        <div class="fk-text">
+          <p class="fk-kopf"><span class="nr">AU-A-08</span>
+            <span class="stufe" data-l="2" title="Nahezu kein direkter Schaden, aber die Abwehr gegen gefährlichere Mythen wird abgeschaltet."><span class="balken"><i class="an"></i><i class="an"></i><i class=""></i><i class=""></i><i class=""></i></span> Bedenklich</span></p>
+          <h3>Roswell und die stillen Götter</h3>
+          <p class="unter">Der Zwischenfall, der nie endet</p>
+          <details class="mehr">
+            <summary>Worum es geht und herunterladen</summary>
+            <p class="kern">Ein Ereignis von 1947, das erst dreißig Jahre später zu dem wurde, was heute erzählt wird.</p>
+            <dl class="fk-daten"><dt>Ursprung</dt><dd>USA, 1947 / 1978</dd><dt>Ton der Akte</dt><dd>Aktenkundig</dd><dt>Gefährdung</dt><dd>Stufe 2: Nahezu kein direkter Schaden, aber die Abwehr gegen gefährlichere Mythen wird abgeschaltet.</dd></dl>
+            <div class="dl"><a href="downloads/autopsien-08-roswell.pdf" data-f="pdf" aria-disabled="true" aria-label="Roswell und die stillen Götter, PDF" download><span class="f">PDF</span><span class="z">empfohlen</span></a><a href="downloads/autopsien-08-roswell.epub" data-f="epub" aria-disabled="true" aria-label="Roswell und die stillen Götter, EPUB" download><span class="f">EPUB</span><span class="z">Testversion</span></a><a href="downloads/autopsien-08-roswell.odt" data-f="odt" aria-disabled="true" aria-label="Roswell und die stillen Götter, ODT" download><span class="f">ODT</span><span class="z">zum Bearbeiten</span></a></div><p class="dateihinweis">Grau hinterlegte Formate sind noch nicht abgelegt.</p>
+          </details>
+        </div>
+      </article><article class="fallkarte" id="au-9" data-l="2">
+        <a class="fk-cover" href="assets/img/autopsien/au-09-nibiru.webp" target="_blank" rel="noopener" aria-label="Cover vergrößern: Die Planet-Nibiru-Panik"><img src="assets/img/autopsien/au-09-nibiru-klein.webp" alt="" loading="lazy" decoding="async"><span class="ki-hinweis">KI-generiert</span></a>
+        <div class="fk-text">
+          <p class="fk-kopf"><span class="nr">AU-A-09</span>
+            <span class="stufe" data-l="2" title="Nahezu kein direkter Schaden, aber die Abwehr gegen gefährlichere Mythen wird abgeschaltet."><span class="balken"><i class="an"></i><i class="an"></i><i class=""></i><i class=""></i><i class=""></i></span> Bedenklich</span></p>
+          <h3>Die Planet-Nibiru-Panik</h3>
+          <p class="unter">Der Planet, der immer kommt und nie ankommt</p>
+          <details class="mehr">
+            <summary>Worum es geht und herunterladen</summary>
+            <p class="kern">Eine Prophezeiung, die jedes Scheitern überlebt, weil sie sich nur ein neues Datum sucht.</p>
+            <dl class="fk-daten"><dt>Ursprung</dt><dd>USA, 1976 / 1995</dd><dt>Ton der Akte</dt><dd>Geduldig</dd><dt>Gefährdung</dt><dd>Stufe 2: Nahezu kein direkter Schaden, aber die Abwehr gegen gefährlichere Mythen wird abgeschaltet.</dd></dl>
+            <div class="dl"><a href="downloads/autopsien-09-nibiru.pdf" data-f="pdf" aria-disabled="true" aria-label="Die Planet-Nibiru-Panik, PDF" download><span class="f">PDF</span><span class="z">empfohlen</span></a><a href="downloads/autopsien-09-nibiru.epub" data-f="epub" aria-disabled="true" aria-label="Die Planet-Nibiru-Panik, EPUB" download><span class="f">EPUB</span><span class="z">Testversion</span></a><a href="downloads/autopsien-09-nibiru.odt" data-f="odt" aria-disabled="true" aria-label="Die Planet-Nibiru-Panik, ODT" download><span class="f">ODT</span><span class="z">zum Bearbeiten</span></a></div><p class="dateihinweis">Grau hinterlegte Formate sind noch nicht abgelegt.</p>
+          </details>
+        </div>
+      </article><article class="fallkarte" id="au-10" data-l="1">
+        <a class="fk-cover" href="assets/img/autopsien/au-10-simulation.webp" target="_blank" rel="noopener" aria-label="Cover vergrößern: Die Simulation"><img src="assets/img/autopsien/au-10-simulation-klein.webp" alt="" loading="lazy" decoding="async"><span class="ki-hinweis">KI-generiert</span></a>
+        <div class="fk-text">
+          <p class="fk-kopf"><span class="nr">AU-A-10</span>
+            <span class="stufe" data-l="1" title="Kein körperlicher Schaden. Der Irrtum kostet Zeit und Selbstbild."><span class="balken"><i class="an"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span> Harmlos</span></p>
+          <h3>Die Simulation</h3>
+          <p class="unter">Leben wir in einer Matrix?</p>
+          <details class="mehr">
+            <summary>Worum es geht und herunterladen</summary>
+            <p class="kern">Die einzige Autopsie, deren Gegenstand nicht falsch ist, sondern unprüfbar — und genau darum interessant.</p>
+            <dl class="fk-daten"><dt>Ursprung</dt><dd>Oxford, 2003</dd><dt>Ton der Akte</dt><dd>Philosophisch-offen</dd><dt>Gefährdung</dt><dd>Stufe 1: Kein körperlicher Schaden. Der Irrtum kostet Zeit und Selbstbild.</dd></dl>
+            <div class="dl"><a href="downloads/autopsien-10-simulation.pdf" data-f="pdf" aria-disabled="true" aria-label="Die Simulation, PDF" download><span class="f">PDF</span><span class="z">empfohlen</span></a><a href="downloads/autopsien-10-simulation.epub" data-f="epub" aria-disabled="true" aria-label="Die Simulation, EPUB" download><span class="f">EPUB</span><span class="z">Testversion</span></a><a href="downloads/autopsien-10-simulation.odt" data-f="odt" aria-disabled="true" aria-label="Die Simulation, ODT" download><span class="f">ODT</span><span class="z">zum Bearbeiten</span></a></div><p class="dateihinweis">Grau hinterlegte Formate sind noch nicht abgelegt.</p>
+          </details>
+        </div>
+      </article></div>
+    <p class="leise" style="margin-top:1.25rem">Jede Akte steht für sich. Du kannst mit jedem Fall anfangen; die Brücken zwischen den Fällen sind nur ein Bonus.</p>
+
+    <details class="aufklapp">
+      <summary>Die Gefährdungsskala erklärt</summary>
+      <div class="werkzeug" style="margin-top:1rem"><table class="daten"><thead><tr><th>Stufe</th><th>Bezeichnung</th><th>Bedeutung</th></tr></thead><tbody><tr><td class="zahl">L1</td><td><strong>Harmlos</strong></td><td class="leise">Kein körperlicher Schaden. Der Irrtum kostet Zeit und Selbstbild.</td></tr><tr><td class="zahl">L2</td><td><strong>Bedenklich</strong></td><td class="leise">Nahezu kein direkter Schaden, aber die Abwehr gegen gefährlichere Mythen wird abgeschaltet.</td></tr><tr><td class="zahl">L3</td><td><strong>Ernst</strong></td><td class="leise">Gesundheitliche und soziale Folgen, dokumentierte Bedrohungen, Einfallstor zur Radikalisierung.</td></tr><tr><td class="zahl">L4</td><td><strong>Gefährlich</strong></td><td class="leise">Direkter Schaden an Leib, Vermögen oder Rechtsstaat.</td></tr><tr><td class="zahl">L5</td><td><strong>Tödlich</strong></td><td class="leise">Menschen sterben — an unterlassener Behandlung, an Verzögerung, an Gewalt.</td></tr></tbody></table></div>
+    </details>
+  </div>
+</section>
+
+<section class="stratum" id="aufbau" data-sprung="Aufbau einer Akte">
+  <div class="wrap">
+    <div class="stratum-kopf">
+      <h2>So ist jede Akte gebaut</h2>
+      <span class="hoehe">19 Punkte, immer dieselbe Reihenfolge</span>
+    </div>
+    <p class="gross schmal">Erst verstehen, was den Mythos attraktiv macht. Dann prüfen. Dann fragen, wie man mit jemandem redet, der ihn glaubt.</p>
+
+    <details class="aufklapp">
+      <summary>Die wichtigsten Stationen</summary>
+      <div class="raster drei" style="margin-top:1rem">
+        <div class="zelle"><span class="kennung">Seuchenmeldung</span><h4>Der Steckbrief</h4><p>Ursprung, Verbreitung, Gefährdung, Kernbehauptung und die Frage, wer daran verdient.</p></div>
+        <div class="zelle"><span class="kennung">Frühwarnsystem</span><h4>Fünf Sätze</h4><p>Woran du den Mythos erkennst, bevor das Thema fällt, und welche ruhige Gegenfrage passt.</p></div>
+        <div class="zelle"><span class="kennung">Punkt 1</span><h4>Die Verführung</h4><p>Welches echte Bedürfnis bedient der Mythos? Ohne diese Antwort ist der Fall nicht verstanden.</p></div>
+        <div class="zelle"><span class="kennung">Punkt 3b</span><h4>Die Toleranz-Zone</h4><p>Wo berechtigte Skepsis endet und die Behauptung beginnt.</p></div>
+        <div class="zelle"><span class="kennung">Punkt 8</span><h4>Die Gegenprobe</h4><p>Derselbe Maßstab, angelegt an die eigene Position.</p></div>
+        <div class="zelle"><span class="kennung">Punkt 10</span><h4>Der Dialog-Leitfaden</h4><p>Was man jemandem sagt, der das glaubt, und was ihn der Ausstieg sozial kostet.</p></div>
+      </div>
+      <div class="knopfreihe"><a class="knopf" href="werkzeuge.html#protokoll">Das Protokoll als Arbeitsbogen</a></div>
+    </details>
+
+    <details class="aufklapp">
+      <summary>Drei Lesewege: akut, gründlich oder fürs Gespräch</summary>
+      <div class="raster drei" style="margin-top:1rem">
+        <div class="zelle" style="border-top:2px solid var(--au)"><h4>Ich bin gerade konfrontiert</h4><p>Seuchenmeldung, Frühwarnsystem, Dialog-Leitfaden. In fünf Minuten handlungsfähig.</p></div>
+        <div class="zelle" style="border-top:2px solid var(--lr)"><h4>Ich will es durchdringen</h4><p>Die ganze Akte von Punkt 1 bis 19, mit Gegenprobe und Bibliothek.</p></div>
+        <div class="zelle" style="border-top:2px solid var(--nc)"><h4>Ich will helfen</h4><p>Psychologische Anatomie, Dialog-Leitfaden, Exit-Protokoll. Wirksamkeit statt Rechthaben.</p></div>
+      </div>
+    </details>
+
+    <details class="aufklapp">
+      <summary>Warum die Reihe mit der flachen Erde beginnt</summary>
+      <p class="schmal" style="margin-top:1rem">Nicht mit dem gefährlichsten Fall, sondern mit dem saubersten: an der flachen Erde stirbt fast niemand. Dort lernt man das Skalpell führen, ohne dass die Hand zittert. Jede Akte hat einen eigenen Ton, satirisch bei der Scheibe, ehrfürchtig bei der Mondlandung, kalt beim Klima, und genau eine Stelle, an der er sich härtet: dort, wo aus einer verständlichen Frage die Verachtung jeder prüfenden Instanz wird.</p>
+      <blockquote class="zitat">Der Flacherdler ist nie dumm. Er ist neugierig, misstrauisch aus guten Gründen und schlecht beraten.
+      <cite>Autopsie #01, Ton-Modus</cite></blockquote>
+    </details>
+  </div>
+</section>
+
+<section class="stratum" id="landkarte" data-sprung="Was noch kommt">
+  <div class="wrap">
+    <div class="stratum-kopf">
+      <h2>Was noch kommt</h2>
+      <span class="hoehe">105 geplante Fälle in zehn Sektionen</span>
+    </div>
+    <p class="schmal">Die Gefährdung steigt von Sektion zu Sektion. Titel und Reihenfolge sind Arbeitsstand; was zuerst fertig ist, erscheint zuerst.</p>
+    <details class="sektion" open><summary><span class="mark">SEKTION A</span><span class="nm">Der Kosmos voller Lügen</span><span class="zz">10 Fälle · abgeschlossen</span></summary><p class="unter-s">Behauptungen über das Universum, die Erde und unseren Platz darin</p><ol class="planliste"><li><span class="n">001</span><span class="t">Die flache Erde <span class="u">— Das Großprojekt der Selbstverblendung</span></span></li><li><span class="n">002</span><span class="t">Die Mondlandungs-Lüge <span class="u">— Wie ein Triumph zur Verschwörung wurde</span></span></li><li><span class="n">003</span><span class="t">Chemtrails <span class="u">— Der Krieg über unseren Köpfen</span></span></li><li><span class="n">004</span><span class="t">Klimawandel <span class="u">— Desinformation und die thermodynamische Realität</span><span class="hw">„Der Frosch im Kochtopf“ ist eine Metapher, kein Befund — echte Frösche springen heraus.</span></span></li><li><span class="n">005</span><span class="t">Die Hohl-Erde <span class="u">— Das Leben im Inneren</span></span></li><li><span class="n">006</span><span class="t">Astrologie <span class="u">— Der kosmische Spiegel, der jedem schmeichelt</span></span></li><li><span class="n">007</span><span class="t">Prä-Astronautik <span class="u">— Als die Götter Astronauten waren</span></span></li><li><span class="n">008</span><span class="t">Roswell und die stillen Götter <span class="u">— Der Zwischenfall, der nie endet</span></span></li><li><span class="n">009</span><span class="t">Die Planet-Nibiru-Panik <span class="u">— Der Planet, der immer kommt und nie ankommt</span></span></li><li><span class="n">010</span><span class="t">Die Simulation <span class="u">— Leben wir in einer Matrix?</span></span></li></ol></details><details class="sektion"><summary><span class="mark">SEKTION B</span><span class="nm">Die Fabrik des Körpers</span><span class="zz">12 Fälle · geplant</span></summary><p class="unter-s">Pseudomedizin, falsche Heilversprechen und Gesundheitsmythen</p><ol class="planliste"><li><span class="n">011</span><span class="t">Homöopathie <span class="u">— Die Magie der Leere</span></span></li><li><span class="n">012</span><span class="t">Magnetfeldtherapie <span class="u">— Die unsichtbare Heilkraft</span></span></li><li><span class="n">013</span><span class="t">Die Detox-Industrie <span class="u">— Das Schlacken-Märchen</span></span></li><li><span class="n">014</span><span class="t">Die Anti-Impf-Bewegung <span class="u">— Der Krieg gegen einen unsichtbaren Sieg</span></span></li><li><span class="n">015</span><span class="t">Germanische Neue Medizin <span class="u">— Der Krebs als Freund</span></span></li><li><span class="n">016</span><span class="t">Die Wunderheilung Krebs <span class="u">— Von Aprikosenkerne bis Bikarbonat</span></span></li><li><span class="n">017</span><span class="t">Heilende Schwingungen <span class="u">— Frequenzmedizin und Bioenergetik</span></span></li><li><span class="n">018</span><span class="t">Die Opioid-Krise als Verschwörung <span class="u">— Wenn echtes Versagen zum Mythos wird</span></span></li><li><span class="n">019</span><span class="t">Sonnenlicht als Allheilmittel (Earthing, Sungazing, etc.) </span></li><li><span class="n">020</span><span class="t">Wunderpilze und heilige Pflanzen <span class="u">— Zwischen Wahrheit und Hokuspokus</span></span></li><li><span class="n">021</span><span class="t">MMS / Miracle Mineral Solution <span class="u">— Chlordioxid: Industriebleiche als Heilmittel</span><span class="hw">Level 3–4; direkte Vergiftungsgefahr</span></span></li><li><span class="n">022</span><span class="t">Schüsslersalze <span class="u">— Die elegante Schwester der Homöopathie</span></span></li></ol></details><details class="sektion"><summary><span class="mark">SEKTION C</span><span class="nm">Die unsichtbaren Mächte</span><span class="zz">10 Fälle · geplant</span></summary><p class="unter-s">Energie, Felder, Strahlung und das, was uns angeblich kontrolliert</p><ol class="planliste"><li><span class="n">023</span><span class="t">5G als Biowaffe <span class="u">— Die Antenne der Angst</span></span></li><li><span class="n">024</span><span class="t">Freie Energie <span class="u">— Warum Nikola Tesla angeblich alles wusste</span></span></li><li><span class="n">025</span><span class="t">Quantenheilung <span class="u">— Das mächtigste Missverständnis der Physik</span></span></li><li><span class="n">026</span><span class="t">Das Gesetz der Anziehung <span class="u">— Die kosmische Bestellung beim Universum</span></span></li><li><span class="n">027</span><span class="t">Elektrosmog-Angst <span class="u">— Wenn die Steckdose zum Feind wird</span></span></li><li><span class="n">028</span><span class="t">Kristallheilung <span class="u">— Die Magie des schönen Steins</span></span></li><li><span class="n">029</span><span class="t">Das böse Auge und Energieblockaden </span></li><li><span class="n">030</span><span class="t">Das Gedächtnis des Wassers <span class="u">— Informiertes Wasser und Masaru Emoto</span></span></li><li><span class="n">031</span><span class="t">Erdstrahlen und Wasseradern <span class="u">— Das Pendel als Detektor</span></span></li><li><span class="n">032</span><span class="t">Mondphasen und ihr Einfluss auf den Menschen </span></li></ol></details><details class="sektion"><summary><span class="mark">SEKTION D</span><span class="nm">Die Verschwörungsmaschine</span><span class="zz">11 Fälle · geplant</span></summary><p class="unter-s">Organisierte Paranoia: Von Geheimgesellschaften bis Weltregierung</p><ol class="planliste"><li><span class="n">033</span><span class="t">Die Illuminaten <span class="u">— Die unsterbliche Geheimgesellschaft</span></span></li><li><span class="n">034</span><span class="t">Die Rothschild-Legende <span class="u">— Das älteste Feindbild der Moderne</span></span></li><li><span class="n">035</span><span class="t">Die Neue Weltordnung <span class="u">— Der Blueprint der Paranoia</span></span></li><li><span class="n">036</span><span class="t">QAnon <span class="u">— Die Schnitzeljagd in den Abgrund</span></span></li><li><span class="n">037</span><span class="t">Der Great Reset <span class="u">— Schwab, Soros und der Plan der Eliten</span></span></li><li><span class="n">038</span><span class="t">Die Reptilien-Verschwörung <span class="u">— David Icke und die Echsenmenschen</span></span></li><li><span class="n">039</span><span class="t">Freimaurer <span class="u">— Was die Geheimgesellschaft wirklich ist</span></span></li><li><span class="n">040</span><span class="t">Die Bilderberg-Gruppe <span class="u">— Verschwörung oder Dinner-Club?</span></span></li><li><span class="n">041</span><span class="t">Die Medien-Matrix <span class="u">— Wie der Mainstream angeblich lügt</span></span></li><li><span class="n">042</span><span class="t">Der „Deep State" <span class="u">— Der Staat im Staat</span></span></li><li><span class="n">043</span><span class="t">Der Große Austausch / Replacement Theory <span class="u">— Die rechtsextreme Bevölkerungsverschwörung</span><span class="hw">Level 4–5; Verbindung zu Terroranschlägen in xxx, xxx, xxx</span></span></li></ol></details><details class="sektion"><summary><span class="mark">SEKTION E</span><span class="nm">Geschichte wird umgeschrieben</span><span class="zz">11 Fälle · geplant</span></summary><p class="unter-s">Revisionismus, Mythen und die Umdeutung der Vergangenheit</p><ol class="planliste"><li><span class="n">044</span><span class="t">Die Tartaria-Verschwörung <span class="u">— Das vergessene Weltreich</span></span></li><li><span class="n">045</span><span class="t">Die Pyramiden-Mythen <span class="u">— Außerirdische oder Ingenieure?</span></span></li><li><span class="n">046</span><span class="t">Freimaurerei und die Amerikanische Revolution <span class="u">— Mythos und Wahrheit</span></span></li><li><span class="n">047</span><span class="t">Die Arier-Mythologie <span class="u">— Die Pseudowissenschaft des Rassismus</span></span></li><li><span class="n">048</span><span class="t">Die Templer-Verschwörung <span class="u">— Ritter, Schätze und Schauermärchen</span></span></li><li><span class="n">049</span><span class="t">Die Katharer-Romantik <span class="u">— Das reine Volk als Projektionsfläche</span></span></li><li><span class="n">050</span><span class="t">Die Protokolle der Weisen von Zion <span class="u">— Das gefährlichste Fälschungsdokument der Geschichte</span></span></li><li><span class="n">051</span><span class="t">9/11 <span class="u">— Der Turm aus Lügen</span></span></li><li><span class="n">052</span><span class="t">Der „Bevölkerungsreduzierungs"-Plan <span class="u">— Georgia Guidestones und Agenda 21</span></span></li><li><span class="n">053</span><span class="t">AIDS als Biowaffe <span class="u">— Wie eine Tragödie zur Verschwörung wurde</span></span></li><li><span class="n">054</span><span class="t">Holocaust-Leugnung <span class="u">— Das gefährlichste Geschichtsmärchen der Moderne</span><span class="hw">Level 5; Geschichtsrevisionismus + aktiver Antisemitismus + direkte Gewaltermöglichung; Kandidat für Meister-Autopsie in Sektion J</span></span></li></ol></details><details class="sektion"><summary><span class="mark">SEKTION F</span><span class="nm">Das Volk der Schatten</span><span class="zz">11 Fälle · geplant</span></summary><p class="unter-s">Soziale Irrationalität: Sekten, Kulte, MLM und manipulative Systeme</p><ol class="planliste"><li><span class="n">055</span><span class="t">xxx <span class="u">— Die Kirche der Kontrolle</span></span></li><li><span class="n">056</span><span class="t">xxx <span class="u">— Die Selbsthilfe-Sekte mit Brandzeichen</span></span></li><li><span class="n">057</span><span class="t">Die xxx-Sekte <span class="u">— Massenselbstmord im Namen des Lichts</span></span></li><li><span class="n">058</span><span class="t">Multi-Level-Marketing <span class="u">— Der Traum vom CEO im eigenen Wohnzimmer</span></span></li><li><span class="n">059</span><span class="t">Die Human Design-Bewegung <span class="u">— Pseudowissenschaft als Identität</span></span></li><li><span class="n">060</span><span class="t">Positive Thinking Extremismus <span class="u">— Wenn Optimismus toxisch wird</span></span></li><li><span class="n">061</span><span class="t">LGAT-Seminare (Landmark, etc.) <span class="u">— Hochdrucktransformation</span></span></li><li><span class="n">062</span><span class="t">Der Alphamasculinity-Kult <span class="u">— xxx und Konsorten</span></span></li><li><span class="n">063</span><span class="t">Die Rote-Pille-Gemeinschaft <span class="u">— Incel-Ideologie als Weltanschauung</span></span></li><li><span class="n">064</span><span class="t">Die Doomsday-Prepper-Bewegung <span class="u">— Wenn Vorsicht zur Paranoia wird</span></span></li><li><span class="n">065</span><span class="t">Die Wellness-Industrie als Mythos-Maschine <span class="u">— Goop, Dr. Oz und der Milliardenmarkt der schönen Lügen</span><span class="hw">Level 2–3; eleganteste Brücke zwischen harmlosen Wellnessprodukten und gefährlicher Pseudomedizin</span></span></li></ol></details><details class="sektion"><summary><span class="mark">SEKTION G</span><span class="nm">Die unsichtbare Hand des Marktes</span><span class="zz">10 Fälle · geplant</span></summary><p class="unter-s">Wirtschaftlicher Aberglaube, Finanzkulte und Spekulationsblasen</p><ol class="planliste"><li><span class="n">066</span><span class="t">Der Bitcoin-Messianismus <span class="u">— Kryptowährung als Religion</span></span></li><li><span class="n">067</span><span class="t">Tulpenmanie und ihre modernen Kinder <span class="u">— Die Anatomie einer Spekulationsblase</span></span></li><li><span class="n">068</span><span class="t">Finanzastrologie <span class="u">— Wenn die Sterne die Märkte lenken</span></span></li><li><span class="n">069</span><span class="t">Diamanten sind für immer <span class="u">— Die größte Marketing-Lüge des 20. Jahrhunderts</span></span></li><li><span class="n">070</span><span class="t">Gold als einzige wahre Währung <span class="u">— Der Goldstandard-Mythos</span></span></li><li><span class="n">071</span><span class="t">Das Pharma-Feindbild <span class="u">— Wann Kritik aufhört, Kritik zu sein</span></span></li><li><span class="n">072</span><span class="t">Das Bevölkerungswachstum als Apokalypse <span class="u">— Malthus hat immer Unrecht</span></span></li><li><span class="n">073</span><span class="t">KI-Apokalypse vs. KI-Utopie <span class="u">— Die zwei irrationalen Extreme</span></span></li><li><span class="n">074</span><span class="t">Gambler's Fallacy und Lottostrategien <span class="u">— Der Mythos der Berechenbarkeit</span></span></li><li><span class="n">075</span><span class="t">Die Statistik-Lüge <span class="u">— Wie Zahlen zu Waffen werden</span></span></li></ol></details><details class="sektion"><summary><span class="mark">SEKTION H</span><span class="nm">Die großen Glaubenssysteme</span><span class="zz">10 Fälle · geplant</span></summary><p class="unter-s">Religiöse und spirituelle Überzeugungen unter der Lupe</p><ol class="planliste"><li><span class="n">076</span><span class="t">Kabbala als Lifestyle <span class="u">— Madonna und das rote Armband</span></span></li><li><span class="n">077</span><span class="t">Der Islam und die Verschwörungserzählungen <span class="u">— Innen- und Außenperspektive</span></span></li><li><span class="n">078</span><span class="t">Kreationismus <span class="u">— Die Erde ist 6000 Jahre alt</span></span></li><li><span class="n">079</span><span class="t">New Age <span class="u">— Die spirituelle Supermarkt-Kultur</span></span></li><li><span class="n">080</span><span class="t">Channeling und Medien <span class="u">— Die Stimmen aus dem Jenseits</span></span></li><li><span class="n">081</span><span class="t">Reinkarnation als Therapie <span class="u">— Wenn vergangene Leben die Gegenwart erklären</span></span></li><li><span class="n">082</span><span class="t">Geisterjäger <span class="u">— Was steckt hinter paranormalen Erfahrungen?</span></span></li><li><span class="n">083</span><span class="t">Engel und Schutzgeister <span class="u">— Der Trost und die Falle</span></span></li><li><span class="n">084</span><span class="t">Das Jenseits-Tourismus-Phänomen <span class="u">— NDEs, Nahtoderfahrungen und was sie bedeuten</span></span></li><li><span class="n">085</span><span class="t">Mythologien als Wahrheit <span class="u">— Wenn Geschichten zu Dokumenten werden</span></span></li></ol></details><details class="sektion"><summary><span class="mark">SEKTION I</span><span class="nm">Die digitale Dunkelkammer</span><span class="zz">10 Fälle · geplant</span></summary><p class="unter-s">Desinformation, KI-Risiken, digitale Manipulation und Zukunftsmythen</p><ol class="planliste"><li><span class="n">086</span><span class="t">KI wird uns alle töten <span class="u">— Der Terminator als Denkfehler</span></span></li><li><span class="n">087</span><span class="t">Deepfakes und die Lügner-Dividende <span class="u">— Sehen ist nicht mehr Glauben</span></span></li><li><span class="n">088</span><span class="t">Twitter-Wahrheit <span class="u">— Wie soziale Medien Realität konstruieren</span></span></li><li><span class="n">089</span><span class="t">Das Algorithmus-Orakel <span class="u">— Wenn die Maschine entscheidet, was wahr ist</span></span></li><li><span class="n">090</span><span class="t">Die QR-Code-Paranoia <span class="u">— Digitale Kontrolle durch den Impfpass</span></span></li><li><span class="n">091</span><span class="t">Handystrahlung und Krebs <span class="u">— Was die Wissenschaft wirklich sagt</span></span></li><li><span class="n">092</span><span class="t">Videospiele als Gewalt-Fabrik <span class="u">— Der ewige Sündenbock</span></span></li><li><span class="n">093</span><span class="t">mRNA als Gen-Manipulation <span class="u">— Der Impfstoff-Mythos im Faktencheck</span></span></li><li><span class="n">094</span><span class="t">Datenschutz-Apokalypse <span class="u">— Wann Paranoia sinnvoll ist (und wann nicht)</span></span></li><li><span class="n">095</span><span class="t">Social-Media-Sucht als Verschwörung vs. bewusstes Design </span></li></ol></details><details class="sektion"><summary><span class="mark">SEKTION J</span><span class="nm">Die Großfälle</span><span class="zz">10 Fälle · geplant</span></summary><p class="unter-s">Themenübergreifende Tiefenanalysen: Wo sich Mythen zu Systemen verdichten</p><ol class="planliste"><li><span class="n">096</span><span class="t">Die Arier-Ideologie und Braune Esoterik <span class="u">— Wie Spiritualität zur Waffe wurde (Lfg. VIII)</span></span></li><li><span class="n">097</span><span class="t">Die Anatomie eines Heiligen Krieges <span class="u">— Kreuzzüge als universelles Manipulations-Modell (Lfg. VII)</span></span></li><li><span class="n">098</span><span class="t">Die Anti-Psychiatrie-Bewegung <span class="u">— Wenn berechtigte Kritik zum gefährlichen Mythos wird</span></span></li><li><span class="n">099</span><span class="t">Die Biowaffen-Paranoia <span class="u">— Von Fort Detrick bis Wuhan</span></span></li><li><span class="n">100</span><span class="t">Der Souveränitätsbürger-Komplex <span class="u">— Die Selbstentrechtung als Freiheitsakt</span></span></li><li><span class="n">101</span><span class="t">Populismus als Glaubenssystem <span class="u">— Wie politische Bewegungen Kulte werden</span></span></li><li><span class="n">102</span><span class="t">Der Öko-Extremismus <span class="u">— Wenn berechtigter Umweltschutz in Irrationalität kippt</span></span></li><li><span class="n">103</span><span class="t">Der Transhumanismus als Heilslehre <span class="u">— Wenn das Silicon Valley eine Religion gründet</span></span></li><li><span class="n">104</span><span class="t">Die moralische Panik <span class="u">— Von Satanic Panic bis Cancel Culture</span></span></li><li><span class="n">105</span><span class="t">SYNTHESE: Die Anatomie des menschlichen Bedürfnisses nach Bedeutung <span class="u">— Die Mutterzelle aller Mythen</span></span></li></ol></details>
+  </div>
+</section>
+
+<section class="stratum">
+  <div class="wrap schmal">
+    <h2>Bearbeiten erlaubt</h2>
+    <p>Die Autopsien stehen unter <a href="lizenz.html">CC BY-NC 4.0</a>. Du darfst sie kürzen, übersetzen und in eigenes Material einbauen, wenn du Autor und Werk nennst, Änderungen kenntlich machst und nichts damit verdienst. Dafür gibt es jede Akte auch als ODT.</p>
+    <div class="knopfreihe">
+      <a class="knopf" href="downloads.html#dl-au">Alle Autopsien-Dateien</a>
+      <a class="knopf still" href="gegenfragen.html">Gegenfragen-Kartei</a>
+    </div>
+  </div>
+</section>
+
+<script>
+/* Filter nach Gefährdungsstufe — ohne JavaScript bleibt einfach alles sichtbar */
+(() => {
+  const leiste = document.getElementById("stufenfilter");
+  const karten = [...document.querySelectorAll(".fallkarte")];
+  if (!leiste || !karten.length) return;
+  leiste.hidden = false;
+  leiste.addEventListener("click", ev => {
+    const b = ev.target.closest("button"); if (!b) return;
+    leiste.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    const w = b.dataset.l;
+    karten.forEach(k => {
+      const l = +k.dataset.l;
+      k.hidden = !(w === "alle" || (w === "3-5" ? l >= 3 : l === +w));
+    });
+  });
+})();
+</script>
+
+</main>
+
+<footer class="fuss">
+  <div class="wrap">
+    <p class="fuss-satz">Alle Werke sind kostenlos und stehen unter Creative Commons 4.0 International. Kommerzielle Nutzung ist ausgeschlossen. Fragen und Anregungen gern an <a href="mailto:Syntaxis_Buch@pm.me">Syntaxis_Buch@pm.me</a>.</p>
+    <nav class="fuss-links" aria-label="Rechtliches und Kontakt">
+      <a href="lizenz.html">Lizenz und Nutzung</a>
+      <a href="impressum.html">Impressum</a>
+      <a href="impressum.html#haftung">Haftungsausschluss</a>
+      <a href="impressum.html#datenschutz">Datenschutz</a>
+      <a href="feed.xml">RSS</a>
+      <a href="https://github.com/Syntaxisbuch/Syntaxisbuch.github.io">GitHub</a>
+    </nav>
+    <p class="schluss"><span>© 2026 Gerald Glaser</span><span>Neurale Assistenz: Claude (Anthropic) und Gemini (Google)</span></p>
+  </div>
+</footer>
+
+<div class="suchfenster" id="suchfenster" role="dialog" aria-modal="true" aria-label="Suche">
+  <div class="schleier" data-schliessen></div>
+  <div class="kasten">
+    <input type="search" id="suchEingabe" placeholder="Werk, Sektor, Signatur oder Behauptung — z. B. LR-I-1.2.3, Amygdala, flache Erde" autocomplete="off" spellcheck="false">
+    <ul class="treffer" id="suchTreffer"></ul>
+    <div class="hilfe">↑ ↓ blättern · ↵ öffnen · Esc schließen</div>
+  </div>
+</div>
+
+<script src="assets/js/core.js"></script>
+
+</body>
+</html>
