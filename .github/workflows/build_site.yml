@@ -1,0 +1,53 @@
+name: Syntaxis Site Builder
+
+# Wann soll der Generator laufen?
+on:
+  push:
+    branches:
+      - '**'          # jeder Branch — auch ein Arbeits- oder Veröffentlichungsbranch wie V1
+    # EXTREM WICHTIG: Das Skript läuft NUR, wenn Dateien in diesen Ordnern geändert wurden.
+    # downloads/** gehört dazu: Ob ein Download-Knopf aktiv oder ausgegraut ist,
+    # entscheidet build.py danach, ob die Datei im Ordner liegt. Ohne diesen Eintrag
+    # bleibt ein später hochgeladenes PDF ausgegraut, bis zufällig etwas anderes gebaut wird.
+    paths:
+      - 'data/**'
+      - '_build/**'
+      - 'assets/**'
+      - 'downloads/**'
+      - '.github/workflows/**'
+  workflow_dispatch: # Erlaubt manuelles Starten
+
+jobs:
+  build-and-deploy:
+    # Feste Version statt ubuntu-latest: GitHub stellt "latest" ab dem 19.10.2026 auf Ubuntu 26 um.
+    # Der Generator braucht nur Python; 24.04 ist stabil und wird lange unterstützt.
+    runs-on: ubuntu-24.04
+    
+    # Der Bot braucht Schreibrechte für das Repository
+    permissions:
+      contents: write
+
+    steps:
+      - name: 1. Syntaxis-Repository auschecken
+        uses: actions/checkout@v5
+
+      - name: 2. Python 3 einrichten
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: 3. Seiten-Generator (build.py) ausführen
+        # Hier rufen wir exakt dein Skript auf
+        run: python3 _build/build.py
+
+      - name: 4. Generierte Dateien committen und pushen
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 Auto-Build: Seiten, Feed, Sitemap und Downloadliste aus aktuellen Daten generiert"
+          branch: ${{ github.ref_name }}
+          # build.py schreibt inzwischen auch sitemap.xml, robots.txt und die
+          # Umleitungsseiten unter Syntaxis/ aus SITE_URL — alle drei müssen hier
+          # mit erfasst werden, sonst committet der Bot nur die HTML-Seiten am
+          # Wurzelverzeichnis und der Rest friert auf dem zuletzt von Hand
+          # gepushten Stand ein.
+          file_pattern: "*.html sitemap.xml robots.txt feed.xml Syntaxis/*.html downloads/LIESMICH.md"
