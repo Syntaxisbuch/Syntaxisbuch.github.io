@@ -220,7 +220,7 @@
      "titel": "Gesamtausgabe — Buch 1 und Buch 2",
      "unter": "Beide Bücher in einer Datei",
      "stand": "Stand: Etappe 75, 24.09.2026",
-     "cover": null,
+     "cover": "assets/img/landkarte/landkarte-alternativ.webp",
      "dateien": [
       {
        "format": "PDF",
