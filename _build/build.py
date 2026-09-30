@@ -523,7 +523,7 @@ BAUSTEINE.update({
 SEITEN = {
     "index":       ("Syntaxis — Ein Projekt &uuml;ber kritisches Denken",
                     "Kostenlose Bücher über kritisches Denken, Mythen und eine Stadt, die gebaut ist wie ein Gehirn. PDF und EPUB unter Creative-Commons-Lizenz.", "", ""),
-    "landkarte":   ("Die Landkarte der Realität — Syntaxis",
+    "landkarte":   ("Landkarte der Realität — Syntaxis",
                     "Das Hauptwerk in zwei Büchern: Buch 1, Die Reise, in acht Bänden vom Rüstzeug des Denkens bis zur Anatomie der Chimäre, dazu Buch 2, Die Werkstatt, als Nachschlagewerk.", "lr", ""),
     "chroniken":   ("Chroniken von Neocortex City — Syntaxis",
                     "Fünf Kriminalromane (drei erschienen, zwei in Arbeit) in einer Stadt, die gebaut ist wie ein menschliches Gehirn. Noir mit belegtem Anhang.", "nc", ""),
@@ -574,7 +574,7 @@ SEITEN = {
 # ---------------------------------------------------------------------------
 NAV = [
     {"titel": "Werke", "punkte": [
-        ("landkarte",    "Die Landkarte der Realität",   "Das Hauptwerk: wie man Behauptungen prüft", "lr"),
+        ("landkarte",    "Landkarte der Realität",   "Das Hauptwerk: wie man Behauptungen prüft", "lr"),
         ("chroniken",    "Chroniken von Neocortex City", "Noir-Krimis in einer Stadt wie ein Gehirn", "nc"),
         ("autopsien",    "Autopsien der Schatten",       "Mythen, seziert nach festem Protokoll", "au"),
         ("licht",        "Licht der Realität",           "Populärwissenschaft, in Vorbereitung", "ld"),
