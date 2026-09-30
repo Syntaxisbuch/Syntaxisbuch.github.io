@@ -107,6 +107,17 @@
     else info.innerHTML = `<p class="leise" style="margin:0 0 .8rem">${t.funktion}.</p><p class="leise" style="margin:0">Wähle einen Sektor auf der Karte.</p>`;
   }
 
+  /* ---------- Aufriss: Terrasse anklicken → Grundriss darunter ---------- */
+  document.querySelectorAll(".aufriss-terrasse").forEach(g => {
+    const zeige = () => {
+      if (!D.sektoren.some(x => x.terrasse === g.dataset.terrasse)) return;
+      aktiveTerrasse = g.dataset.terrasse; aktiverSektor = null; zeichne();
+      document.getElementById("grundriss")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    };
+    g.addEventListener("click", zeige);
+    g.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); zeige(); } });
+  });
+
   /* ---------- Sektordetails ---------- */
   function waehle(id, neuZeichnen = true) {
     aktiverSektor = id;
