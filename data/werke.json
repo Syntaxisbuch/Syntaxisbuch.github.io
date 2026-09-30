@@ -324,16 +324,16 @@
      "dateien": [
       {
        "format": "PDF",
-       "datei": "https://github.com/Syntaxisbuch/Syntaxisbuch.github.io/releases/download/chroniken-1-schatten-ueber-dreamland-v0.9.3/chroniken-1-schatten-ueber-dreamland.pdf"
+       "datei": "https://github.com/Syntaxisbuch/Syntaxisbuch.github.io/releases/download/chroniken-1-schatten-ueber-dreamland-v0.9.4/chroniken-1-schatten-ueber-dreamland.pdf"
       },
       {
        "format": "EPUB",
-       "datei": "https://github.com/Syntaxisbuch/Syntaxisbuch.github.io/releases/download/chroniken-1-schatten-ueber-dreamland-v0.9.3/chroniken-1-schatten-ueber-dreamland.epub"
+       "datei": "https://github.com/Syntaxisbuch/Syntaxisbuch.github.io/releases/download/chroniken-1-schatten-ueber-dreamland-v0.9.4/chroniken-1-schatten-ueber-dreamland.epub"
       }
      ],
-     "status": "Fassung 0.9.3",
+     "status": "Fassung 0.9.4",
      "kapitel_zusatz": "und ein Schlusskapitel",
-     "stand": "Fassung 0.9.3 — Stand 30.09.2026"
+     "stand": "Fassung 0.9.4 — Stand 30.09.2026"
     },
     {
      "nr": "II",
