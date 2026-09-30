@@ -165,7 +165,6 @@ GitHub legt für den alten Namen eine Weile eine automatische Weiterleitung an; 
 - `sitemap.xml` und `robots.txt` — nicht mehr von Hand gepflegt, sondern bei jedem Lauf von `build.py` frisch geschrieben
 - `<link rel="canonical">` und `og:url` auf jeder Seite
 - `og:image` als vollständige Adresse (Open-Graph-Vorschauen brauchen absolute Bildpfade)
-- Das Redirect-Ziel aller vier Kontaktformulare (`Danke`-Seite nach dem Absenden)
 
 **Eine eigene Domain später.** Eine passende Domain lässt sich jederzeit nachrüsten, ohne den Rest anzufassen:
 

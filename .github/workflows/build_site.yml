@@ -4,7 +4,7 @@ name: Syntaxis Site Builder
 on:
   push:
     branches:
-      - '**'          # jeder Branch — auch ein Arbeits- oder Veröffentlichungsbranch wie V1
+      - main          # nur der veröffentlichte Stand; Arbeitsbranches baut man lokal mit python3 _build/build.py
     # EXTREM WICHTIG: Das Skript läuft NUR, wenn Dateien in diesen Ordnern geändert wurden.
     # downloads/** gehört dazu: Ob ein Download-Knopf aktiv oder ausgegraut ist,
     # entscheidet build.py danach, ob die Datei im Ordner liegt. Ohne diesen Eintrag
@@ -16,6 +16,11 @@ on:
       - 'downloads/**'
       - '.github/workflows/**'
   workflow_dispatch: # Erlaubt manuelles Starten
+
+# Nie zwei Bauläufe gleichzeitig: sonst schreiben zwei Bots gegeneinander zurück.
+concurrency:
+  group: site-build
+  cancel-in-progress: false
 
 jobs:
   build-and-deploy:
@@ -30,6 +35,8 @@ jobs:
     steps:
       - name: 1. Syntaxis-Repository auschecken
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 0   # Schritt 5 vergleicht neuigkeiten.json mit dem Stand vor dem Push
 
       - name: 2. Python 3 einrichten
         uses: actions/setup-python@v6
@@ -51,3 +58,10 @@ jobs:
           # Wurzelverzeichnis und der Rest friert auf dem zuletzt von Hand
           # gepushten Stand ein.
           file_pattern: "*.html sitemap.xml robots.txt feed.xml Syntaxis/*.html downloads/LIESMICH.md"
+
+      - name: 5. Neue Neuigkeiten nach Discord melden (nur mit Secret DISCORD_WEBHOOK und "live")
+        continue-on-error: true
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          BEFORE_SHA: ${{ github.event.before }}
+        run: python3 _build/discord_meldung.py

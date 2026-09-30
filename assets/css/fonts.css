@@ -64,14 +64,7 @@
 @font-face {
   font-family: 'Azeret Mono';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400 500;   /* eine Datei für beide Gewichte (bis 30.09.2026 zwei identische Kopien) */
   font-display: swap;
   src: url('../fonts/azeret-mono-400.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'Azeret Mono';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url('../fonts/azeret-mono-500.woff2') format('woff2');
 }
