@@ -325,7 +325,9 @@
    Deshalb fragt die Seite jede Datei kurz ab (HEAD, ein paar Bytes) und korrigiert den Zustand. */
 (() => {
   if (location.protocol === "file:") return;
-  const links = [...document.querySelectorAll(".dl a[href]")];
+  // Nur Dateien auf dieser Website abfragen; Release-Downloads bei GitHub gelten als vorhanden (build.py).
+  const links = [...document.querySelectorAll(".dl a[href]")]
+    .filter(a => new URL(a.getAttribute("href"), location.href).origin === location.origin);
   if (!links.length) return;
 
   const abgleich = async () => {
