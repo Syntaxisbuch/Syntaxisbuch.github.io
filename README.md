@@ -52,7 +52,17 @@ In `data/werke.json` bei der passenden Reihe unter `baende` (oder bei den Autops
 }
 ```
 
-Dann die Dateien nach `downloads/` legen und bauen:
+Die Dateien kommen **nicht** ins Repo. Veröffentlicht wird aus der Syntaxis-Werkstatt (`~/Syntaxis`) mit
+
+```bash
+syntaxis freigeben chroniken 5 --ja              # nur nach Freigabe durch den Autor
+syntaxis veroeffentlichen chroniken 5 --ausfuehren
+syntaxis hochladen --ja
+```
+
+Das legt ein GitHub Release an (Tag `<dateiname>-v<fassung>`, z. B. `chroniken-1-schatten-ueber-dreamland-v0.9.3`), setzt `datei` in `werke.json` auf die Release-Adresse, baut und lädt hoch. Einträge mit `downloads/…` gelten als „Datei folgt“, solange dort keine Datei liegt. Alte Direktlinks auf `/downloads/<datei>` leitet die 404-Seite zur aktuellen Fassung weiter (Tabelle wird aus `werke.json` erzeugt).
+
+Nur zum Ansehen lokal bauen:
 
 ```bash
 python3 _build/build.py
@@ -115,7 +125,7 @@ Das Menü steht an einer einzigen Stelle: der Liste `NAV` in `_build/build.py`. 
 │   ├── werkzeuge.json         Red Flags, Autopsie-Protokoll, Kartenkasten
 │   ├── autopsie-plan.json     die 105 geplanten Fälle in zehn Sektionen
 │   └── gegenfragen.json       115 Karten aus den Quick-Reference-Tabellen
-└── downloads/                 hier kommen PDF, EPUB und ODT hinein (Liste: downloads/LIESMICH.md)
+└── downloads/                 nur noch LIESMICH.md – Dateien liegen als GitHub Releases
 ```
 
 Bearbeitet werden nur `_build/pages/`, `data/`, `assets/`. Die HTML-Dateien im Wurzelverzeichnis werden vom Generator überschrieben.

@@ -442,6 +442,36 @@ def zahlen_platzhalter():
         "{{N_AUTOPSIEN}}": lambda: str(len(reihe("au")["faelle"])),
     }
 
+def rendere_download_umleitungen():
+    """Alte Download-Adressen weiterleiten (für die 404-Seite).
+
+    Veröffentlichte Dateien liegen als GitHub Release, nicht mehr unter /downloads/.
+    Wer einen alten Direktlink wie /downloads/chroniken-1-….pdf aufruft, landet auf
+    der 404-Seite; dieses Skript schickt ihn zur aktuellen Fassung derselben Datei
+    oder, wenn es sie (noch) nicht gibt, zur Ausgabestelle. Die Tabelle entsteht bei
+    jedem Bau aus werke.json und bleibt damit von selbst aktuell.
+    """
+    ziele = {}
+    def sammle(knoten):
+        if isinstance(knoten, dict):
+            if isinstance(knoten.get("datei"), str) and datei_da(knoten):
+                d = knoten["datei"]
+                ziele[d.rsplit("/", 1)[-1]] = d if d.startswith(("http://", "https://")) else "/" + d
+            for w in knoten.values():
+                sammle(w)
+        elif isinstance(knoten, list):
+            for w in knoten:
+                sammle(w)
+    sammle(WERKE)
+    tabelle = json.dumps(dict(sorted(ziele.items())), ensure_ascii=False)
+    return ("<script>(function(){var ziele=" + tabelle + ";"
+            "var p=location.pathname.replace(/^\\/Syntaxis\\//,'/');"
+            "var m=p.match(/^\\/downloads\\/([^\\/]+)$/);if(!m)return;"
+            "var d=decodeURIComponent(m[1]);var z=ziele[d];"
+            "if(z&&z!==location.pathname){location.replace(z);}else{location.replace('/downloads.html');}"
+            "})();</script>")
+
+
 BAUSTEINE = {
     "{{LR_BAENDE}}": rendere_baende_lr,
     "{{LR_BUCH2}}": rendere_lr_buch2,
@@ -457,6 +487,7 @@ BAUSTEINE = {
     "{{F404_BAENDE}}": rendere_f404_baende,
     "{{QUELLEN}}": rendere_quellen,
     "{{NEUIGKEITEN}}": rendere_neuigkeiten,
+    "{{DOWNLOAD_UMLEITUNGEN}}": rendere_download_umleitungen,
 }
 BAUSTEINE.update(zahlen_platzhalter())
 BAUSTEINE.update({
@@ -609,6 +640,13 @@ def baue():
                 .replace("{{GEMEINSCHAFT_LIVE}}", "1" if GEMEINSCHAFT_LIVE else "0")
                 .replace("{{OGBILD}}", SITE_URL + "/assets/img/og.png")
                 .replace("{{INHALT}}", inhalt))
+        if slug == "404":
+            # GitHub Pages liefert 404.html für jede fehlende Adresse aus, auch tief
+            # verschachtelte (/downloads/x.pdf). Ohne feste Basis zeigten die relativen
+            # Pfade zu CSS, Skripten und Links dann ins Leere.
+            html = html.replace("<head>\n", '<head>\n<base href="/">\n', 1)
+            # Mit <base> würde „#inhalt“ zur Startseite führen – Sprungmarke direkt setzen.
+            html = html.replace('href="#inhalt"', 'href="#inhalt" onclick="location.hash=\'inhalt\';return false"')
         (WURZEL / f"{slug}.html").write_text(html, encoding="utf-8")
         gebaut += 1
         print(f"  {slug}.html")
