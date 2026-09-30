@@ -21,8 +21,8 @@ Diese Datei erzeugt `_build/build.py` bei jedem Lauf aus `data/werke.json` — n
 
 | Ausgabe | Format | Dateiname | |
 |---|---|---|---|
-| Band I — Der Schatten über Dreamland | PDF | `chroniken-1-schatten-ueber-dreamland.pdf` | ⬜ |
-| Band I — Der Schatten über Dreamland | EPUB | `chroniken-1-schatten-ueber-dreamland.epub` | ⬜ |
+| Band I — Der Schatten über Dreamland | PDF | `chroniken-1-schatten-ueber-dreamland.pdf` | ✅ |
+| Band I — Der Schatten über Dreamland | EPUB | `chroniken-1-schatten-ueber-dreamland.epub` | ✅ |
 | Band II — Der König des dichten Unterholzes | PDF | `chroniken-2-koenig-des-dichten-unterholzes.pdf` | ⬜ |
 | Band II — Der König des dichten Unterholzes | EPUB | `chroniken-2-koenig-des-dichten-unterholzes.epub` | ⬜ |
 | Band III — Das Tier im Menschen | PDF | `chroniken-3-das-tier-im-menschen.pdf` | ⬜ |
