@@ -3,7 +3,7 @@
 Diese Datei erzeugt `_build/build.py` bei jedem Lauf aus `data/werke.json` — nicht von Hand bearbeiten.
 ✅ = Datei liegt im Ordner, ⬜ = fehlt noch. Dateinamen bleiben für immer gleich; eine neue Fassung ersetzt die alte unter demselben Namen.
 
-## Die Landkarte der Realität
+## Landkarte der Realität
 
 | Ausgabe | Format | Dateiname | |
 |---|---|---|---|
