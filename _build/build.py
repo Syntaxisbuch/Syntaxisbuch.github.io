@@ -7,6 +7,7 @@ _build/layout.html und den Fragmenten in _build/pages/ zusammen.
 
 Aufruf:  python3 _build/build.py
 """
+import hashlib
 import json
 import re
 import sys
@@ -472,6 +473,25 @@ def rendere_download_umleitungen():
             "})();</script>")
 
 
+def rendere_stadt_aufriss():
+    """Aufriss der Stadt für den Atlas: fertiges SVG aus _build/stadt-aufriss.svg.
+
+    Gezeichnet wird es in der Syntaxis-Werkstatt (werke/chroniken/werkzeug/stadtkarte.py --web,
+    Befehl: syntaxis stadtkarte) aus data/stadt.json. Das SVG trägt einen Fingerabdruck dieser
+    Datei; passt er nicht mehr, wurden die Stadtdaten geändert, ohne den Aufriss neu zu zeichnen.
+    """
+    pfad = WURZEL / "_build" / "stadt-aufriss.svg"
+    if not pfad.exists():
+        print("  WARNUNG: _build/stadt-aufriss.svg fehlt – Aufriss im Atlas entfällt")
+        return ""
+    svg = re.sub(r"<!--.*?-->\s*", "", pfad.read_text(encoding="utf-8"), flags=re.S)
+    m = re.search(r'data-stadt-json="([0-9a-f]+)"', svg)
+    jetzt = hashlib.sha256((WURZEL / "data" / "stadt.json").read_bytes()).hexdigest()[:16]
+    if not m or m.group(1) != jetzt:
+        print("  WARNUNG: Der Aufriss im Atlas passt nicht mehr zu data/stadt.json – neu zeichnen mit: syntaxis stadtkarte")
+    return svg
+
+
 BAUSTEINE = {
     "{{LR_BAENDE}}": rendere_baende_lr,
     "{{LR_BUCH2}}": rendere_lr_buch2,
@@ -488,6 +508,7 @@ BAUSTEINE = {
     "{{QUELLEN}}": rendere_quellen,
     "{{NEUIGKEITEN}}": rendere_neuigkeiten,
     "{{DOWNLOAD_UMLEITUNGEN}}": rendere_download_umleitungen,
+    "{{STADT_AUFRISS}}": rendere_stadt_aufriss,
 }
 BAUSTEINE.update(zahlen_platzhalter())
 BAUSTEINE.update({

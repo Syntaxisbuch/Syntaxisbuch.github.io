@@ -400,6 +400,11 @@ mark { background: var(--akzent-weich); color: var(--bone); padding: 0 .1em; }
 @media (min-width: 940px) { .atlas-buehne { grid-template-columns: 1fr 22rem; } }
 .atlas-karte { background: var(--ink); position: relative; min-height: 420px; }
 .atlas-karte svg { display: block; width: 100%; height: auto; }
+.atlas-aufriss { background: var(--ink); border: 1px solid var(--line); padding: clamp(.5rem, 2vw, 1.5rem); }
+.atlas-aufriss svg { display: block; width: 100%; max-width: 760px; height: auto; margin: 0 auto; }
+.aufriss-terrasse { cursor: pointer; }
+.aufriss-terrasse:hover text, .aufriss-terrasse:focus-visible text { fill: var(--nc); }
+.aufriss-terrasse:focus-visible { outline: 1px dashed var(--nc); outline-offset: 3px; }
 .atlas-info { background: var(--ink-2); padding: 1.25rem; font-size: .94rem; }
 .atlas-info h3 { margin: 0 0 .2rem; font-size: 1.35rem; }
 .atlas-info .meta { font-family: var(--data); font-size: .7rem; color: var(--fog); margin-bottom: .9rem; }
