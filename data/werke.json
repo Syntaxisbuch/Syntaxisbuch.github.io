@@ -50,7 +50,7 @@
    "lizenz": "by-nc",
    "signatur": "LR-[BAND]-[SEKTION]",
    "seite": "landkarte.html",
-   "beschreibung": "Zwei Bücher. Buch 1, Die Reise, führt in acht Bänden vom Rüstzeug des Denkens bis zu den beiden Meister-Autopsien über Glaubenskrieg und Chimäre. Buch 2, Die Werkstatt, ist ein Nachschlagewerk mit Glossar, Modell-Bibliothek und taktischem Kompendium — nicht der Reihe nach zu lesen, sondern zu betreten, wenn man etwas sucht.",
+   "beschreibung": "Zwei Bücher. Buch 1, Die Reise, führt in acht Bänden vom Rüstzeug des Denkens bis zu den beiden Tiefenstudien über Glaubenskrieg und Chimäre. Buch 2, Die Werkstatt, ist ein Nachschlagewerk mit Glossar, Modell-Bibliothek und taktischem Kompendium — nicht der Reihe nach zu lesen, sondern zu betreten, wenn man etwas sucht.",
    "form": "Sachbuch mit Übungsteil",
    "umfang": "zwei Bücher, rund 335.000 Wörter",
    "status": "verfügbar",
@@ -89,12 +89,12 @@
     {
      "nr": "VII",
      "titel": "Die Anatomie eines Glaubenskrieges",
-     "inhalt": "Erste Meister-Autopsie: die Kreuzzüge als Mechanik von Gewalt, Manipulation und kollektivem Rausch."
+     "inhalt": "Erste Tiefenstudie: die Kreuzzüge als Mechanik von Gewalt, Manipulation und kollektivem Rausch."
     },
     {
      "nr": "VIII",
      "titel": "Die Anatomie der Chimäre",
-     "inhalt": "Zweite Meister-Autopsie: wie Theosophie, Ariosophie und die „Protokolle“ zur braunen Esoterik verschmolzen — und wo ihre Muster heute wiederkehren."
+     "inhalt": "Zweite Tiefenstudie: wie Theosophie, Ariosophie und die „Protokolle“ zur braunen Esoterik verschmolzen — und wo ihre Muster heute wiederkehren."
     }
    ],
    "cover_klein": "assets/img/landkarte/buch-1-die-reise-klein.webp",
