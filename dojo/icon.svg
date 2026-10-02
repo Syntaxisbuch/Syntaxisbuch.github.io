@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Syntaxis">
+  <rect width="64" height="64" fill="#0C1519"/>
+  <g fill="none" stroke="#DDE2DC" stroke-width="3">
+    <path d="M14 8 V56"/>
+  </g>
+  <g fill="#3FA8A0">
+    <rect x="14" y="12" width="14" height="7"/>
+  </g>
+  <g fill="#2A3E47">
+    <rect x="14" y="20" width="20" height="7"/>
+    <rect x="14" y="28" width="26" height="7"/>
+  </g>
+  <g fill="#D98A2B">
+    <rect x="14" y="36" width="32" height="7"/>
+  </g>
+  <g fill="#2A3E47">
+    <rect x="14" y="44" width="38" height="7"/>
+  </g>
+  <rect x="14" y="53" width="16" height="4" fill="#C0453E"/>
+</svg>
