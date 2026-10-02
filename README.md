@@ -118,6 +118,7 @@ Das Menü steht an einer einzigen Stelle: der Liste `NAV` in `_build/build.py`. 
 │   ├── js/atlas.js            Karte, Sektordetails, Wegzeitrechner
 │   ├── js/werkzeuge.js        Red-Flag-Prüfung, Protokoll, Kartenkasten
 │   └── js/gegenfragen.js      Kartei mit Suche und Filter
+├── dojo/                      Testfassung der Trainings-App („Trainings-Dojo“): bewusst nicht verlinkt, nicht in Navigation und Sitemap, `noindex`; nicht von Hand ändern, die App entsteht in der Werkstatt (`app/`)
 ├── data/
 │   ├── werke.json             ► Werkregister, steuert die ganze Seite
 │   ├── stadt.json             Sektoren, Brücken, Turm, Geschwindigkeiten (Koordinatensystem v12)
