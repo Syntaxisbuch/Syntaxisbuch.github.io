@@ -2,6 +2,12 @@
  "hinweis": "Chronologischer Änderungsverlauf. Neueste zuerst. Speist die Neuigkeiten-Seite und den RSS-Feed.",
  "eintraege": [
   {
+   "datum": "2026-10-02",
+   "titel": "In Vorbereitung: Trainings-Dojo, eine Lern-App zur Landkarte",
+   "text": "Das Trainings-Dojo ist eine Lern-App zur Landkarte der Realität: Quiz, Mythen-Check, Dialoge und ein Prüf-Assistent. Sie läuft im Browser und offline, ohne Konto und ohne Tracking. Der App-Code steht unter CC BY-NC 4.0, Bearbeitung erlaubt. Noch in Vorbereitung.",
+   "link": "werkzeuge.html"
+  },
+  {
    "datum": "2026-09-30",
    "titel": "Band I – Der Schatten über Dreamland – Fassung 0.9.4",
    "text": "„Der Schatten über Dreamland“ liegt in Fassung 0.9.4 vor: neu im Anhang ist die Stadtkarte von Neocortex City mit den Schauplätzen des Bandes. Den Aufriss der ganzen Stadt zeigt jetzt auch der Atlas.",

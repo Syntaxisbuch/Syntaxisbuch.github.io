@@ -129,11 +129,17 @@ def rendere_au_plan():
         fertig = s.get("status") == "abgeschlossen"
         eintraege = []
         for f in s["faelle"]:
-            u = '<span class="u">— ' + f["unter"] + "</span>" if f["unter"] else ""
-            h = '<span class="hw">' + f["notiz"] + "</span>" if f["notiz"] else ""
+            # Platzhalter („xxx“) und interne Arbeitsnotizen (f["notiz"]) nie ausgeben
+            titel = f["titel"]
+            unter = f["unter"]
+            if "xxx" in titel.lower():
+                titel, unter = "Titel in Planung", ""
+            elif "xxx" in unter.lower():
+                unter = ""
+            u = '<span class="u">— ' + unter + "</span>" if unter else ""
             eintraege.append(
-                '<li><span class="n">%03d</span><span class="t">%s %s%s</span></li>'
-                % (f["nr"], f["titel"], u, h))
+                '<li><span class="n">%03d</span><span class="t">%s %s</span></li>'
+                % (f["nr"], titel, u))
         offen = " open" if fertig else ""
         stand = "abgeschlossen" if fertig else "geplant"
         blöcke.append(
@@ -425,6 +431,12 @@ def stadt_version():
     return m.group(0) if m else "?"
 
 
+def fassung_nc1():
+    """Fassung von Chroniken Band I aus werke.json (z. B. „0.9.4“)."""
+    b = next(x for x in reihe("nc")["baende"] if x["nr"] == "I")
+    return b["status"].replace("Fassung", "").strip()
+
+
 def zahlen_platzhalter():
     """Zahlen aus den Daten, damit sie in Texten nie wieder von den Daten abweichen."""
     ebenen = [x for x in STADT["terrassen"] if x["id"] != "grenzlage"]
@@ -440,6 +452,7 @@ def zahlen_platzhalter():
         "{{N_FOLGEN}}": lambda: str(len(FOLGEN)),
         "{{N_GEGENFRAGEN}}": lambda: str(len(GEGENFRAGEN)),
         "{{N_WERKZEUGE}}": lambda: str(len(WERKZEUGE["ruestzeug"])),
+        "{{FASSUNG_NC1}}": lambda: fassung_nc1(),
         "{{N_AUTOPSIEN}}": lambda: str(len(reihe("au")["faelle"])),
     }
 
