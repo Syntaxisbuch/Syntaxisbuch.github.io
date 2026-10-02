@@ -1,0 +1,1 @@
+import{P as e}from"./index-BNV5ft9e.js";var t=e(`plus`,[[`path`,{d:`M5 12h14`,key:`1ays0h`}],[`path`,{d:`M12 5v14`,key:`s699le`}]]);export{t};
