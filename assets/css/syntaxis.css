@@ -14,7 +14,7 @@
 
   --bone:       #DDE2DC;
   --fog:        #7E939E;
-  --fog-dim:    #55686F;
+  --fog-dim:    #8FA1AB;   /* Kontrast gegen alle Flächen mindestens 4,5:1 */
   --plate:      #E3E7E0;   /* kühles Tafelpapier, für helle Einschübe */
 
   --line:       rgba(126,147,158,.22);
@@ -1087,3 +1087,42 @@ details.mehr > p { margin: .5rem 0 0; }
 @media (max-width: 819px) { .chroniken-bandcover img { max-width: 7rem; } }
 #baende .werk p.kennung { font-size: .68rem; line-height: 1.6; color: var(--fog-dim); }
 main [id] { scroll-margin-top: 115px; }
+
+/* ---------- Lesen und Sehen (Schrift, Kontrast, Bewegung, Vorlesen) ---------- */
+html.kontrast { --fog: #D5DEE3; --fog-dim: #B9C6CD; --line: rgba(190,205,213,.55); --line-soft: rgba(190,205,213,.32); --line-hard: rgba(210,222,229,.8); }
+html.kontrast body { background: #070D10; }
+html.ruhige-bewegung, html.ruhige-bewegung * , html.ruhige-bewegung *::before, html.ruhige-bewegung *::after { scroll-behavior: auto !important; animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; }
+html.ruhige-bewegung .js-reveal .auf { opacity: 1 !important; transform: none !important; }
+
+.zugangknopf { display: inline-flex; align-items: center; justify-content: center; min-width: 40px; min-height: 40px; background: transparent; border: 1px solid var(--line); color: var(--fog); cursor: pointer; border-radius: var(--radius); padding: .3rem; }
+.zugangknopf:hover, .zugangknopf:focus-visible { border-color: var(--line-hard); color: var(--bone); }
+
+.zugang-fenster { --akzent: #3FA8A0; --akzent-weich: rgba(63,168,160,.14); position: fixed; inset: 0; z-index: 120; display: none; }
+.zugang-fenster.offen { display: block; }
+.zugang-fenster .zg-schleier { position: absolute; inset: 0; background: rgba(6,11,14,.8); backdrop-filter: blur(3px); }
+.zugang-fenster .zg-kasten { position: relative; max-width: 560px; max-height: calc(100vh - 2rem); overflow-y: auto; margin: 1rem auto; background: var(--ink-2); border: 1px solid var(--line-hard); padding: 1.25rem 1.4rem 1.4rem; box-shadow: 0 30px 80px rgba(0,0,0,.55); }
+.zugang-fenster .zg-kopf { display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; }
+.zugang-fenster h2 { font-family: var(--display); font-weight: 400; font-size: 1.8rem; margin: 0 0 .25rem; }
+.zugang-fenster h3 { font-family: var(--data); font-size: .66rem; letter-spacing: .14em; text-transform: uppercase; color: var(--fog); margin: 1.2rem 0 .5rem; font-weight: 500; }
+.zugang-fenster .zg-hinweis { color: var(--fog); font-size: .92rem; margin: .3rem 0 0; }
+.zugang-fenster .zg-warn { color: var(--nc); font-size: .92rem; }
+.zugang-fenster .zg-zu { background: none; border: 1px solid var(--line); color: var(--bone); width: 44px; height: 44px; font-size: 1.4rem; cursor: pointer; border-radius: var(--radius); flex: none; }
+.zugang-fenster .zg-chips { display: flex; flex-wrap: wrap; gap: .5rem; }
+.zugang-fenster .zg-chips button, .zugang-fenster .zg-knopf { min-height: 44px; padding: .45rem .9rem; background: var(--ink); border: 1px solid var(--line); color: var(--bone); font-family: var(--data); font-size: .74rem; cursor: pointer; border-radius: var(--radius); }
+.zugang-fenster .zg-chips button[aria-checked="true"] { border-color: var(--akzent); color: var(--akzent); background: var(--akzent-weich); }
+.zugang-fenster .zg-zeile { display: flex; gap: .8rem; align-items: center; min-height: 52px; padding: .45rem .8rem; border: 1px solid var(--line); margin-bottom: .5rem; cursor: pointer; }
+.zugang-fenster .zg-zeile input { width: 20px; height: 20px; accent-color: var(--akzent); flex: none; }
+.zugang-fenster .zg-titel { display: block; }
+.zugang-fenster .zg-klein { display: block; font-family: var(--data); font-size: .66rem; color: var(--fog); }
+.zugang-fenster .zg-feld { display: block; font-family: var(--data); font-size: .72rem; color: var(--fog); margin: .7rem 0; }
+.zugang-fenster .zg-feld input[type="range"] { width: 100%; margin-top: .4rem; accent-color: var(--akzent); }
+.zugang-fenster .zg-feld select { width: 100%; margin-top: .4rem; background: var(--ink); color: var(--bone); border: 1px solid var(--line); padding: .6rem .7rem; font-family: var(--body); font-size: .95rem; }
+.zugang-fenster .zg-reihe { display: flex; flex-wrap: wrap; gap: .6rem; }
+.zugang-fenster .zg-fertig { width: 100%; margin-top: 1.4rem; min-height: 48px; background: var(--akzent); color: var(--ink); border: 0; font-family: var(--data); font-weight: 700; font-size: .8rem; cursor: pointer; border-radius: var(--radius); }
+
+.zugang-leiste { position: fixed; left: 50%; bottom: 1rem; transform: translateX(-50%); z-index: 110; display: flex; align-items: center; gap: .4rem; background: var(--ink-2); border: 1px solid var(--line-hard); padding: .4rem .6rem; box-shadow: 0 10px 40px rgba(0,0,0,.5); max-width: calc(100vw - 1rem); }
+.zugang-leiste[hidden] { display: none; }
+.zugang-leiste button { min-width: 44px; min-height: 44px; background: var(--ink); border: 1px solid var(--line); color: var(--bone); font-size: 1.05rem; cursor: pointer; border-radius: var(--radius); }
+.zugang-leiste .zl-status { font-family: var(--data); font-size: .66rem; color: var(--fog); padding: 0 .4rem; }
+.vorlese-aktuell { background: var(--akzent-weich); outline: 2px solid var(--akzent); outline-offset: 3px; border-radius: 2px; }
+@media (max-width: 520px) { .zugang-leiste .zl-status { display: none; } .zugang-fenster .zg-kasten { margin: 0; max-height: 100vh; min-height: 100vh; } }
