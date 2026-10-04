@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" aria-labelledby="t d">
+<title id="t">Der Trichterplot: wie man eine leere Schublade sieht</title>
+<desc id="d">Zwei Streudiagramme. Auf der x-Achse die gemessene Wirkung einer Studie, auf der y-Achse ihre Größe, kleine Studien unten, große oben. Links ein symmetrischer Trichter: kleine Studien streuen breit nach beiden Seiten, große liegen eng um die wahre Wirkung – wie erwartet, wenn alle Ergebnisse veröffentlicht werden. Rechts derselbe Trichter mit einer leeren Ecke unten links: kleine Studien mit kleiner oder negativer Wirkung fehlen fast vollständig, weil sie seltener veröffentlicht wurden. Das Bild rechts entspricht in etwa dem Fall der Antidepressiva-Studien von Turner 2008.</desc>
+<rect x="1" y="1" width="898" height="558" rx="18" fill="#ffffff" stroke="#c9d3de" stroke-width="2"/>
+<text x="450" y="42" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#1b2a3a">Der Trichterplot: wie man eine leere Schublade sieht</text>
+<text x="450" y="66" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" fill="#5a6b7d">Jeder Punkt eine Studie: ihre gemessene Wirkung und ihre Größe</text>
+
+<g font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" text-anchor="middle">
+<!-- LINKS: symmetrisch -->
+<rect x="30" y="88" width="400" height="430" rx="14" fill="#e3ecf7" stroke="#2b5d9c" stroke-width="2"/>
+<text x="230" y="116" font-size="16" font-weight="bold" fill="#2b5d9c">Wenn alles veröffentlicht wird</text>
+<text x="230" y="136" font-size="12" fill="#5a6b7d">ein symmetrischer Trichter</text>
+<!-- Achsen -->
+<line x1="70" y1="440" x2="400" y2="440" stroke="#9aa9b8" stroke-width="1.5"/>
+<line x1="235" y1="440" x2="235" y2="170" stroke="#9aa9b8" stroke-width="1.5"/>
+<text x="235" y="460" font-size="11" fill="#1b2a3a">kein Effekt</text>
+<text x="120" y="460" font-size="10.5" fill="#5a6b7d">Behandlung schadet</text>
+<text x="350" y="460" font-size="10.5" fill="#5a6b7d">Behandlung hilft</text>
+<text x="60" y="180" font-size="10.5" fill="#5a6b7d" transform="rotate(-90 60 180)">große Studien</text>
+<text x="60" y="420" font-size="10.5" fill="#5a6b7d" transform="rotate(-90 60 420)">kleine Studien</text>
+<!-- Trichterlinien -->
+<path d="M 235 190 L 110 430 M 235 190 L 360 430" fill="none" stroke="#9aa9b8" stroke-width="1.5" stroke-dasharray="4 4"/>
+<!-- Punkte: symmetrisch verteilt, unten breiter -->
+<g fill="#2b5d9c" opacity="0.75">
+<circle cx="235" cy="195" r="6"/>
+<circle cx="220" cy="230" r="5.5"/><circle cx="252" cy="228" r="5.5"/>
+<circle cx="200" cy="270" r="5"/><circle cx="268" cy="268" r="5"/><circle cx="235" cy="265" r="5"/>
+<circle cx="175" cy="315" r="4.5"/><circle cx="295" cy="312" r="4.5"/><circle cx="215" cy="320" r="4.5"/><circle cx="255" cy="318" r="4.5"/>
+<circle cx="145" cy="365" r="4"/><circle cx="325" cy="362" r="4"/><circle cx="190" cy="370" r="4"/><circle cx="280" cy="368" r="4"/><circle cx="235" cy="372" r="4"/>
+<circle cx="120" cy="415" r="3.5"/><circle cx="350" cy="412" r="3.5"/><circle cx="160" cy="420" r="3.5"/><circle cx="310" cy="418" r="3.5"/><circle cx="235" cy="422" r="3.5"/><circle cx="200" cy="425" r="3.5"/><circle cx="270" cy="423" r="3.5"/>
+</g>
+<rect x="60" y="480" width="340" height="26" rx="7" fill="#ffffff" stroke="#2b5d9c" stroke-width="1.5"/>
+<text x="230" y="497" font-size="11" fill="#1b2a3a">Kleine Studien streuen nach beiden Seiten – wie erwartet</text>
+
+<!-- RECHTS: asymmetrisch -->
+<rect x="470" y="88" width="400" height="430" rx="14" fill="#fdf1ea" stroke="#c4531b" stroke-width="2"/>
+<text x="670" y="116" font-size="16" font-weight="bold" fill="#c4531b">Wenn eine Ecke fehlt</text>
+<text x="670" y="136" font-size="12" fill="#5a6b7d">die Schublade wird sichtbar</text>
+<line x1="510" y1="440" x2="840" y2="440" stroke="#9aa9b8" stroke-width="1.5"/>
+<line x1="675" y1="440" x2="675" y2="170" stroke="#9aa9b8" stroke-width="1.5"/>
+<text x="675" y="460" font-size="11" fill="#1b2a3a">kein Effekt</text>
+<text x="560" y="460" font-size="10.5" fill="#5a6b7d">Behandlung schadet</text>
+<text x="790" y="460" font-size="10.5" fill="#5a6b7d">Behandlung hilft</text>
+<text x="500" y="180" font-size="10.5" fill="#5a6b7d" transform="rotate(-90 500 180)">große Studien</text>
+<text x="500" y="420" font-size="10.5" fill="#5a6b7d" transform="rotate(-90 500 420)">kleine Studien</text>
+<path d="M 675 190 L 550 430 M 675 190 L 800 430" fill="none" stroke="#9aa9b8" stroke-width="1.5" stroke-dasharray="4 4"/>
+<!-- fehlende Ecke markieren -->
+<path d="M 675 300 L 555 425 L 675 425 Z" fill="#fde3d3" opacity="0.6"/>
+<text x="600" y="405" font-size="11" font-weight="bold" fill="#c4531b">hier fehlen</text>
+<text x="600" y="419" font-size="11" font-weight="bold" fill="#c4531b">die Studien</text>
+<!-- Punkte: nur rechte Seite unten, Rest wie links -->
+<g fill="#c4531b" opacity="0.8">
+<circle cx="675" cy="195" r="6"/>
+<circle cx="692" cy="228" r="5.5"/><circle cx="660" cy="230" r="5.5"/>
+<circle cx="708" cy="268" r="5"/><circle cx="675" cy="265" r="5"/><circle cx="735" cy="270" r="5"/>
+<circle cx="720" cy="312" r="4.5"/><circle cx="695" cy="320" r="4.5"/><circle cx="750" cy="318" r="4.5"/>
+<circle cx="765" cy="362" r="4"/><circle cx="720" cy="370" r="4"/><circle cx="790" cy="368" r="4"/><circle cx="675" cy="372" r="4"/>
+<circle cx="790" cy="412" r="3.5"/><circle cx="750" cy="420" r="3.5"/><circle cx="815" cy="418" r="3.5"/><circle cx="710" cy="422" r="3.5"/>
+</g>
+<rect x="500" y="480" width="340" height="26" rx="7" fill="#ffffff" stroke="#c4531b" stroke-width="1.5"/>
+<text x="670" y="497" font-size="10.5" fill="#1b2a3a">Kleine negative Studien fehlen – die Wirkung wirkt zu groß</text>
+</g>
+<text x="450" y="540" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="10.5" fill="#5a6b7d">Nach diesem Muster deckte Turner (2008) den Publikationsbias bei Antidepressiva auf: 94 % der gedruckten Studien positiv, gegenüber 51 % der bei der FDA angemeldeten</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" width="900" height="460" role="img" aria-labelledby="t d">
+<title id="t">Das elektromagnetische Spektrum und die Ionisierungsgrenze</title>
+<desc id="d">Ein Balken von links nach rechts mit steigender Photonenenergie: Radiowellen, Mikrowellen (darin 5G, bis 40 Gigahertz), Infrarot, sichtbares Licht, Ultraviolett, Röntgenstrahlung, Gammastrahlung. Eine senkrechte Linie oberhalb des Balkens markiert die Ionisierungsgrenze im mittleren Ultraviolett: erst rechts von dieser Linie kann Strahlung Elektronen aus Atomen lösen und Erbgut schädigen. 5G liegt weit links davon, in derselben nichtionisierenden Zone wie Radiowellen und sichtbares Licht, mit rund einem Millionstel der nötigen Energie.</desc>
+<rect x="1" y="1" width="898" height="458" rx="18" fill="#ffffff" stroke="#c9d3de" stroke-width="2"/>
+<text x="450" y="42" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#1b2a3a">Das elektromagnetische Spektrum</text>
+<text x="450" y="66" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" fill="#5a6b7d">Photonenenergie steigt nach rechts – erst ab der Ionisierungsgrenze kann Strahlung Erbgut brechen</text>
+
+<g font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" text-anchor="middle">
+<!-- Ionisierungsgrenze: Label + Pfeil OBERHALB des Balkens -->
+<rect x="330" y="98" width="330" height="46" rx="9" fill="#1b2a3a"/>
+<text x="495" y="118" font-size="12.5" font-weight="bold" fill="#ffffff">Ionisierungsgrenze (mittleres UV)</text>
+<text x="495" y="135" font-size="11" fill="#dbe3ec">erst hier reicht die Energie, um Erbgut zu schädigen</text>
+<line x1="495" y1="144" x2="495" y2="205" stroke="#1b2a3a" stroke-width="3"/>
+<polygon points="495,208 503,196 487,196" fill="#1b2a3a"/>
+
+<!-- Balken: x von 70 bis 830, y 214-280 -->
+<clipPath id="specclip"><rect x="70" y="214" width="760" height="66" rx="6"/></clipPath>
+<g clip-path="url(#specclip)">
+<rect x="70" y="214" width="150" height="66" fill="#2b5d9c"/>
+<rect x="220" y="214" width="140" height="66" fill="#2e7a86"/>
+<rect x="360" y="214" width="70" height="66" fill="#3a9b5c"/>
+<rect x="430" y="214" width="40" height="66" fill="#7ab648"/>
+<rect x="470" y="214" width="90" height="66" fill="#8fa83e"/>
+<rect x="560" y="214" width="120" height="66" fill="#c99a3a"/>
+<rect x="680" y="214" width="150" height="66" fill="#c4531b"/>
+</g>
+<g stroke="#ffffff" stroke-width="2">
+<line x1="220" y1="214" x2="220" y2="280"/>
+<line x1="360" y1="214" x2="360" y2="280"/>
+<line x1="430" y1="214" x2="430" y2="280"/>
+<line x1="470" y1="214" x2="470" y2="280"/>
+<line x1="560" y1="214" x2="560" y2="280"/>
+<line x1="680" y1="214" x2="680" y2="280"/>
+</g>
+<g font-size="12" fill="#ffffff" font-weight="bold">
+<text x="145" y="252">Radiowellen</text>
+<text x="290" y="252">Mikrowellen</text>
+<text x="395" y="252">Infrarot</text>
+<text x="515" y="252">Ultraviolett</text>
+<text x="620" y="252">Röntgen</text>
+<text x="755" y="252">Gamma</text>
+</g>
+<text x="450" y="300" font-size="11" fill="#1b2a3a" font-weight="bold">sichtbares Licht</text>
+<line x1="450" y1="280" x2="450" y2="292" stroke="#9aa9b8" stroke-width="1.5"/>
+
+<!-- 5G-Markierung: Tag unterhalb der Regionsnamen, im Mikrowellen-Bereich -->
+<rect x="235" y="258" width="38" height="18" fill="#ffffff" opacity="0.9" rx="4"/>
+<text x="254" y="271" font-size="10.5" font-weight="bold" fill="#2b5d9c">5G</text>
+<line x1="254" y1="214" x2="254" y2="196" stroke="#33475b" stroke-width="1.5"/>
+<text x="254" y="184" font-size="10.5" fill="#33475b">bis 40 GHz</text>
+
+<!-- Erklärung unterhalb des Balkens, klar getrennt -->
+<text x="230" y="330" font-size="13" font-weight="bold" fill="#2b5d9c">nichtionisierend</text>
+<text x="230" y="348" font-size="11" fill="#5a6b7d">Erwärmung möglich, kein Elektron wird gelöst</text>
+<text x="700" y="330" font-size="13" font-weight="bold" fill="#c4531b">ionisierend</text>
+<text x="700" y="348" font-size="11" fill="#5a6b7d">kann Elektronen lösen, Erbgut brechen</text>
+<rect x="150" y="368" width="600" height="34" rx="10" fill="#f3f6fa" stroke="#c9d3de" stroke-width="1.5"/>
+<text x="450" y="390" font-size="12" font-weight="bold" fill="#1b2a3a">5G trägt rund ein Millionstel der Energie, die zum Ionisieren nötig wäre</text>
+</g>
+<text x="450" y="430" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="11" fill="#5a6b7d">Bereichsbreiten schematisch, nicht maßstäblich · Grenzwerte: ICNIRP (2020), Health Physics 118(5)</text>
+</svg>
