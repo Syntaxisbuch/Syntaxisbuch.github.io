@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" role="img" aria-labelledby="t d">
+<title id="t">Dunning-Kruger: die populäre Kurve und die Messung von 1999</title>
+<desc id="d">Links die im Internet verbreitete Kurve mit Gipfel der Ahnungslosigkeit, Tal der Verzweiflung und Plateau – eine Illustration, keine Messung. Rechts das Ergebnis der Studie von 1999 zum logischen Denken: Die Teilnehmer wurden nach ihrer tatsächlichen Leistung in vier Viertel geteilt. Das schwächste Viertel lag im Durchschnitt beim 12. Perzentil, schätzte sich aber beim 68. ein. Das beste Viertel lag beim 86. Perzentil und schätzte sich beim 74. ein. Alle vier Gruppen schätzten sich zwischen dem 60. und 75. Perzentil ein – die Selbsteinschätzung ist fast eine Gerade, die Leistung nicht.</desc>
+<rect x="1" y="1" width="898" height="558" rx="18" fill="#ffffff" stroke="#c9d3de" stroke-width="2"/>
+<text x="450" y="42" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#1b2a3a">Dunning-Kruger: die populäre Kurve und die Messung</text>
+<text x="450" y="66" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" fill="#5a6b7d">Was im Internet kursiert – und was Kruger und Dunning 1999 tatsächlich maßen</text>
+
+<g font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" text-anchor="middle">
+<!-- LINKS: die populäre Kurve -->
+<rect x="30" y="88" width="400" height="430" rx="14" fill="#f3f6fa" stroke="#9aa9b8" stroke-width="2"/>
+<text x="230" y="116" font-size="16" font-weight="bold" fill="#4a5a6b">Die populäre Kurve</text>
+<text x="230" y="136" font-size="12" fill="#5a6b7d">eine Illustration – so steht sie in keiner Studie</text>
+<line x1="70" y1="400" x2="400" y2="400" stroke="#9aa9b8" stroke-width="1.5"/>
+<line x1="70" y1="400" x2="70" y2="170" stroke="#9aa9b8" stroke-width="1.5"/>
+<text x="230" y="420" font-size="10.5" fill="#5a6b7d">Erfahrung →</text>
+<text x="60" y="285" font-size="10.5" fill="#5a6b7d" transform="rotate(-90 60 285)">Selbstvertrauen →</text>
+<path d="M 75 395 C 100 340 115 190 135 190 C 160 190 185 330 215 340 C 260 350 320 250 395 215" fill="none" stroke="#9aa9b8" stroke-width="4" stroke-dasharray="8 6"/>
+<circle cx="135" cy="190" r="6" fill="#ffffff" stroke="#9aa9b8" stroke-width="2.5"/>
+<circle cx="215" cy="340" r="6" fill="#ffffff" stroke="#9aa9b8" stroke-width="2.5"/>
+<text x="150" y="172" font-size="11" font-weight="bold" fill="#4a5a6b">„Gipfel der Ahnungslosigkeit“</text>
+<text x="240" y="370" font-size="11" font-weight="bold" fill="#4a5a6b">„Tal der Verzweiflung“</text>
+<text x="340" y="200" font-size="11" font-weight="bold" fill="#4a5a6b">„Plateau“</text>
+<rect x="60" y="440" width="340" height="62" rx="9" fill="#ffffff" stroke="#9aa9b8" stroke-width="1.5"/>
+<text x="230" y="462" font-size="11" fill="#1b2a3a">Die Kurve erzählt eine Reise über Jahre. Die Studie maß</text>
+<text x="230" y="478" font-size="11" fill="#1b2a3a">keinen Zeitverlauf, sondern einen einzigen Zeitpunkt.</text>
+<text x="230" y="494" font-size="10.5" fill="#1b2a3a">Gipfel, Tal und Anstieg sind nachträglich hinzuerfunden.</text>
+
+<!-- RECHTS: die Messung -->
+<rect x="450" y="88" width="420" height="430" rx="14" fill="#e3ecf7" stroke="#2b5d9c" stroke-width="2"/>
+<text x="660" y="116" font-size="16" font-weight="bold" fill="#2b5d9c">Die Messung von 1999</text>
+<text x="660" y="136" font-size="12" fill="#5a6b7d">Test im logischen Denken, vier Leistungsviertel, ein Zeitpunkt</text>
+<!-- Achsen: y 0..100 Perzentil auf y=400..170 (2,3 px/Pkt) -->
+<g stroke="#d6dde6" stroke-width="1">
+<line x1="500" y1="400" x2="850" y2="400"/><line x1="500" y1="342.5" x2="850" y2="342.5"/><line x1="500" y1="285" x2="850" y2="285"/><line x1="500" y1="227.5" x2="850" y2="227.5"/><line x1="500" y1="170" x2="850" y2="170"/>
+</g>
+<g font-size="9.5" fill="#9aa9b8" text-anchor="end">
+<text x="495" y="404">0.</text><text x="495" y="346">25.</text><text x="495" y="289">50.</text><text x="495" y="231">75.</text><text x="495" y="174">100.</text>
+</g>
+<text x="478" y="285" font-size="10" fill="#5a6b7d" transform="rotate(-90 478 285)">Perzentil</text>
+<line x1="500" y1="400" x2="850" y2="400" stroke="#9aa9b8" stroke-width="1.5"/>
+<!-- Band der Selbsteinschätzung 60..75 -->
+<rect x="520" y="227.5" width="320" height="34.5" fill="#fdf1ea" stroke="none"/>
+<text x="525" y="222" font-size="10" fill="#c4531b" text-anchor="start">Selbsteinschätzung aller vier Gruppen:</text>
+<text x="525" y="234" font-size="10" fill="#c4531b" text-anchor="start">zwischen 60. und 75. Perzentil</text>
+<!-- x-Positionen der Viertel: 560, 640, 720, 800 -->
+<!-- tatsächliche Leistung (Mittel je Viertel): 12, 37, 62, 86 -->
+<polyline points="560,372.4 640,314.9 720,257.4 800,202.2" fill="none" stroke="#2b5d9c" stroke-width="3"/>
+<g fill="#2b5d9c">
+<circle cx="560" cy="372.4" r="6"/><circle cx="640" cy="314.9" r="6"/><circle cx="720" cy="257.4" r="6"/><circle cx="800" cy="202.2" r="6"/>
+</g>
+<text x="560" y="392" font-size="11" font-weight="bold" fill="#2b5d9c">12.</text>
+<text x="640" y="334" font-size="11" fill="#2b5d9c">≈ 37.</text>
+<text x="720" y="277" font-size="11" fill="#2b5d9c">≈ 62.</text>
+<text x="800" y="196" font-size="11" font-weight="bold" fill="#2b5d9c">86.</text>
+<!-- Selbsteinschätzung (eingeschätzte Fähigkeit): 68 unten, 74 oben; Mitte im Band -->
+<polyline points="560,243.6 800,229.8" fill="none" stroke="#c4531b" stroke-width="3" stroke-dasharray="7 5"/>
+<circle cx="560" cy="243.6" r="6" fill="#c4531b"/><circle cx="800" cy="229.8" r="6" fill="#c4531b"/>
+<text x="560" y="262" font-size="11" font-weight="bold" fill="#c4531b">68.</text>
+<text x="812" y="226" font-size="11" font-weight="bold" fill="#c4531b" text-anchor="start">74.</text>
+<!-- Lücken-Pfeile -->
+<line x1="560" y1="366" x2="560" y2="252" stroke="#c4531b" stroke-width="1.5" stroke-dasharray="3 3"/>
+<text x="600" y="300" font-size="10.5" fill="#c4531b">+56 Punkte</text>
+<text x="600" y="313" font-size="10.5" fill="#c4531b">überschätzt</text>
+<line x1="800" y1="208" x2="800" y2="224" stroke="#2b5d9c" stroke-width="1.5" stroke-dasharray="3 3"/>
+<text x="770" y="180" font-size="10.5" fill="#2b5d9c" text-anchor="end">−12 Punkte</text>
+<text x="770" y="193" font-size="10.5" fill="#2b5d9c" text-anchor="end">unterschätzt</text>
+<!-- x-Beschriftung -->
+<g font-size="10.5" fill="#1b2a3a">
+<text x="560" y="418">schwächstes</text><text x="560" y="431">Viertel</text>
+<text x="640" y="418">zweites</text><text x="640" y="431">Viertel</text>
+<text x="720" y="418">drittes</text><text x="720" y="431">Viertel</text>
+<text x="800" y="418">bestes</text><text x="800" y="431">Viertel</text>
+</g>
+<g font-size="10.5">
+<line x1="520" y1="452" x2="545" y2="452" stroke="#2b5d9c" stroke-width="3"/><text x="551" y="456" fill="#1b2a3a" text-anchor="start">tatsächliche Leistung (Mittel des Viertels)</text>
+<line x1="520" y1="470" x2="545" y2="470" stroke="#c4531b" stroke-width="3" stroke-dasharray="7 5"/><text x="551" y="474" fill="#1b2a3a" text-anchor="start">Selbsteinschätzung der eigenen Fähigkeit</text>
+</g>
+<text x="660" y="500" font-size="11" font-weight="bold" fill="#1b2a3a">Vier Punkte, keine Reise: Alle halten sich für überdurchschnittlich.</text>
+</g>
+<text x="450" y="544" text-anchor="middle" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="9.5" fill="#5a6b7d">Daten: Kruger &amp; Dunning (1999), Studie 2, logisches Denken; mittlere Viertel als Perzentil-Mittel (≈). Kritik: Nuhfer et al. 2016; Gignac &amp; Zajenkowski 2020.</text>
+</svg>
