@@ -1,6 +1,6 @@
 {
  "meta": {
-  "stand": "2026-09",
+  "stand": "2026-10",
   "autor": "Gerald Glaser",
   "kontakt": "Syntaxis_Buch@pm.me",
   "hinweis": "Diese Datei steuert die gesamte Website. Ein neues Werk wird hier eingetragen, die Dateien kommen nach /downloads/ — mehr ist nicht nötig."
@@ -52,7 +52,7 @@
    "seite": "landkarte.html",
    "beschreibung": "Zwei Bücher. Buch 1, Die Reise, führt in acht Bänden vom Rüstzeug des Denkens bis zu den beiden Tiefenstudien über Glaubenskrieg und Chimäre. Buch 2, Die Werkstatt, ist ein Nachschlagewerk mit Glossar, Modell-Bibliothek und taktischem Kompendium — nicht der Reihe nach zu lesen, sondern zu betreten, wenn man etwas sucht.",
    "form": "Sachbuch mit Übungsteil",
-   "umfang": "zwei Bücher, rund 335.000 Wörter",
+   "umfang": "zwei Bücher, rund 370.000 Wörter",
    "status": "verfügbar",
    "cover": "assets/img/landkarte/buch-1-die-reise.webp",
    "baende": [
@@ -108,11 +108,15 @@
      },
      {
       "titel": "Das Mini-Glossar",
-      "hinweis": "100 Werkzeuge in Kürze"
+      "hinweis": "101 Werkzeuge in Kürze"
      },
      {
       "titel": "Das Schutz-Kompendium",
       "hinweis": ""
+     },
+     {
+      "titel": "Der Werkstattbericht",
+      "hinweis": "wie dieses Buch gebaut und geprüft wurde"
      }
     ]
    },
@@ -128,7 +132,7 @@
      {
       "teil": "II",
       "titel": "Das große Glossar",
-      "hinweis": "171 Werkstücke in acht Clustern"
+      "hinweis": "172 Werkstücke in acht Clustern"
      },
      {
       "teil": "III",
@@ -136,7 +140,7 @@
      },
      {
       "teil": "IV",
-      "titel": "Das Taktische Kompendium",
+      "titel": "Das taktische Kompendium",
       "hinweis": "28 Fallakten"
      },
      {
@@ -154,6 +158,18 @@
      {
       "teil": "VIII",
       "titel": "Das Schutz-Kompendium"
+     },
+     {
+      "teil": null,
+      "titel": "Werkstattbericht"
+     },
+     {
+      "teil": null,
+      "titel": "Anmerkungen zur Werkstatt"
+     },
+     {
+      "teil": null,
+      "titel": "Anmerkungen zu Kompass, Schutz-Kompendium und Werkstattbericht"
      },
      {
       "teil": null,
@@ -218,7 +234,7 @@
     },
     {
      "titel": "Gesamtausgabe — Buch 1 und Buch 2",
-     "unter": "Beide Bücher in einer Datei",
+     "unter": "Beide Bücher in einer Datei; das Mini-Glossar steht nur in Buch 1",
      "stand": "Fassung 0.9 — in Vorbereitung",
      "cover": "assets/img/landkarte/landkarte-alternativ.webp",
      "dateien": [
