@@ -627,8 +627,8 @@
    "seite": "licht.html",
    "beschreibung": "Jeder Band nimmt sich ein wissenschaftliches Fachgebiet vor und erklärt es entlang der Mythen, die es betreffen. Der Verschwörungserzählung wird nicht widersprochen — sie wird als Einstieg benutzt und dann durch die Sache selbst ersetzt. Wer wissen will, warum die Türme fielen, lernt dabei, was mit Stahl bei 600 Grad passiert. Wer wissen will, ob die Pyramiden von Besuchern gebaut wurden, lernt Statik, Hebelgesetze und Rampenbau. Das Ziel ist nicht die Widerlegung, sondern das bessere Bild dahinter.",
    "form": "Sachbuchreihe, ein Fachgebiet je Band",
-   "umfang": "in Vorbereitung, ein Band je Fachgebiet",
-   "status": "vorbereitung",
+   "umfang": "in Planung, ein Band je Fachgebiet",
+   "status": "planung",
    "baende": [
     {
      "nr": "I",

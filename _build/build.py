@@ -543,7 +543,7 @@ SEITEN = {
     "autopsien":   ("Autopsien der Schatten — Syntaxis",
                     "Mythen, seziert nach einem festen Protokoll. Zehn Fallakten sind fertig, 105 in zehn Sektionen sind geplant.", "au", ""),
     "licht":       ("Licht der Realität — Syntaxis",
-                    "Ein Mythos als Türöffner, dahinter die Wissenschaft, die ihn auflöst — ein Band je Fachgebiet. In Vorbereitung.", "ld", ""),
+                    "Ein Mythos als Türöffner, dahinter die Wissenschaft, die ihn auflöst — ein Band je Fachgebiet. In Planung.", "ld", ""),
     "atlas":       ("Kartographischer Atlas von Neocortex City — Syntaxis",
                     "Die Stadt als begehbares Gehirn: 27 Sektoren mit echten Koordinaten, Höhenschnitt, Wegzeiten und neuroanatomischer Entsprechung.", "",
                     '<script src="assets/js/atlas.js"></script>'),
@@ -590,7 +590,7 @@ NAV = [
         ("landkarte",    "Landkarte der Realität",   "Das Hauptwerk: wie man Behauptungen prüft", "lr"),
         ("chroniken",    "Chroniken von Neocortex City", "Noir-Krimis in einer Stadt wie ein Gehirn", "nc"),
         ("autopsien",    "Autopsien der Schatten",       "Mythen, seziert nach festem Protokoll", "au"),
-        ("licht",        "Licht der Realität",           "Populärwissenschaft, in Vorbereitung", "ld"),
+        ("licht",        "Licht der Realität",           "Populärwissenschaft, in Planung", "ld"),
         ("frequenz-404", "Frequenz 404",                 "Der Piratensender aus den Chroniken", "nc"),
     ]},
     {"titel": "Mehrwert", "punkte": [
