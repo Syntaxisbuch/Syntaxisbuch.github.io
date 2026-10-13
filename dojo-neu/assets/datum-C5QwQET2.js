@@ -1,0 +1,1 @@
+var e=e=>String(e).padStart(2,`0`),t=(t=new Date)=>`${t.getFullYear()}-${e(t.getMonth()+1)}-${e(t.getDate())}`,n=()=>{let e=new Date;return e.setDate(e.getDate()-1),t(e)},r=(e,n)=>{let[r,i,a]=e.split(`-`).map(Number);return t(new Date(r,(i||1)-1,(a||1)+n))};export{n,r,t};

@@ -1,0 +1,1 @@
+import{a as e,i as t}from"./NachlesenBlock-DEeG6BcW.js";var n={geprueft:``,urls:{}}.urls,r=r=>t(e({buch:r.buch,quellen:r.quellen},[]),n);export{r as t};

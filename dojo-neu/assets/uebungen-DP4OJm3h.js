@@ -1,0 +1,1 @@
+import{t as e}from"./freigabe-bhNhzwOs.js";import{t}from"./bestand-CTcnNoFF.js";var n=e(t);export{n as UEBUNGEN};
