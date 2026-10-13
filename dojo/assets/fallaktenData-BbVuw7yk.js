@@ -1,1 +1,0 @@
-import{t as e}from"./freigabe-bhNhzwOs.js";import{t}from"./bestand-CFlgfGcc.js";var n=e(t);export{n as FALLAKTEN};
