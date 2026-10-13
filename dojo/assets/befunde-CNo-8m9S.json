@@ -1,6 +1,6 @@
 {
  "version": 1,
- "erzeugt": "2026-10-13 00:27",
+ "erzeugt": "2026-10-13 08:31",
  "hinweis": "Erzeugt mit werkzeug/pruefbefunde.cjs. Interner Nachweis: nur für das Prüfpult der Testfassung, nie im öffentlichen Bau. Blindlösung = Modell löst ohne Lösung, aber mit Buchtext (kein Closed-Book-Test).",
  "kategorien": {
   "tor-fehler": "Inhaltstor: Fehler",
@@ -20,7 +20,7 @@
  "zaehlung": {
   "tor-fehler": 0,
   "tor-warnung": 103,
-  "laenge": 45,
+  "laenge": 47,
   "audit-streichen": 1,
   "audit-korrigieren": 449,
   "blind-abweichend": 0,
@@ -4770,7 +4770,7 @@
    ]
   },
   "mythen:m-hebb": {
-   "pruefsumme": "f9aa03634318a808",
+   "pruefsumme": "72c952256be4f5b9",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -68051,7 +68051,7 @@
    ]
   },
   "szenarien:scen-hund-wetterfuehlig": {
-   "pruefsumme": "e821c2b64917ef6e",
+   "pruefsumme": "8d3039bf9f62386e",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -68117,7 +68117,7 @@
     ],
     "wortlaut": {
      "stand": "veraltet",
-     "abweichend": 8,
+     "abweichend": 9,
      "von": 34
     }
    },
@@ -68128,7 +68128,7 @@
    ]
   },
   "szenarien:scen-nachbarschaftschat-einbrueche": {
-   "pruefsumme": "3286e975e19c4475",
+   "pruefsumme": "03db577c9676c1a5",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -68282,15 +68282,15 @@
    ]
   },
   "szenarien:scen-schule-lerntyp": {
-   "pruefsumme": "379e79bd6281b504",
+   "pruefsumme": "7fb22f517b7b786a",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
     "warnungen": []
    },
    "laenge": {
-    "quote": 1.13,
-    "hoechste": 1.25,
+    "quote": 1.32,
+    "hoechste": 1.95,
     "schritte": 4,
     "laengste_in": 3
    },
@@ -68347,13 +68347,14 @@
     }
    },
    "befunde": [
+    "laenge",
     "audit-korrigieren",
     "streng-abgelehnt",
     "veraltet"
    ]
   },
   "szenarien:scen-bewerbung-horoskop": {
-   "pruefsumme": "fbc27698ac58ab79",
+   "pruefsumme": "30a7f06abb241a3b",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -68430,7 +68431,7 @@
    ]
   },
   "szenarien:scen-pharma-lobby-opa": {
-   "pruefsumme": "e4a31951954cfdb4",
+   "pruefsumme": "a3bacb31dec14666",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -68495,7 +68496,7 @@
    ]
   },
   "szenarien:scen-pilot-gedaechtnistraining": {
-   "pruefsumme": "45b1a0660a7bc4db",
+   "pruefsumme": "bb442d2e3b0842e8",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -68572,7 +68573,7 @@
    ]
   },
   "szenarien:scen-papa-ohne-gurt": {
-   "pruefsumme": "7cdb2ca11840e3f2",
+   "pruefsumme": "f1d00bf5172550a2",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -68655,7 +68656,7 @@
    ]
   },
   "szenarien:scen-wetter-gestern-heute": {
-   "pruefsumme": "bbdf2e62de5c3dd4",
+   "pruefsumme": "6d363b2d1eca847e",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -68732,7 +68733,7 @@
    ]
   },
   "szenarien:scen-und-was-ist-mit": {
-   "pruefsumme": "b368e9535e928a43",
+   "pruefsumme": "e69f6f2fbfccd14a",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -68815,7 +68816,7 @@
    ]
   },
   "szenarien:scen-kollege-gaensehaut-gedanken": {
-   "pruefsumme": "ebfede50cbabd693",
+   "pruefsumme": "68dda5475990f401",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -68888,7 +68889,7 @@
    ]
   },
   "szenarien:scen-heike-gefuehle-krebs": {
-   "pruefsumme": "2bf2c1409e2f3815",
+   "pruefsumme": "82a8f57451b338e8",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -68975,7 +68976,7 @@
    ]
   },
   "szenarien:scen-mondphasen-haarschnitt": {
-   "pruefsumme": "164fcd5bede62678",
+   "pruefsumme": "c1f402508f5054ba",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -69040,7 +69041,7 @@
    ]
   },
   "szenarien:scen-vitamin-c-kollege": {
-   "pruefsumme": "3efb04122a640fa4",
+   "pruefsumme": "d6d3c0e33dd6d336",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -69117,7 +69118,7 @@
    ]
   },
   "szenarien:scen-arbeitskollegin-teambuilding-typ": {
-   "pruefsumme": "1c9e29810c38168c",
+   "pruefsumme": "1b1412bd19df8060",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -69194,7 +69195,7 @@
    ]
   },
   "szenarien:scen-chat-bild-echt": {
-   "pruefsumme": "ec9713f3984ae50f",
+   "pruefsumme": "76620f6716763c51",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -69248,7 +69249,7 @@
    ]
   },
   "szenarien:scen-vermieter-kaelte-winter": {
-   "pruefsumme": "e7e6c32e26ac1379",
+   "pruefsumme": "38c3df145d96782a",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -69397,7 +69398,7 @@
    ]
   },
   "szenarien:scen-chef-sunk-cost": {
-   "pruefsumme": "076a4bbc5e43dafb",
+   "pruefsumme": "409b5ec1f5f7cab8",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -69552,7 +69553,7 @@
    ]
   },
   "szenarien:scen-mondlandung-kantine": {
-   "pruefsumme": "5d12b8ac9ebce563",
+   "pruefsumme": "378ebd58dfa11a29",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -69630,7 +69631,7 @@
    ]
   },
   "szenarien:scen-schwiegermutter-hexenschuss": {
-   "pruefsumme": "cb3256248f65bafb",
+   "pruefsumme": "22be0c726deef61b",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -69708,7 +69709,7 @@
    ]
   },
   "szenarien:scen-stromzaehler-smart": {
-   "pruefsumme": "5a4571450c491928",
+   "pruefsumme": "41d66d15aefbdaa9",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -69779,7 +69780,7 @@
    ]
   },
   "szenarien:scen-nachbar-wuenschelrute": {
-   "pruefsumme": "5e8c482fbe38cd46",
+   "pruefsumme": "ddebacc9783bb964",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -69952,7 +69953,7 @@
    ]
   },
   "szenarien:scen-onkel-heilfasten-erkaeltung": {
-   "pruefsumme": "c3683fd7e81aa79d",
+   "pruefsumme": "a6e1df46b9705487",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -70029,7 +70030,7 @@
    ]
   },
   "szenarien:scen-sprachnachricht-fake": {
-   "pruefsumme": "25497bb753639071",
+   "pruefsumme": "8a948c970c9bd7f2",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -70112,7 +70113,7 @@
    ]
   },
   "szenarien:scen-vegan-fehlschluss-arbeit": {
-   "pruefsumme": "6115f4763f8582d2",
+   "pruefsumme": "52ca97b27e1500a6",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -70177,7 +70178,7 @@
    ]
   },
   "szenarien:scen-wahrsagerin-tarot": {
-   "pruefsumme": "9e419220ec2d2fe7",
+   "pruefsumme": "c5419d30c5195bf3",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -70248,7 +70249,7 @@
    ]
   },
   "szenarien:scen-waschmittel-nuesse": {
-   "pruefsumme": "eacfe25b2da7ddab",
+   "pruefsumme": "8901a50dd9c30c37",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -70325,7 +70326,7 @@
    ]
   },
   "szenarien:scen-wutkommentar-impf": {
-   "pruefsumme": "0fa4c0b48ce20693",
+   "pruefsumme": "2a26a4f6d6cf60c3",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -70415,7 +70416,7 @@
    ]
   },
   "szenarien:scen-bernd-galileo": {
-   "pruefsumme": "1faa01256716257d",
+   "pruefsumme": "74c81e732ab2f1b2",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -70475,7 +70476,7 @@
    ]
   },
   "szenarien:scen-influencer-eigene-recherche": {
-   "pruefsumme": "2a80f8b9cf39873b",
+   "pruefsumme": "03d53af12fbb3289",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -70546,7 +70547,7 @@
    ]
   },
   "szenarien:scen-krankenhausserie-ich": {
-   "pruefsumme": "bf7beb327bbba9db",
+   "pruefsumme": "8afa5b411cb4b875",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -70629,7 +70630,7 @@
    ]
   },
   "szenarien:scen-feed-algorithmus-wut": {
-   "pruefsumme": "2aca19cb2de1600b",
+   "pruefsumme": "fd1d0ecb959177a9",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -70700,7 +70701,7 @@
    ]
   },
   "szenarien:scen-glueckssocken-vorstellungsgespraech": {
-   "pruefsumme": "a0c2a515ce6b28d4",
+   "pruefsumme": "b0847298cfe7ba36",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -70783,7 +70784,7 @@
    ]
   },
   "szenarien:scen-opa-fruehwarnung-schlaganfall": {
-   "pruefsumme": "f2400e2b55929565",
+   "pruefsumme": "92cdf21acb506fa9",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -70848,7 +70849,7 @@
    ]
   },
   "szenarien:scen-lehrer-lerngruppe-ausreden": {
-   "pruefsumme": "5525f6ee96a52c25",
+   "pruefsumme": "fdd741dbb2846fdc",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -70919,7 +70920,7 @@
    ]
   },
   "szenarien:scen-onkel-masernparty": {
-   "pruefsumme": "578bb32ae7e7728a",
+   "pruefsumme": "dffb661efd5be9b5",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -71002,7 +71003,7 @@
    ]
   },
   "szenarien:scen-freund-lauch-fasten": {
-   "pruefsumme": "1882d7d673c97d17",
+   "pruefsumme": "fbc9193715ad4cb5",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -71073,7 +71074,7 @@
    ]
   },
   "szenarien:scen-vollmond-notaufnahme": {
-   "pruefsumme": "fb0ca52eb3f9c204",
+   "pruefsumme": "679359db630ac0fc",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -71150,7 +71151,7 @@
    ]
   },
   "szenarien:scen-schwager-recherche": {
-   "pruefsumme": "2e3c8e9df6b03f6c",
+   "pruefsumme": "32f63ea0b8f6d6e4",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -71233,7 +71234,7 @@
    ]
   },
   "szenarien:scen-kommentar-kein-beweis": {
-   "pruefsumme": "2c39edadcd6750c5",
+   "pruefsumme": "2104abb0e6b9bac9",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -71310,7 +71311,7 @@
    ]
   },
   "szenarien:scen-klassenarbeit-schuld-lehrer": {
-   "pruefsumme": "e4876d29525ec572",
+   "pruefsumme": "e034aa8a5d9a9b3c",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -71393,7 +71394,7 @@
    ]
   },
   "szenarien:scen-schwimmen-nach-essen": {
-   "pruefsumme": "7632be5155b5f075",
+   "pruefsumme": "e096fbafbc6bf730",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -71457,7 +71458,7 @@
    ]
   },
   "szenarien:scen-fieber-senken-wahn": {
-   "pruefsumme": "fcfb4a41bddc3c91",
+   "pruefsumme": "ddaf85582c56e39a",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -71546,7 +71547,7 @@
    ]
   },
   "szenarien:scen-wlan-schlaf": {
-   "pruefsumme": "00424c0f190bed8c",
+   "pruefsumme": "4c0b016715fc7ec0",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -71617,7 +71618,7 @@
    ]
   },
   "szenarien:scen-spielplatz-fluorid": {
-   "pruefsumme": "ae5ab04a1d9e097a",
+   "pruefsumme": "5ce5119fd76d6eb7",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -71706,7 +71707,7 @@
    ]
   },
   "szenarien:scen-mikrowelle-nachbarin": {
-   "pruefsumme": "828e3f4f126ed98e",
+   "pruefsumme": "f81e1423c64d08eb",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -71784,7 +71785,7 @@
    ]
   },
   "szenarien:scen-nachbar-baum-blitz": {
-   "pruefsumme": "b754dbaf212f16e0",
+   "pruefsumme": "8c56cab08242fc9b",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -71862,7 +71863,7 @@
    ]
   },
   "szenarien:scen-gedaechtnis-wie-video": {
-   "pruefsumme": "36f6ac03b0870f08",
+   "pruefsumme": "5568b900e2a70fd6",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -71951,7 +71952,7 @@
    ]
   },
   "szenarien:scen-roulette-rot": {
-   "pruefsumme": "e81f4189b94c53b4",
+   "pruefsumme": "a3ff73b65a95adab",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -72035,7 +72036,7 @@
    ]
   },
   "szenarien:scen-chef-zufaellig-erfolg": {
-   "pruefsumme": "cb8557c4cd6a5b18",
+   "pruefsumme": "8d27be26412adf83",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -72100,7 +72101,7 @@
    ]
   },
   "szenarien:scen-pruefungsangst-glueck": {
-   "pruefsumme": "18a602286e66f6f2",
+   "pruefsumme": "dea71b772c4b9d02",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -72177,7 +72178,7 @@
    ]
   },
   "szenarien:scen-klassenlehrerin-lob-pygmalion": {
-   "pruefsumme": "108b589cf6283b73",
+   "pruefsumme": "611958d08286b7aa",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -72266,17 +72267,17 @@
    ]
   },
   "szenarien:scen-schwester-dunkelziffer": {
-   "pruefsumme": "5ebdc979114c2f56",
+   "pruefsumme": "cd252cd2728754a5",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
     "warnungen": []
    },
    "laenge": {
-    "quote": 1.16,
-    "hoechste": 1.23,
+    "quote": 1.53,
+    "hoechste": 1.77,
     "schritte": 4,
-    "laengste_in": 2
+    "laengste_in": 3
    },
    "streng": {
     "ok": false,
@@ -72338,18 +72339,19 @@
     ],
     "wortlaut": {
      "stand": "veraltet",
-     "abweichend": 19,
+     "abweichend": 39,
      "von": 50
     }
    },
    "befunde": [
+    "laenge",
     "audit-korrigieren",
     "streng-abgelehnt",
     "veraltet"
    ]
   },
   "szenarien:scen-wuensche-einbildung-ich": {
-   "pruefsumme": "d4b2ec98475bae53",
+   "pruefsumme": "330c192a88f42e78",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -72414,7 +72416,7 @@
    ]
   },
   "szenarien:scen-erbse-schlau-bio": {
-   "pruefsumme": "1a8d8f289162f9d8",
+   "pruefsumme": "2ac19cda10e2f7de",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -72580,7 +72582,7 @@
    ]
   },
   "szenarien:scen-ich-selbst-erinnerung-streit": {
-   "pruefsumme": "c368a4ee34a8cdcb",
+   "pruefsumme": "a4fad05c63baffaf",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -72669,7 +72671,7 @@
    ]
   },
   "szenarien:scen-fruehstueck-zucker-sucht": {
-   "pruefsumme": "734de0f3d92daa84",
+   "pruefsumme": "5f7d0b16cfba5aea",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -72745,7 +72747,7 @@
    ]
   },
   "szenarien:scen-saftkur-svenja": {
-   "pruefsumme": "d6d07bb6fa9bdeda",
+   "pruefsumme": "a250b5735d03035d",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -72810,7 +72812,7 @@
    ]
   },
   "szenarien:scen-lehrling-aufstiegs-chef": {
-   "pruefsumme": "0e00cb34e58c5a5e",
+   "pruefsumme": "fc9d78d989323c55",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -72875,7 +72877,7 @@
    ]
   },
   "szenarien:scen-pfarrerin-wunderheilung": {
-   "pruefsumme": "c10cee8c1ff1e178",
+   "pruefsumme": "10218ab71fb9e4a4",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -72952,7 +72954,7 @@
    ]
   },
   "szenarien:scen-schulfreund-aufwachen": {
-   "pruefsumme": "a93dbd856b802993",
+   "pruefsumme": "31e0ff6be2b3a983",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -73036,7 +73038,7 @@
    ]
   },
   "szenarien:scen-abnehm-detox-saft-freundin": {
-   "pruefsumme": "da3980b4e7f251f1",
+   "pruefsumme": "12ba9733f36cf391",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -73191,7 +73193,7 @@
    ]
   },
   "szenarien:scen-lernplatz-mozart": {
-   "pruefsumme": "23d4c5b7eb710d2c",
+   "pruefsumme": "4eacb68e63f2d697",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -73268,7 +73270,7 @@
    ]
   },
   "szenarien:scen-influencer-detox": {
-   "pruefsumme": "0c93f6eb9647aa8b",
+   "pruefsumme": "45b93b8ef582b955",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -73333,7 +73335,7 @@
    ]
   },
   "szenarien:scen-wunderpille-gewicht": {
-   "pruefsumme": "baa57e4046b43d2c",
+   "pruefsumme": "718bea8ec0252c44",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -73493,7 +73495,7 @@
    ]
   },
   "szenarien:scen-kollege-kaffee-gesund": {
-   "pruefsumme": "caa4c42244173c7d",
+   "pruefsumme": "a48b116c69a29307",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -73570,7 +73572,7 @@
    ]
   },
   "szenarien:scen-video-ist-ki": {
-   "pruefsumme": "1b5d8717913fda9c",
+   "pruefsumme": "aeac331f1d61cb6a",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
@@ -73629,7 +73631,7 @@
    ]
   },
   "szenarien:scen-forum-sealioning": {
-   "pruefsumme": "ddd9db4b37cbc96b",
+   "pruefsumme": "383671a04630027d",
    "tor": {
     "profil": "entwurf",
     "fehler": [],
