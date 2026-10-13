@@ -1,6 +1,6 @@
 {
  "version": 1,
- "erzeugt": "2026-10-13 08:31",
+ "erzeugt": "2026-10-13 09:18",
  "hinweis": "Erzeugt mit werkzeug/pruefbefunde.cjs. Interner Nachweis: nur für das Prüfpult der Testfassung, nie im öffentlichen Bau. Blindlösung = Modell löst ohne Lösung, aber mit Buchtext (kein Closed-Book-Test).",
  "kategorien": {
   "tor-fehler": "Inhaltstor: Fehler",
