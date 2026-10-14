@@ -1,0 +1,1 @@
+import{nt as e}from"./index-ClTUPO6W.js";var t=e(`check`,[[`path`,{d:`M20 6 9 17l-5-5`,key:`1gmf2c`}]]);export{t};
