@@ -1,0 +1,1 @@
+import{t as e}from"./freigabe-bhNhzwOs.js";import{t}from"./bestand-C9dB22O1.js";var n=e(t);export{n as MEISTERPRUEFUNGEN};
