@@ -4,7 +4,7 @@
 (function () {
   'use strict';
   var KEY = 'syntaxis_zugang_v1';
-  var STANDARD = { textgroesse: 100, kontrast: false, ruhig: false, vorlesenAuto: false, tempo: 1, stimme: '' };
+  var STANDARD = { textgroesse: 100, kontrast: false, ruhig: false, fahrtton: false, vorlesenAuto: false, tempo: 1, stimme: '' };
   var doc = document, html = doc.documentElement;
 
   function lade() {
@@ -13,7 +13,7 @@
       if (!r || typeof r !== 'object') return Object.assign({}, STANDARD);
       return {
         textgroesse: [100, 115, 130, 150].indexOf(r.textgroesse) >= 0 ? r.textgroesse : 100,
-        kontrast: r.kontrast === true, ruhig: r.ruhig === true, vorlesenAuto: r.vorlesenAuto === true,
+        kontrast: r.kontrast === true, ruhig: r.ruhig === true, fahrtton: r.fahrtton === true, vorlesenAuto: r.vorlesenAuto === true,
         tempo: typeof r.tempo === 'number' && r.tempo >= 0.5 && r.tempo <= 2 ? r.tempo : 1,
         stimme: typeof r.stimme === 'string' ? r.stimme.slice(0, 300) : ''
       };
@@ -160,7 +160,8 @@
       el('h3', { text: 'Schriftgröße' }), groessen,
       el('h3', { text: 'Darstellung' }),
       sw('kontrast', 'Kräftigere Kontraste', 'Graue Texte und Linien werden heller', zz.kontrast, function (v) { speichern({ kontrast: v }); }),
-      sw('ruhig', 'Bewegung reduzieren', 'Keine Einblend- und Gleitanimationen', zz.ruhig, function (v) { speichern({ ruhig: v }); })
+      sw('ruhig', 'Bewegung reduzieren', 'Keine Einblend- und Gleitanimationen und keine Fahrt zwischen den Ebenen', zz.ruhig, function (v) { speichern({ ruhig: v }); }),
+      sw('fahrtton', 'Fahrtgeräusch', 'Ein leises Rauschen bei der Fahrt zwischen den Ebenen (aus, solange Bewegung reduziert ist)', zz.fahrtton, function (v) { speichern({ fahrtton: v }); })
     ];
     if (hat) {
       var tempo = el('input', { type: 'range', min: '0.7', max: '1.4', step: '0.1', value: String(zz.tempo), 'aria-label': 'Sprechtempo', id: 'zg-tempo' });

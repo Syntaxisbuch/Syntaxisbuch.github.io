@@ -2,6 +2,18 @@
  "hinweis": "Chronologischer Änderungsverlauf. Neueste zuerst. Speist die Neuigkeiten-Seite und den RSS-Feed.",
  "eintraege": [
   {
+   "datum": "2026-10-19",
+   "titel": "Fahrstuhl-Fahrt zwischen den Ebenen",
+   "text": "Wer im Höhenmesser, in der Hauptnavigation oder über das Logo die Ebene wechselt, fährt jetzt ein kurzes Stück im Fahrstuhl von Neocortex City: Die Kabine gleitet im Höhenmesser zur neuen Höhe, die Seite fährt mit. Beim Lesen, Scrollen und bei Links im Text ändert sich nichts. Wer keine Bewegung möchte, schaltet unter „Lesen und Sehen“ die Bewegung ab; dort lässt sich auch ein leises Fahrtgeräusch einschalten (standardmäßig aus). Dazu behoben: Die Punkte im Höhenmesser lassen sich auch bei gleicher Höhe einzeln anklicken, und die Namensschilder erscheinen wieder.",
+   "link": "index.html"
+  },
+  {
+   "datum": "2026-10-11",
+   "titel": "Band I – Der Schatten über Dreamland – Fassung 0.9.5",
+   "text": "„Der Schatten über Dreamland“ liegt in Fassung 0.9.5 vor: kleine Textanpassungen im Prolog",
+   "link": "downloads.html"
+  },
+  {
    "datum": "2026-10-03",
    "titel": "In Vorbereitung: Trainings-Dojo, eine Lern-App zur Landkarte",
    "text": "Das Trainings-Dojo ist eine Lern-App zur Landkarte der Realität: Quiz, Mythen-Check, Dialoge und ein Prüf-Assistent. Sie läuft im Browser und offline, ohne Konto und ohne Tracking. Der App-Code steht unter CC BY-NC 4.0, Bearbeitung erlaubt. Noch in Vorbereitung.",

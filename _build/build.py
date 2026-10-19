@@ -432,7 +432,7 @@ def stadt_version():
 
 
 def fassung_nc1():
-    """Fassung von Chroniken Band I aus werke.json (z. B. „0.9.4“)."""
+    """Fassung von Chroniken Band I aus werke.json (z. B. „0.9.5“)."""
     b = next(x for x in reihe("nc")["baende"] if x["nr"] == "I")
     return b["status"].replace("Fassung", "").strip()
 

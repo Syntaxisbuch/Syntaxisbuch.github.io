@@ -105,7 +105,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 3rem 0; }
   border-right: 1px solid var(--line);
   background: linear-gradient(to bottom, var(--ink-2), var(--ink) 40%, var(--ink-2));
   display: none; flex-direction: column; align-items: center;
-  padding: 1rem 0; overflow: hidden;
+  padding: 1rem 0;
 }
 @media (min-width: 1180px) { .hoehenmesser { display: flex; } body { padding-left: var(--rail); } }
 
@@ -116,11 +116,14 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 3rem 0; }
 .hm-stop {
   position: absolute; left: 0; right: 0; display: flex; align-items: center; justify-content: center;
   text-decoration: none; height: 26px; margin-top: -13px;
+  pointer-events: none;   /* geklickt wird der Punkt samt Klickfläche (.pkt::after), damit Haupt- und Unterpunkt gleicher Höhe einander nicht überdecken */
 }
 .hm-stop .pkt {
+  position: relative; pointer-events: auto;
   width: 7px; height: 7px; border-radius: 50%; background: var(--ink);
   border: 1px solid var(--fog-dim); transition: transform .18s ease, background .18s ease, border-color .18s ease;
 }
+.hm-stop .pkt::after { content: ""; position: absolute; inset: -5px; }
 .hm-stop .tip {
   position: absolute; left: calc(100% + 6px); white-space: nowrap;
   background: var(--ink-3); border: 1px solid var(--line-hard); color: var(--bone);
@@ -137,6 +140,30 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 3rem 0; }
 .hm-stop[data-c="ld"] .pkt { border-color: var(--ld); }
 .hm-stop[aria-current="page"] .pkt { background: var(--akzent); border-color: var(--akzent); box-shadow: 0 0 0 3px var(--akzent-weich); }
 .hm-fuss { font-family: var(--data); font-size: .58rem; color: var(--fog-dim); letter-spacing: .1em; margin-top: .7rem; }
+
+/* ---------- 3a. Fahrt zwischen den Ebenen (assets/js/fahrt.js) ----------
+   Nur bei der Menüwahl (Höhenmesser, Hauptnavigation, Logo), nie beim Lesen oder Scrollen. Aus bei „Bewegung reduzieren“. */
+.fahrt { position: fixed; inset: 0; z-index: 35; pointer-events: none; overflow: hidden; background: #0a1217; opacity: 0; }
+.fahrt-stadt { position: absolute; left: 50%; top: 0; width: max(100vw, 120vh); max-width: none; height: auto; will-change: transform, opacity; transition: opacity .2s linear; }
+.fahrt-schleier { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(10,18,23,.92), rgba(10,18,23,.55)); }
+.fahrt-streifen { position: absolute; inset: 0; visibility: hidden; }
+.fahrt-streifen i { position: absolute; left: 0; top: 0; display: block; border-radius: 2px; transform-origin: 50% 0; will-change: transform, opacity; }
+.fahrt-tunnel { position: absolute; inset: 0; opacity: 0; background: linear-gradient(to bottom, rgba(0,0,0,.88), rgba(0,0,0,0) 35%, rgba(0,0,0,0) 65%, rgba(0,0,0,.88)); }
+.fahrt-ki { position: absolute; right: .8rem; bottom: .6rem; font-family: var(--data); font-size: .6rem; letter-spacing: .08em; color: var(--fog-dim); }
+/* Ankunftsseite: deckt vom ersten Bild an ab, bis fahrt.js die Fahrt übernimmt; fällt nach 3,5 s von selbst weg (falls das Skript nicht läuft) */
+html.fahrt-an::after { content: ""; position: fixed; inset: 0; z-index: 35; pointer-events: none; background: #0a1217; animation: fahrt-notausstieg .01s linear 3.5s forwards; }
+@keyframes fahrt-notausstieg { to { opacity: 0; visibility: hidden; } }
+.hm-fuell { position: absolute; left: 50%; width: 18px; margin-left: -9px; bottom: 0; border-radius: 9px; background: var(--lr); pointer-events: none; }
+.hm-strahl { position: absolute; left: 50%; width: 12px; margin-left: -6px; border-radius: 6px; display: none; pointer-events: none; }
+.hm-strahl.auf { background: linear-gradient(to bottom, #fff 0%, rgba(127,224,214,.85) 22%, rgba(127,224,214,0) 100%); }
+.hm-strahl.ab { background: linear-gradient(to top, #fff 0%, rgba(127,224,214,.85) 22%, rgba(127,224,214,0) 100%); }
+.hm-kabine { position: absolute; left: 50%; width: 34px; height: 34px; margin: -17px 0 0 -17px; border-radius: 50%; z-index: 3; pointer-events: none;
+  background: radial-gradient(circle, #fff 0%, #7FE0D6 48%, rgba(63,168,160,0) 100%); }
+.hm-kabine::after { content: ""; position: absolute; left: 50%; top: 50%; width: 10px; height: 10px; margin: -5px 0 0 -5px; border-radius: 50%; background: #fff; }
+.hm-zahl { position: absolute; left: calc(100% + 12px); z-index: 4; transform: translateY(-50%); pointer-events: none; opacity: 0; white-space: nowrap;
+  font-family: var(--data); font-size: .82rem; color: #fff; background: rgba(17,30,37,.92); border: 1px solid var(--line-hard); padding: .28rem .55rem; }
+.fahrt-laeuft main#inhalt, .fahrt-laeuft .reihenzeiger, .fahrt-laeuft .fuss { will-change: transform, opacity; }
+.fahrt-laeuft .hm-stop .pkt { transition: none; transform: scale(calc(1 + var(--nah, 0) * 1.2)); box-shadow: 0 0 calc(var(--nah, 0) * 14px) rgba(207,238,233,var(--nah, 0)); }
 
 /* ---------- 4. Kopfleiste ---------- */
 .masthead {
@@ -686,7 +713,7 @@ input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; appe
 .shownotes p { margin: .4rem 0 0; font-size: .93rem; }
 
 /* Unterpunkt im Höhenmesser: Sektor statt Terrasse */
-.hm-stop[data-sub] { margin-left: 13px; }
+.hm-stop[data-sub] { margin-left: calc(var(--sub, 1) * 32px); }   /* mehrere Unterpunkte gleicher Höhe liegen nebeneinander (--sub = 1, 2, …, gesetzt in core.js) */
 .hm-stop[data-sub] .pkt { width: 5px; height: 5px; background: transparent; }
 
 /* ---------- 24. Fallcover in der Autopsien-Liste ---------- */

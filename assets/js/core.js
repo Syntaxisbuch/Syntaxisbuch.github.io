@@ -24,6 +24,7 @@
   /* Die Gemeinschaft erscheint erst, wenn der Server offen ist (data/gemeinschaft.json → live) */
   if (document.body.dataset.gemeinschaft === "1")
     EBENEN.push({ z: 340, slug: "gemeinschaft", titel: "Gemeinschaft", unter: "Tower of Reason, Etage 50 — Broca-Areal", href: "gemeinschaft.html", sub: true });
+  window.SYNTAXIS_EBENEN = EBENEN;   /* für fahrt.js */
 
   const seite = document.body.dataset.seite || "";
   const ZMAX = 520, ZMIN = -60;
@@ -38,7 +39,10 @@
       a.href = e.href;
       a.style.top = (p * 100) + "%";
       if (e.c) a.dataset.c = e.c;
-      if (e.sub) a.dataset.sub = "1";
+      if (e.sub) {
+        a.dataset.sub = "1";
+        a.style.setProperty("--sub", Math.max(1, EBENEN.slice(0, EBENEN.indexOf(e)).filter(x => x.z === e.z).length));   /* Platz neben den Punkten gleicher Höhe */
+      }
       if (e.slug === seite) a.setAttribute("aria-current", "page");
       a.innerHTML = `<span class="pkt"></span><span class="tip"><b>${e.titel}</b><span class="z">${e.z} m</span></span>`;
       a.setAttribute("aria-label", `${e.titel}, ${e.z} Meter`);
