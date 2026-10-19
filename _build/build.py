@@ -705,9 +705,16 @@ def schreibe_sitemap():
     print("  sitemap.xml")
 
 
+# Nicht für Suchmaschinen: die Trainings-App (Testfassung mit Entwürfen, nicht verlinkt, nur für Bekannte mit direktem Link; Sturm, 19.10.2026) und die alte
+# Adresse dojo-neu (Weiterleitung). Zusätzlich steht noindex im Quelltext der App (app/index.html) und der Weiterleitung. robots.txt entsteht bei JEDEM Bau
+# neu: Sperren gehören hierher, nicht von Hand in die Datei (sonst sind sie beim nächsten Bau weg).
+SUCHMASCHINEN_SPERREN = ["/dojo/", "/dojo-neu/"]
+
+
 def schreibe_robots():
+    sperren = "".join(f"Disallow: {pfad}\n" for pfad in SUCHMASCHINEN_SPERREN)
     (WURZEL / "robots.txt").write_text(
-        f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}/sitemap.xml\n", encoding="utf-8")
+        f"User-agent: *\n{sperren}Allow: /\n\nSitemap: {SITE_URL}/sitemap.xml\n", encoding="utf-8")
     print("  robots.txt")
 
 

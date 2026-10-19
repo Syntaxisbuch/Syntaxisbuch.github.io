@@ -1,4 +1,6 @@
 User-agent: *
+Disallow: /dojo/
+Disallow: /dojo-neu/
 Allow: /
 
 Sitemap: https://syntaxisbuch.github.io/sitemap.xml
